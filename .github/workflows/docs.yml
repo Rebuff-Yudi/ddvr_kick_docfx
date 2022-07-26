@@ -36,8 +36,8 @@ jobs:
         args: install docfx
 
     - name: DocFX Build
-      working-directory: docs
-      run: docfx build
+      working-directory: ./
+      run: docfx build ./docfx.json
       continue-on-error: false
 
     - name: Publish
