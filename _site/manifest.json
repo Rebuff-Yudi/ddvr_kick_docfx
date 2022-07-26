@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Unity_Project/DDVR_Kick/docfx",
+  "source_base_path": "C:/Unity_Project/DDVR_Kick/Docfx",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.Control.SongPlayerControl.html",
-          "hash": "yShY3qu6abmD4gBrU/c+uaOoQPwPhVLoN92BQARCqHo="
+          "hash": "PvhBI9O/nI2KWS/woV9zPFelYALJSGm2QeRzY0tyx+U="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.Control.html",
-          "hash": "c3j3X6mEAUq8hPUz/eY93iW92Fj3sDA9/eu7nz57Pg8="
+          "hash": "E5oZSlJOi/pg9y78VOuQlzCPytdNbmrnFdzlmy80FSQ="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.Editor.TagSelectorPropertyDrawer.html",
-          "hash": "N7LESC9WiO1QROZ9Q2feL/+I3WDkppy75jPzxdpmRgs="
+          "hash": "XN7/draYIsSJexrHAICOiaXNiV9E2CE8bGmmN40HP1k="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.Editor.html",
-          "hash": "bBz6kvY+lbIYB8AH/3CpanQcZswPvBmDaxqhb2Nv0Qw="
+          "hash": "u8de4wCM2+YxYyt972XdebLnASiZDf1M2JZl2LVzBs8="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.LongNoteTrackDictionary.html",
-          "hash": "5IY5+I7CILs7GRkb+m1wWmpudMhyVNBnE+8La+9SybA="
+          "hash": "l7xPw+6j7q4tA76G9iUPwEKjLrHsflEopLHoq1OkRwg="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.LowerNotePathDictionary.html",
-          "hash": "ktCLO2ZJZl2wHobX4zx+rwCK9vwxfoIKZUHgwe5xVic="
+          "hash": "mIB1P0ZCRagkO9aEJs1ZJyZv9UoyfUvmCWukHfyfsvU="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.NoteCollider.html",
-          "hash": "Oqqlfdykn7UsSttplcEtjZkyTQe+ltN8PTZ2eccZbPw="
+          "hash": "mQkp5aS+0AQ5OaRPYf24IPrygclk6ZCAEicMBrgIrr0="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.OVRTHelper.ETrackerRole.html",
-          "hash": "lr+qTBu/wO2Fati1jlA6KSgsOi5MqlnqR5DclYqOjbs="
+          "hash": "v3gPik6jYCf9V1bHqitw3U3pD/naa6Ra2+gzDH2WWc4="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.OVRTHelper.html",
-          "hash": "ajExiVFqldW9uGh4pTZmjzj1mw+ma5By6J3OlAk1OIM="
+          "hash": "oM7CLpEhK6cMWp2oPpu1ycq6A7pdnYhBScDVDr91O3w="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.ObstacleTrackDictionary.html",
-          "hash": "pIzX7z1ONuWDcl7sNHcNC3TmriQY+Wo3bAffBmmrtFk="
+          "hash": "NV2L8tip6QPmzJf/5XaoJtzZUuy9Q5damdNz6c06GE4="
         }
       },
       "is_incremental": false,
@@ -138,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.PlayerHead.html",
-          "hash": "HnakMeM05MIvR/dHcC4Q4JeOUasqBW93X03K6/bxOx8="
+          "hash": "guk0nJ+CPwq9j4RzaG8luyFosb7ie3W1I8ddBJAfd4o="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.ShoeRaycaster.html",
-          "hash": "KynUfOAke8qG+O7SfJ+TOlHRt8D7fE7S3w8CJ1DRiDA="
+          "hash": "0FnfDxf1OjYtyFcDyYlXwBZROjYJJiCme2SSXtjiuOk="
         }
       },
       "is_incremental": false,
@@ -162,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.TagSelectorAttribute.html",
-          "hash": "RvOg5SiQtBElGxthmbhxdrpJqRhj+YMNWSItfYFv7Qs="
+          "hash": "2mzBJ1osUcFzx0mPUTiks93bTByQIUDJqOipHgIdvaY="
         }
       },
       "is_incremental": false,
@@ -174,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.TrackerCalibrator.html",
-          "hash": "3JQCRyW3usIcmbsd3laOKPuHYpnjkTJGlRNRlGM9B04="
+          "hash": "t6626uFsZd2DbRJPyk7Afx/wQ9jcOp8Eg5Dc0fV82no="
         }
       },
       "is_incremental": false,
@@ -186,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.Tracks.BaseTrack-1.html",
-          "hash": "HoLEb99v9aXuwpY4nuW0yRuvV579D3Urff8T2Hzupd4="
+          "hash": "yU0Q45XbfomsZyuivo0GWFCAj1VmCSU4rsajbW3nUKE="
         }
       },
       "is_incremental": false,
@@ -198,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.Tracks.BaseTrackObject.html",
-          "hash": "7Ipmv/yEULYGXWqBk3lc2c6fx+CSwkw3JbuslXDWS4k="
+          "hash": "ktvlkUJMBOCzVfpTm8RLW5pLz1/B5W9BdiVf+dIv+fM="
         }
       },
       "is_incremental": false,
@@ -210,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.Tracks.LongNote.html",
-          "hash": "lS7G4QCx5nR8zyIfz5WsFxEaA8QE+0JaE1Ga1eXswOM="
+          "hash": "iAuNJoQLvL+daeA2COwLImYshKiE7YGLt/5yQpIDsCo="
         }
       },
       "is_incremental": false,
@@ -222,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.Tracks.LongNoteHead.html",
-          "hash": "YWVN7WhJkqy9C1lVIUSkoWx9WBbd+V/kFd+pxbmNlic="
+          "hash": "Vj4eeFTqaz94E0nse0jCa6B0h4wIcuMDYqcKskn5nMY="
         }
       },
       "is_incremental": false,
@@ -234,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.Tracks.LongNoteTail.html",
-          "hash": "n/0eODavOkNnmdaIIPhKV13gy5UtwdM9ILgBckhcF4s="
+          "hash": "ieqQEDreefVaQxUQajky6QkYKmAqU95Kf+LcAHohePw="
         }
       },
       "is_incremental": false,
@@ -246,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.Tracks.LongNoteTrack.html",
-          "hash": "mBUgtepwt+v2h3oX6lEBQvURDOzIt5h12+hDldMlS5Y="
+          "hash": "v+vmV79gAOsrytRLQgQeOUG8vz/wfpYwatQNZ7kO3Bs="
         }
       },
       "is_incremental": false,
@@ -258,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.Tracks.Note.html",
-          "hash": "jF/zTW7k9Yak8OePiSYIZTIJAdGxlA0Ob/wkapFpLos="
+          "hash": "MHkMqskkNg7YZOqVPvk7bpG99tkyQ1ziJSYZVC0XlFY="
         }
       },
       "is_incremental": false,
@@ -270,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.Tracks.NoteBody.html",
-          "hash": "ZaGV4xbWFymU0ugsMPN0fdiPUMRZzxfTZ+Yw+66QW60="
+          "hash": "ND5br4jYKrtpR9cIm/lSyhDI2becvUqxswj/mqWBcpE="
         }
       },
       "is_incremental": false,
@@ -282,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.Tracks.NoteTrack.html",
-          "hash": "afVl3q6bUHAxUB7PITxIslmy92mnzb7aFjVLdtu0tN0="
+          "hash": "0vNtC6dS5vUZB81tHOwco9DfHblC3Th9BB/IWyvu674="
         }
       },
       "is_incremental": false,
@@ -294,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.Tracks.Obstacles.html",
-          "hash": "PQZX1pSv7xWLc/oCyE+Z/8xc9/3am+/jgJx1cTaPAZg="
+          "hash": "oz2Iz57pOnS1rMZpWMvJA3R88GaGfWr8UmXSf4O3Z3o="
         }
       },
       "is_incremental": false,
@@ -306,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.Tracks.ObstaclesTrack.html",
-          "hash": "3es2ItelQQ460XKj0S7V6D2YF/4fdXiCgRUwgTKFUuE="
+          "hash": "lDwSwmsiARXrscQL/nX5uM5PrHrJVnwic9kjGAKmJPc="
         }
       },
       "is_incremental": false,
@@ -318,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.Tracks.TracksManager.html",
-          "hash": "WpgMwJfXWH/a7c3D41Paret/vSmfOsemwm/juBr17nQ="
+          "hash": "f9d9cxvWiHPQA4gXTOaBVBidA/JfQlIuGs+DJowyiQI="
         }
       },
       "is_incremental": false,
@@ -330,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.Tracks.VisualTrack.html",
-          "hash": "BA2kraZ6ybJMKcI3lDhd9LN0j7ipYqrl47jCjp3oohs="
+          "hash": "nLU+xmLLQDrYYopRKWSfEKuOTR6LwVqjkgBh/5rVKFQ="
         }
       },
       "is_incremental": false,
@@ -342,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.Tracks.VisualTrackTrigger.html",
-          "hash": "sQoYMNhwLscYSGc2TYPxZTDeXqxs0Xgd54SbG3Vrh0w="
+          "hash": "YOnBQP7GNICFOspCQWZ4DXqNKNhkYY342PJmrysv+3Y="
         }
       },
       "is_incremental": false,
@@ -354,7 +354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.Tracks.html",
-          "hash": "/+0kk98b5jhDpnVLxVGeBGHdLr/l568fFKcO1DMLbdI="
+          "hash": "qku/T9EQSE4ii3GOCfIDM5t1UWtTAYimFIrEgjhoC5c="
         }
       },
       "is_incremental": false,
@@ -366,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.UnitySerializedDictionary-2.html",
-          "hash": "XQwm1CJxCG8F8SBb4I872xkTWgEIRYjaIH8Yj3zI2wU="
+          "hash": "PL/bTIase2rfO6b1zI6zoGzqh+W87WgE8BFsMbvKRLI="
         }
       },
       "is_incremental": false,
@@ -378,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.UpperNotePathDictionary.html",
-          "hash": "Vutoc8oouMGj9oIOYRqSZvYPo++Nh4bwbYYmsnWulA4="
+          "hash": "BC4GQKsHNbUOPDMB2zSBttNAZDaGY8SSLJARuEwHk9o="
         }
       },
       "is_incremental": false,
@@ -390,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.Utillity.GenericHelper.html",
-          "hash": "BhtvgbpEnjw9COF1vn9oETuY/NcBPGYge6Sf1ibKv7Y="
+          "hash": "6IIP+qDejRQLqKDguHJ6Z0lfFuoYxqk9ScN59L8vLzY="
         }
       },
       "is_incremental": false,
@@ -402,7 +402,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.Utillity.html",
-          "hash": "348p46Y1mN0klGHHdIkCYY5XlnZB3LDEbOs4ZiBGPas="
+          "hash": "xiGE5vn1Ytf0Af1dDlYiky/QREizLYMPihwF/ciPlQY="
         }
       },
       "is_incremental": false,
@@ -414,7 +414,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DDVRKick.html",
-          "hash": "gBVhuLSooC2ZSbwRUGlZe8QCOzkNjC35ra5vAiqbPAc="
+          "hash": "6+QBEumkTKrys/sZVm6Y8D7Ujs8ICv5X+gCtvVDzhRo="
         }
       },
       "is_incremental": false,
@@ -426,7 +426,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.Analysis-1.html",
-          "hash": "CBtkUTJPu9MxGWzup/+WRBWzqWsrUNOR2uOq5K7jWy8="
+          "hash": "DK5YY8Qbd5tHcw6v0dHZk6mLNEOYcxX0fgvywWboJog="
         }
       },
       "is_incremental": false,
@@ -438,7 +438,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.Analysis.html",
-          "hash": "Zfur3bvFMuDuY1oiNA6lNgTALUgbpxFDppoSsc2PHCE="
+          "hash": "GcN9SoIUiawp9zKUUTWzO/t++NpVsvDWrVuYg/zQaFI="
         }
       },
       "is_incremental": false,
@@ -450,7 +450,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.AudioUtil.html",
-          "hash": "v6rKypadaVt7XWuZrgy5OLryd78xIhiraw3H9Q93LFU="
+          "hash": "4kkE4qKKWu1Y924rOHrSJo3iDxrP7m/Tat52uqO+9fA="
         }
       },
       "is_incremental": false,
@@ -462,7 +462,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.Beat.html",
-          "hash": "z3CrJDYZOTkVcSb8WjgC7M7NeAJ+IURJaaYocSn3PtQ="
+          "hash": "SOhRVPvRNOlxw0sHDQjuE5NxvhuiwvPNNIxBZY1OwAs="
         }
       },
       "is_incremental": false,
@@ -474,7 +474,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.BeatTrack.html",
-          "hash": "wk2uRKcHK1YosG8Y3+oaHYkT1dEVmBZIYmLJ4dXke20="
+          "hash": "mkwXh94UnKsA3K2hBEC3VKeJXACiYvyXBKH/J4L1JsA="
         }
       },
       "is_incremental": false,
@@ -486,7 +486,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.BeatTracker.html",
-          "hash": "7IvAYsSJeTLdw2rxvfZlgI9pWMsT33xsPJlqmrI0Z/k="
+          "hash": "L6nJHjIfyqeGV1CUZfh70cwH3FbqvEwz5G6UmGp93lA="
         }
       },
       "is_incremental": false,
@@ -498,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.Bindings-1.html",
-          "hash": "V4+pMavB2zFJc7sBN1EjSCLikfIj48ftAdtR4JPVuzw="
+          "hash": "IZ+42NwxYfs6W4+v/ZE8FxvYbiSI0WSEvvLUQJjH384="
         }
       },
       "is_incremental": false,
@@ -510,7 +510,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.Chroma.html",
-          "hash": "ZgNrnPgU/mohY+Q5xb/JMrXYTYXk+sn6aoTp7AGs8Wk="
+          "hash": "Qgkw4lUImRnV11Xis4Mhwq2iotrY1XlASfEul1w/9Lc="
         }
       },
       "is_incremental": false,
@@ -522,7 +522,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.ChromaCreator.html",
-          "hash": "AdtR3ckJ0fgboF3Sji8By2fJna4jLsKNtNhi9mKvC4Q="
+          "hash": "7Erad/5OJRmoD0YtR5EjdoFjinfpJWwvxomk8aeWlDg="
         }
       },
       "is_incremental": false,
@@ -534,7 +534,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.ChromaDrawer.html",
-          "hash": "HXdFgWe7z602g2zaSH6WknTTEcWzf+eEAJm997IRs5M="
+          "hash": "FuYvS3WLnwSs6q228kplLPpfkxKguSUO7ka49QuWO4o="
         }
       },
       "is_incremental": false,
@@ -546,7 +546,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.ChromaGUI.html",
-          "hash": "B/cQp5g3NkhYyq0tdfumpk0Elv9d/bBlFuafAG/UeXg="
+          "hash": "NwmUeh5Wl9XMCCbuaqJ8nbmrGO0zagUIaR9avVoFxBQ="
         }
       },
       "is_incremental": false,
@@ -558,7 +558,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.ChromaTrack.html",
-          "hash": "jgKrIg0U5cyHHQm1kqvPza8ajZEK97BUqugu56a6/PA="
+          "hash": "NrM8M9ZcdS0a/VFPEJh7eRF4cgBDjYlSuuOSIMi6GCE="
         }
       },
       "is_incremental": false,
@@ -570,7 +570,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.Chromagram.html",
-          "hash": "5LW8p5CqnAjyMYEJLH3MAzC7/fF+LkkpY6EIDm34OQc="
+          "hash": "80yfXnhbFN+3/oquXA6jC0izPLTN++SzG5zgezyfDhw="
         }
       },
       "is_incremental": false,
@@ -582,7 +582,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.ClipBoard.html",
-          "hash": "sM070yGZoSy4J+QuQVV8S85K8LDpn2W5qSqQWn+9qkE="
+          "hash": "mkfWhQ3EpuF0oU9KDcui3wgmzpf/9XCvh+yvweAifB0="
         }
       },
       "is_incremental": false,
@@ -594,7 +594,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.DebugDrawer.html",
-          "hash": "PK0R/tJDO6acK3aY3OaAjqz7FJVyGLiSu56/FOmzd+g="
+          "hash": "o4ST2kGDzcj3Z9iCUg4mF1XA2lFTtKFkchPDmyToJ1Y="
         }
       },
       "is_incremental": false,
@@ -606,7 +606,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.EditorAnalyzer.html",
-          "hash": "8bxzkzHTOq8idQ/6G2nhhF9UBQM/X8WZmgT3X4sgMo4="
+          "hash": "CW8AgAGVHPDAEoYFZp3a4SLsJo+xkJeK3KeQS3JWm+0="
         }
       },
       "is_incremental": false,
@@ -618,7 +618,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.EditorState.html",
-          "hash": "YulJpOBzHS6HdLvOItpWkJT4Er7vj9ceWR+tiCFvn74="
+          "hash": "zmcYSiCa6bHjNM3QetGrLrXpf9dzjMZQClTbPPG/8lI="
         }
       },
       "is_incremental": false,
@@ -630,7 +630,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.Examples.AudioClipSelector.html",
-          "hash": "ldTjZ2emKUTLXJ/hJp5mOkTHJDc0ooZiUzeE5tcXDvY="
+          "hash": "ZTgxvM6hn+f56XFPVW4c0b9DyZLjxOg0M1ML+WesirA="
         }
       },
       "is_incremental": false,
@@ -642,7 +642,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.Examples.Line.html",
-          "hash": "jEPrOSqCN343QwIDho1Wg54FF6m2sIYIaHB7+1EkeWA="
+          "hash": "e5W7RhRUHhj6yQhqEHTOtLyfc89W3OZ5pCiJKeq71io="
         }
       },
       "is_incremental": false,
@@ -654,7 +654,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.Examples.SongSelector.html",
-          "hash": "G+bhX7hItFasgM9MvoRhs0w8IWKE34HVnLdEe1oPIp0="
+          "hash": "Ew5C7C4BzRxyBPuOCub/bDcZuRmFf3M14TzRoRPXNCU="
         }
       },
       "is_incremental": false,
@@ -666,7 +666,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.Examples.Visualizer.html",
-          "hash": "c60JBvhAsbWil/S+Pf1smt/rcXRBy4rXqbmAXzA0jXU="
+          "hash": "8Tg8tqEQlswUgalLL+TpuKHe//2aj5Wsa7sPN8zbMiA="
         }
       },
       "is_incremental": false,
@@ -678,7 +678,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.Examples.html",
-          "hash": "1Np1G8VAuxH0NBUKmkgeCsCzOch7J/nBw3Aax1J8GaQ="
+          "hash": "ymaNU6aob/U4tnVWZqnjNkyXLkk6rj0xN0DZxSRW0CQ="
         }
       },
       "is_incremental": false,
@@ -690,7 +690,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.Feature.html",
-          "hash": "EtFR7FDIzM7zat3haV3p40q9VcJOiQY0DV3sWDWJJ/I="
+          "hash": "FyQsh18ihFrbj10truwqXCaTuFExQPcUkE8jyRgdM/8="
         }
       },
       "is_incremental": false,
@@ -702,7 +702,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.FeatureCreator-1.html",
-          "hash": "JywzytaOv+AK5PW9eC/mh6AWDKlD5CoVT9sSYtMHGdk="
+          "hash": "GRECJNT+8nahA+t7yOdo3Q/lvP47hUdPvwfPGQByqAQ="
         }
       },
       "is_incremental": false,
@@ -714,7 +714,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.FeatureEditMode.html",
-          "hash": "c2dpREY2dCl+Y2GQLA7vW6irtMzBM0SZlxQksC4sCc8="
+          "hash": "74ZsPcIjqkd1Vl+iqe/5W1kM6uUlvMLW71K9H2smDeM="
         }
       },
       "is_incremental": false,
@@ -726,7 +726,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.FeatureGUI-1.html",
-          "hash": "U+ovLzwqy2OHTKQnCyFEHEnmwJCcVqZ8JX64NlrQFI4="
+          "hash": "TcYCXF1zf3bFlqDCm/yP0lSwvKr1XjmqWFFkCr8dz58="
         }
       },
       "is_incremental": false,
@@ -738,7 +738,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.FeatureGUI.html",
-          "hash": "6QY3NGZDjNUPXHdzknYO1qhjeI7kTRjaF4A+oYfP/L4="
+          "hash": "p4cmLYtW0hfXgSbPBF43jFFzhpQ8i2BPihE6W5q2JOY="
         }
       },
       "is_incremental": false,
@@ -750,7 +750,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.FeatureSelection.html",
-          "hash": "r5IBMlI6lZiPdbQKz9YJEMPX9+4V06M8GSYxYwrOZXk="
+          "hash": "iUga9KZvVgUT1Y6ENwSHNKe/DPh9AfWF1kG5x/8HV5s="
         }
       },
       "is_incremental": false,
@@ -762,7 +762,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.INoteData.html",
-          "hash": "Gr9XKPHt8i1OzLywgl0ucmGaaQRCzKyVVvTUT1Gk5y4="
+          "hash": "NOJDYqTFuSLA/FHYZS/YmeH+flxW2zIgTY1VJasYwS0="
         }
       },
       "is_incremental": false,
@@ -774,7 +774,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.LomontFFT.html",
-          "hash": "dJTFlQUZIYhZO54YDlr06c9nxvo94wTRPCT54mspeT8="
+          "hash": "YU/AwT6g8NFIdtUYuND9tUNUEvNCM5/FlD/qT7Kjy9c="
         }
       },
       "is_incremental": false,
@@ -786,7 +786,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.LongNote.Track.html",
-          "hash": "LL0hnU5SbTLY7B9HFKHOZKiCj5hCiG4qXWVJTtB3ZB4="
+          "hash": "OWPidNfS3exL2WokDApj0rHXg40ZxOz9SrzywfH6HEM="
         }
       },
       "is_incremental": false,
@@ -798,7 +798,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.LongNote.html",
-          "hash": "vWh8xzB9o4shWfCvThgqFl+iP90T43PGz/EBetqAKAM="
+          "hash": "zdVuxxRzfIpXRL49InRJMcwWAGgYvOZ7nYFUvtJrTnE="
         }
       },
       "is_incremental": false,
@@ -810,7 +810,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.LongNoteBeatmapTrack.html",
-          "hash": "rnOqWcr3sBhYAKhYCIjOHn0PAGhSLxTlOOO0N3NfeI4="
+          "hash": "230lrWsg/i5HV9Zrb3uFD5rXBrVJE8QP/vORNG/n8xg="
         }
       },
       "is_incremental": false,
@@ -822,7 +822,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.LongNoteGUI.html",
-          "hash": "NhKXANJmRjqOc1KpyvguVE+0qD8RJ+nlU2SZLU+juUc="
+          "hash": "nam6r1MkvDpvkv2Fq3KtM0ahM2p9g5tKQipY/Dw8cyY="
         }
       },
       "is_incremental": false,
@@ -834,7 +834,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.LowerNoteData.html",
-          "hash": "RJVBof0fEUw7tcg28B+tbaDsVbOKnHoPztye9OHvRSY="
+          "hash": "x+b796cDczSI0+6GjkKG5AFc47G1rPtYgOg4Mmi6oDs="
         }
       },
       "is_incremental": false,
@@ -846,7 +846,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.LowerNoteTrack.html",
-          "hash": "qkOV6PoUOgTIMxMwZFhVr4q+9hsXzSpUoqo40PMRgMc="
+          "hash": "fuAPyiohxtU47R8STx7ogo50H/Kc5lZ4Jypt/6/nkwE="
         }
       },
       "is_incremental": false,
@@ -858,7 +858,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.LowerNoteTrackGUI.html",
-          "hash": "ePNzxkFa/m4bPoV/RkCtgYLVv5QVeVAZ5Zb+IYhS9Ec="
+          "hash": "7wjzy+wdTWI01JsJiUTg2+STaxajvaIltzmq3k12Oss="
         }
       },
       "is_incremental": false,
@@ -870,7 +870,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.Note.html",
-          "hash": "ZD8xAKSU6UTVr4wVTzcv4/X0uln80+bhdyi+En/8QVE="
+          "hash": "WqSxt2QkieafuXSStYwjwGL1btNC4rfv4I4txMKQjPs="
         }
       },
       "is_incremental": false,
@@ -882,7 +882,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.Obstacle.ObstacleChannel.html",
-          "hash": "63G1sfB0QYVr5Atb3GyyhWLK7sYNII532AtFBClMcCE="
+          "hash": "avNAbM9fyESqfL5OVrl6rZB4NAWiyJwyGUEX7MWlzyc="
         }
       },
       "is_incremental": false,
@@ -894,7 +894,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.Obstacle.html",
-          "hash": "KjsUVbUVI9r+VPRVtPLrMO8d8U1wtLj6bPXIvEjoEEA="
+          "hash": "j96ar6Wtp7UyHCc0esMZtXSvCONp9odnZgvIY1I+KUQ="
         }
       },
       "is_incremental": false,
@@ -906,7 +906,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.ObstacleGUI.html",
-          "hash": "lpRG2ZzkQbm5QSI1XYx0sj/XumOKORU8VYRrA/x3sjo="
+          "hash": "3wlUP9BvX16zmEFhSyB28RiVG/bzTzs5Jq2K4qe7S0E="
         }
       },
       "is_incremental": false,
@@ -918,7 +918,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.ObstacleTrack.html",
-          "hash": "fS7zjD+9p2SmE7p4hVeslkPZdX4rh2ZbSf1sqLbJc3k="
+          "hash": "fg1xt2Bv7jZcQXfDVjMwYCID1SYfauZTsM6Z1GBXiYY="
         }
       },
       "is_incremental": false,
@@ -930,7 +930,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.Onset.html",
-          "hash": "N92Sm258+d5B8FDturOqJgPUutIGQpRFf0xHCh2gGOA="
+          "hash": "WveODmrbw/6Wvl2dP/LGjDcNkPjMC51TAc2gdHI8tTA="
         }
       },
       "is_incremental": false,
@@ -942,7 +942,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.OnsetCreator.html",
-          "hash": "LFJLPCwDcem8hcakpYhGyWSKykFg2wAuifGkHZrPejw="
+          "hash": "N8eFn3++hHusXiBoIrnJhqz0mGGXIDbvoAImJi0W0p0="
         }
       },
       "is_incremental": false,
@@ -954,7 +954,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.OnsetDetector.html",
-          "hash": "Wt16q+dI6e58qca7V+sQnAO7h5k7iDljKJz7K13pQc0="
+          "hash": "cr/RjG2Nf1FmtsiehCZKzGeIsaJMnIwVcvinGv8kpLc="
         }
       },
       "is_incremental": false,
@@ -966,7 +966,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.OnsetDrawer.html",
-          "hash": "6ZebOMb3vZMgDpUUiD+5KHjvhumUjSw2Dt5hZgRHrWM="
+          "hash": "xvLVWZFjViCqh4bp8CwcFF/QfXKu9NXpKLHVyriwgmo="
         }
       },
       "is_incremental": false,
@@ -978,7 +978,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.OnsetGUI.html",
-          "hash": "rGkmf4IeBbB/uPMh6L+dWOQ6/aye6hZc52Qup4odBtc="
+          "hash": "8sqc1fhS4ZXZ3wQRBzd7UfX8qAeVSkd3mygBhE7jHu0="
         }
       },
       "is_incremental": false,
@@ -990,7 +990,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.OnsetTrack.html",
-          "hash": "fxsbvQ5Rom3hlaWoKgbA/NSFajsuVhjPokKj8qhO1Ys="
+          "hash": "7EXeGVRB5DZEsTVr77xAAMDpUXNUGdnWL4aqaw5unkE="
         }
       },
       "is_incremental": false,
@@ -1002,7 +1002,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.PathType.html",
-          "hash": "h7sl31KpRI7Vo54CLH7+MvMhkc+wJkZ+WcK7gNP/Ops="
+          "hash": "THLjUEiB8+C+yoKqPomZDRptvumlTwQdn5m9n4A+Pog="
         }
       },
       "is_incremental": false,
@@ -1014,7 +1014,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.PropertyValue.html",
-          "hash": "vJ5QIO4Vq5vuaoCg4YrJVSKHOIEkJeuR6NRGNmZJinw="
+          "hash": "pWT6Wxeqnv7Z1VgYZU/jmIx6xa68uT+t2rXuPZbPrso="
         }
       },
       "is_incremental": false,
@@ -1026,7 +1026,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.RhythmAnalyzer.html",
-          "hash": "PH2Vtcs8hSj5GgsAsEOsrDt/28mTegiq+3pigQzXVCc="
+          "hash": "xDOi9SBTk/mS9DK7gdPdTdyHvXgmlLLWK8OHBZzNI28="
         }
       },
       "is_incremental": false,
@@ -1038,7 +1038,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.RhythmData.html",
-          "hash": "6U3k5bNEDDVllrF5Qih7UyQxD9k6tDgWyZdk1daYcwk="
+          "hash": "Le3JFrQIXQ5F9sTqjEOAmn8lf5KsuLmNnN2V6A5Wtkw="
         }
       },
       "is_incremental": false,
@@ -1050,7 +1050,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.RhythmDataEditor.html",
-          "hash": "Cfh7ahUXcsFQhY9p9dHLIIue93Z/92IIq4YryqaqH3k="
+          "hash": "O6kBLzMqWXr7b3E1ViqJ/CUMus1/1KPVPZdTE2R77XQ="
         }
       },
       "is_incremental": false,
@@ -1062,7 +1062,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.RhythmEventProvider.html",
-          "hash": "inlw4/64dBxv+wrxk/0XUtTBYLms/+UvQcD3ppDk0Lo="
+          "hash": "Aw/V/l9AurQmSbBPVoKsor1S/BKNWG6juQO5zLOLWA8="
         }
       },
       "is_incremental": false,
@@ -1074,7 +1074,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.RhythmPlayer.html",
-          "hash": "ErF/X3cRfb3a5dEwFAHyct6yzCftfgpGBJGk4cdNGfE="
+          "hash": "b2pTVdRtD82jGYeeuU+WJo6FiPZHa04hn8832IP3T1w="
         }
       },
       "is_incremental": false,
@@ -1086,7 +1086,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.RhythmTarget.html",
-          "hash": "KOUZHe8JNLX8AuKd6Ei+BBOwyRxXfH/+dgBvizyYRyw="
+          "hash": "LR9FXe6SxxWdOoitWXPUyQ/EGNKZJe/KOSCHnjO6W9k="
         }
       },
       "is_incremental": false,
@@ -1098,7 +1098,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.RhythmToolWindow.html",
-          "hash": "NGxKsxW476J9FHK9CiLRQA2HDfi3nSUMyOTn1UiusIM="
+          "hash": "2H87glX5Uz8oahBebRHK/d62P430Iv92vC1QM00Jopk="
         }
       },
       "is_incremental": false,
@@ -1110,7 +1110,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.Segmenter.html",
-          "hash": "IqH4GgOpOJ722Zq0SQVpeT3ilr1+smJIFxI9mVfv3bY="
+          "hash": "J9Dmp9M+w8a7ZlKV3yvNlVusxe3xJiFJQ5OaL/veowQ="
         }
       },
       "is_incremental": false,
@@ -1122,7 +1122,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.Styles.html",
-          "hash": "dv67I74Ht8si0h5tUX83LiqMDgvuY+zXhj/Pq5AEsTM="
+          "hash": "s+ca6HNnWO3FwYbhdnIxnk5Vhf2hMW7aL2Nzb+RJP/Y="
         }
       },
       "is_incremental": false,
@@ -1134,7 +1134,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.TimeRuler.html",
-          "hash": "eEySB+iNWi6nu8PgiZ8VxHSOwqwwCHVzMJWffK7/bvc="
+          "hash": "1J4Q+wiiP0bPxtQdJnvMZng0geNuo0bWNRLU0Cah+1c="
         }
       },
       "is_incremental": false,
@@ -1146,7 +1146,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.Track-1.html",
-          "hash": "x25YsWQoHVGJMUCh4UfRGUJNIFSQnWUinfuFstI3twA="
+          "hash": "lRTsjlNrg0yiQHpznKASqHo3rL1c8BZrZUYjqYasUtw="
         }
       },
       "is_incremental": false,
@@ -1158,7 +1158,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.Track.html",
-          "hash": "7+IuD5bbsNnXkcHkMV+7mQh1opyWIQFe2le1+eyx/tE="
+          "hash": "Fa5iOTlgPL8gEkMNHPScANGtVHl59FOiu6QKXlbWGhQ="
         }
       },
       "is_incremental": false,
@@ -1170,7 +1170,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.TrackDrawer-1.html",
-          "hash": "lxW5mwsSpdmcKElJwVoFEVEoh243qOqFJjdzRrQ7vqs="
+          "hash": "XJrqoSW4MLu0mKShwjPAoaPfRUn0Mj3iBhgCfKPYClA="
         }
       },
       "is_incremental": false,
@@ -1182,7 +1182,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.TrackDrawer.html",
-          "hash": "t52M69c4K/BKK1BLpbW/4x3UKBUQ1tm6nwZauMJDrCk="
+          "hash": "QzydRKzLSj14qpkBQbSIGKyLyM4t/EqtqPEpmcF47no="
         }
       },
       "is_incremental": false,
@@ -1194,7 +1194,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.TrackEditor.html",
-          "hash": "T3fbE8JcHBk7ozoe9A97rgFJWF4lrYTDbYffMgAuqyI="
+          "hash": "/TuaLuy4dC/1GXEPtxjNZpybcfglTsO1rYPVnZO7mNE="
         }
       },
       "is_incremental": false,
@@ -1206,7 +1206,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.TrackGUI-1.html",
-          "hash": "waSNx0xhycP+NnNpbCepcqvNarVmcjHYqPZGWgoGq5I="
+          "hash": "7TS7fkWjRbK2RubTwbqpdYasm9+E7ccTV2XeMyJm5GQ="
         }
       },
       "is_incremental": false,
@@ -1218,7 +1218,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.TrackGUI.html",
-          "hash": "dlu4CtI6MrJ8hyTvevpHOT9rojF2cm4GGAv6mfyHiFI="
+          "hash": "EqplLGqxckx4boa+kG9Xm6aYbWXYdbR4cAnVdlr8OVY="
         }
       },
       "is_incremental": false,
@@ -1230,7 +1230,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.UpperNoteData.html",
-          "hash": "7OR9BEXoK7iPpNG5olscf/fWnA71km+4UjDLnA8pCbA="
+          "hash": "1hdm5pmm+nSFU6UZwZlzmxXDJKTheW0MMJiiz+6BvLE="
         }
       },
       "is_incremental": false,
@@ -1242,7 +1242,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.UpperNoteTrack.html",
-          "hash": "7kUnqcuqxxkSIGUXVPnlj1tCue9EOxCxoYj769Pu9ss="
+          "hash": "nmJ9kbMdByz5DeorPSvYwhZcQQH/t/7k2Frc8TlcT4w="
         }
       },
       "is_incremental": false,
@@ -1254,7 +1254,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.UpperNoteTrackGUI.html",
-          "hash": "nqjyCl9PrT/guiHjjZ812usyUP4uLN+4KS2jsG2hu6w="
+          "hash": "Pq6JPVXFbIKnPzBfbYWUae8aSU9urRcV5BqcOGyRp1Q="
         }
       },
       "is_incremental": false,
@@ -1266,7 +1266,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.Util.html",
-          "hash": "wu63ZcdalJflZPEs6HWNxGi3fykC0mMnGtO51epevbk="
+          "hash": "oHQhIWJpTrCPYr3VyQp2QSJT5Qnlftx86ohAGNdguQY="
         }
       },
       "is_incremental": false,
@@ -1278,7 +1278,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.Value.html",
-          "hash": "6lZ9NlxyTMSO0wsfnT/ynmOrSspS9wRYUNzW66Lob/A="
+          "hash": "CPEPetsUNJUvWW4qaccT1kxZqvyCsOZ3T+tEDiyxAxE="
         }
       },
       "is_incremental": false,
@@ -1290,7 +1290,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.ValueCreator.html",
-          "hash": "wzAkIORv62Fcn5U0AeljLKIgKRG+O4OYCPRlnQvAYts="
+          "hash": "EXHRDwsOYgs2hHTp7d/sZVI5DhtZRvDKp4yeTGj1Uxo="
         }
       },
       "is_incremental": false,
@@ -1302,7 +1302,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.ValueDrawer.html",
-          "hash": "pxAjpvxYHm7Hhj7apMDvpSR4fwFAhjUeytjEzk6alJw="
+          "hash": "oTj53RiN8dp9qVDYYIdqxFqQVqeWEeKuXbPfSd7SNC4="
         }
       },
       "is_incremental": false,
@@ -1314,7 +1314,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.ValueGUI.html",
-          "hash": "PLelza7AVtYYmqDO3T+nKuKJX3g+U66zlNvmULsVV4s="
+          "hash": "sOLP1MyUVzjOacpjFvTzOfd9uyVgvvD+wHZ4z7zhd48="
         }
       },
       "is_incremental": false,
@@ -1326,7 +1326,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.ValueTrack.html",
-          "hash": "TS2bcJyRGRc9+R3ulTgmWD6z/jCKLJjhPjO5u+4Epgs="
+          "hash": "wal/auipR93OXh8LsicEEzUntfCqqcoNuEGv/PBVW4o="
         }
       },
       "is_incremental": false,
@@ -1338,7 +1338,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.VolumeSampler.html",
-          "hash": "SEvyeAPjcZsyf4BRdWL94AxFLG+arlBpKbwja7G/qKQ="
+          "hash": "ZpijqMObIJbjj+ZrVSSH49qFJwFKTuD3LrleTToWqCk="
         }
       },
       "is_incremental": false,
@@ -1350,7 +1350,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.WaveformView.html",
-          "hash": "14WxtrigS7G50TmFGCuVWG0lA62faZQYgMESvIhp4Xg="
+          "hash": "J1ep4SOoDhqKZR6JE3P7h4VVkEZWdB3dojaxSzeSKWM="
         }
       },
       "is_incremental": false,
@@ -1362,7 +1362,7 @@
       "output": {
         ".html": {
           "relative_path": "api/RhythmTool.html",
-          "hash": "WMY7bPP1oVw8SoMyTDqnMeK/P3SiYU0bPKzLbMmgYDE="
+          "hash": "NYUaSSPuXs/Fp3eRR/GqVAb+SpNFQC5mgJaM0JFGVdE="
         }
       },
       "is_incremental": false,
@@ -1386,7 +1386,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "bwQCTkG6Z3r+2oo3Dza26//4LJvUsvEdNhKI1ZFaUuU="
+          "hash": "/SH2z11Dm7ZUWTNGaiYH0MbD5Z7WpUyhiNA/KENCNnY="
         }
       },
       "is_incremental": false,
@@ -1398,7 +1398,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/beatmap-editor.html",
-          "hash": "RB/lud6p8ftmF02psTTNLfxvxVianIFncQ7t1VF56nk="
+          "hash": "Libc/DjfRAgjVBECI5u5sF/qtzsjuMpB2OOe79/EsB8="
         }
       },
       "is_incremental": false,
@@ -1410,7 +1410,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/index.html",
-          "hash": "MeSmyF5jUvZOz2dzBDn+PNd/R22Jx2LF/Jvh+qCyY50="
+          "hash": "D8RxNQKb9l0FCTCUYW3Wk1Lws3X52RibL6TSnUOQQ6Y="
         }
       },
       "is_incremental": false,
@@ -1465,13 +1465,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 2
+          "skipped_file_count": 3
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 114,
-          "skipped_file_count": 104
+          "skipped_file_count": 114
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
