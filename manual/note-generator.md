@@ -2,7 +2,7 @@
 
 The @DDVRKick.Tracks.TracksManager manage all tracks and paths.
 
-![track-manager](/resources/note-generator.png)
+![track-manager](../resources/note-generator.png)
 
 It needs an @RhythmTool.RhythmEventProvider and an @RhythmTool.RhythmPlayer to sync up with music timeline.
 
