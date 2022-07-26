@@ -5,7 +5,7 @@ items:
   id: OVRTHelper
   parent: DDVRKick
   children:
-  - DDVRKick.OVRTHelper.ToVector3(Valve.VR.HmdVector3_t)
+  - DDVRKick.OVRTHelper.ToVector3(HmdVector3_t)
   - DDVRKick.OVRTHelper.TrackerRoleEnumMappings
   langs:
   - csharp
@@ -64,9 +64,9 @@ items:
   - Public
   - Shared
   - ReadOnly
-- uid: DDVRKick.OVRTHelper.ToVector3(Valve.VR.HmdVector3_t)
-  commentId: M:DDVRKick.OVRTHelper.ToVector3(Valve.VR.HmdVector3_t)
-  id: ToVector3(Valve.VR.HmdVector3_t)
+- uid: DDVRKick.OVRTHelper.ToVector3(HmdVector3_t)
+  commentId: M:DDVRKick.OVRTHelper.ToVector3(HmdVector3_t)
+  id: ToVector3(HmdVector3_t)
   isExtensionMethod: true
   parent: DDVRKick.OVRTHelper
   langs:
@@ -74,7 +74,7 @@ items:
   - vb
   name: ToVector3(HmdVector3_t)
   nameWithType: OVRTHelper.ToVector3(HmdVector3_t)
-  fullName: DDVRKick.OVRTHelper.ToVector3(Valve.VR.HmdVector3_t)
+  fullName: DDVRKick.OVRTHelper.ToVector3(HmdVector3_t)
   type: Method
   source:
     id: ToVector3
@@ -87,7 +87,7 @@ items:
     content: public static Vector3 ToVector3(this HmdVector3_t hmdVector3T)
     parameters:
     - id: hmdVector3T
-      type: Valve.VR.HmdVector3_t
+      type: Global.HmdVector3_t
     return:
       type: Global.Vector3
     content.vb: >-
@@ -240,19 +240,14 @@ references:
   name: ToVector3
   nameWithType: OVRTHelper.ToVector3
   fullName: DDVRKick.OVRTHelper.ToVector3
-- uid: Valve.VR.HmdVector3_t
-  commentId: T:Valve.VR.HmdVector3_t
-  parent: Valve.VR
+- uid: Global.HmdVector3_t
+  commentId: '!:Global.HmdVector3_t'
+  isExternal: true
   name: HmdVector3_t
   nameWithType: HmdVector3_t
-  fullName: Valve.VR.HmdVector3_t
+  fullName: HmdVector3_t
 - uid: Global.Vector3
   isExternal: true
   name: Vector3
   nameWithType: Vector3
   fullName: Vector3
-- uid: Valve.VR
-  commentId: N:Valve.VR
-  name: Valve.VR
-  nameWithType: Valve.VR
-  fullName: Valve.VR

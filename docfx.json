@@ -3,9 +3,9 @@
     {
       "src": [
         {
-          "src": "..",
+          "src": "../",
           "files": ["Assets/**/*.cs"],
-          "exclude": ["Assets/Plugins/**"]
+          "exclude": ["**/Plugins/**"]
         }
       ],
       "globalNamespaceId": "Global",
@@ -47,7 +47,7 @@
         "files": ["Assets/Scripts/**/*.md"]
       }
     ],
-    "dest": "_site",
+    "dest": "docs",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": ["default", "templates/material"],

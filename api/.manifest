@@ -43,7 +43,7 @@
   "DDVRKick.OVRTHelper.ETrackerRole.RightKnee": "DDVRKick.OVRTHelper.ETrackerRole.yml",
   "DDVRKick.OVRTHelper.ETrackerRole.RightShoulder": "DDVRKick.OVRTHelper.ETrackerRole.yml",
   "DDVRKick.OVRTHelper.ETrackerRole.Waist": "DDVRKick.OVRTHelper.ETrackerRole.yml",
-  "DDVRKick.OVRTHelper.ToVector3(Valve.VR.HmdVector3_t)": "DDVRKick.OVRTHelper.yml",
+  "DDVRKick.OVRTHelper.ToVector3(HmdVector3_t)": "DDVRKick.OVRTHelper.yml",
   "DDVRKick.OVRTHelper.TrackerRoleEnumMappings": "DDVRKick.OVRTHelper.yml",
   "DDVRKick.PlayerHead": "DDVRKick.PlayerHead.yml",
   "DDVRKick.PlayerHead.instance": "DDVRKick.PlayerHead.yml",
