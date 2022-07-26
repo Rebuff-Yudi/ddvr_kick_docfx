@@ -14,6 +14,7 @@ on:
     - main
     paths:
     - manual/**
+    - resources/**
     - .github/workflows/docs.yml
   workflow_dispatch:
 
@@ -36,7 +37,7 @@ jobs:
         args: install docfx
 
     - name: DocFX Build
-      working-directory: ./
+      working-directory: .
       run: docfx .\docfx.json
       continue-on-error: false
 
