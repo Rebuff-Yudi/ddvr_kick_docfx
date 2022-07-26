@@ -118,10 +118,12 @@ items:
   source:
     id: effect
     path: ''
-    startLine: 7423
+    startLine: 7426
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
+  summary: "\nEffect to play when scoring <xref href=\"DDVRKick.Tracks.LongNote\" data-throw-if-not-resolved=\"false\"></xref> \n"
+  example: []
   syntax:
     content: public ParticleSystem effect { get; }
     parameters: []
@@ -149,7 +151,7 @@ items:
   source:
     id: normal
     path: ''
-    startLine: 7434
+    startLine: 7437
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -176,7 +178,7 @@ items:
   source:
     id: stepOn
     path: ''
-    startLine: 7434
+    startLine: 7437
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -203,7 +205,7 @@ items:
   source:
     id: isLeftStepOn
     path: ''
-    startLine: 7436
+    startLine: 7439
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -230,7 +232,7 @@ items:
   source:
     id: isRightStepOn
     path: ''
-    startLine: 7436
+    startLine: 7439
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -257,10 +259,12 @@ items:
   source:
     id: isStepOn
     path: ''
-    startLine: 7437
+    startLine: 7443
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
+  summary: "\nTo determine is there any feet step on current track.\n"
+  example: []
   syntax:
     content: public bool isStepOn { get; }
     parameters: []
@@ -314,6 +318,12 @@ references:
   name: VisualTrackTrigger
   nameWithType: VisualTrackTrigger
   fullName: DDVRKick.Tracks.VisualTrackTrigger
+- uid: DDVRKick.Tracks.LongNote
+  commentId: T:DDVRKick.Tracks.LongNote
+  parent: DDVRKick.Tracks
+  name: LongNote
+  nameWithType: LongNote
+  fullName: DDVRKick.Tracks.LongNote
 - uid: DDVRKick.Tracks.VisualTrack.effect*
   commentId: Overload:DDVRKick.Tracks.VisualTrack.effect
   name: effect

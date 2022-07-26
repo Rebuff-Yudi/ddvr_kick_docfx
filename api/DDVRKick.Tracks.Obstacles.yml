@@ -16,7 +16,7 @@ items:
   source:
     id: Obstacles
     path: ''
-    startLine: 7845
+    startLine: 7867
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -53,7 +53,7 @@ items:
   source:
     id: track
     path: ''
-    startLine: 7847
+    startLine: 7869
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks

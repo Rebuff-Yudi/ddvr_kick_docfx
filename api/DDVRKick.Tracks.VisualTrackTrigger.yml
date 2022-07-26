@@ -16,7 +16,7 @@ items:
   source:
     id: VisualTrackTrigger
     path: ''
-    startLine: 7456
+    startLine: 7462
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -47,7 +47,7 @@ items:
   source:
     id: track
     path: ''
-    startLine: 7458
+    startLine: 7464
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks

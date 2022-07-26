@@ -22,7 +22,7 @@ items:
   source:
     id: LongNote
     path: ''
-    startLine: 7508
+    startLine: 7521
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -58,7 +58,7 @@ items:
   source:
     id: head
     path: ''
-    startLine: 7510
+    startLine: 7523
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -89,7 +89,7 @@ items:
   source:
     id: tail
     path: ''
-    startLine: 7521
+    startLine: 7534
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -120,7 +120,7 @@ items:
   source:
     id: track
     path: ''
-    startLine: 7532
+    startLine: 7545
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -151,7 +151,7 @@ items:
   source:
     id: path
     path: ''
-    startLine: 7534
+    startLine: 7547
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -182,7 +182,7 @@ items:
   source:
     id: OnRelease
     path: ''
-    startLine: 7536
+    startLine: 7549
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -209,7 +209,7 @@ items:
   source:
     id: Reset
     path: ''
-    startLine: 7538
+    startLine: 7551
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -238,7 +238,7 @@ items:
   source:
     id: InitTween
     path: ''
-    startLine: 7545
+    startLine: 7558
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks

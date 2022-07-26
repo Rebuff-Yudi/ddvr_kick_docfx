@@ -23,7 +23,7 @@ items:
   source:
     id: NoteBody
     path: ''
-    startLine: 7648
+    startLine: 7661
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -54,7 +54,7 @@ items:
   source:
     id: note
     path: ''
-    startLine: 7651
+    startLine: 7664
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -81,7 +81,7 @@ items:
   source:
     id: kickable
     path: ''
-    startLine: 7653
+    startLine: 7666
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -108,7 +108,7 @@ items:
   source:
     id: rigidbody
     path: ''
-    startLine: 7660
+    startLine: 7674
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -139,7 +139,7 @@ items:
   source:
     id: collider
     path: ''
-    startLine: 7671
+    startLine: 7685
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -170,7 +170,7 @@ items:
   source:
     id: effect
     path: ''
-    startLine: 7682
+    startLine: 7696
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -201,7 +201,7 @@ items:
   source:
     id: audioSource
     path: ''
-    startLine: 7693
+    startLine: 7707
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -232,7 +232,7 @@ items:
   source:
     id: meshRenderer
     path: ''
-    startLine: 7704
+    startLine: 7718
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -263,7 +263,7 @@ items:
   source:
     id: Reset
     path: ''
-    startLine: 7814
+    startLine: 7836
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks

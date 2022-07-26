@@ -19,7 +19,7 @@ items:
   source:
     id: BaseTrackObject
     path: ''
-    startLine: 7467
+    startLine: 7473
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -63,7 +63,7 @@ items:
   source:
     id: pathTween
     path: ''
-    startLine: 7470
+    startLine: 7476
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -96,7 +96,7 @@ items:
   source:
     id: OnEnable
     path: ''
-    startLine: 7472
+    startLine: 7478
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -124,7 +124,7 @@ items:
   source:
     id: Reset
     path: ''
-    startLine: 7477
+    startLine: 7483
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -152,21 +152,27 @@ items:
   source:
     id: AttachToPath
     path: ''
-    startLine: 7482
+    startLine: 7495
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
+  summary: "\nAttach this track object to its path.\n"
+  example: []
   syntax:
     content: public virtual Sequence AttachToPath(DOTweenPath enterPath, DOTweenPath exitPath = null, Action onReachLineCallback = null)
     parameters:
     - id: enterPath
       type: Global.DOTweenPath
+      description: entering animation path
     - id: exitPath
       type: Global.DOTweenPath
+      description: exit out animation path
     - id: onReachLineCallback
       type: System.Action
+      description: callback action when arrive on beat
     return:
       type: Global.Sequence
+      description: <see cref="!:Sequence"></see> that contain moving animation that guarantee arrive on beat.
     content.vb: Public Overridable Function AttachToPath(enterPath As DOTweenPath, exitPath As DOTweenPath = Nothing, onReachLineCallback As Action = Nothing) As Sequence
   overload: DDVRKick.Tracks.BaseTrackObject.AttachToPath*
   modifiers.csharp:
