@@ -1,0 +1,741 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Track&lt;T&gt;
+   | DDVR Kick Unity documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Track&lt;T&gt;
+   | DDVR Kick Unity documentation ">
+    <meta name="generator" content="docfx 2.59.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="RhythmTool.Track`1">
+  
+  
+  <h1 id="RhythmTool_Track_1" data-uid="RhythmTool.Track`1" class="text-break">Class Track&lt;T&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>A Track is a collection of Features that are ordered in time.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="RhythmTool.Track.html">Track</a></div>
+    <div class="level2"><span class="xref">Track&lt;T&gt;</span></div>
+      <div class="level3"><a class="xref" href="RhythmTool.BeatTrack.html">BeatTrack</a></div>
+      <div class="level3"><a class="xref" href="RhythmTool.ChromaTrack.html">ChromaTrack</a></div>
+      <div class="level3"><a class="xref" href="RhythmTool.LongNoteBeatmapTrack.html">LongNoteBeatmapTrack</a></div>
+      <div class="level3"><a class="xref" href="RhythmTool.LowerNoteTrack.html">LowerNoteTrack</a></div>
+      <div class="level3"><a class="xref" href="RhythmTool.ObstacleTrack.html">ObstacleTrack</a></div>
+      <div class="level3"><a class="xref" href="RhythmTool.OnsetTrack.html">OnsetTrack</a></div>
+      <div class="level3"><a class="xref" href="RhythmTool.UpperNoteTrack.html">UpperNoteTrack</a></div>
+      <div class="level3"><a class="xref" href="RhythmTool.ValueTrack.html">ValueTrack</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="RhythmTool.Track.html#RhythmTool_Track_name">Track.name</a>
+    </div>
+    <div>
+      <a class="xref" href="RhythmTool.Track.html#RhythmTool_Track__name">Track._name</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="RhythmTool.html">RhythmTool</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="RhythmTool_Track_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class Track&lt;T&gt; : Track where T : Feature</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of Features contained in this Track.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="RhythmTool_Track_1_count_" data-uid="RhythmTool.Track`1.count*"></a>
+  <h4 id="RhythmTool_Track_1_count" data-uid="RhythmTool.Track`1.count">count</h4>
+  <div class="markdown level1 summary"><p>The number of Features contained in this Track.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int count { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RhythmTool_Track_1_Item_" data-uid="RhythmTool.Track`1.Item*"></a>
+  <h4 id="RhythmTool_Track_1_Item_System_Int32_" data-uid="RhythmTool.Track`1.Item(System.Int32)">Item[Int32]</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T this[int index] { get; }</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="RhythmTool_Track_1_Add_" data-uid="RhythmTool.Track`1.Add*"></a>
+  <h4 id="RhythmTool_Track_1_Add__0_" data-uid="RhythmTool.Track`1.Add(`0)">Add(T)</h4>
+  <div class="markdown level1 summary"><p>Add a Feature to the Track.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Add(T feature)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">feature</span></td>
+        <td><p>The Feature to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RhythmTool_Track_1_Create_" data-uid="RhythmTool.Track`1.Create*"></a>
+  <h4 id="RhythmTool_Track_1_Create_System_String_" data-uid="RhythmTool.Track`1.Create(System.String)">Create(String)</h4>
+  <div class="markdown level1 summary"><p>Create a track of type T with a name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Track&lt;T&gt; Create(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the Track</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RhythmTool.Track-1.html">Track</a>&lt;T&gt;</td>
+        <td><p>The new Track.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RhythmTool_Track_1_GetFeatures_" data-uid="RhythmTool.Track`1.GetFeatures*"></a>
+  <h4 id="RhythmTool_Track_1_GetFeatures_List__0__System_Single_System_Single_" data-uid="RhythmTool.Track`1.GetFeatures(List{`0},System.Single,System.Single)">GetFeatures(List&lt;T&gt;, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Finds all Features within a certain time frame.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetFeatures(List&lt;T&gt; features, float start, float end)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;T&gt;</td>
+        <td><span class="parametername">features</span></td>
+        <td><p>The list of Features to populate</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>The starting point in seconds.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">end</span></td>
+        <td><p>The end point in seconds.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RhythmTool_Track_1_GetIndex_" data-uid="RhythmTool.Track`1.GetIndex*"></a>
+  <h4 id="RhythmTool_Track_1_GetIndex__0_" data-uid="RhythmTool.Track`1.GetIndex(`0)">GetIndex(T)</h4>
+  <div class="markdown level1 summary"><p>Returns the index of the Feature.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetIndex(T feature)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">feature</span></td>
+        <td><p>The feature.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The index of the Feature.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RhythmTool_Track_1_GetIndex_" data-uid="RhythmTool.Track`1.GetIndex*"></a>
+  <h4 id="RhythmTool_Track_1_GetIndex_System_Single_" data-uid="RhythmTool.Track`1.GetIndex(System.Single)">GetIndex(Single)</h4>
+  <div class="markdown level1 summary"><p>Returns the index of the Feature that is closest to a timestamp.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetIndex(float timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp in seconds.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The index of the Feature that is closest to the timestamp.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RhythmTool_Track_1_GetIntersectingFeatures_" data-uid="RhythmTool.Track`1.GetIntersectingFeatures*"></a>
+  <h4 id="RhythmTool_Track_1_GetIntersectingFeatures_List__0__System_Single_System_Single_" data-uid="RhythmTool.Track`1.GetIntersectingFeatures(List{`0},System.Single,System.Single)">GetIntersectingFeatures(List&lt;T&gt;, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Finds all Features within a certain time frame, including Features with a length that intersects the time frame.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetIntersectingFeatures(List&lt;T&gt; features, float start, float end)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;T&gt;</td>
+        <td><span class="parametername">features</span></td>
+        <td><p>The list of Features to populate</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>The starting point in seconds.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">end</span></td>
+        <td><p>The end point in seconds.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RhythmTool_Track_1_GetIntersectingIndex_" data-uid="RhythmTool.Track`1.GetIntersectingIndex*"></a>
+  <h4 id="RhythmTool_Track_1_GetIntersectingIndex_System_Single_" data-uid="RhythmTool.Track`1.GetIntersectingIndex(System.Single)">GetIntersectingIndex(Single)</h4>
+  <div class="markdown level1 summary"><p>Returns the index of the Feature that is closest to a timestamp, Including the feature's length.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetIntersectingIndex(float timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>The timestamp in seconds.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The index of the Feature that is closest to the timestamp, including the Feature's length.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RhythmTool_Track_1_GetNextFeature_" data-uid="RhythmTool.Track`1.GetNextFeature*"></a>
+  <h4 id="RhythmTool_Track_1_GetNextFeature_System_Single_" data-uid="RhythmTool.Track`1.GetNextFeature(System.Single)">GetNextFeature(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Feature GetNextFeature(float timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RhythmTool.Feature.html">Feature</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RhythmTool_Track_1_GetNextIndex_" data-uid="RhythmTool.Track`1.GetNextIndex*"></a>
+  <h4 id="RhythmTool_Track_1_GetNextIndex_System_Single_" data-uid="RhythmTool.Track`1.GetNextIndex(System.Single)">GetNextIndex(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetNextIndex(float timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RhythmTool_Track_1_GetPrevFeature_" data-uid="RhythmTool.Track`1.GetPrevFeature*"></a>
+  <h4 id="RhythmTool_Track_1_GetPrevFeature_System_Single_" data-uid="RhythmTool.Track`1.GetPrevFeature(System.Single)">GetPrevFeature(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Feature GetPrevFeature(float timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RhythmTool.Feature.html">Feature</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RhythmTool_Track_1_GetPrevIndex_" data-uid="RhythmTool.Track`1.GetPrevIndex*"></a>
+  <h4 id="RhythmTool_Track_1_GetPrevIndex_System_Single_" data-uid="RhythmTool.Track`1.GetPrevIndex(System.Single)">GetPrevIndex(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetPrevIndex(float timestamp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RhythmTool_Track_1_Remove_" data-uid="RhythmTool.Track`1.Remove*"></a>
+  <h4 id="RhythmTool_Track_1_Remove__0_" data-uid="RhythmTool.Track`1.Remove(`0)">Remove(T)</h4>
+  <div class="markdown level1 summary"><p>Remove a Feature from the Track.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Remove(T feature)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">feature</span></td>
+        <td><p>The Feature to remove.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RhythmTool_Track_1_Sort_" data-uid="RhythmTool.Track`1.Sort*"></a>
+  <h4 id="RhythmTool_Track_1_Sort" data-uid="RhythmTool.Track`1.Sort">Sort()</h4>
+  <div class="markdown level1 summary"><p>Sorts the Track's Features. Use this after changing a Feature's timestamp.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Sort()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            DDVR Kick Unity documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
