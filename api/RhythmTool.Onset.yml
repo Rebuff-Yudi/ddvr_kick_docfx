@@ -16,7 +16,7 @@ items:
   source:
     id: Onset
     path: ''
-    startLine: 4295
+    startLine: 4311
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -53,7 +53,7 @@ items:
   source:
     id: strength
     path: ''
-    startLine: 4301
+    startLine: 4317
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

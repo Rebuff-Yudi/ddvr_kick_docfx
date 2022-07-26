@@ -15,7 +15,7 @@ items:
   source:
     id: ObstacleTrack
     path: ''
-    startLine: 6157
+    startLine: 6171
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

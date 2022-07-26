@@ -25,7 +25,7 @@ items:
   source:
     id: Analysis
     path: ''
-    startLine: 3040
+    startLine: 3056
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -62,7 +62,7 @@ items:
   source:
     id: track
     path: ''
-    startLine: 3045
+    startLine: 3061
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -95,7 +95,7 @@ items:
   source:
     id: sampleRate
     path: ''
-    startLine: 3056
+    startLine: 3072
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -128,7 +128,7 @@ items:
   source:
     id: frameSize
     path: ''
-    startLine: 3061
+    startLine: 3077
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -161,7 +161,7 @@ items:
   source:
     id: hopSize
     path: ''
-    startLine: 3066
+    startLine: 3082
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -194,7 +194,7 @@ items:
   source:
     id: name
     path: ''
-    startLine: 3071
+    startLine: 3087
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -229,7 +229,7 @@ items:
   source:
     id: frameIndex
     path: ''
-    startLine: 3076
+    startLine: 3092
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -262,7 +262,7 @@ items:
   source:
     id: Initialize
     path: ''
-    startLine: 3083
+    startLine: 3099
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -301,7 +301,7 @@ items:
   source:
     id: Process
     path: ''
-    startLine: 3095
+    startLine: 3111
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -343,7 +343,7 @@ items:
   source:
     id: FrameIndexToSeconds
     path: ''
-    startLine: 3105
+    startLine: 3121
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -378,7 +378,7 @@ items:
   source:
     id: GetTrack
     path: ''
-    startLine: 3110
+    startLine: 3126
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

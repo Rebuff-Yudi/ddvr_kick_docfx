@@ -17,7 +17,7 @@ items:
   source:
     id: Feature
     path: ''
-    startLine: 3983
+    startLine: 3999
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -57,7 +57,7 @@ items:
   source:
     id: timestamp
     path: ''
-    startLine: 3988
+    startLine: 4004
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -86,7 +86,7 @@ items:
   source:
     id: length
     path: ''
-    startLine: 3993
+    startLine: 4009
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

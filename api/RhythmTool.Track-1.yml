@@ -30,7 +30,7 @@ items:
   source:
     id: Track
     path: ''
-    startLine: 5324
+    startLine: 5340
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -84,7 +84,7 @@ items:
   source:
     id: this[]
     path: ''
-    startLine: 5326
+    startLine: 5342
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -120,7 +120,7 @@ items:
   source:
     id: count
     path: ''
-    startLine: 5334
+    startLine: 5350
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -155,7 +155,7 @@ items:
   source:
     id: Add
     path: ''
-    startLine: 5362
+    startLine: 5378
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -191,7 +191,7 @@ items:
   source:
     id: Remove
     path: ''
-    startLine: 5382
+    startLine: 5398
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -225,7 +225,7 @@ items:
   source:
     id: Sort
     path: ''
-    startLine: 5392
+    startLine: 5408
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -255,7 +255,7 @@ items:
   source:
     id: GetFeatures
     path: ''
-    startLine: 5405
+    startLine: 5421
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -296,7 +296,7 @@ items:
   source:
     id: GetIntersectingFeatures
     path: ''
-    startLine: 5420
+    startLine: 5436
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -337,7 +337,7 @@ items:
   source:
     id: GetIndex
     path: ''
-    startLine: 5439
+    startLine: 5455
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -374,7 +374,7 @@ items:
   source:
     id: GetPrevIndex
     path: ''
-    startLine: 5452
+    startLine: 5468
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -407,7 +407,7 @@ items:
   source:
     id: GetPrevFeature
     path: ''
-    startLine: 5459
+    startLine: 5475
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -440,7 +440,7 @@ items:
   source:
     id: GetNextIndex
     path: ''
-    startLine: 5465
+    startLine: 5481
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -473,7 +473,7 @@ items:
   source:
     id: GetNextFeature
     path: ''
-    startLine: 5472
+    startLine: 5488
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -506,7 +506,7 @@ items:
   source:
     id: GetIndex
     path: ''
-    startLine: 5483
+    startLine: 5499
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -543,7 +543,7 @@ items:
   source:
     id: GetIntersectingIndex
     path: ''
-    startLine: 5504
+    startLine: 5520
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -580,7 +580,7 @@ items:
   source:
     id: Create
     path: ''
-    startLine: 5592
+    startLine: 5608
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

@@ -15,7 +15,7 @@ items:
   source:
     id: LowerNoteTrack
     path: ''
-    startLine: 6066
+    startLine: 6082
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

@@ -17,7 +17,7 @@ items:
   source:
     id: Track
     path: ''
-    startLine: 5307
+    startLine: 5323
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -54,7 +54,7 @@ items:
   source:
     id: name
     path: ''
-    startLine: 5312
+    startLine: 5328
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -87,7 +87,7 @@ items:
   source:
     id: _name
     path: ''
-    startLine: 5317
+    startLine: 5333
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

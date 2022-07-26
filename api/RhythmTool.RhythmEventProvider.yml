@@ -22,7 +22,7 @@ items:
   source:
     id: RhythmEventProvider
     path: ''
-    startLine: 4753
+    startLine: 4769
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -56,7 +56,7 @@ items:
   source:
     id: offset
     path: ''
-    startLine: 4757
+    startLine: 4773
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -83,7 +83,7 @@ items:
   source:
     id: Process
     path: ''
-    startLine: 4767
+    startLine: 4783
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -124,7 +124,7 @@ items:
   source:
     id: Reset
     path: ''
-    startLine: 4778
+    startLine: 4794
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -162,7 +162,7 @@ items:
   source:
     id: Register
     path: ''
-    startLine: 4789
+    startLine: 4805
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -202,7 +202,7 @@ items:
   source:
     id: Unregister
     path: ''
-    startLine: 4801
+    startLine: 4817
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -242,7 +242,7 @@ items:
   source:
     id: Register
     path: ''
-    startLine: 4812
+    startLine: 4828
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -285,7 +285,7 @@ items:
   source:
     id: Unregister
     path: ''
-    startLine: 4835
+    startLine: 4851
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

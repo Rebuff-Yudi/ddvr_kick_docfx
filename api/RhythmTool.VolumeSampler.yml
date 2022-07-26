@@ -20,7 +20,7 @@ items:
   source:
     id: VolumeSampler
     path: ''
-    startLine: 5925
+    startLine: 5941
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -65,7 +65,7 @@ items:
   source:
     id: name
     path: ''
-    startLine: 5928
+    startLine: 5944
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -99,7 +99,7 @@ items:
   source:
     id: interval
     path: ''
-    startLine: 5936
+    startLine: 5952
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -130,7 +130,7 @@ items:
   source:
     id: smoothing
     path: ''
-    startLine: 5948
+    startLine: 5964
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -161,7 +161,7 @@ items:
   source:
     id: Initialize
     path: ''
-    startLine: 5976
+    startLine: 5992
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -197,7 +197,7 @@ items:
   source:
     id: Process
     path: ''
-    startLine: 6001
+    startLine: 6017
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

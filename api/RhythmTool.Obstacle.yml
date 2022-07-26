@@ -16,7 +16,7 @@ items:
   source:
     id: Obstacle
     path: ''
-    startLine: 6139
+    startLine: 6155
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -60,7 +60,7 @@ items:
   source:
     id: channel
     path: ''
-    startLine: 6150
+    startLine: 6166
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

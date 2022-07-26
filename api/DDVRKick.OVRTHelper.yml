@@ -17,7 +17,7 @@ items:
   source:
     id: OVRTHelper
     path: ''
-    startLine: 6366
+    startLine: 6380
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -47,7 +47,7 @@ items:
   source:
     id: TrackerRoleEnumMappings
     path: ''
-    startLine: 6388
+    startLine: 6402
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -79,7 +79,7 @@ items:
   source:
     id: ToVector3
     path: ''
-    startLine: 6409
+    startLine: 6423
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick

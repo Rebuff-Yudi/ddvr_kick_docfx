@@ -22,7 +22,7 @@ items:
   source:
     id: RhythmAnalyzer
     path: ''
-    startLine: 4316
+    startLine: 4332
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -55,7 +55,7 @@ items:
   source:
     id: Initialized
     path: ''
-    startLine: 4322
+    startLine: 4338
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -84,7 +84,7 @@ items:
   source:
     id: rhythmData
     path: ''
-    startLine: 4327
+    startLine: 4343
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -117,7 +117,7 @@ items:
   source:
     id: progress
     path: ''
-    startLine: 4332
+    startLine: 4348
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -150,7 +150,7 @@ items:
   source:
     id: isDone
     path: ''
-    startLine: 4337
+    startLine: 4353
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -183,7 +183,7 @@ items:
   source:
     id: initialized
     path: ''
-    startLine: 4342
+    startLine: 4358
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -216,7 +216,7 @@ items:
   source:
     id: Analyze
     path: ''
-    startLine: 4381
+    startLine: 4397
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -254,7 +254,7 @@ items:
   source:
     id: Abort
     path: ''
-    startLine: 4396
+    startLine: 4412
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

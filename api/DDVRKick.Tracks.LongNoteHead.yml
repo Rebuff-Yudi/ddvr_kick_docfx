@@ -19,7 +19,7 @@ items:
   source:
     id: LongNoteHead
     path: ''
-    startLine: 7574
+    startLine: 7587
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -50,7 +50,7 @@ items:
   source:
     id: lineRenderer
     path: ''
-    startLine: 7577
+    startLine: 7590
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -81,7 +81,7 @@ items:
   source:
     id: boxCollider
     path: ''
-    startLine: 7588
+    startLine: 7601
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -112,7 +112,7 @@ items:
   source:
     id: tail
     path: ''
-    startLine: 7599
+    startLine: 7612
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -143,7 +143,7 @@ items:
   source:
     id: Update
     path: ''
-    startLine: 7610
+    startLine: 7623
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks

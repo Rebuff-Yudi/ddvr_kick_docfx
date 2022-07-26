@@ -19,7 +19,7 @@ items:
   source:
     id: TimeRuler
     path: ''
-    startLine: 1568
+    startLine: 1579
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -48,7 +48,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1588
+    startLine: 1599
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -74,7 +74,7 @@ items:
   source:
     id: SetRange
     path: ''
-    startLine: 1596
+    startLine: 1607
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -105,7 +105,7 @@ items:
   source:
     id: Draw
     path: ''
-    startLine: 1622
+    startLine: 1633
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -134,7 +134,7 @@ items:
   source:
     id: DrawMajorTicks
     path: ''
-    startLine: 1657
+    startLine: 1668
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

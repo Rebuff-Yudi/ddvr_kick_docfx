@@ -16,7 +16,7 @@ items:
   source:
     id: Chroma
     path: ''
-    startLine: 3769
+    startLine: 3785
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -53,7 +53,7 @@ items:
   source:
     id: note
     path: ''
-    startLine: 3775
+    startLine: 3791
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

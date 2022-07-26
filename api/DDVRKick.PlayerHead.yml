@@ -16,7 +16,7 @@ items:
   source:
     id: PlayerHead
     path: ''
-    startLine: 6419
+    startLine: 6433
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -47,7 +47,7 @@ items:
   source:
     id: instance
     path: ''
-    startLine: 6421
+    startLine: 6435
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick

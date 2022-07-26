@@ -23,7 +23,7 @@ items:
   source:
     id: VisualTrack
     path: ''
-    startLine: 7394
+    startLine: 7407
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -56,7 +56,7 @@ items:
   source:
     id: lineRenderer
     path: ''
-    startLine: 7397
+    startLine: 7410
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -87,7 +87,7 @@ items:
   source:
     id: trigger
     path: ''
-    startLine: 7408
+    startLine: 7421
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -118,7 +118,7 @@ items:
   source:
     id: effect
     path: ''
-    startLine: 7426
+    startLine: 7439
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -151,7 +151,7 @@ items:
   source:
     id: normal
     path: ''
-    startLine: 7437
+    startLine: 7450
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -178,7 +178,7 @@ items:
   source:
     id: stepOn
     path: ''
-    startLine: 7437
+    startLine: 7450
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -205,7 +205,7 @@ items:
   source:
     id: isLeftStepOn
     path: ''
-    startLine: 7439
+    startLine: 7452
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -232,7 +232,7 @@ items:
   source:
     id: isRightStepOn
     path: ''
-    startLine: 7439
+    startLine: 7452
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -259,7 +259,7 @@ items:
   source:
     id: isStepOn
     path: ''
-    startLine: 7443
+    startLine: 7456
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks

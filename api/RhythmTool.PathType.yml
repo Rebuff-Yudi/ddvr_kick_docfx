@@ -19,7 +19,7 @@ items:
   source:
     id: PathType
     path: ''
-    startLine: 6080
+    startLine: 6096
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -48,7 +48,7 @@ items:
   source:
     id: A
     path: ''
-    startLine: 6082
+    startLine: 6098
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -76,7 +76,7 @@ items:
   source:
     id: B
     path: ''
-    startLine: 6083
+    startLine: 6099
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -104,7 +104,7 @@ items:
   source:
     id: C
     path: ''
-    startLine: 6084
+    startLine: 6100
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -132,7 +132,7 @@ items:
   source:
     id: D
     path: ''
-    startLine: 6085
+    startLine: 6101
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

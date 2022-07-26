@@ -21,7 +21,7 @@ items:
   source:
     id: OnsetDetector
     path: ''
-    startLine: 4178
+    startLine: 4194
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -66,7 +66,7 @@ items:
   source:
     id: name
     path: ''
-    startLine: 4181
+    startLine: 4197
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -100,7 +100,7 @@ items:
   source:
     id: normalization
     path: ''
-    startLine: 4190
+    startLine: 4206
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -127,7 +127,7 @@ items:
   source:
     id: threshold
     path: ''
-    startLine: 4193
+    startLine: 4209
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -154,7 +154,7 @@ items:
   source:
     id: bufferSize
     path: ''
-    startLine: 4196
+    startLine: 4212
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -181,7 +181,7 @@ items:
   source:
     id: Initialize
     path: ''
-    startLine: 4208
+    startLine: 4224
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -217,7 +217,7 @@ items:
   source:
     id: Process
     path: ''
-    startLine: 4220
+    startLine: 4236
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

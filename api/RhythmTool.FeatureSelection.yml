@@ -22,7 +22,7 @@ items:
   source:
     id: FeatureSelection
     path: ''
-    startLine: 516
+    startLine: 527
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -53,7 +53,7 @@ items:
   source:
     id: instance
     path: ''
-    startLine: 518
+    startLine: 529
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -86,7 +86,7 @@ items:
   source:
     id: indices
     path: ''
-    startLine: 528
+    startLine: 539
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -119,7 +119,7 @@ items:
   source:
     id: count
     path: ''
-    startLine: 536
+    startLine: 547
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -152,7 +152,7 @@ items:
   source:
     id: Add
     path: ''
-    startLine: 549
+    startLine: 560
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -183,7 +183,7 @@ items:
   source:
     id: Remove
     path: ''
-    startLine: 554
+    startLine: 565
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -214,7 +214,7 @@ items:
   source:
     id: Clear
     path: ''
-    startLine: 559
+    startLine: 570
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -242,7 +242,7 @@ items:
   source:
     id: Contains
     path: ''
-    startLine: 564
+    startLine: 575
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

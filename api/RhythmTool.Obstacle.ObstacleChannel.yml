@@ -19,7 +19,7 @@ items:
   source:
     id: ObstacleChannel
     path: ''
-    startLine: 6142
+    startLine: 6158
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -46,7 +46,7 @@ items:
   source:
     id: A
     path: ''
-    startLine: 6144
+    startLine: 6160
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -74,7 +74,7 @@ items:
   source:
     id: B
     path: ''
-    startLine: 6145
+    startLine: 6161
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -102,7 +102,7 @@ items:
   source:
     id: C
     path: ''
-    startLine: 6146
+    startLine: 6162
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -130,7 +130,7 @@ items:
   source:
     id: D
     path: ''
-    startLine: 6147
+    startLine: 6163
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

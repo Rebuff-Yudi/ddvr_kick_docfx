@@ -17,7 +17,7 @@ items:
   source:
     id: OnsetGUI
     path: ''
-    startLine: 430
+    startLine: 441
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -61,7 +61,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 432
+    startLine: 443
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -95,7 +95,7 @@ items:
   source:
     id: GetRect
     path: ''
-    startLine: 436
+    startLine: 447
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

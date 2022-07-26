@@ -23,7 +23,7 @@ items:
   source:
     id: NoteCollider
     path: ''
-    startLine: 6237
+    startLine: 6251
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -54,7 +54,7 @@ items:
   source:
     id: rigidbody
     path: ''
-    startLine: 6240
+    startLine: 6254
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -85,7 +85,7 @@ items:
   source:
     id: collider
     path: ''
-    startLine: 6250
+    startLine: 6264
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -112,7 +112,7 @@ items:
   source:
     id: modelRoot
     path: ''
-    startLine: 6252
+    startLine: 6266
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -143,7 +143,7 @@ items:
   source:
     id: Role
     path: ''
-    startLine: 6263
+    startLine: 6277
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -170,7 +170,7 @@ items:
   source:
     id: origin
     path: ''
-    startLine: 6281
+    startLine: 6295
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -197,7 +197,7 @@ items:
   source:
     id: Velocity
     path: ''
-    startLine: 6291
+    startLine: 6305
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -228,7 +228,7 @@ items:
   source:
     id: FlyForce
     path: ''
-    startLine: 6293
+    startLine: 6307
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -255,7 +255,7 @@ items:
   source:
     id: Awake
     path: ''
-    startLine: 6294
+    startLine: 6308
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick

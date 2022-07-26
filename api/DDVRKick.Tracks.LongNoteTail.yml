@@ -16,7 +16,7 @@ items:
   source:
     id: LongNoteTail
     path: ''
-    startLine: 7623
+    startLine: 7636
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -47,7 +47,7 @@ items:
   source:
     id: duration
     path: ''
-    startLine: 7625
+    startLine: 7638
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks

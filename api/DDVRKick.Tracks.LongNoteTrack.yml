@@ -23,7 +23,7 @@ items:
   source:
     id: LongNoteTrack
     path: ''
-    startLine: 7150
+    startLine: 7164
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -65,7 +65,7 @@ items:
   source:
     id: length
     path: ''
-    startLine: 7152
+    startLine: 7166
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -96,7 +96,7 @@ items:
   source:
     id: speed
     path: ''
-    startLine: 7153
+    startLine: 7167
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -127,7 +127,7 @@ items:
   source:
     id: bindVisualTrack
     path: ''
-    startLine: 7155
+    startLine: 7169
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -154,7 +154,7 @@ items:
   source:
     id: consuming
     path: ''
-    startLine: 7160
+    startLine: 7174
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -183,7 +183,7 @@ items:
   source:
     id: Start
     path: ''
-    startLine: 7162
+    startLine: 7176
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -212,7 +212,7 @@ items:
   source:
     id: OnPoolCreate
     path: ''
-    startLine: 7180
+    startLine: 7194
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -246,7 +246,7 @@ items:
   source:
     id: OnPoolRelease
     path: ''
-    startLine: 7192
+    startLine: 7206
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -280,7 +280,7 @@ items:
   source:
     id: GenerateLongNote
     path: ''
-    startLine: 7203
+    startLine: 7217
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks

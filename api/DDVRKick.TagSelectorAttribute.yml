@@ -16,7 +16,7 @@ items:
   source:
     id: TagSelectorAttribute
     path: ''
-    startLine: 6476
+    startLine: 6490
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -47,7 +47,7 @@ items:
   source:
     id: UseDefaultTagFieldDrawer
     path: ''
-    startLine: 6478
+    startLine: 6492
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick

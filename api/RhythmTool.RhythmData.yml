@@ -27,7 +27,7 @@ items:
   source:
     id: RhythmData
     path: ''
-    startLine: 4550
+    startLine: 4566
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -60,7 +60,7 @@ items:
   source:
     id: tracks
     path: ''
-    startLine: 4556
+    startLine: 4572
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -93,7 +93,7 @@ items:
   source:
     id: audioClip
     path: ''
-    startLine: 4567
+    startLine: 4583
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -122,7 +122,7 @@ items:
   source:
     id: GetTrack
     path: ''
-    startLine: 4577
+    startLine: 4593
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -161,7 +161,7 @@ items:
   source:
     id: GetTrack
     path: ''
-    startLine: 4594
+    startLine: 4610
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -204,7 +204,7 @@ items:
   source:
     id: GetTracks
     path: ''
-    startLine: 4610
+    startLine: 4626
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -244,7 +244,7 @@ items:
   source:
     id: GetTracks
     path: ''
-    startLine: 4625
+    startLine: 4641
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -287,7 +287,7 @@ items:
   source:
     id: GetFeatures
     path: ''
-    startLine: 4641
+    startLine: 4657
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -333,7 +333,7 @@ items:
   source:
     id: GetFeatures
     path: ''
-    startLine: 4658
+    startLine: 4674
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -382,7 +382,7 @@ items:
   source:
     id: GetIntersectingFeatures
     path: ''
-    startLine: 4674
+    startLine: 4690
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -428,7 +428,7 @@ items:
   source:
     id: GetIntersectingFeatures
     path: ''
-    startLine: 4691
+    startLine: 4707
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -477,7 +477,7 @@ items:
   source:
     id: GetEnumerator
     path: ''
-    startLine: 4700
+    startLine: 4716
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -505,7 +505,7 @@ items:
   source:
     id: Create
     path: ''
-    startLine: 4733
+    startLine: 4749
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

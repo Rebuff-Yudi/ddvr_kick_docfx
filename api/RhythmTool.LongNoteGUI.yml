@@ -18,10 +18,12 @@ items:
   source:
     id: LongNoteGUI
     path: ''
-    startLine: 2677
+    startLine: 2691
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
+  summary: "\nEditor GUI for <xref href=\"RhythmTool.LongNoteBeatmapTrack\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
   syntax:
     content: 'public class LongNoteGUI : FeatureGUI<LongNote>'
     content.vb: >-
@@ -61,7 +63,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2684
+    startLine: 2698
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -95,19 +97,24 @@ items:
   source:
     id: GetRect
     path: ''
-    startLine: 2689
+    startLine: 2704
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
+  summary: "\nGet draw <see cref=\"!:Rect\"></see> on the editor GUI.\n"
+  example: []
   syntax:
     content: protected override Rect GetRect(Rect trackRect, EditorState state)
     parameters:
     - id: trackRect
       type: Global.Rect
+      description: ''
     - id: state
       type: RhythmTool.EditorState
+      description: ''
     return:
       type: Global.Rect
+      description: ''
     content.vb: Protected Overrides Function GetRect(trackRect As Rect, state As EditorState) As Rect
   overridden: RhythmTool.FeatureGUI{RhythmTool.LongNote}.GetRect(Rect,RhythmTool.EditorState)
   overload: RhythmTool.LongNoteGUI.GetRect*
@@ -131,17 +138,21 @@ items:
   source:
     id: Move
     path: ''
-    startLine: 2699
+    startLine: 2715
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
+  summary: "\nMove the selected <xref href=\"RhythmTool.Feature\" data-throw-if-not-resolved=\"false\"></xref> to a new position on current track.\n"
+  example: []
   syntax:
     content: public override void Move(Vector2 delta, EditorState state)
     parameters:
     - id: delta
       type: Global.Vector2
+      description: ''
     - id: state
       type: RhythmTool.EditorState
+      description: ''
     content.vb: Public Overrides Sub Move(delta As Vector2, state As EditorState)
   overridden: RhythmTool.FeatureGUI{RhythmTool.LongNote}.Move(Vector2,RhythmTool.EditorState)
   overload: RhythmTool.LongNoteGUI.Move*
@@ -152,6 +163,11 @@ items:
   - Public
   - Overrides
 references:
+- uid: RhythmTool.LongNoteBeatmapTrack
+  commentId: T:RhythmTool.LongNoteBeatmapTrack
+  name: LongNoteBeatmapTrack
+  nameWithType: LongNoteBeatmapTrack
+  fullName: RhythmTool.LongNoteBeatmapTrack
 - uid: RhythmTool
   commentId: N:RhythmTool
   name: RhythmTool

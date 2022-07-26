@@ -14,7 +14,9 @@ items:
   - DDVRKick.Tracks.TracksManager.lowerTracks
   - DDVRKick.Tracks.TracksManager.obstaclesTracks
   - DDVRKick.Tracks.TracksManager.offsetTime
+  - DDVRKick.Tracks.TracksManager.OnDestroy
   - DDVRKick.Tracks.TracksManager.RhythmPlayer
+  - DDVRKick.Tracks.TracksManager.Start
   - DDVRKick.Tracks.TracksManager.upperTracks
   langs:
   - csharp
@@ -26,7 +28,7 @@ items:
   source:
     id: TracksManager
     path: ''
-    startLine: 7297
+    startLine: 7310
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -57,7 +59,7 @@ items:
   source:
     id: instance
     path: ''
-    startLine: 7299
+    startLine: 7312
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -90,7 +92,7 @@ items:
   source:
     id: eventProvider
     path: ''
-    startLine: 7300
+    startLine: 7313
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -117,7 +119,7 @@ items:
   source:
     id: RhythmPlayer
     path: ''
-    startLine: 7301
+    startLine: 7314
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -144,7 +146,7 @@ items:
   source:
     id: disposeTime
     path: ''
-    startLine: 7302
+    startLine: 7315
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -171,7 +173,7 @@ items:
   source:
     id: exitTime
     path: ''
-    startLine: 7303
+    startLine: 7316
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -198,7 +200,7 @@ items:
   source:
     id: offsetTime
     path: ''
-    startLine: 7308
+    startLine: 7321
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -231,7 +233,7 @@ items:
   source:
     id: lowerTracks
     path: ''
-    startLine: 7314
+    startLine: 7327
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -260,7 +262,7 @@ items:
   source:
     id: upperTracks
     path: ''
-    startLine: 7319
+    startLine: 7332
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -289,7 +291,7 @@ items:
   source:
     id: obstaclesTracks
     path: ''
-    startLine: 7324
+    startLine: 7337
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -318,7 +320,7 @@ items:
   source:
     id: longNoteTracks
     path: ''
-    startLine: 7329
+    startLine: 7342
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -347,7 +349,7 @@ items:
   source:
     id: Awake
     path: ''
-    startLine: 7331
+    startLine: 7344
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -355,6 +357,62 @@ items:
     content: public void Awake()
     content.vb: Public Sub Awake
   overload: DDVRKick.Tracks.TracksManager.Awake*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DDVRKick.Tracks.TracksManager.Start
+  commentId: M:DDVRKick.Tracks.TracksManager.Start
+  id: Start
+  parent: DDVRKick.Tracks.TracksManager
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: TracksManager.Start()
+  fullName: DDVRKick.Tracks.TracksManager.Start()
+  type: Method
+  source:
+    id: Start
+    path: ''
+    startLine: 7355
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  summary: "\nRegister note event for each tracks.\n"
+  example: []
+  syntax:
+    content: public void Start()
+    content.vb: Public Sub Start
+  overload: DDVRKick.Tracks.TracksManager.Start*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DDVRKick.Tracks.TracksManager.OnDestroy
+  commentId: M:DDVRKick.Tracks.TracksManager.OnDestroy
+  id: OnDestroy
+  parent: DDVRKick.Tracks.TracksManager
+  langs:
+  - csharp
+  - vb
+  name: OnDestroy()
+  nameWithType: TracksManager.OnDestroy()
+  fullName: DDVRKick.Tracks.TracksManager.OnDestroy()
+  type: Method
+  source:
+    id: OnDestroy
+    path: ''
+    startLine: 7366
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  summary: "\nUnregister note event for each tracks.\n"
+  example: []
+  syntax:
+    content: public void OnDestroy()
+    content.vb: Public Sub OnDestroy
+  overload: DDVRKick.Tracks.TracksManager.OnDestroy*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -470,3 +528,13 @@ references:
   name: Awake
   nameWithType: TracksManager.Awake
   fullName: DDVRKick.Tracks.TracksManager.Awake
+- uid: DDVRKick.Tracks.TracksManager.Start*
+  commentId: Overload:DDVRKick.Tracks.TracksManager.Start
+  name: Start
+  nameWithType: TracksManager.Start
+  fullName: DDVRKick.Tracks.TracksManager.Start
+- uid: DDVRKick.Tracks.TracksManager.OnDestroy*
+  commentId: Overload:DDVRKick.Tracks.TracksManager.OnDestroy
+  name: OnDestroy
+  nameWithType: TracksManager.OnDestroy
+  fullName: DDVRKick.Tracks.TracksManager.OnDestroy

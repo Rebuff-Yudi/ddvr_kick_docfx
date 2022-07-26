@@ -6,6 +6,7 @@ items:
   parent: RhythmTool
   children:
   - RhythmTool.EditorAnalyzer.#ctor(AudioClip)
+  - RhythmTool.EditorAnalyzer.CreateBeatmap
   langs:
   - csharp
   - vb
@@ -60,6 +61,34 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: RhythmTool.EditorAnalyzer.CreateBeatmap
+  commentId: M:RhythmTool.EditorAnalyzer.CreateBeatmap
+  id: CreateBeatmap
+  parent: RhythmTool.EditorAnalyzer
+  langs:
+  - csharp
+  - vb
+  name: CreateBeatmap()
+  nameWithType: EditorAnalyzer.CreateBeatmap()
+  fullName: RhythmTool.EditorAnalyzer.CreateBeatmap()
+  type: Method
+  source:
+    id: CreateBeatmap
+    path: ''
+    startLine: 205
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static void CreateBeatmap()
+    content.vb: Public Shared Sub CreateBeatmap
+  overload: RhythmTool.EditorAnalyzer.CreateBeatmap*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
 - uid: RhythmTool
   commentId: N:RhythmTool
@@ -89,3 +118,8 @@ references:
   name: AudioClip
   nameWithType: AudioClip
   fullName: AudioClip
+- uid: RhythmTool.EditorAnalyzer.CreateBeatmap*
+  commentId: Overload:RhythmTool.EditorAnalyzer.CreateBeatmap
+  name: CreateBeatmap
+  nameWithType: EditorAnalyzer.CreateBeatmap
+  fullName: RhythmTool.EditorAnalyzer.CreateBeatmap

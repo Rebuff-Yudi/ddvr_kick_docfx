@@ -16,7 +16,7 @@ items:
   source:
     id: OnsetDrawer
     path: ''
-    startLine: 3935
+    startLine: 3951
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -56,7 +56,7 @@ items:
   source:
     id: DrawFeature
     path: ''
-    startLine: 3937
+    startLine: 3953
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

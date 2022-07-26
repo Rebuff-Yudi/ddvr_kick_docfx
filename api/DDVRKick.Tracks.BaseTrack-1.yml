@@ -27,7 +27,7 @@ items:
   source:
     id: BaseTrack
     path: ''
-    startLine: 7055
+    startLine: 7069
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -67,7 +67,7 @@ items:
   source:
     id: pool
     path: ''
-    startLine: 7057
+    startLine: 7071
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -100,7 +100,7 @@ items:
   source:
     id: enterPath
     path: ''
-    startLine: 7060
+    startLine: 7074
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -129,7 +129,7 @@ items:
   source:
     id: exitPath
     path: ''
-    startLine: 7061
+    startLine: 7075
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -158,7 +158,7 @@ items:
   source:
     id: prefab
     path: ''
-    startLine: 7063
+    startLine: 7077
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -187,7 +187,7 @@ items:
   source:
     id: collectionCheck
     path: ''
-    startLine: 7064
+    startLine: 7078
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -216,7 +216,7 @@ items:
   source:
     id: defaultCapacity
     path: ''
-    startLine: 7065
+    startLine: 7079
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -245,7 +245,7 @@ items:
   source:
     id: maxSize
     path: ''
-    startLine: 7065
+    startLine: 7079
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -274,7 +274,7 @@ items:
   source:
     id: Start
     path: ''
-    startLine: 7067
+    startLine: 7081
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -304,7 +304,7 @@ items:
   source:
     id: OnPoolCreate
     path: ''
-    startLine: 7084
+    startLine: 7098
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -339,7 +339,7 @@ items:
   source:
     id: OnPoolGet
     path: ''
-    startLine: 7093
+    startLine: 7107
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -375,7 +375,7 @@ items:
   source:
     id: OnPoolRelease
     path: ''
-    startLine: 7102
+    startLine: 7116
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -411,7 +411,7 @@ items:
   source:
     id: OnPoolDestroy
     path: ''
-    startLine: 7111
+    startLine: 7125
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks

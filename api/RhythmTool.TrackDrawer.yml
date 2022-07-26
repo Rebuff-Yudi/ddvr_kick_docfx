@@ -20,7 +20,7 @@ items:
   source:
     id: TrackDrawer
     path: ''
-    startLine: 3847
+    startLine: 3863
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -55,7 +55,7 @@ items:
   source:
     id: Draw
     path: ''
-    startLine: 3851
+    startLine: 3867
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -92,7 +92,7 @@ items:
   source:
     id: DrawTrack
     path: ''
-    startLine: 3866
+    startLine: 3882
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -129,7 +129,7 @@ items:
   source:
     id: GetTrackDrawer
     path: ''
-    startLine: 3868
+    startLine: 3884
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -162,7 +162,7 @@ items:
   source:
     id: GetFeaturePosition
     path: ''
-    startLine: 3884
+    startLine: 3900
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -201,7 +201,7 @@ items:
   source:
     id: DrawRect
     path: ''
-    startLine: 3889
+    startLine: 3905
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

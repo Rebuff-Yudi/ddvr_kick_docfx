@@ -17,7 +17,7 @@ items:
   source:
     id: LowerNoteData
     path: ''
-    startLine: 6097
+    startLine: 6113
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -64,7 +64,7 @@ items:
   source:
     id: isPhysicalNote
     path: ''
-    startLine: 6100
+    startLine: 6116
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -97,7 +97,7 @@ items:
   source:
     id: pathType
     path: ''
-    startLine: 6106
+    startLine: 6122
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

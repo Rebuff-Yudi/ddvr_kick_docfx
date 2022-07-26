@@ -1,4 +1,13 @@
-- name: About this project
+- name: Custom made tracks
   href: index.md
 - name: Beatmap editor
   href: beatmap-editor.md
+  items:
+    - name: NoteTrack
+      href: note-track.md
+    - name: LongTrack
+      href: long-track.md
+    - name: ObstacleTrack
+      href: obstacle-track.md
+- name: Note Generator
+  href: note-generator.md

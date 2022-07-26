@@ -16,7 +16,7 @@ items:
   source:
     id: Bindings
     path: ''
-    startLine: 3459
+    startLine: 3475
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -54,7 +54,7 @@ items:
   source:
     id: GetBinding
     path: ''
-    startLine: 3470
+    startLine: 3486
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

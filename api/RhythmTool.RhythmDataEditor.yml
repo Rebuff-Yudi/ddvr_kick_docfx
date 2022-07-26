@@ -16,7 +16,7 @@ items:
   source:
     id: RhythmDataEditor
     path: ''
-    startLine: 586
+    startLine: 597
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -47,7 +47,7 @@ items:
   source:
     id: OnInspectorGUI
     path: ''
-    startLine: 600
+    startLine: 611
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

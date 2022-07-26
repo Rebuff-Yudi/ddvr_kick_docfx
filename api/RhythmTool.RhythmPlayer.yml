@@ -30,7 +30,7 @@ items:
   source:
     id: RhythmPlayer
     path: ''
-    startLine: 4934
+    startLine: 4950
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -63,7 +63,7 @@ items:
   source:
     id: SongEnded
     path: ''
-    startLine: 4940
+    startLine: 4956
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -92,7 +92,7 @@ items:
   source:
     id: Reset
     path: ''
-    startLine: 4945
+    startLine: 4961
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -121,7 +121,7 @@ items:
   source:
     id: audioSource
     path: ''
-    startLine: 4950
+    startLine: 4966
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -154,7 +154,7 @@ items:
   source:
     id: audioClip
     path: ''
-    startLine: 4955
+    startLine: 4971
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -187,7 +187,7 @@ items:
   source:
     id: time
     path: ''
-    startLine: 4969
+    startLine: 4985
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -220,7 +220,7 @@ items:
   source:
     id: volume
     path: ''
-    startLine: 4982
+    startLine: 4998
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -253,7 +253,7 @@ items:
   source:
     id: pitch
     path: ''
-    startLine: 4991
+    startLine: 5007
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -286,7 +286,7 @@ items:
   source:
     id: isPlaying
     path: ''
-    startLine: 5000
+    startLine: 5016
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -319,7 +319,7 @@ items:
   source:
     id: prevTime
     path: ''
-    startLine: 5008
+    startLine: 5024
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -352,7 +352,7 @@ items:
   source:
     id: rhythmData
     path: ''
-    startLine: 5013
+    startLine: 5029
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -381,7 +381,7 @@ items:
   source:
     id: targets
     path: ''
-    startLine: 5018
+    startLine: 5034
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -410,7 +410,7 @@ items:
   source:
     id: Play
     path: ''
-    startLine: 5025
+    startLine: 5041
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -441,7 +441,7 @@ items:
   source:
     id: Stop
     path: ''
-    startLine: 5042
+    startLine: 5058
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -469,7 +469,7 @@ items:
   source:
     id: Pause
     path: ''
-    startLine: 5050
+    startLine: 5066
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -497,7 +497,7 @@ items:
   source:
     id: UnPause
     path: ''
-    startLine: 5058
+    startLine: 5074
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

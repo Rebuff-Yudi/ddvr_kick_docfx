@@ -18,7 +18,7 @@ items:
   source:
     id: ShoeRaycaster
     path: ''
-    startLine: 6443
+    startLine: 6457
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -49,7 +49,7 @@ items:
   source:
     id: noteCollider
     path: ''
-    startLine: 6445
+    startLine: 6459
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -76,7 +76,7 @@ items:
   source:
     id: role
     path: ''
-    startLine: 6446
+    startLine: 6460
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -107,7 +107,7 @@ items:
   source:
     id: layerMask
     path: ''
-    startLine: 6448
+    startLine: 6462
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick

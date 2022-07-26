@@ -15,7 +15,7 @@ items:
   source:
     id: UpperNoteTrack
     path: ''
-    startLine: 6165
+    startLine: 6179
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

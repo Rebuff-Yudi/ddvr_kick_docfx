@@ -17,7 +17,7 @@ items:
   source:
     id: ValueGUI
     path: ''
-    startLine: 451
+    startLine: 462
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -61,7 +61,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 453
+    startLine: 464
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -95,7 +95,7 @@ items:
   source:
     id: GetRect
     path: ''
-    startLine: 457
+    startLine: 468
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

@@ -16,7 +16,7 @@ items:
   source:
     id: Beat
     path: ''
-    startLine: 3186
+    startLine: 3202
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -53,7 +53,7 @@ items:
   source:
     id: bpm
     path: ''
-    startLine: 3192
+    startLine: 3208
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

@@ -23,7 +23,7 @@ items:
   source:
     id: SongPlayerControl
     path: ''
-    startLine: 6551
+    startLine: 6565
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Control
@@ -54,7 +54,7 @@ items:
   source:
     id: instance
     path: ''
-    startLine: 6554
+    startLine: 6568
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Control
@@ -87,7 +87,7 @@ items:
   source:
     id: player
     path: ''
-    startLine: 6556
+    startLine: 6570
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Control
@@ -118,7 +118,7 @@ items:
   source:
     id: playOnAwake
     path: ''
-    startLine: 6567
+    startLine: 6581
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Control
@@ -145,7 +145,7 @@ items:
   source:
     id: Start
     path: ''
-    startLine: 6575
+    startLine: 6589
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Control
@@ -171,7 +171,7 @@ items:
   source:
     id: Restart
     path: ''
-    startLine: 6580
+    startLine: 6594
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Control
@@ -197,7 +197,7 @@ items:
   source:
     id: Pause
     path: ''
-    startLine: 6587
+    startLine: 6601
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Control
@@ -223,7 +223,7 @@ items:
   source:
     id: Resume
     path: ''
-    startLine: 6593
+    startLine: 6607
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Control
@@ -249,7 +249,7 @@ items:
   source:
     id: RestartFrom
     path: ''
-    startLine: 6599
+    startLine: 6613
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Control

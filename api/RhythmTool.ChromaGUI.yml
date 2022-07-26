@@ -18,7 +18,7 @@ items:
   source:
     id: ChromaGUI
     path: ''
-    startLine: 472
+    startLine: 483
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -61,7 +61,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 478
+    startLine: 489
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -95,7 +95,7 @@ items:
   source:
     id: GetRect
     path: ''
-    startLine: 483
+    startLine: 494
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -131,7 +131,7 @@ items:
   source:
     id: Move
     path: ''
-    startLine: 496
+    startLine: 507
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

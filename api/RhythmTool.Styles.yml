@@ -36,7 +36,7 @@ items:
   source:
     id: Styles
     path: ''
-    startLine: 1495
+    startLine: 1506
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -67,7 +67,7 @@ items:
   source:
     id: playButton
     path: ''
-    startLine: 1497
+    startLine: 1508
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -98,7 +98,7 @@ items:
   source:
     id: startButton
     path: ''
-    startLine: 1498
+    startLine: 1509
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -129,7 +129,7 @@ items:
   source:
     id: endButton
     path: ''
-    startLine: 1499
+    startLine: 1510
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -160,7 +160,7 @@ items:
   source:
     id: autoScrollButton
     path: ''
-    startLine: 1501
+    startLine: 1512
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -191,7 +191,7 @@ items:
   source:
     id: waveformButton
     path: ''
-    startLine: 1502
+    startLine: 1513
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -222,7 +222,7 @@ items:
   source:
     id: bpmButton
     path: ''
-    startLine: 1503
+    startLine: 1514
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -253,7 +253,7 @@ items:
   source:
     id: rulerText
     path: ''
-    startLine: 1505
+    startLine: 1516
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -284,7 +284,7 @@ items:
   source:
     id: shadow
     path: ''
-    startLine: 1507
+    startLine: 1518
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -315,7 +315,7 @@ items:
   source:
     id: trackText
     path: ''
-    startLine: 1509
+    startLine: 1520
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -346,7 +346,7 @@ items:
   source:
     id: headerColor
     path: ''
-    startLine: 1511
+    startLine: 1522
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -377,7 +377,7 @@ items:
   source:
     id: backgroundColor
     path: ''
-    startLine: 1512
+    startLine: 1523
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -408,7 +408,7 @@ items:
   source:
     id: waveFormColor
     path: ''
-    startLine: 1513
+    startLine: 1524
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -439,7 +439,7 @@ items:
   source:
     id: outOfBoundsColor
     path: ''
-    startLine: 1515
+    startLine: 1526
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -470,7 +470,7 @@ items:
   source:
     id: trackColor
     path: ''
-    startLine: 1517
+    startLine: 1528
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -501,7 +501,7 @@ items:
   source:
     id: selectedTrackColor
     path: ''
-    startLine: 1518
+    startLine: 1529
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -532,7 +532,7 @@ items:
   source:
     id: feature
     path: ''
-    startLine: 1520
+    startLine: 1531
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -563,7 +563,7 @@ items:
   source:
     id: toolbarHeight
     path: ''
-    startLine: 1522
+    startLine: 1533
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -594,7 +594,7 @@ items:
   source:
     id: headerHeight
     path: ''
-    startLine: 1523
+    startLine: 1534
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -625,7 +625,7 @@ items:
   source:
     id: trackMargin
     path: ''
-    startLine: 1525
+    startLine: 1536
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -656,7 +656,7 @@ items:
   source:
     id: trackHeight
     path: ''
-    startLine: 1526
+    startLine: 1537
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -687,7 +687,7 @@ items:
   source:
     id: featureWidth
     path: ''
-    startLine: 1528
+    startLine: 1539
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

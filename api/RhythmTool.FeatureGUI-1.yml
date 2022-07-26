@@ -274,17 +274,21 @@ items:
   source:
     id: Move
     path: ''
-    startLine: 344
+    startLine: 349
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
+  summary: "\nMove the selected <xref href=\"RhythmTool.Feature\" data-throw-if-not-resolved=\"false\"></xref> to a new position on current track.\n"
+  example: []
   syntax:
     content: public override void Move(Vector2 delta, EditorState state)
     parameters:
     - id: delta
       type: Global.Vector2
+      description: ''
     - id: state
       type: RhythmTool.EditorState
+      description: ''
     content.vb: Public Overrides Sub Move(delta As Vector2, state As EditorState)
   overridden: RhythmTool.FeatureGUI.Move(Vector2,RhythmTool.EditorState)
   overload: RhythmTool.FeatureGUI`1.Move*
@@ -310,7 +314,7 @@ items:
   source:
     id: Move
     path: ''
-    startLine: 349
+    startLine: 354
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -344,7 +348,7 @@ items:
   source:
     id: MoveTo
     path: ''
-    startLine: 354
+    startLine: 359
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -380,7 +384,7 @@ items:
   source:
     id: Manipulate
     path: ''
-    startLine: 361
+    startLine: 366
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -416,19 +420,24 @@ items:
   source:
     id: GetRect
     path: ''
-    startLine: 411
+    startLine: 422
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
+  summary: "\nGet draw <see cref=\"!:Rect\"></see> on the editor GUI.\n"
+  example: []
   syntax:
     content: protected virtual Rect GetRect(Rect trackRect, EditorState state)
     parameters:
     - id: trackRect
       type: Global.Rect
+      description: ''
     - id: state
       type: RhythmTool.EditorState
+      description: ''
     return:
       type: Global.Rect
+      description: ''
     content.vb: Protected Overridable Function GetRect(trackRect As Rect, state As EditorState) As Rect
   overload: RhythmTool.FeatureGUI`1.GetRect*
   nameWithType.vb: FeatureGUI(Of T).GetRect(Rect, EditorState)
@@ -453,7 +462,7 @@ items:
   source:
     id: Draw
     path: ''
-    startLine: 419
+    startLine: 430
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -692,6 +701,12 @@ references:
   name: EditorState
   nameWithType: EditorState
   fullName: RhythmTool.EditorState
+- uid: RhythmTool.Feature
+  commentId: T:RhythmTool.Feature
+  parent: RhythmTool
+  name: Feature
+  nameWithType: Feature
+  fullName: RhythmTool.Feature
 - uid: RhythmTool.FeatureGUI.Move(Vector2,RhythmTool.EditorState)
   commentId: M:RhythmTool.FeatureGUI.Move(Vector2,RhythmTool.EditorState)
   parent: RhythmTool.FeatureGUI

@@ -31,7 +31,7 @@ items:
   source:
     id: ETrackerRole
     path: ''
-    startLine: 6368
+    startLine: 6382
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -58,7 +58,7 @@ items:
   source:
     id: None
     path: ''
-    startLine: 6370
+    startLine: 6384
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -86,7 +86,7 @@ items:
   source:
     id: AnyHand
     path: ''
-    startLine: 6371
+    startLine: 6385
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -114,7 +114,7 @@ items:
   source:
     id: LeftHand
     path: ''
-    startLine: 6372
+    startLine: 6386
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -142,7 +142,7 @@ items:
   source:
     id: RightHand
     path: ''
-    startLine: 6373
+    startLine: 6387
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -170,7 +170,7 @@ items:
   source:
     id: LeftFoot
     path: ''
-    startLine: 6374
+    startLine: 6388
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -198,7 +198,7 @@ items:
   source:
     id: RightFoot
     path: ''
-    startLine: 6375
+    startLine: 6389
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -226,7 +226,7 @@ items:
   source:
     id: LeftShoulder
     path: ''
-    startLine: 6376
+    startLine: 6390
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -254,7 +254,7 @@ items:
   source:
     id: RightShoulder
     path: ''
-    startLine: 6377
+    startLine: 6391
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -282,7 +282,7 @@ items:
   source:
     id: LeftElbow
     path: ''
-    startLine: 6378
+    startLine: 6392
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -310,7 +310,7 @@ items:
   source:
     id: RightElbow
     path: ''
-    startLine: 6379
+    startLine: 6393
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -338,7 +338,7 @@ items:
   source:
     id: LeftKnee
     path: ''
-    startLine: 6380
+    startLine: 6394
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -366,7 +366,7 @@ items:
   source:
     id: RightKnee
     path: ''
-    startLine: 6381
+    startLine: 6395
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -394,7 +394,7 @@ items:
   source:
     id: Waist
     path: ''
-    startLine: 6382
+    startLine: 6396
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -422,7 +422,7 @@ items:
   source:
     id: Chest
     path: ''
-    startLine: 6383
+    startLine: 6397
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -450,7 +450,7 @@ items:
   source:
     id: Camera
     path: ''
-    startLine: 6384
+    startLine: 6398
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick
@@ -478,7 +478,7 @@ items:
   source:
     id: Keyboard
     path: ''
-    startLine: 6385
+    startLine: 6399
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick

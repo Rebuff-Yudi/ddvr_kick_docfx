@@ -24,7 +24,7 @@ items:
   source:
     id: PropertyValue
     path: ''
-    startLine: 1935
+    startLine: 1946
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -51,7 +51,7 @@ items:
   source:
     id: floatValue
     path: ''
-    startLine: 1937
+    startLine: 1948
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -78,7 +78,7 @@ items:
   source:
     id: intValue
     path: ''
-    startLine: 1938
+    startLine: 1949
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -105,7 +105,7 @@ items:
   source:
     id: enumValueIndex
     path: ''
-    startLine: 1939
+    startLine: 1950
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -132,7 +132,7 @@ items:
   source:
     id: vector3Value
     path: ''
-    startLine: 1940
+    startLine: 1951
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -159,7 +159,7 @@ items:
   source:
     id: stringValue
     path: ''
-    startLine: 1941
+    startLine: 1952
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -186,7 +186,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1943
+    startLine: 1954
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -215,7 +215,7 @@ items:
   source:
     id: ApplyValue
     path: ''
-    startLine: 1963
+    startLine: 1974
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -244,7 +244,7 @@ items:
   source:
     id: op_Addition
     path: ''
-    startLine: 1992
+    startLine: 2003
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -279,7 +279,7 @@ items:
   source:
     id: op_Subtraction
     path: ''
-    startLine: 2004
+    startLine: 2015
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

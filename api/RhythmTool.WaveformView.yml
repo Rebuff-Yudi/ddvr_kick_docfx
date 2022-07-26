@@ -21,7 +21,7 @@ items:
   source:
     id: WaveformView
     path: ''
-    startLine: 2491
+    startLine: 2502
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -52,7 +52,7 @@ items:
   source:
     id: backgroundColor
     path: ''
-    startLine: 2493
+    startLine: 2504
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -79,7 +79,7 @@ items:
   source:
     id: waveFormColor
     path: ''
-    startLine: 2494
+    startLine: 2505
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -106,7 +106,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2518
+    startLine: 2529
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -132,7 +132,7 @@ items:
   source:
     id: SetAudioClip
     path: ''
-    startLine: 2524
+    startLine: 2535
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -161,7 +161,7 @@ items:
   source:
     id: Draw
     path: ''
-    startLine: 2537
+    startLine: 2548
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -194,7 +194,7 @@ items:
   source:
     id: Dispose
     path: ''
-    startLine: 2660
+    startLine: 2671
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

@@ -17,7 +17,7 @@ items:
   source:
     id: AudioClipSelector
     path: ''
-    startLine: 2844
+    startLine: 2860
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool.Examples
@@ -54,7 +54,7 @@ items:
   source:
     id: songs
     path: ''
-    startLine: 2846
+    startLine: 2862
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool.Examples
@@ -81,7 +81,7 @@ items:
   source:
     id: NextSong
     path: ''
-    startLine: 2856
+    startLine: 2872
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool.Examples

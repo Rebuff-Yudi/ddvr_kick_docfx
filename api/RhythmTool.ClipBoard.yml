@@ -16,7 +16,7 @@ items:
   source:
     id: ClipBoard
     path: ''
-    startLine: 662
+    startLine: 673
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -45,7 +45,7 @@ items:
   source:
     id: value
     path: ''
-    startLine: 664
+    startLine: 675
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

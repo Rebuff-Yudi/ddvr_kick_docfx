@@ -30,7 +30,7 @@ items:
   source:
     id: Util
     path: ''
-    startLine: 5619
+    startLine: 5635
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -61,7 +61,7 @@ items:
   source:
     id: GetMono
     path: ''
-    startLine: 5629
+    startLine: 5645
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -104,7 +104,7 @@ items:
   source:
     id: GetSpectrum
     path: ''
-    startLine: 5657
+    startLine: 5673
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -141,7 +141,7 @@ items:
   source:
     id: GetSpectrumMagnitude
     path: ''
-    startLine: 5667
+    startLine: 5683
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -181,7 +181,7 @@ items:
   source:
     id: GetSpectrumPhase
     path: ''
-    startLine: 5690
+    startLine: 5706
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -221,7 +221,7 @@ items:
   source:
     id: Mean
     path: ''
-    startLine: 5724
+    startLine: 5740
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -267,7 +267,7 @@ items:
   source:
     id: WeightedSum
     path: ''
-    startLine: 5744
+    startLine: 5760
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -313,7 +313,7 @@ items:
   source:
     id: MaxIndex
     path: ''
-    startLine: 5767
+    startLine: 5783
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -359,7 +359,7 @@ items:
   source:
     id: MinIndex
     path: ''
-    startLine: 5790
+    startLine: 5806
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -405,7 +405,7 @@ items:
   source:
     id: Max
     path: ''
-    startLine: 5813
+    startLine: 5829
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -451,7 +451,7 @@ items:
   source:
     id: Min
     path: ''
-    startLine: 5825
+    startLine: 5841
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -497,7 +497,7 @@ items:
   source:
     id: Smooth
     path: ''
-    startLine: 5836
+    startLine: 5852
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -540,7 +540,7 @@ items:
   source:
     id: Interpolate
     path: ''
-    startLine: 5848
+    startLine: 5864
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -583,7 +583,7 @@ items:
   source:
     id: HannWindow
     path: ''
-    startLine: 5862
+    startLine: 5878
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -620,7 +620,7 @@ items:
   source:
     id: HannWindow
     path: ''
-    startLine: 5873
+    startLine: 5889
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -657,7 +657,7 @@ items:
   source:
     id: HannWindow
     path: ''
-    startLine: 5888
+    startLine: 5904
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

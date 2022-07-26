@@ -17,7 +17,7 @@ items:
   source:
     id: LomontFFT
     path: ''
-    startLine: 4007
+    startLine: 4023
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -46,7 +46,7 @@ items:
   source:
     id: FFT
     path: ''
-    startLine: 4012
+    startLine: 4028
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -80,7 +80,7 @@ items:
   source:
     id: RealFFT
     path: ''
-    startLine: 4052
+    startLine: 4068
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

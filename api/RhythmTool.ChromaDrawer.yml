@@ -16,7 +16,7 @@ items:
   source:
     id: ChromaDrawer
     path: ''
-    startLine: 3947
+    startLine: 3963
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -56,7 +56,7 @@ items:
   source:
     id: DrawFeature
     path: ''
-    startLine: 3949
+    startLine: 3965
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

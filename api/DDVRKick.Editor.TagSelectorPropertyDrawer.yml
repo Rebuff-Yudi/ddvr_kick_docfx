@@ -16,7 +16,7 @@ items:
   source:
     id: TagSelectorPropertyDrawer
     path: ''
-    startLine: 6614
+    startLine: 6628
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Editor
@@ -47,7 +47,7 @@ items:
   source:
     id: OnGUI
     path: ''
-    startLine: 6617
+    startLine: 6631
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Editor

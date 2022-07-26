@@ -17,7 +17,7 @@ items:
   source:
     id: Line
     path: ''
-    startLine: 2881
+    startLine: 2897
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool.Examples
@@ -48,7 +48,7 @@ items:
   source:
     id: timestamp
     path: ''
-    startLine: 2883
+    startLine: 2899
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool.Examples
@@ -79,7 +79,7 @@ items:
   source:
     id: Init
     path: ''
-    startLine: 2885
+    startLine: 2901
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool.Examples

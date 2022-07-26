@@ -20,7 +20,7 @@ items:
   source:
     id: Visualizer
     path: ''
-    startLine: 2901
+    startLine: 2917
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool.Examples
@@ -51,7 +51,7 @@ items:
   source:
     id: analyzer
     path: ''
-    startLine: 2903
+    startLine: 2919
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool.Examples
@@ -78,7 +78,7 @@ items:
   source:
     id: player
     path: ''
-    startLine: 2904
+    startLine: 2920
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool.Examples
@@ -105,7 +105,7 @@ items:
   source:
     id: eventProvider
     path: ''
-    startLine: 2905
+    startLine: 2921
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool.Examples
@@ -132,7 +132,7 @@ items:
   source:
     id: textBPM
     path: ''
-    startLine: 2907
+    startLine: 2923
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool.Examples
@@ -159,7 +159,7 @@ items:
   source:
     id: linePrefab
     path: ''
-    startLine: 2909
+    startLine: 2925
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool.Examples

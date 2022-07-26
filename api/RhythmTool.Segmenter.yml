@@ -20,7 +20,7 @@ items:
   source:
     id: Segmenter
     path: ''
-    startLine: 5152
+    startLine: 5168
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -65,7 +65,7 @@ items:
   source:
     id: name
     path: ''
-    startLine: 5155
+    startLine: 5171
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -99,7 +99,7 @@ items:
   source:
     id: threshold
     path: ''
-    startLine: 5164
+    startLine: 5180
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -126,7 +126,7 @@ items:
   source:
     id: smoothing
     path: ''
-    startLine: 5167
+    startLine: 5183
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -153,7 +153,7 @@ items:
   source:
     id: Initialize
     path: ''
-    startLine: 5193
+    startLine: 5209
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool
@@ -189,7 +189,7 @@ items:
   source:
     id: Process
     path: ''
-    startLine: 5215
+    startLine: 5231
   assemblies:
   - cs.temp.dll
   namespace: RhythmTool

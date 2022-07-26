@@ -19,7 +19,7 @@ items:
   source:
     id: BaseTrackObject
     path: ''
-    startLine: 7473
+    startLine: 7486
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -63,7 +63,7 @@ items:
   source:
     id: pathTween
     path: ''
-    startLine: 7476
+    startLine: 7489
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -96,7 +96,7 @@ items:
   source:
     id: OnEnable
     path: ''
-    startLine: 7478
+    startLine: 7491
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -124,7 +124,7 @@ items:
   source:
     id: Reset
     path: ''
-    startLine: 7483
+    startLine: 7496
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
@@ -152,7 +152,7 @@ items:
   source:
     id: AttachToPath
     path: ''
-    startLine: 7495
+    startLine: 7508
   assemblies:
   - cs.temp.dll
   namespace: DDVRKick.Tracks
