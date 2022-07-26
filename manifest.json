@@ -1,0 +1,1691 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/ddvr_kick_docfx/ddvr_kick_docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.Control.SongPlayerControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.Control.SongPlayerControl.html",
+          "hash": "PvhBI9O/nI2KWS/woV9zPFelYALJSGm2QeRzY0tyx+U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.Control.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.Control.html",
+          "hash": "E5oZSlJOi/pg9y78VOuQlzCPytdNbmrnFdzlmy80FSQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.Editor.TagSelectorPropertyDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.Editor.TagSelectorPropertyDrawer.html",
+          "hash": "XN7/draYIsSJexrHAICOiaXNiV9E2CE8bGmmN40HP1k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.Editor.html",
+          "hash": "u8de4wCM2+YxYyt972XdebLnASiZDf1M2JZl2LVzBs8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.LongNoteTrackDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.LongNoteTrackDictionary.html",
+          "hash": "l7xPw+6j7q4tA76G9iUPwEKjLrHsflEopLHoq1OkRwg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.LowerNotePathDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.LowerNotePathDictionary.html",
+          "hash": "mIB1P0ZCRagkO9aEJs1ZJyZv9UoyfUvmCWukHfyfsvU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.NoteCollider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.NoteCollider.html",
+          "hash": "mQkp5aS+0AQ5OaRPYf24IPrygclk6ZCAEicMBrgIrr0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.OVRTHelper.ETrackerRole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.OVRTHelper.ETrackerRole.html",
+          "hash": "v3gPik6jYCf9V1bHqitw3U3pD/naa6Ra2+gzDH2WWc4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.OVRTHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.OVRTHelper.html",
+          "hash": "2/qutg9Xe9PU7/1k1UgArDNG0hs7Rm8WqQYoEQREBhk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.ObstacleTrackDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.ObstacleTrackDictionary.html",
+          "hash": "NV2L8tip6QPmzJf/5XaoJtzZUuy9Q5damdNz6c06GE4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.PlayerHead.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.PlayerHead.html",
+          "hash": "guk0nJ+CPwq9j4RzaG8luyFosb7ie3W1I8ddBJAfd4o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.ShoeRaycaster.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.ShoeRaycaster.html",
+          "hash": "0FnfDxf1OjYtyFcDyYlXwBZROjYJJiCme2SSXtjiuOk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.TagSelectorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.TagSelectorAttribute.html",
+          "hash": "2mzBJ1osUcFzx0mPUTiks93bTByQIUDJqOipHgIdvaY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.TrackerCalibrator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.TrackerCalibrator.html",
+          "hash": "t6626uFsZd2DbRJPyk7Afx/wQ9jcOp8Eg5Dc0fV82no="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.Tracks.BaseTrack-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.Tracks.BaseTrack-1.html",
+          "hash": "yU0Q45XbfomsZyuivo0GWFCAj1VmCSU4rsajbW3nUKE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.Tracks.BaseTrackObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.Tracks.BaseTrackObject.html",
+          "hash": "ktvlkUJMBOCzVfpTm8RLW5pLz1/B5W9BdiVf+dIv+fM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.Tracks.LongNote.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.Tracks.LongNote.html",
+          "hash": "iAuNJoQLvL+daeA2COwLImYshKiE7YGLt/5yQpIDsCo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.Tracks.LongNoteHead.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.Tracks.LongNoteHead.html",
+          "hash": "Vj4eeFTqaz94E0nse0jCa6B0h4wIcuMDYqcKskn5nMY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.Tracks.LongNoteTail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.Tracks.LongNoteTail.html",
+          "hash": "ieqQEDreefVaQxUQajky6QkYKmAqU95Kf+LcAHohePw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.Tracks.LongNoteTrack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.Tracks.LongNoteTrack.html",
+          "hash": "v+vmV79gAOsrytRLQgQeOUG8vz/wfpYwatQNZ7kO3Bs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.Tracks.Note.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.Tracks.Note.html",
+          "hash": "MHkMqskkNg7YZOqVPvk7bpG99tkyQ1ziJSYZVC0XlFY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.Tracks.NoteBody.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.Tracks.NoteBody.html",
+          "hash": "ND5br4jYKrtpR9cIm/lSyhDI2becvUqxswj/mqWBcpE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.Tracks.NoteTrack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.Tracks.NoteTrack.html",
+          "hash": "0vNtC6dS5vUZB81tHOwco9DfHblC3Th9BB/IWyvu674="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.Tracks.Obstacles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.Tracks.Obstacles.html",
+          "hash": "oz2Iz57pOnS1rMZpWMvJA3R88GaGfWr8UmXSf4O3Z3o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.Tracks.ObstaclesTrack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.Tracks.ObstaclesTrack.html",
+          "hash": "lDwSwmsiARXrscQL/nX5uM5PrHrJVnwic9kjGAKmJPc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.Tracks.TracksManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.Tracks.TracksManager.html",
+          "hash": "qO4FbdeK/MBcwb8FWz6SRQPsyyDfX3V8+BTnmjzwNX8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.Tracks.VisualTrack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.Tracks.VisualTrack.html",
+          "hash": "nLU+xmLLQDrYYopRKWSfEKuOTR6LwVqjkgBh/5rVKFQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.Tracks.VisualTrackTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.Tracks.VisualTrackTrigger.html",
+          "hash": "YOnBQP7GNICFOspCQWZ4DXqNKNhkYY342PJmrysv+3Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.Tracks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.Tracks.html",
+          "hash": "qku/T9EQSE4ii3GOCfIDM5t1UWtTAYimFIrEgjhoC5c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.UnitySerializedDictionary-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.UnitySerializedDictionary-2.html",
+          "hash": "PL/bTIase2rfO6b1zI6zoGzqh+W87WgE8BFsMbvKRLI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.UpperNotePathDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.UpperNotePathDictionary.html",
+          "hash": "BC4GQKsHNbUOPDMB2zSBttNAZDaGY8SSLJARuEwHk9o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.Utillity.GenericHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.Utillity.GenericHelper.html",
+          "hash": "6IIP+qDejRQLqKDguHJ6Z0lfFuoYxqk9ScN59L8vLzY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.Utillity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.Utillity.html",
+          "hash": "xiGE5vn1Ytf0Af1dDlYiky/QREizLYMPihwF/ciPlQY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DDVRKick.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DDVRKick.html",
+          "hash": "6+QBEumkTKrys/sZVm6Y8D7Ujs8ICv5X+gCtvVDzhRo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.Analysis-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.Analysis-1.html",
+          "hash": "DK5YY8Qbd5tHcw6v0dHZk6mLNEOYcxX0fgvywWboJog="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.Analysis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.Analysis.html",
+          "hash": "GcN9SoIUiawp9zKUUTWzO/t++NpVsvDWrVuYg/zQaFI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.AudioUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.AudioUtil.html",
+          "hash": "4kkE4qKKWu1Y924rOHrSJo3iDxrP7m/Tat52uqO+9fA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.Beat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.Beat.html",
+          "hash": "SOhRVPvRNOlxw0sHDQjuE5NxvhuiwvPNNIxBZY1OwAs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.BeatTrack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.BeatTrack.html",
+          "hash": "mkwXh94UnKsA3K2hBEC3VKeJXACiYvyXBKH/J4L1JsA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.BeatTracker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.BeatTracker.html",
+          "hash": "L6nJHjIfyqeGV1CUZfh70cwH3FbqvEwz5G6UmGp93lA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.Bindings-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.Bindings-1.html",
+          "hash": "IZ+42NwxYfs6W4+v/ZE8FxvYbiSI0WSEvvLUQJjH384="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.Chroma.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.Chroma.html",
+          "hash": "Qgkw4lUImRnV11Xis4Mhwq2iotrY1XlASfEul1w/9Lc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.ChromaCreator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.ChromaCreator.html",
+          "hash": "7Erad/5OJRmoD0YtR5EjdoFjinfpJWwvxomk8aeWlDg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.ChromaDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.ChromaDrawer.html",
+          "hash": "FuYvS3WLnwSs6q228kplLPpfkxKguSUO7ka49QuWO4o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.ChromaGUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.ChromaGUI.html",
+          "hash": "NwmUeh5Wl9XMCCbuaqJ8nbmrGO0zagUIaR9avVoFxBQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.ChromaTrack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.ChromaTrack.html",
+          "hash": "NrM8M9ZcdS0a/VFPEJh7eRF4cgBDjYlSuuOSIMi6GCE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.Chromagram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.Chromagram.html",
+          "hash": "80yfXnhbFN+3/oquXA6jC0izPLTN++SzG5zgezyfDhw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.ClipBoard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.ClipBoard.html",
+          "hash": "mkfWhQ3EpuF0oU9KDcui3wgmzpf/9XCvh+yvweAifB0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.DebugDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.DebugDrawer.html",
+          "hash": "o4ST2kGDzcj3Z9iCUg4mF1XA2lFTtKFkchPDmyToJ1Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.EditorAnalyzer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.EditorAnalyzer.html",
+          "hash": "qKadUWUbxe01m5INfz5reFhBe8E8zBNo84NEZNF0goY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.EditorState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.EditorState.html",
+          "hash": "zmcYSiCa6bHjNM3QetGrLrXpf9dzjMZQClTbPPG/8lI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.Examples.AudioClipSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.Examples.AudioClipSelector.html",
+          "hash": "ZTgxvM6hn+f56XFPVW4c0b9DyZLjxOg0M1ML+WesirA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.Examples.Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.Examples.Line.html",
+          "hash": "e5W7RhRUHhj6yQhqEHTOtLyfc89W3OZ5pCiJKeq71io="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.Examples.SongSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.Examples.SongSelector.html",
+          "hash": "Ew5C7C4BzRxyBPuOCub/bDcZuRmFf3M14TzRoRPXNCU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.Examples.Visualizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.Examples.Visualizer.html",
+          "hash": "8Tg8tqEQlswUgalLL+TpuKHe//2aj5Wsa7sPN8zbMiA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.Examples.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.Examples.html",
+          "hash": "ymaNU6aob/U4tnVWZqnjNkyXLkk6rj0xN0DZxSRW0CQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.Feature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.Feature.html",
+          "hash": "FyQsh18ihFrbj10truwqXCaTuFExQPcUkE8jyRgdM/8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.FeatureCreator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.FeatureCreator-1.html",
+          "hash": "GRECJNT+8nahA+t7yOdo3Q/lvP47hUdPvwfPGQByqAQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.FeatureEditMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.FeatureEditMode.html",
+          "hash": "74ZsPcIjqkd1Vl+iqe/5W1kM6uUlvMLW71K9H2smDeM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.FeatureGUI-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.FeatureGUI-1.html",
+          "hash": "5h4SFicjUp/XvP3qzcQC+Z7sivaORQQouOufyTAXouQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.FeatureGUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.FeatureGUI.html",
+          "hash": "p4cmLYtW0hfXgSbPBF43jFFzhpQ8i2BPihE6W5q2JOY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.FeatureSelection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.FeatureSelection.html",
+          "hash": "iUga9KZvVgUT1Y6ENwSHNKe/DPh9AfWF1kG5x/8HV5s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.INoteData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.INoteData.html",
+          "hash": "fug3Gu0Qyc8ZpBnGnpzGoVf7lrOGINU1k8OurPMVErw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.LomontFFT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.LomontFFT.html",
+          "hash": "YU/AwT6g8NFIdtUYuND9tUNUEvNCM5/FlD/qT7Kjy9c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.LongNote.Track.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.LongNote.Track.html",
+          "hash": "OWPidNfS3exL2WokDApj0rHXg40ZxOz9SrzywfH6HEM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.LongNote.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.LongNote.html",
+          "hash": "zdVuxxRzfIpXRL49InRJMcwWAGgYvOZ7nYFUvtJrTnE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.LongNoteBeatmapTrack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.LongNoteBeatmapTrack.html",
+          "hash": "230lrWsg/i5HV9Zrb3uFD5rXBrVJE8QP/vORNG/n8xg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.LongNoteGUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.LongNoteGUI.html",
+          "hash": "0bOXJg0UL+6TqqMqcYqWfD6iyhq8xQj7ze5j1V75Kpc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.LowerNoteData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.LowerNoteData.html",
+          "hash": "x+b796cDczSI0+6GjkKG5AFc47G1rPtYgOg4Mmi6oDs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.LowerNoteTrack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.LowerNoteTrack.html",
+          "hash": "fuAPyiohxtU47R8STx7ogo50H/Kc5lZ4Jypt/6/nkwE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.LowerNoteTrackGUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.LowerNoteTrackGUI.html",
+          "hash": "7wjzy+wdTWI01JsJiUTg2+STaxajvaIltzmq3k12Oss="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.Note.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.Note.html",
+          "hash": "WqSxt2QkieafuXSStYwjwGL1btNC4rfv4I4txMKQjPs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.Obstacle.ObstacleChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.Obstacle.ObstacleChannel.html",
+          "hash": "avNAbM9fyESqfL5OVrl6rZB4NAWiyJwyGUEX7MWlzyc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.Obstacle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.Obstacle.html",
+          "hash": "j96ar6Wtp7UyHCc0esMZtXSvCONp9odnZgvIY1I+KUQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.ObstacleGUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.ObstacleGUI.html",
+          "hash": "3wlUP9BvX16zmEFhSyB28RiVG/bzTzs5Jq2K4qe7S0E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.ObstacleTrack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.ObstacleTrack.html",
+          "hash": "fg1xt2Bv7jZcQXfDVjMwYCID1SYfauZTsM6Z1GBXiYY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.Onset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.Onset.html",
+          "hash": "WveODmrbw/6Wvl2dP/LGjDcNkPjMC51TAc2gdHI8tTA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.OnsetCreator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.OnsetCreator.html",
+          "hash": "N8eFn3++hHusXiBoIrnJhqz0mGGXIDbvoAImJi0W0p0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.OnsetDetector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.OnsetDetector.html",
+          "hash": "cr/RjG2Nf1FmtsiehCZKzGeIsaJMnIwVcvinGv8kpLc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.OnsetDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.OnsetDrawer.html",
+          "hash": "xvLVWZFjViCqh4bp8CwcFF/QfXKu9NXpKLHVyriwgmo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.OnsetGUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.OnsetGUI.html",
+          "hash": "8sqc1fhS4ZXZ3wQRBzd7UfX8qAeVSkd3mygBhE7jHu0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.OnsetTrack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.OnsetTrack.html",
+          "hash": "7EXeGVRB5DZEsTVr77xAAMDpUXNUGdnWL4aqaw5unkE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.PathType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.PathType.html",
+          "hash": "THLjUEiB8+C+yoKqPomZDRptvumlTwQdn5m9n4A+Pog="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.PropertyValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.PropertyValue.html",
+          "hash": "pWT6Wxeqnv7Z1VgYZU/jmIx6xa68uT+t2rXuPZbPrso="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.RhythmAnalyzer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.RhythmAnalyzer.html",
+          "hash": "xDOi9SBTk/mS9DK7gdPdTdyHvXgmlLLWK8OHBZzNI28="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.RhythmData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.RhythmData.html",
+          "hash": "Le3JFrQIXQ5F9sTqjEOAmn8lf5KsuLmNnN2V6A5Wtkw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.RhythmDataEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.RhythmDataEditor.html",
+          "hash": "O6kBLzMqWXr7b3E1ViqJ/CUMus1/1KPVPZdTE2R77XQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.RhythmEventProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.RhythmEventProvider.html",
+          "hash": "Aw/V/l9AurQmSbBPVoKsor1S/BKNWG6juQO5zLOLWA8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.RhythmPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.RhythmPlayer.html",
+          "hash": "b2pTVdRtD82jGYeeuU+WJo6FiPZHa04hn8832IP3T1w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.RhythmTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.RhythmTarget.html",
+          "hash": "LR9FXe6SxxWdOoitWXPUyQ/EGNKZJe/KOSCHnjO6W9k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.RhythmToolWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.RhythmToolWindow.html",
+          "hash": "2H87glX5Uz8oahBebRHK/d62P430Iv92vC1QM00Jopk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.Segmenter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.Segmenter.html",
+          "hash": "J9Dmp9M+w8a7ZlKV3yvNlVusxe3xJiFJQ5OaL/veowQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.Styles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.Styles.html",
+          "hash": "s+ca6HNnWO3FwYbhdnIxnk5Vhf2hMW7aL2Nzb+RJP/Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.TimeRuler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.TimeRuler.html",
+          "hash": "1J4Q+wiiP0bPxtQdJnvMZng0geNuo0bWNRLU0Cah+1c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.Track-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.Track-1.html",
+          "hash": "lRTsjlNrg0yiQHpznKASqHo3rL1c8BZrZUYjqYasUtw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.Track.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.Track.html",
+          "hash": "Fa5iOTlgPL8gEkMNHPScANGtVHl59FOiu6QKXlbWGhQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.TrackDrawer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.TrackDrawer-1.html",
+          "hash": "XJrqoSW4MLu0mKShwjPAoaPfRUn0Mj3iBhgCfKPYClA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.TrackDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.TrackDrawer.html",
+          "hash": "QzydRKzLSj14qpkBQbSIGKyLyM4t/EqtqPEpmcF47no="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.TrackEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.TrackEditor.html",
+          "hash": "/TuaLuy4dC/1GXEPtxjNZpybcfglTsO1rYPVnZO7mNE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.TrackGUI-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.TrackGUI-1.html",
+          "hash": "7TS7fkWjRbK2RubTwbqpdYasm9+E7ccTV2XeMyJm5GQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.TrackGUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.TrackGUI.html",
+          "hash": "EqplLGqxckx4boa+kG9Xm6aYbWXYdbR4cAnVdlr8OVY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.UpperNoteData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.UpperNoteData.html",
+          "hash": "1hdm5pmm+nSFU6UZwZlzmxXDJKTheW0MMJiiz+6BvLE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.UpperNoteTrack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.UpperNoteTrack.html",
+          "hash": "nmJ9kbMdByz5DeorPSvYwhZcQQH/t/7k2Frc8TlcT4w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.UpperNoteTrackGUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.UpperNoteTrackGUI.html",
+          "hash": "Pq6JPVXFbIKnPzBfbYWUae8aSU9urRcV5BqcOGyRp1Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.Util.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.Util.html",
+          "hash": "oHQhIWJpTrCPYr3VyQp2QSJT5Qnlftx86ohAGNdguQY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.Value.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.Value.html",
+          "hash": "CPEPetsUNJUvWW4qaccT1kxZqvyCsOZ3T+tEDiyxAxE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.ValueCreator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.ValueCreator.html",
+          "hash": "EXHRDwsOYgs2hHTp7d/sZVI5DhtZRvDKp4yeTGj1Uxo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.ValueDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.ValueDrawer.html",
+          "hash": "oTj53RiN8dp9qVDYYIdqxFqQVqeWEeKuXbPfSd7SNC4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.ValueGUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.ValueGUI.html",
+          "hash": "sOLP1MyUVzjOacpjFvTzOfd9uyVgvvD+wHZ4z7zhd48="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.ValueTrack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.ValueTrack.html",
+          "hash": "wal/auipR93OXh8LsicEEzUntfCqqcoNuEGv/PBVW4o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.VolumeSampler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.VolumeSampler.html",
+          "hash": "ZpijqMObIJbjj+ZrVSSH49qFJwFKTuD3LrleTToWqCk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.WaveformView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.WaveformView.html",
+          "hash": "J1ep4SOoDhqKZR6JE3P7h4VVkEZWdB3dojaxSzeSKWM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/RhythmTool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/RhythmTool.html",
+          "hash": "L4Eyv0gChRYI8NcRB7NDMPtqbuDu2dcJTLkOpm92Iuk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "lvGOrPwuCPdECJGXUq/WAT5Er6fX7NHback+5ZCS3nY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "8bqT1gvl64xfoz1lAELwS+81yTL2qdq8wWWap1/0hlw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/beatmap-editor.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/beatmap-editor.html",
+          "hash": "+oxgGbAOMvDCMyV7FZgVmdwmFvkoGj/zE8Azr3cvK+Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/index.html",
+          "hash": "a74CGksHgE1+Yh1X0oAMUy5mGciqnONd+m8DGjqwASE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/long-track.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/long-track.html",
+          "hash": "aigzDAcuR0XxNBqeoUux2w9qbqm9f4qcqNSOPfEik28="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/note-generator.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/note-generator.html",
+          "hash": "XdnVBRGyy1Gv4JocFukoV34pNhPxxVqVQoKzQkrJ264="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/note-track.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/note-track.html",
+          "hash": "+tBVrZRhCj+l4qjfmFJbZvenwgonEOWMQk9QWVBq8VI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/obstacle-track.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/obstacle-track.html",
+          "hash": "dCu7Cp3kH23cvsYvM0C4B8ok/Zto/Rt1LLyyLRHx6YU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "z5wq/uEXAHWg+vWPUZEdEWrkoII0Dzo+CJGDo2ZtS2M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/analyser.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/analyser.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/beatmap-editor-window.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/beatmap-editor-window.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/create-beatmap.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/create-beatmap.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/long-note-data.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/long-note-data.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/long-note-track.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/long-note-track.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/lower-note-data.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/lower-note-data.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/lower-note-track.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/lower-note-track.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/note-generator-hierarchy.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/note-generator-hierarchy.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/note-generator.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/note-generator.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/obstacle-note-data.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/obstacle-note-data.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/obstacle-note-track.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/obstacle-note-track.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/upper-note-data.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/upper-note-data.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/upper-note-track.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/upper-note-track.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "wq5ILToGLB6Nk3srDXAM8B8wjcBoEkGVv2FRatIgnv8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 7,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 113,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
