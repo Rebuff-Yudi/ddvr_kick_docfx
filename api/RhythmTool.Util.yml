@@ -1,0 +1,809 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.Util
+  commentId: T:RhythmTool.Util
+  id: Util
+  parent: RhythmTool
+  children:
+  - RhythmTool.Util.GetMono(System.Single[],System.Single[],System.Int32)
+  - RhythmTool.Util.GetSpectrum(System.Single[])
+  - RhythmTool.Util.GetSpectrumMagnitude(System.Single[],System.Single[])
+  - RhythmTool.Util.GetSpectrumPhase(System.Single[],System.Single[])
+  - RhythmTool.Util.HannWindow(System.Int32)
+  - RhythmTool.Util.HannWindow(System.Int32,System.Int32)
+  - RhythmTool.Util.HannWindow(System.Single[])
+  - RhythmTool.Util.Interpolate(System.Single[],System.Single)
+  - RhythmTool.Util.Max(System.Single[],System.Int32,System.Int32)
+  - RhythmTool.Util.MaxIndex(System.Single[],System.Int32,System.Int32)
+  - RhythmTool.Util.Mean(System.Single[],System.Int32,System.Int32)
+  - RhythmTool.Util.Min(System.Single[],System.Int32,System.Int32)
+  - RhythmTool.Util.MinIndex(System.Single[],System.Int32,System.Int32)
+  - RhythmTool.Util.Smooth(System.Single[],System.Single[],System.Single[])
+  - RhythmTool.Util.WeightedSum(System.Single[],System.Single[],System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: Util
+  nameWithType: Util
+  fullName: RhythmTool.Util
+  type: Class
+  source:
+    id: Util
+    path: ''
+    startLine: 5619
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nContains general DSP utilities.\n"
+  example: []
+  syntax:
+    content: public class Util
+    content.vb: Public Class Util
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.Util.GetMono(System.Single[],System.Single[],System.Int32)
+  commentId: M:RhythmTool.Util.GetMono(System.Single[],System.Single[],System.Int32)
+  id: GetMono(System.Single[],System.Single[],System.Int32)
+  parent: RhythmTool.Util
+  langs:
+  - csharp
+  - vb
+  name: GetMono(Single[], Single[], Int32)
+  nameWithType: Util.GetMono(Single[], Single[], Int32)
+  fullName: RhythmTool.Util.GetMono(System.Single[], System.Single[], System.Int32)
+  type: Method
+  source:
+    id: GetMono
+    path: ''
+    startLine: 5629
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nConverts a signal with multiple interleaved channels to a mono signal.\n"
+  example: []
+  syntax:
+    content: public static void GetMono(float[] samples, float[] monoSamples, int channels = 0)
+    parameters:
+    - id: samples
+      type: System.Single[]
+      description: The signal with multiple channels.
+    - id: monoSamples
+      type: System.Single[]
+      description: The converted signal.
+    - id: channels
+      type: System.Int32
+      description: The number of channels.
+    content.vb: Public Shared Sub GetMono(samples As Single(), monoSamples As Single(), channels As Integer = 0)
+  overload: RhythmTool.Util.GetMono*
+  nameWithType.vb: Util.GetMono(Single(), Single(), Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: RhythmTool.Util.GetMono(System.Single(), System.Single(), System.Int32)
+  name.vb: GetMono(Single(), Single(), Int32)
+- uid: RhythmTool.Util.GetSpectrum(System.Single[])
+  commentId: M:RhythmTool.Util.GetSpectrum(System.Single[])
+  id: GetSpectrum(System.Single[])
+  parent: RhythmTool.Util
+  langs:
+  - csharp
+  - vb
+  name: GetSpectrum(Single[])
+  nameWithType: Util.GetSpectrum(Single[])
+  fullName: RhythmTool.Util.GetSpectrum(System.Single[])
+  type: Method
+  source:
+    id: GetSpectrum
+    path: ''
+    startLine: 5657
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nPerform an in place FFT on a signal.\n"
+  example: []
+  syntax:
+    content: public static void GetSpectrum(float[] samples)
+    parameters:
+    - id: samples
+      type: System.Single[]
+      description: The signal.
+    content.vb: Public Shared Sub GetSpectrum(samples As Single())
+  overload: RhythmTool.Util.GetSpectrum*
+  nameWithType.vb: Util.GetSpectrum(Single())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: RhythmTool.Util.GetSpectrum(System.Single())
+  name.vb: GetSpectrum(Single())
+- uid: RhythmTool.Util.GetSpectrumMagnitude(System.Single[],System.Single[])
+  commentId: M:RhythmTool.Util.GetSpectrumMagnitude(System.Single[],System.Single[])
+  id: GetSpectrumMagnitude(System.Single[],System.Single[])
+  parent: RhythmTool.Util
+  langs:
+  - csharp
+  - vb
+  name: GetSpectrumMagnitude(Single[], Single[])
+  nameWithType: Util.GetSpectrumMagnitude(Single[], Single[])
+  fullName: RhythmTool.Util.GetSpectrumMagnitude(System.Single[], System.Single[])
+  type: Method
+  source:
+    id: GetSpectrumMagnitude
+    path: ''
+    startLine: 5667
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nGet a magnitude spectrum from a complex frequency spectrum.\n"
+  example: []
+  syntax:
+    content: public static void GetSpectrumMagnitude(float[] spectrum, float[] magnitude)
+    parameters:
+    - id: spectrum
+      type: System.Single[]
+      description: The complex frequency spectrum.
+    - id: magnitude
+      type: System.Single[]
+      description: The magnitude spectrum.
+    content.vb: Public Shared Sub GetSpectrumMagnitude(spectrum As Single(), magnitude As Single())
+  overload: RhythmTool.Util.GetSpectrumMagnitude*
+  nameWithType.vb: Util.GetSpectrumMagnitude(Single(), Single())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: RhythmTool.Util.GetSpectrumMagnitude(System.Single(), System.Single())
+  name.vb: GetSpectrumMagnitude(Single(), Single())
+- uid: RhythmTool.Util.GetSpectrumPhase(System.Single[],System.Single[])
+  commentId: M:RhythmTool.Util.GetSpectrumPhase(System.Single[],System.Single[])
+  id: GetSpectrumPhase(System.Single[],System.Single[])
+  parent: RhythmTool.Util
+  langs:
+  - csharp
+  - vb
+  name: GetSpectrumPhase(Single[], Single[])
+  nameWithType: Util.GetSpectrumPhase(Single[], Single[])
+  fullName: RhythmTool.Util.GetSpectrumPhase(System.Single[], System.Single[])
+  type: Method
+  source:
+    id: GetSpectrumPhase
+    path: ''
+    startLine: 5690
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nGet a phase spectrum from a complex frequency spectrum.\n"
+  example: []
+  syntax:
+    content: public static void GetSpectrumPhase(float[] spectrum, float[] phase)
+    parameters:
+    - id: spectrum
+      type: System.Single[]
+      description: The complex frequency spectrum.
+    - id: phase
+      type: System.Single[]
+      description: The phase spectrum.
+    content.vb: Public Shared Sub GetSpectrumPhase(spectrum As Single(), phase As Single())
+  overload: RhythmTool.Util.GetSpectrumPhase*
+  nameWithType.vb: Util.GetSpectrumPhase(Single(), Single())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: RhythmTool.Util.GetSpectrumPhase(System.Single(), System.Single())
+  name.vb: GetSpectrumPhase(Single(), Single())
+- uid: RhythmTool.Util.Mean(System.Single[],System.Int32,System.Int32)
+  commentId: M:RhythmTool.Util.Mean(System.Single[],System.Int32,System.Int32)
+  id: Mean(System.Single[],System.Int32,System.Int32)
+  parent: RhythmTool.Util
+  langs:
+  - csharp
+  - vb
+  name: Mean(Single[], Int32, Int32)
+  nameWithType: Util.Mean(Single[], Int32, Int32)
+  fullName: RhythmTool.Util.Mean(System.Single[], System.Int32, System.Int32)
+  type: Method
+  source:
+    id: Mean
+    path: ''
+    startLine: 5724
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nCalculate the mean of values of a section of an array.\n"
+  example: []
+  syntax:
+    content: public static float Mean(float[] array, int start = 0, int end = 0)
+    parameters:
+    - id: array
+      type: System.Single[]
+      description: The array.
+    - id: start
+      type: System.Int32
+      description: The start index.
+    - id: end
+      type: System.Int32
+      description: The end index.
+    return:
+      type: System.Single
+      description: The mean of a section of the array.
+    content.vb: Public Shared Function Mean(array As Single(), start As Integer = 0, end As Integer = 0) As Single
+  overload: RhythmTool.Util.Mean*
+  nameWithType.vb: Util.Mean(Single(), Int32, Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: RhythmTool.Util.Mean(System.Single(), System.Int32, System.Int32)
+  name.vb: Mean(Single(), Int32, Int32)
+- uid: RhythmTool.Util.WeightedSum(System.Single[],System.Single[],System.Int32)
+  commentId: M:RhythmTool.Util.WeightedSum(System.Single[],System.Single[],System.Int32)
+  id: WeightedSum(System.Single[],System.Single[],System.Int32)
+  parent: RhythmTool.Util
+  langs:
+  - csharp
+  - vb
+  name: WeightedSum(Single[], Single[], Int32)
+  nameWithType: Util.WeightedSum(Single[], Single[], Int32)
+  fullName: RhythmTool.Util.WeightedSum(System.Single[], System.Single[], System.Int32)
+  type: Method
+  source:
+    id: WeightedSum
+    path: ''
+    startLine: 5744
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nCalculate a weighted sum of a section of an array.\n"
+  example: []
+  syntax:
+    content: public static float WeightedSum(float[] array, float[] kernel, int index)
+    parameters:
+    - id: array
+      type: System.Single[]
+      description: The array.
+    - id: kernel
+      type: System.Single[]
+      description: The kernel to use for the weighing.
+    - id: index
+      type: System.Int32
+      description: The index to center the kernel on.
+    return:
+      type: System.Single
+      description: The weighted sum of a section of the array.
+    content.vb: Public Shared Function WeightedSum(array As Single(), kernel As Single(), index As Integer) As Single
+  overload: RhythmTool.Util.WeightedSum*
+  nameWithType.vb: Util.WeightedSum(Single(), Single(), Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: RhythmTool.Util.WeightedSum(System.Single(), System.Single(), System.Int32)
+  name.vb: WeightedSum(Single(), Single(), Int32)
+- uid: RhythmTool.Util.MaxIndex(System.Single[],System.Int32,System.Int32)
+  commentId: M:RhythmTool.Util.MaxIndex(System.Single[],System.Int32,System.Int32)
+  id: MaxIndex(System.Single[],System.Int32,System.Int32)
+  parent: RhythmTool.Util
+  langs:
+  - csharp
+  - vb
+  name: MaxIndex(Single[], Int32, Int32)
+  nameWithType: Util.MaxIndex(Single[], Int32, Int32)
+  fullName: RhythmTool.Util.MaxIndex(System.Single[], System.Int32, System.Int32)
+  type: Method
+  source:
+    id: MaxIndex
+    path: ''
+    startLine: 5767
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nFinds the index of the highest value in an array.\n"
+  example: []
+  syntax:
+    content: public static int MaxIndex(float[] array, int start = 0, int end = 0)
+    parameters:
+    - id: array
+      type: System.Single[]
+      description: The array.
+    - id: start
+      type: System.Int32
+      description: The start of the section to look in.
+    - id: end
+      type: System.Int32
+      description: The end of the section to look in.
+    return:
+      type: System.Int32
+      description: The index of the highest value in the array.
+    content.vb: Public Shared Function MaxIndex(array As Single(), start As Integer = 0, end As Integer = 0) As Integer
+  overload: RhythmTool.Util.MaxIndex*
+  nameWithType.vb: Util.MaxIndex(Single(), Int32, Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: RhythmTool.Util.MaxIndex(System.Single(), System.Int32, System.Int32)
+  name.vb: MaxIndex(Single(), Int32, Int32)
+- uid: RhythmTool.Util.MinIndex(System.Single[],System.Int32,System.Int32)
+  commentId: M:RhythmTool.Util.MinIndex(System.Single[],System.Int32,System.Int32)
+  id: MinIndex(System.Single[],System.Int32,System.Int32)
+  parent: RhythmTool.Util
+  langs:
+  - csharp
+  - vb
+  name: MinIndex(Single[], Int32, Int32)
+  nameWithType: Util.MinIndex(Single[], Int32, Int32)
+  fullName: RhythmTool.Util.MinIndex(System.Single[], System.Int32, System.Int32)
+  type: Method
+  source:
+    id: MinIndex
+    path: ''
+    startLine: 5790
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nFinds the index of the lowest value in an array.\n"
+  example: []
+  syntax:
+    content: public static int MinIndex(float[] array, int start = 0, int end = 0)
+    parameters:
+    - id: array
+      type: System.Single[]
+      description: The array.
+    - id: start
+      type: System.Int32
+      description: The start of the section to look in.
+    - id: end
+      type: System.Int32
+      description: The end of the section to look in.
+    return:
+      type: System.Int32
+      description: The index of the lowest value in the array.
+    content.vb: Public Shared Function MinIndex(array As Single(), start As Integer = 0, end As Integer = 0) As Integer
+  overload: RhythmTool.Util.MinIndex*
+  nameWithType.vb: Util.MinIndex(Single(), Int32, Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: RhythmTool.Util.MinIndex(System.Single(), System.Int32, System.Int32)
+  name.vb: MinIndex(Single(), Int32, Int32)
+- uid: RhythmTool.Util.Max(System.Single[],System.Int32,System.Int32)
+  commentId: M:RhythmTool.Util.Max(System.Single[],System.Int32,System.Int32)
+  id: Max(System.Single[],System.Int32,System.Int32)
+  parent: RhythmTool.Util
+  langs:
+  - csharp
+  - vb
+  name: Max(Single[], Int32, Int32)
+  nameWithType: Util.Max(Single[], Int32, Int32)
+  fullName: RhythmTool.Util.Max(System.Single[], System.Int32, System.Int32)
+  type: Method
+  source:
+    id: Max
+    path: ''
+    startLine: 5813
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nFinds the highest value in an array.\n"
+  example: []
+  syntax:
+    content: public static float Max(float[] array, int start = 0, int end = 0)
+    parameters:
+    - id: array
+      type: System.Single[]
+      description: The array.
+    - id: start
+      type: System.Int32
+      description: The start of the section to look in.
+    - id: end
+      type: System.Int32
+      description: The end of the section to look in.
+    return:
+      type: System.Single
+      description: The highest value in the array.
+    content.vb: Public Shared Function Max(array As Single(), start As Integer = 0, end As Integer = 0) As Single
+  overload: RhythmTool.Util.Max*
+  nameWithType.vb: Util.Max(Single(), Int32, Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: RhythmTool.Util.Max(System.Single(), System.Int32, System.Int32)
+  name.vb: Max(Single(), Int32, Int32)
+- uid: RhythmTool.Util.Min(System.Single[],System.Int32,System.Int32)
+  commentId: M:RhythmTool.Util.Min(System.Single[],System.Int32,System.Int32)
+  id: Min(System.Single[],System.Int32,System.Int32)
+  parent: RhythmTool.Util
+  langs:
+  - csharp
+  - vb
+  name: Min(Single[], Int32, Int32)
+  nameWithType: Util.Min(Single[], Int32, Int32)
+  fullName: RhythmTool.Util.Min(System.Single[], System.Int32, System.Int32)
+  type: Method
+  source:
+    id: Min
+    path: ''
+    startLine: 5825
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nFinds the lowest value in an array.\n"
+  example: []
+  syntax:
+    content: public static float Min(float[] array, int start = 0, int end = 0)
+    parameters:
+    - id: array
+      type: System.Single[]
+      description: The array.
+    - id: start
+      type: System.Int32
+      description: The start of the section to look in.
+    - id: end
+      type: System.Int32
+      description: The end of the section to look in.
+    return:
+      type: System.Single
+      description: The lowest value in the array.
+    content.vb: Public Shared Function Min(array As Single(), start As Integer = 0, end As Integer = 0) As Single
+  overload: RhythmTool.Util.Min*
+  nameWithType.vb: Util.Min(Single(), Int32, Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: RhythmTool.Util.Min(System.Single(), System.Int32, System.Int32)
+  name.vb: Min(Single(), Int32, Int32)
+- uid: RhythmTool.Util.Smooth(System.Single[],System.Single[],System.Single[])
+  commentId: M:RhythmTool.Util.Smooth(System.Single[],System.Single[],System.Single[])
+  id: Smooth(System.Single[],System.Single[],System.Single[])
+  parent: RhythmTool.Util
+  langs:
+  - csharp
+  - vb
+  name: Smooth(Single[], Single[], Single[])
+  nameWithType: Util.Smooth(Single[], Single[], Single[])
+  fullName: RhythmTool.Util.Smooth(System.Single[], System.Single[], System.Single[])
+  type: Method
+  source:
+    id: Smooth
+    path: ''
+    startLine: 5836
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nSmooth an array.\n"
+  example: []
+  syntax:
+    content: public static void Smooth(float[] array, float[] smoothedArray, float[] kernel)
+    parameters:
+    - id: array
+      type: System.Single[]
+      description: The array.
+    - id: smoothedArray
+      type: System.Single[]
+      description: The smoothed array.
+    - id: kernel
+      type: System.Single[]
+      description: The kernel to use for smoothing.
+    content.vb: Public Shared Sub Smooth(array As Single(), smoothedArray As Single(), kernel As Single())
+  overload: RhythmTool.Util.Smooth*
+  nameWithType.vb: Util.Smooth(Single(), Single(), Single())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: RhythmTool.Util.Smooth(System.Single(), System.Single(), System.Single())
+  name.vb: Smooth(Single(), Single(), Single())
+- uid: RhythmTool.Util.Interpolate(System.Single[],System.Single)
+  commentId: M:RhythmTool.Util.Interpolate(System.Single[],System.Single)
+  id: Interpolate(System.Single[],System.Single)
+  parent: RhythmTool.Util
+  langs:
+  - csharp
+  - vb
+  name: Interpolate(Single[], Single)
+  nameWithType: Util.Interpolate(Single[], Single)
+  fullName: RhythmTool.Util.Interpolate(System.Single[], System.Single)
+  type: Method
+  source:
+    id: Interpolate
+    path: ''
+    startLine: 5848
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nInterpolate between values in an array.\n"
+  example: []
+  syntax:
+    content: public static float Interpolate(float[] array, float index)
+    parameters:
+    - id: array
+      type: System.Single[]
+      description: The array.
+    - id: index
+      type: System.Single
+      description: The real valued index in the array.
+    return:
+      type: System.Single
+      description: The interpolated value of the array at the real valued index.
+    content.vb: Public Shared Function Interpolate(array As Single(), index As Single) As Single
+  overload: RhythmTool.Util.Interpolate*
+  nameWithType.vb: Util.Interpolate(Single(), Single)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: RhythmTool.Util.Interpolate(System.Single(), System.Single)
+  name.vb: Interpolate(Single(), Single)
+- uid: RhythmTool.Util.HannWindow(System.Single[])
+  commentId: M:RhythmTool.Util.HannWindow(System.Single[])
+  id: HannWindow(System.Single[])
+  parent: RhythmTool.Util
+  langs:
+  - csharp
+  - vb
+  name: HannWindow(Single[])
+  nameWithType: Util.HannWindow(Single[])
+  fullName: RhythmTool.Util.HannWindow(System.Single[])
+  type: Method
+  source:
+    id: HannWindow
+    path: ''
+    startLine: 5862
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nGet a Hann window.\n"
+  example: []
+  syntax:
+    content: public static void HannWindow(float[] array)
+    parameters:
+    - id: array
+      type: System.Single[]
+      description: The array to populate with the Hann window.
+    content.vb: Public Shared Sub HannWindow(array As Single())
+  overload: RhythmTool.Util.HannWindow*
+  nameWithType.vb: Util.HannWindow(Single())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: RhythmTool.Util.HannWindow(System.Single())
+  name.vb: HannWindow(Single())
+- uid: RhythmTool.Util.HannWindow(System.Int32)
+  commentId: M:RhythmTool.Util.HannWindow(System.Int32)
+  id: HannWindow(System.Int32)
+  parent: RhythmTool.Util
+  langs:
+  - csharp
+  - vb
+  name: HannWindow(Int32)
+  nameWithType: Util.HannWindow(Int32)
+  fullName: RhythmTool.Util.HannWindow(System.Int32)
+  type: Method
+  source:
+    id: HannWindow
+    path: ''
+    startLine: 5873
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nGet a Hann window.\n"
+  example: []
+  syntax:
+    content: public static float[] HannWindow(int length)
+    parameters:
+    - id: length
+      type: System.Int32
+      description: The length of the Hann window.
+    return:
+      type: System.Single[]
+      description: The Hann window.
+    content.vb: Public Shared Function HannWindow(length As Integer) As Single()
+  overload: RhythmTool.Util.HannWindow*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: RhythmTool.Util.HannWindow(System.Int32,System.Int32)
+  commentId: M:RhythmTool.Util.HannWindow(System.Int32,System.Int32)
+  id: HannWindow(System.Int32,System.Int32)
+  parent: RhythmTool.Util
+  langs:
+  - csharp
+  - vb
+  name: HannWindow(Int32, Int32)
+  nameWithType: Util.HannWindow(Int32, Int32)
+  fullName: RhythmTool.Util.HannWindow(System.Int32, System.Int32)
+  type: Method
+  source:
+    id: HannWindow
+    path: ''
+    startLine: 5888
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nGet the value of a Hann window with a length of windowSize at index n.\n"
+  example: []
+  syntax:
+    content: public static float HannWindow(int n, int windowSize)
+    parameters:
+    - id: n
+      type: System.Int32
+      description: The index in the Hann window.
+    - id: windowSize
+      type: System.Int32
+      description: The length of the Hann window.
+    return:
+      type: System.Single
+      description: ''
+    content.vb: Public Shared Function HannWindow(n As Integer, windowSize As Integer) As Single
+  overload: RhythmTool.Util.HannWindow*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.Util.GetMono*
+  commentId: Overload:RhythmTool.Util.GetMono
+  name: GetMono
+  nameWithType: Util.GetMono
+  fullName: RhythmTool.Util.GetMono
+- uid: System.Single[]
+  isExternal: true
+  name: Single[]
+  nameWithType: Single[]
+  fullName: System.Single[]
+  nameWithType.vb: Single()
+  fullName.vb: System.Single()
+  name.vb: Single()
+  spec.csharp:
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: RhythmTool.Util.GetSpectrum*
+  commentId: Overload:RhythmTool.Util.GetSpectrum
+  name: GetSpectrum
+  nameWithType: Util.GetSpectrum
+  fullName: RhythmTool.Util.GetSpectrum
+- uid: RhythmTool.Util.GetSpectrumMagnitude*
+  commentId: Overload:RhythmTool.Util.GetSpectrumMagnitude
+  name: GetSpectrumMagnitude
+  nameWithType: Util.GetSpectrumMagnitude
+  fullName: RhythmTool.Util.GetSpectrumMagnitude
+- uid: RhythmTool.Util.GetSpectrumPhase*
+  commentId: Overload:RhythmTool.Util.GetSpectrumPhase
+  name: GetSpectrumPhase
+  nameWithType: Util.GetSpectrumPhase
+  fullName: RhythmTool.Util.GetSpectrumPhase
+- uid: RhythmTool.Util.Mean*
+  commentId: Overload:RhythmTool.Util.Mean
+  name: Mean
+  nameWithType: Util.Mean
+  fullName: RhythmTool.Util.Mean
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: RhythmTool.Util.WeightedSum*
+  commentId: Overload:RhythmTool.Util.WeightedSum
+  name: WeightedSum
+  nameWithType: Util.WeightedSum
+  fullName: RhythmTool.Util.WeightedSum
+- uid: RhythmTool.Util.MaxIndex*
+  commentId: Overload:RhythmTool.Util.MaxIndex
+  name: MaxIndex
+  nameWithType: Util.MaxIndex
+  fullName: RhythmTool.Util.MaxIndex
+- uid: RhythmTool.Util.MinIndex*
+  commentId: Overload:RhythmTool.Util.MinIndex
+  name: MinIndex
+  nameWithType: Util.MinIndex
+  fullName: RhythmTool.Util.MinIndex
+- uid: RhythmTool.Util.Max*
+  commentId: Overload:RhythmTool.Util.Max
+  name: Max
+  nameWithType: Util.Max
+  fullName: RhythmTool.Util.Max
+- uid: RhythmTool.Util.Min*
+  commentId: Overload:RhythmTool.Util.Min
+  name: Min
+  nameWithType: Util.Min
+  fullName: RhythmTool.Util.Min
+- uid: RhythmTool.Util.Smooth*
+  commentId: Overload:RhythmTool.Util.Smooth
+  name: Smooth
+  nameWithType: Util.Smooth
+  fullName: RhythmTool.Util.Smooth
+- uid: RhythmTool.Util.Interpolate*
+  commentId: Overload:RhythmTool.Util.Interpolate
+  name: Interpolate
+  nameWithType: Util.Interpolate
+  fullName: RhythmTool.Util.Interpolate
+- uid: RhythmTool.Util.HannWindow*
+  commentId: Overload:RhythmTool.Util.HannWindow
+  name: HannWindow
+  nameWithType: Util.HannWindow
+  fullName: RhythmTool.Util.HannWindow

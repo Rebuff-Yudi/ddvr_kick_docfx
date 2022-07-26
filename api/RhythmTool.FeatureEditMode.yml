@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.FeatureEditMode
+  commentId: T:RhythmTool.FeatureEditMode
+  id: FeatureEditMode
+  parent: RhythmTool
+  children:
+  - RhythmTool.FeatureEditMode.Absolute
+  - RhythmTool.FeatureEditMode.Delta
+  - RhythmTool.FeatureEditMode.List
+  langs:
+  - csharp
+  - vb
+  name: FeatureEditMode
+  nameWithType: FeatureEditMode
+  fullName: RhythmTool.FeatureEditMode
+  type: Enum
+  source:
+    id: FeatureEditMode
+    path: ''
+    startLine: 1697
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public enum FeatureEditMode
+    content.vb: Public Enum FeatureEditMode
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: RhythmTool.FeatureEditMode.Delta
+  commentId: F:RhythmTool.FeatureEditMode.Delta
+  id: Delta
+  parent: RhythmTool.FeatureEditMode
+  langs:
+  - csharp
+  - vb
+  name: Delta
+  nameWithType: FeatureEditMode.Delta
+  fullName: RhythmTool.FeatureEditMode.Delta
+  type: Field
+  source:
+    id: Delta
+    path: ''
+    startLine: 1699
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: Delta = 0
+    return:
+      type: RhythmTool.FeatureEditMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: RhythmTool.FeatureEditMode.Absolute
+  commentId: F:RhythmTool.FeatureEditMode.Absolute
+  id: Absolute
+  parent: RhythmTool.FeatureEditMode
+  langs:
+  - csharp
+  - vb
+  name: Absolute
+  nameWithType: FeatureEditMode.Absolute
+  fullName: RhythmTool.FeatureEditMode.Absolute
+  type: Field
+  source:
+    id: Absolute
+    path: ''
+    startLine: 1700
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: Absolute = 1
+    return:
+      type: RhythmTool.FeatureEditMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: RhythmTool.FeatureEditMode.List
+  commentId: F:RhythmTool.FeatureEditMode.List
+  id: List
+  parent: RhythmTool.FeatureEditMode
+  langs:
+  - csharp
+  - vb
+  name: List
+  nameWithType: FeatureEditMode.List
+  fullName: RhythmTool.FeatureEditMode.List
+  type: Field
+  source:
+    id: List
+    path: ''
+    startLine: 1701
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: List = 2
+    return:
+      type: RhythmTool.FeatureEditMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: RhythmTool.FeatureEditMode
+  commentId: T:RhythmTool.FeatureEditMode
+  parent: RhythmTool
+  name: FeatureEditMode
+  nameWithType: FeatureEditMode
+  fullName: RhythmTool.FeatureEditMode

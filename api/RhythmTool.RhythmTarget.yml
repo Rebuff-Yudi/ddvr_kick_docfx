@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.RhythmTarget
+  commentId: T:RhythmTool.RhythmTarget
+  id: RhythmTarget
+  parent: RhythmTool
+  children:
+  - RhythmTool.RhythmTarget.Process(RhythmTool.RhythmData,System.Single,System.Single)
+  - RhythmTool.RhythmTarget.Reset(RhythmTool.RhythmData,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: RhythmTarget
+  nameWithType: RhythmTarget
+  fullName: RhythmTool.RhythmTarget
+  type: Class
+  source:
+    id: RhythmTarget
+    path: ''
+    startLine: 5125
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nA RhythmTarget can be targeted by a RhythmPlayer.\n"
+  example: []
+  syntax:
+    content: 'public abstract class RhythmTarget : ScriptableObject'
+    content.vb: >-
+      Public MustInherit Class RhythmTarget
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - RhythmTool.RhythmEventProvider
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: RhythmTool.RhythmTarget.Process(RhythmTool.RhythmData,System.Single,System.Single)
+  commentId: M:RhythmTool.RhythmTarget.Process(RhythmTool.RhythmData,System.Single,System.Single)
+  id: Process(RhythmTool.RhythmData,System.Single,System.Single)
+  parent: RhythmTool.RhythmTarget
+  langs:
+  - csharp
+  - vb
+  name: Process(RhythmData, Single, Single)
+  nameWithType: RhythmTarget.Process(RhythmData, Single, Single)
+  fullName: RhythmTool.RhythmTarget.Process(RhythmTool.RhythmData, System.Single, System.Single)
+  type: Method
+  source:
+    id: Process
+    path: ''
+    startLine: 5133
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nProcess a RhythmData object with a certain time frame.\n"
+  example: []
+  syntax:
+    content: public abstract void Process(RhythmData rhythmData, float start, float end)
+    parameters:
+    - id: rhythmData
+      type: RhythmTool.RhythmData
+      description: The RhythmData object.
+    - id: start
+      type: System.Single
+      description: The start time in seconds.
+    - id: end
+      type: System.Single
+      description: The end time in seconds.
+    content.vb: Public MustOverride Sub Process(rhythmData As RhythmData, start As Single, end As Single)
+  overload: RhythmTool.RhythmTarget.Process*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: RhythmTool.RhythmTarget.Reset(RhythmTool.RhythmData,System.Single)
+  commentId: M:RhythmTool.RhythmTarget.Reset(RhythmTool.RhythmData,System.Single)
+  id: Reset(RhythmTool.RhythmData,System.Single)
+  parent: RhythmTool.RhythmTarget
+  langs:
+  - csharp
+  - vb
+  name: Reset(RhythmData, Single)
+  nameWithType: RhythmTarget.Reset(RhythmData, Single)
+  fullName: RhythmTool.RhythmTarget.Reset(RhythmTool.RhythmData, System.Single)
+  type: Method
+  source:
+    id: Reset
+    path: ''
+    startLine: 5140
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nIndicate that the playback time has been reset to a different time and process a RhythmData.\n"
+  example: []
+  syntax:
+    content: public abstract void Reset(RhythmData rhythmData, float time)
+    parameters:
+    - id: rhythmData
+      type: RhythmTool.RhythmData
+      description: The rhyRhythmData object.
+    - id: time
+      type: System.Single
+      description: The new playback time.
+    content.vb: Public MustOverride Sub Reset(rhythmData As RhythmData, time As Single)
+  overload: RhythmTool.RhythmTarget.Reset*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.RhythmTarget.Process*
+  commentId: Overload:RhythmTool.RhythmTarget.Process
+  name: Process
+  nameWithType: RhythmTarget.Process
+  fullName: RhythmTool.RhythmTarget.Process
+- uid: RhythmTool.RhythmData
+  commentId: T:RhythmTool.RhythmData
+  parent: RhythmTool
+  name: RhythmData
+  nameWithType: RhythmData
+  fullName: RhythmTool.RhythmData
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: RhythmTool.RhythmTarget.Reset*
+  commentId: Overload:RhythmTool.RhythmTarget.Reset
+  name: Reset
+  nameWithType: RhythmTarget.Reset
+  fullName: RhythmTool.RhythmTarget.Reset

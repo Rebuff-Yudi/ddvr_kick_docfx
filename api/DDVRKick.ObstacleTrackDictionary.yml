@@ -1,0 +1,280 @@
+### YamlMime:ManagedReference
+items:
+- uid: DDVRKick.ObstacleTrackDictionary
+  commentId: T:DDVRKick.ObstacleTrackDictionary
+  id: ObstacleTrackDictionary
+  parent: DDVRKick
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ObstacleTrackDictionary
+  nameWithType: ObstacleTrackDictionary
+  fullName: DDVRKick.ObstacleTrackDictionary
+  type: Class
+  source:
+    id: ObstacleTrackDictionary
+    path: ''
+    startLine: 6190
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class ObstacleTrackDictionary : UnitySerializedDictionary<Obstacle.ObstacleChannel, ObstaclesTrack>, IDictionary<Obstacle.ObstacleChannel, ObstaclesTrack>, ICollection<KeyValuePair<Obstacle.ObstacleChannel, ObstaclesTrack>>, IDictionary, ICollection, IReadOnlyDictionary<Obstacle.ObstacleChannel, ObstaclesTrack>, IReadOnlyCollection<KeyValuePair<Obstacle.ObstacleChannel, ObstaclesTrack>>, IEnumerable<KeyValuePair<Obstacle.ObstacleChannel, ObstaclesTrack>>, IEnumerable, ISerializable, IDeserializationCallback
+    content.vb: >-
+      <Serializable>
+
+      Public Class ObstacleTrackDictionary
+          Inherits UnitySerializedDictionary(Of Obstacle.ObstacleChannel, ObstaclesTrack)
+          Implements IDictionary(Of Obstacle.ObstacleChannel, ObstaclesTrack), ICollection(Of KeyValuePair(Of Obstacle.ObstacleChannel, ObstaclesTrack)), IDictionary, ICollection, IReadOnlyDictionary(Of Obstacle.ObstacleChannel, ObstaclesTrack), IReadOnlyCollection(Of KeyValuePair(Of Obstacle.ObstacleChannel, ObstaclesTrack)), IEnumerable(Of KeyValuePair(Of Obstacle.ObstacleChannel, ObstaclesTrack)), IEnumerable, ISerializable, IDeserializationCallback
+  inheritance:
+  - System.Object
+  - System.Collections.Generic.Dictionary{RhythmTool.Obstacle.ObstacleChannel,DDVRKick.Tracks.ObstaclesTrack}
+  - DDVRKick.UnitySerializedDictionary{RhythmTool.Obstacle.ObstacleChannel,DDVRKick.Tracks.ObstaclesTrack}
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: DDVRKick
+  commentId: N:DDVRKick
+  name: DDVRKick
+  nameWithType: DDVRKick
+  fullName: DDVRKick
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Collections.Generic.Dictionary{RhythmTool.Obstacle.ObstacleChannel,DDVRKick.Tracks.ObstaclesTrack}
+  commentId: T:System.Collections.Generic.Dictionary{RhythmTool.Obstacle.ObstacleChannel,DDVRKick.Tracks.ObstaclesTrack}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<Obstacle.ObstacleChannel, ObstaclesTrack>
+  nameWithType: Dictionary<Obstacle.ObstacleChannel, ObstaclesTrack>
+  fullName: System.Collections.Generic.Dictionary<RhythmTool.Obstacle.ObstacleChannel, DDVRKick.Tracks.ObstaclesTrack>
+  nameWithType.vb: Dictionary(Of Obstacle.ObstacleChannel, ObstaclesTrack)
+  fullName.vb: System.Collections.Generic.Dictionary(Of RhythmTool.Obstacle.ObstacleChannel, DDVRKick.Tracks.ObstaclesTrack)
+  name.vb: Dictionary(Of Obstacle.ObstacleChannel, ObstaclesTrack)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: RhythmTool.Obstacle.ObstacleChannel
+    name: Obstacle.ObstacleChannel
+    nameWithType: Obstacle.ObstacleChannel
+    fullName: RhythmTool.Obstacle.ObstacleChannel
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DDVRKick.Tracks.ObstaclesTrack
+    name: ObstaclesTrack
+    nameWithType: ObstaclesTrack
+    fullName: DDVRKick.Tracks.ObstaclesTrack
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: RhythmTool.Obstacle.ObstacleChannel
+    name: Obstacle.ObstacleChannel
+    nameWithType: Obstacle.ObstacleChannel
+    fullName: RhythmTool.Obstacle.ObstacleChannel
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DDVRKick.Tracks.ObstaclesTrack
+    name: ObstaclesTrack
+    nameWithType: ObstaclesTrack
+    fullName: DDVRKick.Tracks.ObstaclesTrack
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DDVRKick.UnitySerializedDictionary{RhythmTool.Obstacle.ObstacleChannel,DDVRKick.Tracks.ObstaclesTrack}
+  commentId: T:DDVRKick.UnitySerializedDictionary{RhythmTool.Obstacle.ObstacleChannel,DDVRKick.Tracks.ObstaclesTrack}
+  parent: DDVRKick
+  definition: DDVRKick.UnitySerializedDictionary`2
+  name: UnitySerializedDictionary<Obstacle.ObstacleChannel, ObstaclesTrack>
+  nameWithType: UnitySerializedDictionary<Obstacle.ObstacleChannel, ObstaclesTrack>
+  fullName: DDVRKick.UnitySerializedDictionary<RhythmTool.Obstacle.ObstacleChannel, DDVRKick.Tracks.ObstaclesTrack>
+  nameWithType.vb: UnitySerializedDictionary(Of Obstacle.ObstacleChannel, ObstaclesTrack)
+  fullName.vb: DDVRKick.UnitySerializedDictionary(Of RhythmTool.Obstacle.ObstacleChannel, DDVRKick.Tracks.ObstaclesTrack)
+  name.vb: UnitySerializedDictionary(Of Obstacle.ObstacleChannel, ObstaclesTrack)
+  spec.csharp:
+  - uid: DDVRKick.UnitySerializedDictionary`2
+    name: UnitySerializedDictionary
+    nameWithType: UnitySerializedDictionary
+    fullName: DDVRKick.UnitySerializedDictionary
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: RhythmTool.Obstacle.ObstacleChannel
+    name: Obstacle.ObstacleChannel
+    nameWithType: Obstacle.ObstacleChannel
+    fullName: RhythmTool.Obstacle.ObstacleChannel
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DDVRKick.Tracks.ObstaclesTrack
+    name: ObstaclesTrack
+    nameWithType: ObstaclesTrack
+    fullName: DDVRKick.Tracks.ObstaclesTrack
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: DDVRKick.UnitySerializedDictionary`2
+    name: UnitySerializedDictionary
+    nameWithType: UnitySerializedDictionary
+    fullName: DDVRKick.UnitySerializedDictionary
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: RhythmTool.Obstacle.ObstacleChannel
+    name: Obstacle.ObstacleChannel
+    nameWithType: Obstacle.ObstacleChannel
+    fullName: RhythmTool.Obstacle.ObstacleChannel
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DDVRKick.Tracks.ObstaclesTrack
+    name: ObstaclesTrack
+    nameWithType: ObstaclesTrack
+    fullName: DDVRKick.Tracks.ObstaclesTrack
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: DDVRKick.UnitySerializedDictionary`2
+  commentId: T:DDVRKick.UnitySerializedDictionary`2
+  name: UnitySerializedDictionary<TKey, TValue>
+  nameWithType: UnitySerializedDictionary<TKey, TValue>
+  fullName: DDVRKick.UnitySerializedDictionary<TKey, TValue>
+  nameWithType.vb: UnitySerializedDictionary(Of TKey, TValue)
+  fullName.vb: DDVRKick.UnitySerializedDictionary(Of TKey, TValue)
+  name.vb: UnitySerializedDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: DDVRKick.UnitySerializedDictionary`2
+    name: UnitySerializedDictionary
+    nameWithType: UnitySerializedDictionary
+    fullName: DDVRKick.UnitySerializedDictionary
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: DDVRKick.UnitySerializedDictionary`2
+    name: UnitySerializedDictionary
+    nameWithType: UnitySerializedDictionary
+    fullName: DDVRKick.UnitySerializedDictionary
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )

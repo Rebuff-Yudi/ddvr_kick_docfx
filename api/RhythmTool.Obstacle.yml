@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.Obstacle
+  commentId: T:RhythmTool.Obstacle
+  id: Obstacle
+  parent: RhythmTool
+  children:
+  - RhythmTool.Obstacle.channel
+  langs:
+  - csharp
+  - vb
+  name: Obstacle
+  nameWithType: Obstacle
+  fullName: RhythmTool.Obstacle
+  type: Class
+  source:
+    id: Obstacle
+    path: ''
+    startLine: 6139
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Obstacle : Feature
+    content.vb: >-
+      <Serializable>
+
+      Public Class Obstacle
+          Inherits Feature
+  inheritance:
+  - System.Object
+  - RhythmTool.Feature
+  inheritedMembers:
+  - RhythmTool.Feature.timestamp
+  - RhythmTool.Feature.length
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.Obstacle.channel
+  commentId: F:RhythmTool.Obstacle.channel
+  id: channel
+  parent: RhythmTool.Obstacle
+  langs:
+  - csharp
+  - vb
+  name: channel
+  nameWithType: Obstacle.channel
+  fullName: RhythmTool.Obstacle.channel
+  type: Field
+  source:
+    id: channel
+    path: ''
+    startLine: 6150
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public Obstacle.ObstacleChannel channel
+    return:
+      type: RhythmTool.Obstacle.ObstacleChannel
+    content.vb: Public channel As Obstacle.ObstacleChannel
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: RhythmTool.Feature
+  commentId: T:RhythmTool.Feature
+  parent: RhythmTool
+  name: Feature
+  nameWithType: Feature
+  fullName: RhythmTool.Feature
+- uid: RhythmTool.Feature.timestamp
+  commentId: F:RhythmTool.Feature.timestamp
+  parent: RhythmTool.Feature
+  name: timestamp
+  nameWithType: Feature.timestamp
+  fullName: RhythmTool.Feature.timestamp
+- uid: RhythmTool.Feature.length
+  commentId: F:RhythmTool.Feature.length
+  parent: RhythmTool.Feature
+  name: length
+  nameWithType: Feature.length
+  fullName: RhythmTool.Feature.length
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.Obstacle.ObstacleChannel
+  commentId: T:RhythmTool.Obstacle.ObstacleChannel
+  parent: RhythmTool
+  name: Obstacle.ObstacleChannel
+  nameWithType: Obstacle.ObstacleChannel
+  fullName: RhythmTool.Obstacle.ObstacleChannel

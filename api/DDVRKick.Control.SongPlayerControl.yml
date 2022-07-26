@@ -1,0 +1,351 @@
+### YamlMime:ManagedReference
+items:
+- uid: DDVRKick.Control.SongPlayerControl
+  commentId: T:DDVRKick.Control.SongPlayerControl
+  id: SongPlayerControl
+  parent: DDVRKick.Control
+  children:
+  - DDVRKick.Control.SongPlayerControl.instance
+  - DDVRKick.Control.SongPlayerControl.Pause
+  - DDVRKick.Control.SongPlayerControl.player
+  - DDVRKick.Control.SongPlayerControl.playOnAwake
+  - DDVRKick.Control.SongPlayerControl.Restart
+  - DDVRKick.Control.SongPlayerControl.RestartFrom(System.Single)
+  - DDVRKick.Control.SongPlayerControl.Resume
+  - DDVRKick.Control.SongPlayerControl.Start
+  langs:
+  - csharp
+  - vb
+  name: SongPlayerControl
+  nameWithType: SongPlayerControl
+  fullName: DDVRKick.Control.SongPlayerControl
+  type: Class
+  source:
+    id: SongPlayerControl
+    path: ''
+    startLine: 6551
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Control
+  syntax:
+    content: 'public class SongPlayerControl : MonoBehaviour'
+    content.vb: >-
+      Public Class SongPlayerControl
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DDVRKick.Control.SongPlayerControl.instance
+  commentId: P:DDVRKick.Control.SongPlayerControl.instance
+  id: instance
+  parent: DDVRKick.Control.SongPlayerControl
+  langs:
+  - csharp
+  - vb
+  name: instance
+  nameWithType: SongPlayerControl.instance
+  fullName: DDVRKick.Control.SongPlayerControl.instance
+  type: Property
+  source:
+    id: instance
+    path: ''
+    startLine: 6554
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Control
+  syntax:
+    content: public static SongPlayerControl instance { get; }
+    parameters: []
+    return:
+      type: DDVRKick.Control.SongPlayerControl
+    content.vb: Public Shared ReadOnly Property instance As SongPlayerControl
+  overload: DDVRKick.Control.SongPlayerControl.instance*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: DDVRKick.Control.SongPlayerControl.player
+  commentId: P:DDVRKick.Control.SongPlayerControl.player
+  id: player
+  parent: DDVRKick.Control.SongPlayerControl
+  langs:
+  - csharp
+  - vb
+  name: player
+  nameWithType: SongPlayerControl.player
+  fullName: DDVRKick.Control.SongPlayerControl.player
+  type: Property
+  source:
+    id: player
+    path: ''
+    startLine: 6556
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Control
+  syntax:
+    content: public RhythmPlayer player { get; }
+    parameters: []
+    return:
+      type: RhythmTool.RhythmPlayer
+    content.vb: Public ReadOnly Property player As RhythmPlayer
+  overload: DDVRKick.Control.SongPlayerControl.player*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DDVRKick.Control.SongPlayerControl.playOnAwake
+  commentId: F:DDVRKick.Control.SongPlayerControl.playOnAwake
+  id: playOnAwake
+  parent: DDVRKick.Control.SongPlayerControl
+  langs:
+  - csharp
+  - vb
+  name: playOnAwake
+  nameWithType: SongPlayerControl.playOnAwake
+  fullName: DDVRKick.Control.SongPlayerControl.playOnAwake
+  type: Field
+  source:
+    id: playOnAwake
+    path: ''
+    startLine: 6567
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Control
+  syntax:
+    content: public bool playOnAwake
+    return:
+      type: System.Boolean
+    content.vb: Public playOnAwake As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DDVRKick.Control.SongPlayerControl.Start
+  commentId: M:DDVRKick.Control.SongPlayerControl.Start
+  id: Start
+  parent: DDVRKick.Control.SongPlayerControl
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: SongPlayerControl.Start()
+  fullName: DDVRKick.Control.SongPlayerControl.Start()
+  type: Method
+  source:
+    id: Start
+    path: ''
+    startLine: 6575
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Control
+  syntax:
+    content: public void Start()
+    content.vb: Public Sub Start
+  overload: DDVRKick.Control.SongPlayerControl.Start*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DDVRKick.Control.SongPlayerControl.Restart
+  commentId: M:DDVRKick.Control.SongPlayerControl.Restart
+  id: Restart
+  parent: DDVRKick.Control.SongPlayerControl
+  langs:
+  - csharp
+  - vb
+  name: Restart()
+  nameWithType: SongPlayerControl.Restart()
+  fullName: DDVRKick.Control.SongPlayerControl.Restart()
+  type: Method
+  source:
+    id: Restart
+    path: ''
+    startLine: 6580
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Control
+  syntax:
+    content: public void Restart()
+    content.vb: Public Sub Restart
+  overload: DDVRKick.Control.SongPlayerControl.Restart*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DDVRKick.Control.SongPlayerControl.Pause
+  commentId: M:DDVRKick.Control.SongPlayerControl.Pause
+  id: Pause
+  parent: DDVRKick.Control.SongPlayerControl
+  langs:
+  - csharp
+  - vb
+  name: Pause()
+  nameWithType: SongPlayerControl.Pause()
+  fullName: DDVRKick.Control.SongPlayerControl.Pause()
+  type: Method
+  source:
+    id: Pause
+    path: ''
+    startLine: 6587
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Control
+  syntax:
+    content: public void Pause()
+    content.vb: Public Sub Pause
+  overload: DDVRKick.Control.SongPlayerControl.Pause*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DDVRKick.Control.SongPlayerControl.Resume
+  commentId: M:DDVRKick.Control.SongPlayerControl.Resume
+  id: Resume
+  parent: DDVRKick.Control.SongPlayerControl
+  langs:
+  - csharp
+  - vb
+  name: Resume()
+  nameWithType: SongPlayerControl.Resume()
+  fullName: DDVRKick.Control.SongPlayerControl.Resume()
+  type: Method
+  source:
+    id: Resume
+    path: ''
+    startLine: 6593
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Control
+  syntax:
+    content: public void Resume()
+    content.vb: Public Sub Resume
+  overload: DDVRKick.Control.SongPlayerControl.Resume*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DDVRKick.Control.SongPlayerControl.RestartFrom(System.Single)
+  commentId: M:DDVRKick.Control.SongPlayerControl.RestartFrom(System.Single)
+  id: RestartFrom(System.Single)
+  parent: DDVRKick.Control.SongPlayerControl
+  langs:
+  - csharp
+  - vb
+  name: RestartFrom(Single)
+  nameWithType: SongPlayerControl.RestartFrom(Single)
+  fullName: DDVRKick.Control.SongPlayerControl.RestartFrom(System.Single)
+  type: Method
+  source:
+    id: RestartFrom
+    path: ''
+    startLine: 6599
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Control
+  syntax:
+    content: public void RestartFrom(float timestamp)
+    parameters:
+    - id: timestamp
+      type: System.Single
+    content.vb: Public Sub RestartFrom(timestamp As Single)
+  overload: DDVRKick.Control.SongPlayerControl.RestartFrom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DDVRKick.Control
+  commentId: N:DDVRKick.Control
+  name: DDVRKick.Control
+  nameWithType: DDVRKick.Control
+  fullName: DDVRKick.Control
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DDVRKick.Control.SongPlayerControl.instance*
+  commentId: Overload:DDVRKick.Control.SongPlayerControl.instance
+  name: instance
+  nameWithType: SongPlayerControl.instance
+  fullName: DDVRKick.Control.SongPlayerControl.instance
+- uid: DDVRKick.Control.SongPlayerControl
+  commentId: T:DDVRKick.Control.SongPlayerControl
+  parent: DDVRKick.Control
+  name: SongPlayerControl
+  nameWithType: SongPlayerControl
+  fullName: DDVRKick.Control.SongPlayerControl
+- uid: DDVRKick.Control.SongPlayerControl.player*
+  commentId: Overload:DDVRKick.Control.SongPlayerControl.player
+  name: player
+  nameWithType: SongPlayerControl.player
+  fullName: DDVRKick.Control.SongPlayerControl.player
+- uid: RhythmTool.RhythmPlayer
+  commentId: T:RhythmTool.RhythmPlayer
+  parent: RhythmTool
+  name: RhythmPlayer
+  nameWithType: RhythmPlayer
+  fullName: RhythmTool.RhythmPlayer
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: DDVRKick.Control.SongPlayerControl.Start*
+  commentId: Overload:DDVRKick.Control.SongPlayerControl.Start
+  name: Start
+  nameWithType: SongPlayerControl.Start
+  fullName: DDVRKick.Control.SongPlayerControl.Start
+- uid: DDVRKick.Control.SongPlayerControl.Restart*
+  commentId: Overload:DDVRKick.Control.SongPlayerControl.Restart
+  name: Restart
+  nameWithType: SongPlayerControl.Restart
+  fullName: DDVRKick.Control.SongPlayerControl.Restart
+- uid: DDVRKick.Control.SongPlayerControl.Pause*
+  commentId: Overload:DDVRKick.Control.SongPlayerControl.Pause
+  name: Pause
+  nameWithType: SongPlayerControl.Pause
+  fullName: DDVRKick.Control.SongPlayerControl.Pause
+- uid: DDVRKick.Control.SongPlayerControl.Resume*
+  commentId: Overload:DDVRKick.Control.SongPlayerControl.Resume
+  name: Resume
+  nameWithType: SongPlayerControl.Resume
+  fullName: DDVRKick.Control.SongPlayerControl.Resume
+- uid: DDVRKick.Control.SongPlayerControl.RestartFrom*
+  commentId: Overload:DDVRKick.Control.SongPlayerControl.RestartFrom
+  name: RestartFrom
+  nameWithType: SongPlayerControl.RestartFrom
+  fullName: DDVRKick.Control.SongPlayerControl.RestartFrom
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

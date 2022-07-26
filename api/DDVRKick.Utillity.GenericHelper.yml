@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: DDVRKick.Utillity.GenericHelper
+  commentId: T:DDVRKick.Utillity.GenericHelper
+  id: GenericHelper
+  parent: DDVRKick.Utillity
+  children:
+  - DDVRKick.Utillity.GenericHelper.CopyComponent``1(GameObject,``0)
+  langs:
+  - csharp
+  - vb
+  name: GenericHelper
+  nameWithType: GenericHelper
+  fullName: DDVRKick.Utillity.GenericHelper
+  type: Class
+  source:
+    id: GenericHelper
+    path: ''
+    startLine: 7868
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Utillity
+  syntax:
+    content: public static class GenericHelper
+    content.vb: Public Module GenericHelper
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: DDVRKick.Utillity.GenericHelper.CopyComponent``1(GameObject,``0)
+  commentId: M:DDVRKick.Utillity.GenericHelper.CopyComponent``1(GameObject,``0)
+  id: CopyComponent``1(GameObject,``0)
+  isExtensionMethod: true
+  parent: DDVRKick.Utillity.GenericHelper
+  langs:
+  - csharp
+  - vb
+  name: CopyComponent<T>(GameObject, T)
+  nameWithType: GenericHelper.CopyComponent<T>(GameObject, T)
+  fullName: DDVRKick.Utillity.GenericHelper.CopyComponent<T>(GameObject, T)
+  type: Method
+  source:
+    id: CopyComponent
+    path: ''
+    startLine: 7870
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Utillity
+  syntax:
+    content: >-
+      public static T CopyComponent<T>(this GameObject destination, T original)
+          where T : Component
+    parameters:
+    - id: destination
+      type: Global.GameObject
+    - id: original
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CopyComponent(Of T As Component)(destination As GameObject, original As T) As T
+  overload: DDVRKick.Utillity.GenericHelper.CopyComponent*
+  nameWithType.vb: GenericHelper.CopyComponent(Of T)(GameObject, T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DDVRKick.Utillity.GenericHelper.CopyComponent(Of T)(GameObject, T)
+  name.vb: CopyComponent(Of T)(GameObject, T)
+references:
+- uid: DDVRKick.Utillity
+  commentId: N:DDVRKick.Utillity
+  name: DDVRKick.Utillity
+  nameWithType: DDVRKick.Utillity
+  fullName: DDVRKick.Utillity
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DDVRKick.Utillity.GenericHelper.CopyComponent*
+  commentId: Overload:DDVRKick.Utillity.GenericHelper.CopyComponent
+  name: CopyComponent
+  nameWithType: GenericHelper.CopyComponent
+  fullName: DDVRKick.Utillity.GenericHelper.CopyComponent
+- uid: Global.GameObject
+  commentId: '!:Global.GameObject'
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

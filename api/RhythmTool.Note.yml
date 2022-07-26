@@ -1,0 +1,392 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.Note
+  commentId: T:RhythmTool.Note
+  id: Note
+  parent: RhythmTool
+  children:
+  - RhythmTool.Note.A
+  - RhythmTool.Note.ASharp
+  - RhythmTool.Note.B
+  - RhythmTool.Note.C
+  - RhythmTool.Note.CSHARP
+  - RhythmTool.Note.D
+  - RhythmTool.Note.DSHARP
+  - RhythmTool.Note.E
+  - RhythmTool.Note.F
+  - RhythmTool.Note.FSHARP
+  - RhythmTool.Note.G
+  - RhythmTool.Note.GSHARP
+  langs:
+  - csharp
+  - vb
+  name: Note
+  nameWithType: Note
+  fullName: RhythmTool.Note
+  type: Enum
+  source:
+    id: Note
+    path: ''
+    startLine: 3781
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nMusical notes.\n"
+  example: []
+  syntax:
+    content: public enum Note
+    content.vb: Public Enum Note
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: RhythmTool.Note.A
+  commentId: F:RhythmTool.Note.A
+  id: A
+  parent: RhythmTool.Note
+  langs:
+  - csharp
+  - vb
+  name: A
+  nameWithType: Note.A
+  fullName: RhythmTool.Note.A
+  type: Field
+  source:
+    id: A
+    path: ''
+    startLine: 3783
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: A = 0
+    return:
+      type: RhythmTool.Note
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: RhythmTool.Note.ASharp
+  commentId: F:RhythmTool.Note.ASharp
+  id: ASharp
+  parent: RhythmTool.Note
+  langs:
+  - csharp
+  - vb
+  name: ASharp
+  nameWithType: Note.ASharp
+  fullName: RhythmTool.Note.ASharp
+  type: Field
+  source:
+    id: ASharp
+    path: ''
+    startLine: 3784
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: ASharp = 1
+    return:
+      type: RhythmTool.Note
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: RhythmTool.Note.B
+  commentId: F:RhythmTool.Note.B
+  id: B
+  parent: RhythmTool.Note
+  langs:
+  - csharp
+  - vb
+  name: B
+  nameWithType: Note.B
+  fullName: RhythmTool.Note.B
+  type: Field
+  source:
+    id: B
+    path: ''
+    startLine: 3785
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: B = 2
+    return:
+      type: RhythmTool.Note
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: RhythmTool.Note.C
+  commentId: F:RhythmTool.Note.C
+  id: C
+  parent: RhythmTool.Note
+  langs:
+  - csharp
+  - vb
+  name: C
+  nameWithType: Note.C
+  fullName: RhythmTool.Note.C
+  type: Field
+  source:
+    id: C
+    path: ''
+    startLine: 3786
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: C = 3
+    return:
+      type: RhythmTool.Note
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: RhythmTool.Note.CSHARP
+  commentId: F:RhythmTool.Note.CSHARP
+  id: CSHARP
+  parent: RhythmTool.Note
+  langs:
+  - csharp
+  - vb
+  name: CSHARP
+  nameWithType: Note.CSHARP
+  fullName: RhythmTool.Note.CSHARP
+  type: Field
+  source:
+    id: CSHARP
+    path: ''
+    startLine: 3787
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: CSHARP = 4
+    return:
+      type: RhythmTool.Note
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: RhythmTool.Note.D
+  commentId: F:RhythmTool.Note.D
+  id: D
+  parent: RhythmTool.Note
+  langs:
+  - csharp
+  - vb
+  name: D
+  nameWithType: Note.D
+  fullName: RhythmTool.Note.D
+  type: Field
+  source:
+    id: D
+    path: ''
+    startLine: 3788
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: D = 5
+    return:
+      type: RhythmTool.Note
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: RhythmTool.Note.DSHARP
+  commentId: F:RhythmTool.Note.DSHARP
+  id: DSHARP
+  parent: RhythmTool.Note
+  langs:
+  - csharp
+  - vb
+  name: DSHARP
+  nameWithType: Note.DSHARP
+  fullName: RhythmTool.Note.DSHARP
+  type: Field
+  source:
+    id: DSHARP
+    path: ''
+    startLine: 3789
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: DSHARP = 6
+    return:
+      type: RhythmTool.Note
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: RhythmTool.Note.E
+  commentId: F:RhythmTool.Note.E
+  id: E
+  parent: RhythmTool.Note
+  langs:
+  - csharp
+  - vb
+  name: E
+  nameWithType: Note.E
+  fullName: RhythmTool.Note.E
+  type: Field
+  source:
+    id: E
+    path: ''
+    startLine: 3790
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: E = 7
+    return:
+      type: RhythmTool.Note
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: RhythmTool.Note.F
+  commentId: F:RhythmTool.Note.F
+  id: F
+  parent: RhythmTool.Note
+  langs:
+  - csharp
+  - vb
+  name: F
+  nameWithType: Note.F
+  fullName: RhythmTool.Note.F
+  type: Field
+  source:
+    id: F
+    path: ''
+    startLine: 3791
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: F = 8
+    return:
+      type: RhythmTool.Note
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: RhythmTool.Note.FSHARP
+  commentId: F:RhythmTool.Note.FSHARP
+  id: FSHARP
+  parent: RhythmTool.Note
+  langs:
+  - csharp
+  - vb
+  name: FSHARP
+  nameWithType: Note.FSHARP
+  fullName: RhythmTool.Note.FSHARP
+  type: Field
+  source:
+    id: FSHARP
+    path: ''
+    startLine: 3792
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: FSHARP = 9
+    return:
+      type: RhythmTool.Note
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: RhythmTool.Note.G
+  commentId: F:RhythmTool.Note.G
+  id: G
+  parent: RhythmTool.Note
+  langs:
+  - csharp
+  - vb
+  name: G
+  nameWithType: Note.G
+  fullName: RhythmTool.Note.G
+  type: Field
+  source:
+    id: G
+    path: ''
+    startLine: 3793
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: G = 10
+    return:
+      type: RhythmTool.Note
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: RhythmTool.Note.GSHARP
+  commentId: F:RhythmTool.Note.GSHARP
+  id: GSHARP
+  parent: RhythmTool.Note
+  langs:
+  - csharp
+  - vb
+  name: GSHARP
+  nameWithType: Note.GSHARP
+  fullName: RhythmTool.Note.GSHARP
+  type: Field
+  source:
+    id: GSHARP
+    path: ''
+    startLine: 3794
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: GSHARP = 11
+    return:
+      type: RhythmTool.Note
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: RhythmTool.Note
+  commentId: T:RhythmTool.Note
+  parent: RhythmTool
+  name: Note
+  nameWithType: Note
+  fullName: RhythmTool.Note

@@ -1,0 +1,1495 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.LowerNoteTrack
+  commentId: T:RhythmTool.LowerNoteTrack
+  id: LowerNoteTrack
+  parent: RhythmTool
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: LowerNoteTrack
+  nameWithType: LowerNoteTrack
+  fullName: RhythmTool.LowerNoteTrack
+  type: Class
+  source:
+    id: LowerNoteTrack
+    path: ''
+    startLine: 6066
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LowerNoteTrack : Track<LowerNoteData>
+    content.vb: >-
+      <Serializable>
+
+      Public Class LowerNoteTrack
+          Inherits Track(Of LowerNoteData)
+  inheritance:
+  - System.Object
+  - RhythmTool.Track
+  - RhythmTool.Track{RhythmTool.LowerNoteData}
+  inheritedMembers:
+  - RhythmTool.Track{RhythmTool.LowerNoteData}.Item(System.Int32)
+  - RhythmTool.Track{RhythmTool.LowerNoteData}.count
+  - RhythmTool.Track{RhythmTool.LowerNoteData}.Add(RhythmTool.LowerNoteData)
+  - RhythmTool.Track{RhythmTool.LowerNoteData}.Remove(RhythmTool.LowerNoteData)
+  - RhythmTool.Track{RhythmTool.LowerNoteData}.Sort
+  - RhythmTool.Track{RhythmTool.LowerNoteData}.GetFeatures(List{RhythmTool.LowerNoteData},System.Single,System.Single)
+  - RhythmTool.Track{RhythmTool.LowerNoteData}.GetIntersectingFeatures(List{RhythmTool.LowerNoteData},System.Single,System.Single)
+  - RhythmTool.Track{RhythmTool.LowerNoteData}.GetIndex(System.Single)
+  - RhythmTool.Track{RhythmTool.LowerNoteData}.GetPrevIndex(System.Single)
+  - RhythmTool.Track{RhythmTool.LowerNoteData}.GetPrevFeature(System.Single)
+  - RhythmTool.Track{RhythmTool.LowerNoteData}.GetNextIndex(System.Single)
+  - RhythmTool.Track{RhythmTool.LowerNoteData}.GetNextFeature(System.Single)
+  - RhythmTool.Track{RhythmTool.LowerNoteData}.GetIndex(RhythmTool.LowerNoteData)
+  - RhythmTool.Track{RhythmTool.LowerNoteData}.GetIntersectingIndex(System.Single)
+  - RhythmTool.Track{RhythmTool.LowerNoteData}.Create(System.String)
+  - RhythmTool.Track.name
+  - RhythmTool.Track._name
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: RhythmTool.Track
+  commentId: T:RhythmTool.Track
+  parent: RhythmTool
+  name: Track
+  nameWithType: Track
+  fullName: RhythmTool.Track
+- uid: RhythmTool.Track{RhythmTool.LowerNoteData}
+  commentId: T:RhythmTool.Track{RhythmTool.LowerNoteData}
+  parent: RhythmTool
+  definition: RhythmTool.Track`1
+  name: Track<LowerNoteData>
+  nameWithType: Track<LowerNoteData>
+  fullName: RhythmTool.Track<RhythmTool.LowerNoteData>
+  nameWithType.vb: Track(Of LowerNoteData)
+  fullName.vb: RhythmTool.Track(Of RhythmTool.LowerNoteData)
+  name.vb: Track(Of LowerNoteData)
+  spec.csharp:
+  - uid: RhythmTool.Track`1
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: RhythmTool.LowerNoteData
+    name: LowerNoteData
+    nameWithType: LowerNoteData
+    fullName: RhythmTool.LowerNoteData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: RhythmTool.Track`1
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: RhythmTool.LowerNoteData
+    name: LowerNoteData
+    nameWithType: LowerNoteData
+    fullName: RhythmTool.LowerNoteData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track{RhythmTool.LowerNoteData}.Item(System.Int32)
+  commentId: P:RhythmTool.Track{RhythmTool.LowerNoteData}.Item(System.Int32)
+  parent: RhythmTool.Track{RhythmTool.LowerNoteData}
+  definition: RhythmTool.Track`1.Item(System.Int32)
+  name: Item[Int32]
+  nameWithType: Track<LowerNoteData>.Item[Int32]
+  fullName: RhythmTool.Track<RhythmTool.LowerNoteData>.Item[System.Int32]
+  nameWithType.vb: Track(Of LowerNoteData).Item(Int32)
+  fullName.vb: RhythmTool.Track(Of RhythmTool.LowerNoteData).Item(System.Int32)
+  name.vb: Item(Int32)
+  spec.csharp:
+  - uid: RhythmTool.Track`1.Item(System.Int32)
+    name: Item
+    nameWithType: Track<LowerNoteData>.Item
+    fullName: RhythmTool.Track<RhythmTool.LowerNoteData>.Item
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: RhythmTool.Track`1.Item(System.Int32)
+    name: Item
+    nameWithType: Track(Of LowerNoteData).Item
+    fullName: RhythmTool.Track(Of RhythmTool.LowerNoteData).Item
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track{RhythmTool.LowerNoteData}.count
+  commentId: P:RhythmTool.Track{RhythmTool.LowerNoteData}.count
+  parent: RhythmTool.Track{RhythmTool.LowerNoteData}
+  definition: RhythmTool.Track`1.count
+  name: count
+  nameWithType: Track<LowerNoteData>.count
+  fullName: RhythmTool.Track<RhythmTool.LowerNoteData>.count
+  nameWithType.vb: Track(Of LowerNoteData).count
+  fullName.vb: RhythmTool.Track(Of RhythmTool.LowerNoteData).count
+- uid: RhythmTool.Track{RhythmTool.LowerNoteData}.Add(RhythmTool.LowerNoteData)
+  commentId: M:RhythmTool.Track{RhythmTool.LowerNoteData}.Add(RhythmTool.LowerNoteData)
+  parent: RhythmTool.Track{RhythmTool.LowerNoteData}
+  definition: RhythmTool.Track`1.Add(`0)
+  name: Add(LowerNoteData)
+  nameWithType: Track<LowerNoteData>.Add(LowerNoteData)
+  fullName: RhythmTool.Track<RhythmTool.LowerNoteData>.Add(RhythmTool.LowerNoteData)
+  nameWithType.vb: Track(Of LowerNoteData).Add(LowerNoteData)
+  fullName.vb: RhythmTool.Track(Of RhythmTool.LowerNoteData).Add(RhythmTool.LowerNoteData)
+  spec.csharp:
+  - uid: RhythmTool.Track`1.Add(`0)
+    name: Add
+    nameWithType: Track<LowerNoteData>.Add
+    fullName: RhythmTool.Track<RhythmTool.LowerNoteData>.Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RhythmTool.LowerNoteData
+    name: LowerNoteData
+    nameWithType: LowerNoteData
+    fullName: RhythmTool.LowerNoteData
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Track`1.Add(`0)
+    name: Add
+    nameWithType: Track(Of LowerNoteData).Add
+    fullName: RhythmTool.Track(Of RhythmTool.LowerNoteData).Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RhythmTool.LowerNoteData
+    name: LowerNoteData
+    nameWithType: LowerNoteData
+    fullName: RhythmTool.LowerNoteData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track{RhythmTool.LowerNoteData}.Remove(RhythmTool.LowerNoteData)
+  commentId: M:RhythmTool.Track{RhythmTool.LowerNoteData}.Remove(RhythmTool.LowerNoteData)
+  parent: RhythmTool.Track{RhythmTool.LowerNoteData}
+  definition: RhythmTool.Track`1.Remove(`0)
+  name: Remove(LowerNoteData)
+  nameWithType: Track<LowerNoteData>.Remove(LowerNoteData)
+  fullName: RhythmTool.Track<RhythmTool.LowerNoteData>.Remove(RhythmTool.LowerNoteData)
+  nameWithType.vb: Track(Of LowerNoteData).Remove(LowerNoteData)
+  fullName.vb: RhythmTool.Track(Of RhythmTool.LowerNoteData).Remove(RhythmTool.LowerNoteData)
+  spec.csharp:
+  - uid: RhythmTool.Track`1.Remove(`0)
+    name: Remove
+    nameWithType: Track<LowerNoteData>.Remove
+    fullName: RhythmTool.Track<RhythmTool.LowerNoteData>.Remove
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RhythmTool.LowerNoteData
+    name: LowerNoteData
+    nameWithType: LowerNoteData
+    fullName: RhythmTool.LowerNoteData
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Track`1.Remove(`0)
+    name: Remove
+    nameWithType: Track(Of LowerNoteData).Remove
+    fullName: RhythmTool.Track(Of RhythmTool.LowerNoteData).Remove
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RhythmTool.LowerNoteData
+    name: LowerNoteData
+    nameWithType: LowerNoteData
+    fullName: RhythmTool.LowerNoteData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track{RhythmTool.LowerNoteData}.Sort
+  commentId: M:RhythmTool.Track{RhythmTool.LowerNoteData}.Sort
+  parent: RhythmTool.Track{RhythmTool.LowerNoteData}
+  definition: RhythmTool.Track`1.Sort
+  name: Sort()
+  nameWithType: Track<LowerNoteData>.Sort()
+  fullName: RhythmTool.Track<RhythmTool.LowerNoteData>.Sort()
+  nameWithType.vb: Track(Of LowerNoteData).Sort()
+  fullName.vb: RhythmTool.Track(Of RhythmTool.LowerNoteData).Sort()
+  spec.csharp:
+  - uid: RhythmTool.Track`1.Sort
+    name: Sort
+    nameWithType: Track<LowerNoteData>.Sort
+    fullName: RhythmTool.Track<RhythmTool.LowerNoteData>.Sort
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Track`1.Sort
+    name: Sort
+    nameWithType: Track(Of LowerNoteData).Sort
+    fullName: RhythmTool.Track(Of RhythmTool.LowerNoteData).Sort
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track{RhythmTool.LowerNoteData}.GetFeatures(List{RhythmTool.LowerNoteData},System.Single,System.Single)
+  commentId: M:RhythmTool.Track{RhythmTool.LowerNoteData}.GetFeatures(List{RhythmTool.LowerNoteData},System.Single,System.Single)
+  parent: RhythmTool.Track{RhythmTool.LowerNoteData}
+  definition: RhythmTool.Track`1.GetFeatures(List{`0},System.Single,System.Single)
+  name: GetFeatures(List<LowerNoteData>, Single, Single)
+  nameWithType: Track<LowerNoteData>.GetFeatures(List<LowerNoteData>, Single, Single)
+  fullName: RhythmTool.Track<RhythmTool.LowerNoteData>.GetFeatures(List<RhythmTool.LowerNoteData>, System.Single, System.Single)
+  nameWithType.vb: Track(Of LowerNoteData).GetFeatures(List(Of LowerNoteData), Single, Single)
+  fullName.vb: RhythmTool.Track(Of RhythmTool.LowerNoteData).GetFeatures(List(Of RhythmTool.LowerNoteData), System.Single, System.Single)
+  name.vb: GetFeatures(List(Of LowerNoteData), Single, Single)
+  spec.csharp:
+  - uid: RhythmTool.Track`1.GetFeatures(List{`0},System.Single,System.Single)
+    name: GetFeatures
+    nameWithType: Track<LowerNoteData>.GetFeatures
+    fullName: RhythmTool.Track<RhythmTool.LowerNoteData>.GetFeatures
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: RhythmTool.LowerNoteData
+    name: LowerNoteData
+    nameWithType: LowerNoteData
+    fullName: RhythmTool.LowerNoteData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Track`1.GetFeatures(List{`0},System.Single,System.Single)
+    name: GetFeatures
+    nameWithType: Track(Of LowerNoteData).GetFeatures
+    fullName: RhythmTool.Track(Of RhythmTool.LowerNoteData).GetFeatures
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: RhythmTool.LowerNoteData
+    name: LowerNoteData
+    nameWithType: LowerNoteData
+    fullName: RhythmTool.LowerNoteData
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track{RhythmTool.LowerNoteData}.GetIntersectingFeatures(List{RhythmTool.LowerNoteData},System.Single,System.Single)
+  commentId: M:RhythmTool.Track{RhythmTool.LowerNoteData}.GetIntersectingFeatures(List{RhythmTool.LowerNoteData},System.Single,System.Single)
+  parent: RhythmTool.Track{RhythmTool.LowerNoteData}
+  definition: RhythmTool.Track`1.GetIntersectingFeatures(List{`0},System.Single,System.Single)
+  name: GetIntersectingFeatures(List<LowerNoteData>, Single, Single)
+  nameWithType: Track<LowerNoteData>.GetIntersectingFeatures(List<LowerNoteData>, Single, Single)
+  fullName: RhythmTool.Track<RhythmTool.LowerNoteData>.GetIntersectingFeatures(List<RhythmTool.LowerNoteData>, System.Single, System.Single)
+  nameWithType.vb: Track(Of LowerNoteData).GetIntersectingFeatures(List(Of LowerNoteData), Single, Single)
+  fullName.vb: RhythmTool.Track(Of RhythmTool.LowerNoteData).GetIntersectingFeatures(List(Of RhythmTool.LowerNoteData), System.Single, System.Single)
+  name.vb: GetIntersectingFeatures(List(Of LowerNoteData), Single, Single)
+  spec.csharp:
+  - uid: RhythmTool.Track`1.GetIntersectingFeatures(List{`0},System.Single,System.Single)
+    name: GetIntersectingFeatures
+    nameWithType: Track<LowerNoteData>.GetIntersectingFeatures
+    fullName: RhythmTool.Track<RhythmTool.LowerNoteData>.GetIntersectingFeatures
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: RhythmTool.LowerNoteData
+    name: LowerNoteData
+    nameWithType: LowerNoteData
+    fullName: RhythmTool.LowerNoteData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Track`1.GetIntersectingFeatures(List{`0},System.Single,System.Single)
+    name: GetIntersectingFeatures
+    nameWithType: Track(Of LowerNoteData).GetIntersectingFeatures
+    fullName: RhythmTool.Track(Of RhythmTool.LowerNoteData).GetIntersectingFeatures
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: RhythmTool.LowerNoteData
+    name: LowerNoteData
+    nameWithType: LowerNoteData
+    fullName: RhythmTool.LowerNoteData
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track{RhythmTool.LowerNoteData}.GetIndex(System.Single)
+  commentId: M:RhythmTool.Track{RhythmTool.LowerNoteData}.GetIndex(System.Single)
+  parent: RhythmTool.Track{RhythmTool.LowerNoteData}
+  definition: RhythmTool.Track`1.GetIndex(System.Single)
+  name: GetIndex(Single)
+  nameWithType: Track<LowerNoteData>.GetIndex(Single)
+  fullName: RhythmTool.Track<RhythmTool.LowerNoteData>.GetIndex(System.Single)
+  nameWithType.vb: Track(Of LowerNoteData).GetIndex(Single)
+  fullName.vb: RhythmTool.Track(Of RhythmTool.LowerNoteData).GetIndex(System.Single)
+  spec.csharp:
+  - uid: RhythmTool.Track`1.GetIndex(System.Single)
+    name: GetIndex
+    nameWithType: Track<LowerNoteData>.GetIndex
+    fullName: RhythmTool.Track<RhythmTool.LowerNoteData>.GetIndex
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Track`1.GetIndex(System.Single)
+    name: GetIndex
+    nameWithType: Track(Of LowerNoteData).GetIndex
+    fullName: RhythmTool.Track(Of RhythmTool.LowerNoteData).GetIndex
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track{RhythmTool.LowerNoteData}.GetPrevIndex(System.Single)
+  commentId: M:RhythmTool.Track{RhythmTool.LowerNoteData}.GetPrevIndex(System.Single)
+  parent: RhythmTool.Track{RhythmTool.LowerNoteData}
+  definition: RhythmTool.Track`1.GetPrevIndex(System.Single)
+  name: GetPrevIndex(Single)
+  nameWithType: Track<LowerNoteData>.GetPrevIndex(Single)
+  fullName: RhythmTool.Track<RhythmTool.LowerNoteData>.GetPrevIndex(System.Single)
+  nameWithType.vb: Track(Of LowerNoteData).GetPrevIndex(Single)
+  fullName.vb: RhythmTool.Track(Of RhythmTool.LowerNoteData).GetPrevIndex(System.Single)
+  spec.csharp:
+  - uid: RhythmTool.Track`1.GetPrevIndex(System.Single)
+    name: GetPrevIndex
+    nameWithType: Track<LowerNoteData>.GetPrevIndex
+    fullName: RhythmTool.Track<RhythmTool.LowerNoteData>.GetPrevIndex
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Track`1.GetPrevIndex(System.Single)
+    name: GetPrevIndex
+    nameWithType: Track(Of LowerNoteData).GetPrevIndex
+    fullName: RhythmTool.Track(Of RhythmTool.LowerNoteData).GetPrevIndex
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track{RhythmTool.LowerNoteData}.GetPrevFeature(System.Single)
+  commentId: M:RhythmTool.Track{RhythmTool.LowerNoteData}.GetPrevFeature(System.Single)
+  parent: RhythmTool.Track{RhythmTool.LowerNoteData}
+  definition: RhythmTool.Track`1.GetPrevFeature(System.Single)
+  name: GetPrevFeature(Single)
+  nameWithType: Track<LowerNoteData>.GetPrevFeature(Single)
+  fullName: RhythmTool.Track<RhythmTool.LowerNoteData>.GetPrevFeature(System.Single)
+  nameWithType.vb: Track(Of LowerNoteData).GetPrevFeature(Single)
+  fullName.vb: RhythmTool.Track(Of RhythmTool.LowerNoteData).GetPrevFeature(System.Single)
+  spec.csharp:
+  - uid: RhythmTool.Track`1.GetPrevFeature(System.Single)
+    name: GetPrevFeature
+    nameWithType: Track<LowerNoteData>.GetPrevFeature
+    fullName: RhythmTool.Track<RhythmTool.LowerNoteData>.GetPrevFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Track`1.GetPrevFeature(System.Single)
+    name: GetPrevFeature
+    nameWithType: Track(Of LowerNoteData).GetPrevFeature
+    fullName: RhythmTool.Track(Of RhythmTool.LowerNoteData).GetPrevFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track{RhythmTool.LowerNoteData}.GetNextIndex(System.Single)
+  commentId: M:RhythmTool.Track{RhythmTool.LowerNoteData}.GetNextIndex(System.Single)
+  parent: RhythmTool.Track{RhythmTool.LowerNoteData}
+  definition: RhythmTool.Track`1.GetNextIndex(System.Single)
+  name: GetNextIndex(Single)
+  nameWithType: Track<LowerNoteData>.GetNextIndex(Single)
+  fullName: RhythmTool.Track<RhythmTool.LowerNoteData>.GetNextIndex(System.Single)
+  nameWithType.vb: Track(Of LowerNoteData).GetNextIndex(Single)
+  fullName.vb: RhythmTool.Track(Of RhythmTool.LowerNoteData).GetNextIndex(System.Single)
+  spec.csharp:
+  - uid: RhythmTool.Track`1.GetNextIndex(System.Single)
+    name: GetNextIndex
+    nameWithType: Track<LowerNoteData>.GetNextIndex
+    fullName: RhythmTool.Track<RhythmTool.LowerNoteData>.GetNextIndex
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Track`1.GetNextIndex(System.Single)
+    name: GetNextIndex
+    nameWithType: Track(Of LowerNoteData).GetNextIndex
+    fullName: RhythmTool.Track(Of RhythmTool.LowerNoteData).GetNextIndex
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track{RhythmTool.LowerNoteData}.GetNextFeature(System.Single)
+  commentId: M:RhythmTool.Track{RhythmTool.LowerNoteData}.GetNextFeature(System.Single)
+  parent: RhythmTool.Track{RhythmTool.LowerNoteData}
+  definition: RhythmTool.Track`1.GetNextFeature(System.Single)
+  name: GetNextFeature(Single)
+  nameWithType: Track<LowerNoteData>.GetNextFeature(Single)
+  fullName: RhythmTool.Track<RhythmTool.LowerNoteData>.GetNextFeature(System.Single)
+  nameWithType.vb: Track(Of LowerNoteData).GetNextFeature(Single)
+  fullName.vb: RhythmTool.Track(Of RhythmTool.LowerNoteData).GetNextFeature(System.Single)
+  spec.csharp:
+  - uid: RhythmTool.Track`1.GetNextFeature(System.Single)
+    name: GetNextFeature
+    nameWithType: Track<LowerNoteData>.GetNextFeature
+    fullName: RhythmTool.Track<RhythmTool.LowerNoteData>.GetNextFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Track`1.GetNextFeature(System.Single)
+    name: GetNextFeature
+    nameWithType: Track(Of LowerNoteData).GetNextFeature
+    fullName: RhythmTool.Track(Of RhythmTool.LowerNoteData).GetNextFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track{RhythmTool.LowerNoteData}.GetIndex(RhythmTool.LowerNoteData)
+  commentId: M:RhythmTool.Track{RhythmTool.LowerNoteData}.GetIndex(RhythmTool.LowerNoteData)
+  parent: RhythmTool.Track{RhythmTool.LowerNoteData}
+  definition: RhythmTool.Track`1.GetIndex(`0)
+  name: GetIndex(LowerNoteData)
+  nameWithType: Track<LowerNoteData>.GetIndex(LowerNoteData)
+  fullName: RhythmTool.Track<RhythmTool.LowerNoteData>.GetIndex(RhythmTool.LowerNoteData)
+  nameWithType.vb: Track(Of LowerNoteData).GetIndex(LowerNoteData)
+  fullName.vb: RhythmTool.Track(Of RhythmTool.LowerNoteData).GetIndex(RhythmTool.LowerNoteData)
+  spec.csharp:
+  - uid: RhythmTool.Track`1.GetIndex(`0)
+    name: GetIndex
+    nameWithType: Track<LowerNoteData>.GetIndex
+    fullName: RhythmTool.Track<RhythmTool.LowerNoteData>.GetIndex
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RhythmTool.LowerNoteData
+    name: LowerNoteData
+    nameWithType: LowerNoteData
+    fullName: RhythmTool.LowerNoteData
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Track`1.GetIndex(`0)
+    name: GetIndex
+    nameWithType: Track(Of LowerNoteData).GetIndex
+    fullName: RhythmTool.Track(Of RhythmTool.LowerNoteData).GetIndex
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RhythmTool.LowerNoteData
+    name: LowerNoteData
+    nameWithType: LowerNoteData
+    fullName: RhythmTool.LowerNoteData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track{RhythmTool.LowerNoteData}.GetIntersectingIndex(System.Single)
+  commentId: M:RhythmTool.Track{RhythmTool.LowerNoteData}.GetIntersectingIndex(System.Single)
+  parent: RhythmTool.Track{RhythmTool.LowerNoteData}
+  definition: RhythmTool.Track`1.GetIntersectingIndex(System.Single)
+  name: GetIntersectingIndex(Single)
+  nameWithType: Track<LowerNoteData>.GetIntersectingIndex(Single)
+  fullName: RhythmTool.Track<RhythmTool.LowerNoteData>.GetIntersectingIndex(System.Single)
+  nameWithType.vb: Track(Of LowerNoteData).GetIntersectingIndex(Single)
+  fullName.vb: RhythmTool.Track(Of RhythmTool.LowerNoteData).GetIntersectingIndex(System.Single)
+  spec.csharp:
+  - uid: RhythmTool.Track`1.GetIntersectingIndex(System.Single)
+    name: GetIntersectingIndex
+    nameWithType: Track<LowerNoteData>.GetIntersectingIndex
+    fullName: RhythmTool.Track<RhythmTool.LowerNoteData>.GetIntersectingIndex
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Track`1.GetIntersectingIndex(System.Single)
+    name: GetIntersectingIndex
+    nameWithType: Track(Of LowerNoteData).GetIntersectingIndex
+    fullName: RhythmTool.Track(Of RhythmTool.LowerNoteData).GetIntersectingIndex
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track{RhythmTool.LowerNoteData}.Create(System.String)
+  commentId: M:RhythmTool.Track{RhythmTool.LowerNoteData}.Create(System.String)
+  parent: RhythmTool.Track{RhythmTool.LowerNoteData}
+  definition: RhythmTool.Track`1.Create(System.String)
+  name: Create(String)
+  nameWithType: Track<LowerNoteData>.Create(String)
+  fullName: RhythmTool.Track<RhythmTool.LowerNoteData>.Create(System.String)
+  nameWithType.vb: Track(Of LowerNoteData).Create(String)
+  fullName.vb: RhythmTool.Track(Of RhythmTool.LowerNoteData).Create(System.String)
+  spec.csharp:
+  - uid: RhythmTool.Track`1.Create(System.String)
+    name: Create
+    nameWithType: Track<LowerNoteData>.Create
+    fullName: RhythmTool.Track<RhythmTool.LowerNoteData>.Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Track`1.Create(System.String)
+    name: Create
+    nameWithType: Track(Of LowerNoteData).Create
+    fullName: RhythmTool.Track(Of RhythmTool.LowerNoteData).Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track.name
+  commentId: P:RhythmTool.Track.name
+  parent: RhythmTool.Track
+  name: name
+  nameWithType: Track.name
+  fullName: RhythmTool.Track.name
+- uid: RhythmTool.Track._name
+  commentId: F:RhythmTool.Track._name
+  parent: RhythmTool.Track
+  name: _name
+  nameWithType: Track._name
+  fullName: RhythmTool.Track._name
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.Track`1
+  commentId: T:RhythmTool.Track`1
+  parent: RhythmTool
+  name: Track<T>
+  nameWithType: Track<T>
+  fullName: RhythmTool.Track<T>
+  nameWithType.vb: Track(Of T)
+  fullName.vb: RhythmTool.Track(Of T)
+  name.vb: Track(Of T)
+  spec.csharp:
+  - uid: RhythmTool.Track`1
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: RhythmTool.Track`1
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track`1.Item(System.Int32)
+  commentId: P:RhythmTool.Track`1.Item(System.Int32)
+  isExternal: true
+  name: Item[Int32]
+  nameWithType: Track<T>.Item[Int32]
+  fullName: RhythmTool.Track<T>.Item[System.Int32]
+  nameWithType.vb: Track(Of T).Item(Int32)
+  fullName.vb: RhythmTool.Track(Of T).Item(System.Int32)
+  name.vb: Item(Int32)
+  spec.csharp:
+  - uid: RhythmTool.Track`1.Item(System.Int32)
+    name: Item
+    nameWithType: Track<T>.Item
+    fullName: RhythmTool.Track<T>.Item
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: RhythmTool.Track`1.Item(System.Int32)
+    name: Item
+    nameWithType: Track(Of T).Item
+    fullName: RhythmTool.Track(Of T).Item
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track`1.count
+  commentId: P:RhythmTool.Track`1.count
+  name: count
+  nameWithType: Track<T>.count
+  fullName: RhythmTool.Track<T>.count
+  nameWithType.vb: Track(Of T).count
+  fullName.vb: RhythmTool.Track(Of T).count
+- uid: RhythmTool.Track`1.Add(`0)
+  commentId: M:RhythmTool.Track`1.Add(`0)
+  name: Add(T)
+  nameWithType: Track<T>.Add(T)
+  fullName: RhythmTool.Track<T>.Add(T)
+  nameWithType.vb: Track(Of T).Add(T)
+  fullName.vb: RhythmTool.Track(Of T).Add(T)
+  spec.csharp:
+  - uid: RhythmTool.Track`1.Add(`0)
+    name: Add
+    nameWithType: Track<T>.Add
+    fullName: RhythmTool.Track<T>.Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Track`1.Add(`0)
+    name: Add
+    nameWithType: Track(Of T).Add
+    fullName: RhythmTool.Track(Of T).Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track`1.Remove(`0)
+  commentId: M:RhythmTool.Track`1.Remove(`0)
+  name: Remove(T)
+  nameWithType: Track<T>.Remove(T)
+  fullName: RhythmTool.Track<T>.Remove(T)
+  nameWithType.vb: Track(Of T).Remove(T)
+  fullName.vb: RhythmTool.Track(Of T).Remove(T)
+  spec.csharp:
+  - uid: RhythmTool.Track`1.Remove(`0)
+    name: Remove
+    nameWithType: Track<T>.Remove
+    fullName: RhythmTool.Track<T>.Remove
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Track`1.Remove(`0)
+    name: Remove
+    nameWithType: Track(Of T).Remove
+    fullName: RhythmTool.Track(Of T).Remove
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track`1.Sort
+  commentId: M:RhythmTool.Track`1.Sort
+  name: Sort()
+  nameWithType: Track<T>.Sort()
+  fullName: RhythmTool.Track<T>.Sort()
+  nameWithType.vb: Track(Of T).Sort()
+  fullName.vb: RhythmTool.Track(Of T).Sort()
+  spec.csharp:
+  - uid: RhythmTool.Track`1.Sort
+    name: Sort
+    nameWithType: Track<T>.Sort
+    fullName: RhythmTool.Track<T>.Sort
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Track`1.Sort
+    name: Sort
+    nameWithType: Track(Of T).Sort
+    fullName: RhythmTool.Track(Of T).Sort
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track`1.GetFeatures(List{`0},System.Single,System.Single)
+  commentId: M:RhythmTool.Track`1.GetFeatures(List{`0},System.Single,System.Single)
+  isExternal: true
+  name: GetFeatures(List<T>, Single, Single)
+  nameWithType: Track<T>.GetFeatures(List<T>, Single, Single)
+  fullName: RhythmTool.Track<T>.GetFeatures(List<T>, System.Single, System.Single)
+  nameWithType.vb: Track(Of T).GetFeatures(List(Of T), Single, Single)
+  fullName.vb: RhythmTool.Track(Of T).GetFeatures(List(Of T), System.Single, System.Single)
+  name.vb: GetFeatures(List(Of T), Single, Single)
+  spec.csharp:
+  - uid: RhythmTool.Track`1.GetFeatures(List{`0},System.Single,System.Single)
+    name: GetFeatures
+    nameWithType: Track<T>.GetFeatures
+    fullName: RhythmTool.Track<T>.GetFeatures
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Track`1.GetFeatures(List{`0},System.Single,System.Single)
+    name: GetFeatures
+    nameWithType: Track(Of T).GetFeatures
+    fullName: RhythmTool.Track(Of T).GetFeatures
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track`1.GetIntersectingFeatures(List{`0},System.Single,System.Single)
+  commentId: M:RhythmTool.Track`1.GetIntersectingFeatures(List{`0},System.Single,System.Single)
+  isExternal: true
+  name: GetIntersectingFeatures(List<T>, Single, Single)
+  nameWithType: Track<T>.GetIntersectingFeatures(List<T>, Single, Single)
+  fullName: RhythmTool.Track<T>.GetIntersectingFeatures(List<T>, System.Single, System.Single)
+  nameWithType.vb: Track(Of T).GetIntersectingFeatures(List(Of T), Single, Single)
+  fullName.vb: RhythmTool.Track(Of T).GetIntersectingFeatures(List(Of T), System.Single, System.Single)
+  name.vb: GetIntersectingFeatures(List(Of T), Single, Single)
+  spec.csharp:
+  - uid: RhythmTool.Track`1.GetIntersectingFeatures(List{`0},System.Single,System.Single)
+    name: GetIntersectingFeatures
+    nameWithType: Track<T>.GetIntersectingFeatures
+    fullName: RhythmTool.Track<T>.GetIntersectingFeatures
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Track`1.GetIntersectingFeatures(List{`0},System.Single,System.Single)
+    name: GetIntersectingFeatures
+    nameWithType: Track(Of T).GetIntersectingFeatures
+    fullName: RhythmTool.Track(Of T).GetIntersectingFeatures
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track`1.GetIndex(System.Single)
+  commentId: M:RhythmTool.Track`1.GetIndex(System.Single)
+  isExternal: true
+  name: GetIndex(Single)
+  nameWithType: Track<T>.GetIndex(Single)
+  fullName: RhythmTool.Track<T>.GetIndex(System.Single)
+  nameWithType.vb: Track(Of T).GetIndex(Single)
+  fullName.vb: RhythmTool.Track(Of T).GetIndex(System.Single)
+  spec.csharp:
+  - uid: RhythmTool.Track`1.GetIndex(System.Single)
+    name: GetIndex
+    nameWithType: Track<T>.GetIndex
+    fullName: RhythmTool.Track<T>.GetIndex
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Track`1.GetIndex(System.Single)
+    name: GetIndex
+    nameWithType: Track(Of T).GetIndex
+    fullName: RhythmTool.Track(Of T).GetIndex
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track`1.GetPrevIndex(System.Single)
+  commentId: M:RhythmTool.Track`1.GetPrevIndex(System.Single)
+  isExternal: true
+  name: GetPrevIndex(Single)
+  nameWithType: Track<T>.GetPrevIndex(Single)
+  fullName: RhythmTool.Track<T>.GetPrevIndex(System.Single)
+  nameWithType.vb: Track(Of T).GetPrevIndex(Single)
+  fullName.vb: RhythmTool.Track(Of T).GetPrevIndex(System.Single)
+  spec.csharp:
+  - uid: RhythmTool.Track`1.GetPrevIndex(System.Single)
+    name: GetPrevIndex
+    nameWithType: Track<T>.GetPrevIndex
+    fullName: RhythmTool.Track<T>.GetPrevIndex
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Track`1.GetPrevIndex(System.Single)
+    name: GetPrevIndex
+    nameWithType: Track(Of T).GetPrevIndex
+    fullName: RhythmTool.Track(Of T).GetPrevIndex
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track`1.GetPrevFeature(System.Single)
+  commentId: M:RhythmTool.Track`1.GetPrevFeature(System.Single)
+  isExternal: true
+  name: GetPrevFeature(Single)
+  nameWithType: Track<T>.GetPrevFeature(Single)
+  fullName: RhythmTool.Track<T>.GetPrevFeature(System.Single)
+  nameWithType.vb: Track(Of T).GetPrevFeature(Single)
+  fullName.vb: RhythmTool.Track(Of T).GetPrevFeature(System.Single)
+  spec.csharp:
+  - uid: RhythmTool.Track`1.GetPrevFeature(System.Single)
+    name: GetPrevFeature
+    nameWithType: Track<T>.GetPrevFeature
+    fullName: RhythmTool.Track<T>.GetPrevFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Track`1.GetPrevFeature(System.Single)
+    name: GetPrevFeature
+    nameWithType: Track(Of T).GetPrevFeature
+    fullName: RhythmTool.Track(Of T).GetPrevFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track`1.GetNextIndex(System.Single)
+  commentId: M:RhythmTool.Track`1.GetNextIndex(System.Single)
+  isExternal: true
+  name: GetNextIndex(Single)
+  nameWithType: Track<T>.GetNextIndex(Single)
+  fullName: RhythmTool.Track<T>.GetNextIndex(System.Single)
+  nameWithType.vb: Track(Of T).GetNextIndex(Single)
+  fullName.vb: RhythmTool.Track(Of T).GetNextIndex(System.Single)
+  spec.csharp:
+  - uid: RhythmTool.Track`1.GetNextIndex(System.Single)
+    name: GetNextIndex
+    nameWithType: Track<T>.GetNextIndex
+    fullName: RhythmTool.Track<T>.GetNextIndex
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Track`1.GetNextIndex(System.Single)
+    name: GetNextIndex
+    nameWithType: Track(Of T).GetNextIndex
+    fullName: RhythmTool.Track(Of T).GetNextIndex
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track`1.GetNextFeature(System.Single)
+  commentId: M:RhythmTool.Track`1.GetNextFeature(System.Single)
+  isExternal: true
+  name: GetNextFeature(Single)
+  nameWithType: Track<T>.GetNextFeature(Single)
+  fullName: RhythmTool.Track<T>.GetNextFeature(System.Single)
+  nameWithType.vb: Track(Of T).GetNextFeature(Single)
+  fullName.vb: RhythmTool.Track(Of T).GetNextFeature(System.Single)
+  spec.csharp:
+  - uid: RhythmTool.Track`1.GetNextFeature(System.Single)
+    name: GetNextFeature
+    nameWithType: Track<T>.GetNextFeature
+    fullName: RhythmTool.Track<T>.GetNextFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Track`1.GetNextFeature(System.Single)
+    name: GetNextFeature
+    nameWithType: Track(Of T).GetNextFeature
+    fullName: RhythmTool.Track(Of T).GetNextFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track`1.GetIndex(`0)
+  commentId: M:RhythmTool.Track`1.GetIndex(`0)
+  name: GetIndex(T)
+  nameWithType: Track<T>.GetIndex(T)
+  fullName: RhythmTool.Track<T>.GetIndex(T)
+  nameWithType.vb: Track(Of T).GetIndex(T)
+  fullName.vb: RhythmTool.Track(Of T).GetIndex(T)
+  spec.csharp:
+  - uid: RhythmTool.Track`1.GetIndex(`0)
+    name: GetIndex
+    nameWithType: Track<T>.GetIndex
+    fullName: RhythmTool.Track<T>.GetIndex
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Track`1.GetIndex(`0)
+    name: GetIndex
+    nameWithType: Track(Of T).GetIndex
+    fullName: RhythmTool.Track(Of T).GetIndex
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track`1.GetIntersectingIndex(System.Single)
+  commentId: M:RhythmTool.Track`1.GetIntersectingIndex(System.Single)
+  isExternal: true
+  name: GetIntersectingIndex(Single)
+  nameWithType: Track<T>.GetIntersectingIndex(Single)
+  fullName: RhythmTool.Track<T>.GetIntersectingIndex(System.Single)
+  nameWithType.vb: Track(Of T).GetIntersectingIndex(Single)
+  fullName.vb: RhythmTool.Track(Of T).GetIntersectingIndex(System.Single)
+  spec.csharp:
+  - uid: RhythmTool.Track`1.GetIntersectingIndex(System.Single)
+    name: GetIntersectingIndex
+    nameWithType: Track<T>.GetIntersectingIndex
+    fullName: RhythmTool.Track<T>.GetIntersectingIndex
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Track`1.GetIntersectingIndex(System.Single)
+    name: GetIntersectingIndex
+    nameWithType: Track(Of T).GetIntersectingIndex
+    fullName: RhythmTool.Track(Of T).GetIntersectingIndex
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track`1.Create(System.String)
+  commentId: M:RhythmTool.Track`1.Create(System.String)
+  isExternal: true
+  name: Create(String)
+  nameWithType: Track<T>.Create(String)
+  fullName: RhythmTool.Track<T>.Create(System.String)
+  nameWithType.vb: Track(Of T).Create(String)
+  fullName.vb: RhythmTool.Track(Of T).Create(System.String)
+  spec.csharp:
+  - uid: RhythmTool.Track`1.Create(System.String)
+    name: Create
+    nameWithType: Track<T>.Create
+    fullName: RhythmTool.Track<T>.Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Track`1.Create(System.String)
+    name: Create
+    nameWithType: Track(Of T).Create
+    fullName: RhythmTool.Track(Of T).Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

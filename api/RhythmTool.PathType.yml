@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.PathType
+  commentId: T:RhythmTool.PathType
+  id: PathType
+  parent: RhythmTool
+  children:
+  - RhythmTool.PathType.A
+  - RhythmTool.PathType.B
+  - RhythmTool.PathType.C
+  - RhythmTool.PathType.D
+  langs:
+  - csharp
+  - vb
+  name: PathType
+  nameWithType: PathType
+  fullName: RhythmTool.PathType
+  type: Enum
+  source:
+    id: PathType
+    path: ''
+    startLine: 6080
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nUsed by <xref href=\"DDVRKick.Tracks.NoteTrack\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"DDVRKick.Tracks.LongNoteTrack\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"DDVRKick.Tracks.ObstaclesTrack\" data-throw-if-not-resolved=\"false\"></xref> for assign their path.\n"
+  example: []
+  syntax:
+    content: public enum PathType
+    content.vb: Public Enum PathType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: RhythmTool.PathType.A
+  commentId: F:RhythmTool.PathType.A
+  id: A
+  parent: RhythmTool.PathType
+  langs:
+  - csharp
+  - vb
+  name: A
+  nameWithType: PathType.A
+  fullName: RhythmTool.PathType.A
+  type: Field
+  source:
+    id: A
+    path: ''
+    startLine: 6082
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: A = 0
+    return:
+      type: RhythmTool.PathType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: RhythmTool.PathType.B
+  commentId: F:RhythmTool.PathType.B
+  id: B
+  parent: RhythmTool.PathType
+  langs:
+  - csharp
+  - vb
+  name: B
+  nameWithType: PathType.B
+  fullName: RhythmTool.PathType.B
+  type: Field
+  source:
+    id: B
+    path: ''
+    startLine: 6083
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: B = 1
+    return:
+      type: RhythmTool.PathType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: RhythmTool.PathType.C
+  commentId: F:RhythmTool.PathType.C
+  id: C
+  parent: RhythmTool.PathType
+  langs:
+  - csharp
+  - vb
+  name: C
+  nameWithType: PathType.C
+  fullName: RhythmTool.PathType.C
+  type: Field
+  source:
+    id: C
+    path: ''
+    startLine: 6084
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: C = 2
+    return:
+      type: RhythmTool.PathType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: RhythmTool.PathType.D
+  commentId: F:RhythmTool.PathType.D
+  id: D
+  parent: RhythmTool.PathType
+  langs:
+  - csharp
+  - vb
+  name: D
+  nameWithType: PathType.D
+  fullName: RhythmTool.PathType.D
+  type: Field
+  source:
+    id: D
+    path: ''
+    startLine: 6085
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: D = 3
+    return:
+      type: RhythmTool.PathType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DDVRKick.Tracks.NoteTrack
+  commentId: T:DDVRKick.Tracks.NoteTrack
+  parent: DDVRKick.Tracks
+  name: NoteTrack
+  nameWithType: NoteTrack
+  fullName: DDVRKick.Tracks.NoteTrack
+- uid: DDVRKick.Tracks.LongNoteTrack
+  commentId: T:DDVRKick.Tracks.LongNoteTrack
+  parent: DDVRKick.Tracks
+  name: LongNoteTrack
+  nameWithType: LongNoteTrack
+  fullName: DDVRKick.Tracks.LongNoteTrack
+- uid: DDVRKick.Tracks.ObstaclesTrack
+  commentId: T:DDVRKick.Tracks.ObstaclesTrack
+  parent: DDVRKick.Tracks
+  name: ObstaclesTrack
+  nameWithType: ObstaclesTrack
+  fullName: DDVRKick.Tracks.ObstaclesTrack
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: DDVRKick.Tracks
+  commentId: N:DDVRKick.Tracks
+  name: DDVRKick.Tracks
+  nameWithType: DDVRKick.Tracks
+  fullName: DDVRKick.Tracks
+- uid: RhythmTool.PathType
+  commentId: T:RhythmTool.PathType
+  parent: RhythmTool
+  name: PathType
+  nameWithType: PathType
+  fullName: RhythmTool.PathType

@@ -1,0 +1,396 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.EditorState
+  commentId: T:RhythmTool.EditorState
+  id: EditorState
+  parent: RhythmTool
+  children:
+  - RhythmTool.EditorState.dragging
+  - RhythmTool.EditorState.featureClicked
+  - RhythmTool.EditorState.length
+  - RhythmTool.EditorState.manipulatorClicked
+  - RhythmTool.EditorState.mouseDownPosition
+  - RhythmTool.EditorState.pixelsPerSecond
+  - RhythmTool.EditorState.PixelsToTimestamp(System.Single)
+  - RhythmTool.EditorState.refresh
+  - RhythmTool.EditorState.start
+  - RhythmTool.EditorState.TimestampToPixels(System.Single)
+  - RhythmTool.EditorState.trackClicked
+  langs:
+  - csharp
+  - vb
+  name: EditorState
+  nameWithType: EditorState
+  fullName: RhythmTool.EditorState
+  type: Class
+  source:
+    id: EditorState
+    path: ''
+    startLine: 633
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public class EditorState
+    content.vb: Public Class EditorState
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.EditorState.start
+  commentId: F:RhythmTool.EditorState.start
+  id: start
+  parent: RhythmTool.EditorState
+  langs:
+  - csharp
+  - vb
+  name: start
+  nameWithType: EditorState.start
+  fullName: RhythmTool.EditorState.start
+  type: Field
+  source:
+    id: start
+    path: ''
+    startLine: 635
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public float start
+    return:
+      type: System.Single
+    content.vb: Public start As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.EditorState.length
+  commentId: F:RhythmTool.EditorState.length
+  id: length
+  parent: RhythmTool.EditorState
+  langs:
+  - csharp
+  - vb
+  name: length
+  nameWithType: EditorState.length
+  fullName: RhythmTool.EditorState.length
+  type: Field
+  source:
+    id: length
+    path: ''
+    startLine: 637
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public float length
+    return:
+      type: System.Single
+    content.vb: Public length As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.EditorState.pixelsPerSecond
+  commentId: F:RhythmTool.EditorState.pixelsPerSecond
+  id: pixelsPerSecond
+  parent: RhythmTool.EditorState
+  langs:
+  - csharp
+  - vb
+  name: pixelsPerSecond
+  nameWithType: EditorState.pixelsPerSecond
+  fullName: RhythmTool.EditorState.pixelsPerSecond
+  type: Field
+  source:
+    id: pixelsPerSecond
+    path: ''
+    startLine: 639
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public float pixelsPerSecond
+    return:
+      type: System.Single
+    content.vb: Public pixelsPerSecond As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.EditorState.featureClicked
+  commentId: F:RhythmTool.EditorState.featureClicked
+  id: featureClicked
+  parent: RhythmTool.EditorState
+  langs:
+  - csharp
+  - vb
+  name: featureClicked
+  nameWithType: EditorState.featureClicked
+  fullName: RhythmTool.EditorState.featureClicked
+  type: Field
+  source:
+    id: featureClicked
+    path: ''
+    startLine: 641
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public bool featureClicked
+    return:
+      type: System.Boolean
+    content.vb: Public featureClicked As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.EditorState.trackClicked
+  commentId: F:RhythmTool.EditorState.trackClicked
+  id: trackClicked
+  parent: RhythmTool.EditorState
+  langs:
+  - csharp
+  - vb
+  name: trackClicked
+  nameWithType: EditorState.trackClicked
+  fullName: RhythmTool.EditorState.trackClicked
+  type: Field
+  source:
+    id: trackClicked
+    path: ''
+    startLine: 642
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public bool trackClicked
+    return:
+      type: System.Boolean
+    content.vb: Public trackClicked As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.EditorState.manipulatorClicked
+  commentId: F:RhythmTool.EditorState.manipulatorClicked
+  id: manipulatorClicked
+  parent: RhythmTool.EditorState
+  langs:
+  - csharp
+  - vb
+  name: manipulatorClicked
+  nameWithType: EditorState.manipulatorClicked
+  fullName: RhythmTool.EditorState.manipulatorClicked
+  type: Field
+  source:
+    id: manipulatorClicked
+    path: ''
+    startLine: 643
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public bool manipulatorClicked
+    return:
+      type: System.Boolean
+    content.vb: Public manipulatorClicked As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.EditorState.dragging
+  commentId: F:RhythmTool.EditorState.dragging
+  id: dragging
+  parent: RhythmTool.EditorState
+  langs:
+  - csharp
+  - vb
+  name: dragging
+  nameWithType: EditorState.dragging
+  fullName: RhythmTool.EditorState.dragging
+  type: Field
+  source:
+    id: dragging
+    path: ''
+    startLine: 645
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public bool dragging
+    return:
+      type: System.Boolean
+    content.vb: Public dragging As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.EditorState.refresh
+  commentId: F:RhythmTool.EditorState.refresh
+  id: refresh
+  parent: RhythmTool.EditorState
+  langs:
+  - csharp
+  - vb
+  name: refresh
+  nameWithType: EditorState.refresh
+  fullName: RhythmTool.EditorState.refresh
+  type: Field
+  source:
+    id: refresh
+    path: ''
+    startLine: 647
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public bool refresh
+    return:
+      type: System.Boolean
+    content.vb: Public refresh As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.EditorState.mouseDownPosition
+  commentId: F:RhythmTool.EditorState.mouseDownPosition
+  id: mouseDownPosition
+  parent: RhythmTool.EditorState
+  langs:
+  - csharp
+  - vb
+  name: mouseDownPosition
+  nameWithType: EditorState.mouseDownPosition
+  fullName: RhythmTool.EditorState.mouseDownPosition
+  type: Field
+  source:
+    id: mouseDownPosition
+    path: ''
+    startLine: 649
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public Vector2 mouseDownPosition
+    return:
+      type: Global.Vector2
+    content.vb: Public mouseDownPosition As Vector2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.EditorState.TimestampToPixels(System.Single)
+  commentId: M:RhythmTool.EditorState.TimestampToPixels(System.Single)
+  id: TimestampToPixels(System.Single)
+  parent: RhythmTool.EditorState
+  langs:
+  - csharp
+  - vb
+  name: TimestampToPixels(Single)
+  nameWithType: EditorState.TimestampToPixels(Single)
+  fullName: RhythmTool.EditorState.TimestampToPixels(System.Single)
+  type: Method
+  source:
+    id: TimestampToPixels
+    path: ''
+    startLine: 651
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public float TimestampToPixels(float timestamp)
+    parameters:
+    - id: timestamp
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Function TimestampToPixels(timestamp As Single) As Single
+  overload: RhythmTool.EditorState.TimestampToPixels*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.EditorState.PixelsToTimestamp(System.Single)
+  commentId: M:RhythmTool.EditorState.PixelsToTimestamp(System.Single)
+  id: PixelsToTimestamp(System.Single)
+  parent: RhythmTool.EditorState
+  langs:
+  - csharp
+  - vb
+  name: PixelsToTimestamp(Single)
+  nameWithType: EditorState.PixelsToTimestamp(Single)
+  fullName: RhythmTool.EditorState.PixelsToTimestamp(System.Single)
+  type: Method
+  source:
+    id: PixelsToTimestamp
+    path: ''
+    startLine: 656
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public float PixelsToTimestamp(float pixels)
+    parameters:
+    - id: pixels
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Function PixelsToTimestamp(pixels As Single) As Single
+  overload: RhythmTool.EditorState.PixelsToTimestamp*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: RhythmTool.EditorState.TimestampToPixels*
+  commentId: Overload:RhythmTool.EditorState.TimestampToPixels
+  name: TimestampToPixels
+  nameWithType: EditorState.TimestampToPixels
+  fullName: RhythmTool.EditorState.TimestampToPixels
+- uid: RhythmTool.EditorState.PixelsToTimestamp*
+  commentId: Overload:RhythmTool.EditorState.PixelsToTimestamp
+  name: PixelsToTimestamp
+  nameWithType: EditorState.PixelsToTimestamp
+  fullName: RhythmTool.EditorState.PixelsToTimestamp

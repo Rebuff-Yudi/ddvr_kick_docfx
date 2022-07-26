@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: DDVRKick.Editor
+  commentId: N:DDVRKick.Editor
+  id: DDVRKick.Editor
+  children:
+  - DDVRKick.Editor.TagSelectorPropertyDrawer
+  langs:
+  - csharp
+  - vb
+  name: DDVRKick.Editor
+  nameWithType: DDVRKick.Editor
+  fullName: DDVRKick.Editor
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: DDVRKick.Editor.TagSelectorPropertyDrawer
+  commentId: T:DDVRKick.Editor.TagSelectorPropertyDrawer
+  name: TagSelectorPropertyDrawer
+  nameWithType: TagSelectorPropertyDrawer
+  fullName: DDVRKick.Editor.TagSelectorPropertyDrawer

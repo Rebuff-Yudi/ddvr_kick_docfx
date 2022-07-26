@@ -1,0 +1,202 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.TimeRuler
+  commentId: T:RhythmTool.TimeRuler
+  id: TimeRuler
+  parent: RhythmTool
+  children:
+  - RhythmTool.TimeRuler.#ctor
+  - RhythmTool.TimeRuler.Draw(Rect)
+  - RhythmTool.TimeRuler.DrawMajorTicks(Rect)
+  - RhythmTool.TimeRuler.SetRange(System.Single,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: TimeRuler
+  nameWithType: TimeRuler
+  fullName: RhythmTool.TimeRuler
+  type: Class
+  source:
+    id: TimeRuler
+    path: ''
+    startLine: 1568
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public class TimeRuler
+    content.vb: Public Class TimeRuler
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.TimeRuler.#ctor
+  commentId: M:RhythmTool.TimeRuler.#ctor
+  id: '#ctor'
+  parent: RhythmTool.TimeRuler
+  langs:
+  - csharp
+  - vb
+  name: TimeRuler()
+  nameWithType: TimeRuler.TimeRuler()
+  fullName: RhythmTool.TimeRuler.TimeRuler()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1588
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public TimeRuler()
+    content.vb: Public Sub New
+  overload: RhythmTool.TimeRuler.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.TimeRuler.SetRange(System.Single,System.Single)
+  commentId: M:RhythmTool.TimeRuler.SetRange(System.Single,System.Single)
+  id: SetRange(System.Single,System.Single)
+  parent: RhythmTool.TimeRuler
+  langs:
+  - csharp
+  - vb
+  name: SetRange(Single, Single)
+  nameWithType: TimeRuler.SetRange(Single, Single)
+  fullName: RhythmTool.TimeRuler.SetRange(System.Single, System.Single)
+  type: Method
+  source:
+    id: SetRange
+    path: ''
+    startLine: 1596
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public void SetRange(float start, float end)
+    parameters:
+    - id: start
+      type: System.Single
+    - id: end
+      type: System.Single
+    content.vb: Public Sub SetRange(start As Single, end As Single)
+  overload: RhythmTool.TimeRuler.SetRange*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.TimeRuler.Draw(Rect)
+  commentId: M:RhythmTool.TimeRuler.Draw(Rect)
+  id: Draw(Rect)
+  parent: RhythmTool.TimeRuler
+  langs:
+  - csharp
+  - vb
+  name: Draw(Rect)
+  nameWithType: TimeRuler.Draw(Rect)
+  fullName: RhythmTool.TimeRuler.Draw(Rect)
+  type: Method
+  source:
+    id: Draw
+    path: ''
+    startLine: 1622
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public void Draw(Rect rect)
+    parameters:
+    - id: rect
+      type: Global.Rect
+    content.vb: Public Sub Draw(rect As Rect)
+  overload: RhythmTool.TimeRuler.Draw*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.TimeRuler.DrawMajorTicks(Rect)
+  commentId: M:RhythmTool.TimeRuler.DrawMajorTicks(Rect)
+  id: DrawMajorTicks(Rect)
+  parent: RhythmTool.TimeRuler
+  langs:
+  - csharp
+  - vb
+  name: DrawMajorTicks(Rect)
+  nameWithType: TimeRuler.DrawMajorTicks(Rect)
+  fullName: RhythmTool.TimeRuler.DrawMajorTicks(Rect)
+  type: Method
+  source:
+    id: DrawMajorTicks
+    path: ''
+    startLine: 1657
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public void DrawMajorTicks(Rect rect)
+    parameters:
+    - id: rect
+      type: Global.Rect
+    content.vb: Public Sub DrawMajorTicks(rect As Rect)
+  overload: RhythmTool.TimeRuler.DrawMajorTicks*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.TimeRuler.#ctor*
+  commentId: Overload:RhythmTool.TimeRuler.#ctor
+  name: TimeRuler
+  nameWithType: TimeRuler.TimeRuler
+  fullName: RhythmTool.TimeRuler.TimeRuler
+- uid: RhythmTool.TimeRuler.SetRange*
+  commentId: Overload:RhythmTool.TimeRuler.SetRange
+  name: SetRange
+  nameWithType: TimeRuler.SetRange
+  fullName: RhythmTool.TimeRuler.SetRange
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: RhythmTool.TimeRuler.Draw*
+  commentId: Overload:RhythmTool.TimeRuler.Draw
+  name: Draw
+  nameWithType: TimeRuler.Draw
+  fullName: RhythmTool.TimeRuler.Draw
+- uid: Global.Rect
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: Rect
+- uid: RhythmTool.TimeRuler.DrawMajorTicks*
+  commentId: Overload:RhythmTool.TimeRuler.DrawMajorTicks
+  name: DrawMajorTicks
+  nameWithType: TimeRuler.DrawMajorTicks
+  fullName: RhythmTool.TimeRuler.DrawMajorTicks

@@ -1,0 +1,164 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.LomontFFT
+  commentId: T:RhythmTool.LomontFFT
+  id: LomontFFT
+  parent: RhythmTool
+  children:
+  - RhythmTool.LomontFFT.FFT(System.Single[],System.Boolean)
+  - RhythmTool.LomontFFT.RealFFT(System.Single[],System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: LomontFFT
+  nameWithType: LomontFFT
+  fullName: RhythmTool.LomontFFT
+  type: Class
+  source:
+    id: LomontFFT
+    path: ''
+    startLine: 4007
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public class LomontFFT
+    content.vb: Public Class LomontFFT
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.LomontFFT.FFT(System.Single[],System.Boolean)
+  commentId: M:RhythmTool.LomontFFT.FFT(System.Single[],System.Boolean)
+  id: FFT(System.Single[],System.Boolean)
+  parent: RhythmTool.LomontFFT
+  langs:
+  - csharp
+  - vb
+  name: FFT(Single[], Boolean)
+  nameWithType: LomontFFT.FFT(Single[], Boolean)
+  fullName: RhythmTool.LomontFFT.FFT(System.Single[], System.Boolean)
+  type: Method
+  source:
+    id: FFT
+    path: ''
+    startLine: 4012
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public void FFT(float[] data, bool forward)
+    parameters:
+    - id: data
+      type: System.Single[]
+    - id: forward
+      type: System.Boolean
+    content.vb: Public Sub FFT(data As Single(), forward As Boolean)
+  overload: RhythmTool.LomontFFT.FFT*
+  nameWithType.vb: LomontFFT.FFT(Single(), Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: RhythmTool.LomontFFT.FFT(System.Single(), System.Boolean)
+  name.vb: FFT(Single(), Boolean)
+- uid: RhythmTool.LomontFFT.RealFFT(System.Single[],System.Boolean)
+  commentId: M:RhythmTool.LomontFFT.RealFFT(System.Single[],System.Boolean)
+  id: RealFFT(System.Single[],System.Boolean)
+  parent: RhythmTool.LomontFFT
+  langs:
+  - csharp
+  - vb
+  name: RealFFT(Single[], Boolean)
+  nameWithType: LomontFFT.RealFFT(Single[], Boolean)
+  fullName: RhythmTool.LomontFFT.RealFFT(System.Single[], System.Boolean)
+  type: Method
+  source:
+    id: RealFFT
+    path: ''
+    startLine: 4052
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public void RealFFT(float[] data, bool forward)
+    parameters:
+    - id: data
+      type: System.Single[]
+    - id: forward
+      type: System.Boolean
+    content.vb: Public Sub RealFFT(data As Single(), forward As Boolean)
+  overload: RhythmTool.LomontFFT.RealFFT*
+  nameWithType.vb: LomontFFT.RealFFT(Single(), Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: RhythmTool.LomontFFT.RealFFT(System.Single(), System.Boolean)
+  name.vb: RealFFT(Single(), Boolean)
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.LomontFFT.FFT*
+  commentId: Overload:RhythmTool.LomontFFT.FFT
+  name: FFT
+  nameWithType: LomontFFT.FFT
+  fullName: RhythmTool.LomontFFT.FFT
+- uid: System.Single[]
+  isExternal: true
+  name: Single[]
+  nameWithType: Single[]
+  fullName: System.Single[]
+  nameWithType.vb: Single()
+  fullName.vb: System.Single()
+  name.vb: Single()
+  spec.csharp:
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: RhythmTool.LomontFFT.RealFFT*
+  commentId: Overload:RhythmTool.LomontFFT.RealFFT
+  name: RealFFT
+  nameWithType: LomontFFT.RealFFT
+  fullName: RhythmTool.LomontFFT.RealFFT

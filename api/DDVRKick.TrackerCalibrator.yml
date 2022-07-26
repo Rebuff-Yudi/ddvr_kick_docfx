@@ -1,0 +1,258 @@
+### YamlMime:ManagedReference
+items:
+- uid: DDVRKick.TrackerCalibrator
+  commentId: T:DDVRKick.TrackerCalibrator
+  id: TrackerCalibrator
+  parent: DDVRKick
+  children:
+  - DDVRKick.TrackerCalibrator.Calibrate
+  - DDVRKick.TrackerCalibrator.CalibrateDelay
+  - DDVRKick.TrackerCalibrator.noteColliders
+  - DDVRKick.TrackerCalibrator.steamPlayer
+  langs:
+  - csharp
+  - vb
+  name: TrackerCalibrator
+  nameWithType: TrackerCalibrator
+  fullName: DDVRKick.TrackerCalibrator
+  type: Class
+  source:
+    id: TrackerCalibrator
+    path: ''
+    startLine: 6490
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: 'public class TrackerCalibrator : MonoBehaviour'
+    content.vb: >-
+      Public Class TrackerCalibrator
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DDVRKick.TrackerCalibrator.noteColliders
+  commentId: F:DDVRKick.TrackerCalibrator.noteColliders
+  id: noteColliders
+  parent: DDVRKick.TrackerCalibrator
+  langs:
+  - csharp
+  - vb
+  name: noteColliders
+  nameWithType: TrackerCalibrator.noteColliders
+  fullName: DDVRKick.TrackerCalibrator.noteColliders
+  type: Field
+  source:
+    id: noteColliders
+    path: ''
+    startLine: 6492
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: public List<NoteCollider> noteColliders
+    return:
+      type: Global.List{DDVRKick.NoteCollider}
+    content.vb: Public noteColliders As List(Of NoteCollider)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DDVRKick.TrackerCalibrator.steamPlayer
+  commentId: F:DDVRKick.TrackerCalibrator.steamPlayer
+  id: steamPlayer
+  parent: DDVRKick.TrackerCalibrator
+  langs:
+  - csharp
+  - vb
+  name: steamPlayer
+  nameWithType: TrackerCalibrator.steamPlayer
+  fullName: DDVRKick.TrackerCalibrator.steamPlayer
+  type: Field
+  source:
+    id: steamPlayer
+    path: ''
+    startLine: 6494
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: public Player steamPlayer
+    return:
+      type: Global.Player
+    content.vb: Public steamPlayer As Player
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DDVRKick.TrackerCalibrator.Calibrate
+  commentId: M:DDVRKick.TrackerCalibrator.Calibrate
+  id: Calibrate
+  parent: DDVRKick.TrackerCalibrator
+  langs:
+  - csharp
+  - vb
+  name: Calibrate()
+  nameWithType: TrackerCalibrator.Calibrate()
+  fullName: DDVRKick.TrackerCalibrator.Calibrate()
+  type: Method
+  source:
+    id: Calibrate
+    path: ''
+    startLine: 6498
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: public void Calibrate()
+    content.vb: Public Sub Calibrate
+  overload: DDVRKick.TrackerCalibrator.Calibrate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DDVRKick.TrackerCalibrator.CalibrateDelay
+  commentId: M:DDVRKick.TrackerCalibrator.CalibrateDelay
+  id: CalibrateDelay
+  parent: DDVRKick.TrackerCalibrator
+  langs:
+  - csharp
+  - vb
+  name: CalibrateDelay()
+  nameWithType: TrackerCalibrator.CalibrateDelay()
+  fullName: DDVRKick.TrackerCalibrator.CalibrateDelay()
+  type: Method
+  source:
+    id: CalibrateDelay
+    path: ''
+    startLine: 6510
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: public void CalibrateDelay()
+    content.vb: Public Sub CalibrateDelay
+  overload: DDVRKick.TrackerCalibrator.CalibrateDelay*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DDVRKick
+  commentId: N:DDVRKick
+  name: DDVRKick
+  nameWithType: DDVRKick
+  fullName: DDVRKick
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.List{DDVRKick.NoteCollider}
+  commentId: '!:Global.List{DDVRKick.NoteCollider}'
+  definition: Global.List`1
+  name: List<NoteCollider>
+  nameWithType: List<NoteCollider>
+  fullName: List<DDVRKick.NoteCollider>
+  nameWithType.vb: List(Of NoteCollider)
+  fullName.vb: List(Of DDVRKick.NoteCollider)
+  name.vb: List(Of NoteCollider)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DDVRKick.NoteCollider
+    name: NoteCollider
+    nameWithType: NoteCollider
+    fullName: DDVRKick.NoteCollider
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DDVRKick.NoteCollider
+    name: NoteCollider
+    nameWithType: NoteCollider
+    fullName: DDVRKick.NoteCollider
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Player
+  commentId: '!:Global.Player'
+  isExternal: true
+  name: Player
+  nameWithType: Player
+  fullName: Player
+- uid: DDVRKick.TrackerCalibrator.Calibrate*
+  commentId: Overload:DDVRKick.TrackerCalibrator.Calibrate
+  name: Calibrate
+  nameWithType: TrackerCalibrator.Calibrate
+  fullName: DDVRKick.TrackerCalibrator.Calibrate
+- uid: DDVRKick.TrackerCalibrator.CalibrateDelay*
+  commentId: Overload:DDVRKick.TrackerCalibrator.CalibrateDelay
+  name: CalibrateDelay
+  nameWithType: TrackerCalibrator.CalibrateDelay
+  fullName: DDVRKick.TrackerCalibrator.CalibrateDelay

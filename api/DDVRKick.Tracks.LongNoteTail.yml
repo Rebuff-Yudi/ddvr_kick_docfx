@@ -1,0 +1,97 @@
+### YamlMime:ManagedReference
+items:
+- uid: DDVRKick.Tracks.LongNoteTail
+  commentId: T:DDVRKick.Tracks.LongNoteTail
+  id: LongNoteTail
+  parent: DDVRKick.Tracks
+  children:
+  - DDVRKick.Tracks.LongNoteTail.duration
+  langs:
+  - csharp
+  - vb
+  name: LongNoteTail
+  nameWithType: LongNoteTail
+  fullName: DDVRKick.Tracks.LongNoteTail
+  type: Class
+  source:
+    id: LongNoteTail
+    path: ''
+    startLine: 7610
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: 'public class LongNoteTail : MonoBehaviour'
+    content.vb: >-
+      Public Class LongNoteTail
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DDVRKick.Tracks.LongNoteTail.duration
+  commentId: P:DDVRKick.Tracks.LongNoteTail.duration
+  id: duration
+  parent: DDVRKick.Tracks.LongNoteTail
+  langs:
+  - csharp
+  - vb
+  name: duration
+  nameWithType: LongNoteTail.duration
+  fullName: DDVRKick.Tracks.LongNoteTail.duration
+  type: Property
+  source:
+    id: duration
+    path: ''
+    startLine: 7612
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public float duration { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property duration As Single
+  overload: DDVRKick.Tracks.LongNoteTail.duration*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: DDVRKick.Tracks
+  commentId: N:DDVRKick.Tracks
+  name: DDVRKick.Tracks
+  nameWithType: DDVRKick.Tracks
+  fullName: DDVRKick.Tracks
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DDVRKick.Tracks.LongNoteTail.duration*
+  commentId: Overload:DDVRKick.Tracks.LongNoteTail.duration
+  name: duration
+  nameWithType: LongNoteTail.duration
+  fullName: DDVRKick.Tracks.LongNoteTail.duration
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

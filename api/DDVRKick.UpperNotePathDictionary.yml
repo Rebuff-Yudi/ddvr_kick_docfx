@@ -1,0 +1,280 @@
+### YamlMime:ManagedReference
+items:
+- uid: DDVRKick.UpperNotePathDictionary
+  commentId: T:DDVRKick.UpperNotePathDictionary
+  id: UpperNotePathDictionary
+  parent: DDVRKick
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: UpperNotePathDictionary
+  nameWithType: UpperNotePathDictionary
+  fullName: DDVRKick.UpperNotePathDictionary
+  type: Class
+  source:
+    id: UpperNotePathDictionary
+    path: ''
+    startLine: 6185
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class UpperNotePathDictionary : UnitySerializedDictionary<PathType, NoteTrack>, IDictionary<PathType, NoteTrack>, ICollection<KeyValuePair<PathType, NoteTrack>>, IDictionary, ICollection, IReadOnlyDictionary<PathType, NoteTrack>, IReadOnlyCollection<KeyValuePair<PathType, NoteTrack>>, IEnumerable<KeyValuePair<PathType, NoteTrack>>, IEnumerable, ISerializable, IDeserializationCallback
+    content.vb: >-
+      <Serializable>
+
+      Public Class UpperNotePathDictionary
+          Inherits UnitySerializedDictionary(Of PathType, NoteTrack)
+          Implements IDictionary(Of PathType, NoteTrack), ICollection(Of KeyValuePair(Of PathType, NoteTrack)), IDictionary, ICollection, IReadOnlyDictionary(Of PathType, NoteTrack), IReadOnlyCollection(Of KeyValuePair(Of PathType, NoteTrack)), IEnumerable(Of KeyValuePair(Of PathType, NoteTrack)), IEnumerable, ISerializable, IDeserializationCallback
+  inheritance:
+  - System.Object
+  - System.Collections.Generic.Dictionary{RhythmTool.PathType,DDVRKick.Tracks.NoteTrack}
+  - DDVRKick.UnitySerializedDictionary{RhythmTool.PathType,DDVRKick.Tracks.NoteTrack}
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: DDVRKick
+  commentId: N:DDVRKick
+  name: DDVRKick
+  nameWithType: DDVRKick
+  fullName: DDVRKick
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Collections.Generic.Dictionary{RhythmTool.PathType,DDVRKick.Tracks.NoteTrack}
+  commentId: T:System.Collections.Generic.Dictionary{RhythmTool.PathType,DDVRKick.Tracks.NoteTrack}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<PathType, NoteTrack>
+  nameWithType: Dictionary<PathType, NoteTrack>
+  fullName: System.Collections.Generic.Dictionary<RhythmTool.PathType, DDVRKick.Tracks.NoteTrack>
+  nameWithType.vb: Dictionary(Of PathType, NoteTrack)
+  fullName.vb: System.Collections.Generic.Dictionary(Of RhythmTool.PathType, DDVRKick.Tracks.NoteTrack)
+  name.vb: Dictionary(Of PathType, NoteTrack)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: RhythmTool.PathType
+    name: PathType
+    nameWithType: PathType
+    fullName: RhythmTool.PathType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DDVRKick.Tracks.NoteTrack
+    name: NoteTrack
+    nameWithType: NoteTrack
+    fullName: DDVRKick.Tracks.NoteTrack
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: RhythmTool.PathType
+    name: PathType
+    nameWithType: PathType
+    fullName: RhythmTool.PathType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DDVRKick.Tracks.NoteTrack
+    name: NoteTrack
+    nameWithType: NoteTrack
+    fullName: DDVRKick.Tracks.NoteTrack
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DDVRKick.UnitySerializedDictionary{RhythmTool.PathType,DDVRKick.Tracks.NoteTrack}
+  commentId: T:DDVRKick.UnitySerializedDictionary{RhythmTool.PathType,DDVRKick.Tracks.NoteTrack}
+  parent: DDVRKick
+  definition: DDVRKick.UnitySerializedDictionary`2
+  name: UnitySerializedDictionary<PathType, NoteTrack>
+  nameWithType: UnitySerializedDictionary<PathType, NoteTrack>
+  fullName: DDVRKick.UnitySerializedDictionary<RhythmTool.PathType, DDVRKick.Tracks.NoteTrack>
+  nameWithType.vb: UnitySerializedDictionary(Of PathType, NoteTrack)
+  fullName.vb: DDVRKick.UnitySerializedDictionary(Of RhythmTool.PathType, DDVRKick.Tracks.NoteTrack)
+  name.vb: UnitySerializedDictionary(Of PathType, NoteTrack)
+  spec.csharp:
+  - uid: DDVRKick.UnitySerializedDictionary`2
+    name: UnitySerializedDictionary
+    nameWithType: UnitySerializedDictionary
+    fullName: DDVRKick.UnitySerializedDictionary
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: RhythmTool.PathType
+    name: PathType
+    nameWithType: PathType
+    fullName: RhythmTool.PathType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DDVRKick.Tracks.NoteTrack
+    name: NoteTrack
+    nameWithType: NoteTrack
+    fullName: DDVRKick.Tracks.NoteTrack
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: DDVRKick.UnitySerializedDictionary`2
+    name: UnitySerializedDictionary
+    nameWithType: UnitySerializedDictionary
+    fullName: DDVRKick.UnitySerializedDictionary
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: RhythmTool.PathType
+    name: PathType
+    nameWithType: PathType
+    fullName: RhythmTool.PathType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DDVRKick.Tracks.NoteTrack
+    name: NoteTrack
+    nameWithType: NoteTrack
+    fullName: DDVRKick.Tracks.NoteTrack
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: DDVRKick.UnitySerializedDictionary`2
+  commentId: T:DDVRKick.UnitySerializedDictionary`2
+  name: UnitySerializedDictionary<TKey, TValue>
+  nameWithType: UnitySerializedDictionary<TKey, TValue>
+  fullName: DDVRKick.UnitySerializedDictionary<TKey, TValue>
+  nameWithType.vb: UnitySerializedDictionary(Of TKey, TValue)
+  fullName.vb: DDVRKick.UnitySerializedDictionary(Of TKey, TValue)
+  name.vb: UnitySerializedDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: DDVRKick.UnitySerializedDictionary`2
+    name: UnitySerializedDictionary
+    nameWithType: UnitySerializedDictionary
+    fullName: DDVRKick.UnitySerializedDictionary
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: DDVRKick.UnitySerializedDictionary`2
+    name: UnitySerializedDictionary
+    nameWithType: UnitySerializedDictionary
+    fullName: DDVRKick.UnitySerializedDictionary
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )

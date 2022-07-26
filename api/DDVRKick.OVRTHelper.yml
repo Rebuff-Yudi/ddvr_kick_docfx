@@ -1,0 +1,258 @@
+### YamlMime:ManagedReference
+items:
+- uid: DDVRKick.OVRTHelper
+  commentId: T:DDVRKick.OVRTHelper
+  id: OVRTHelper
+  parent: DDVRKick
+  children:
+  - DDVRKick.OVRTHelper.ToVector3(Valve.VR.HmdVector3_t)
+  - DDVRKick.OVRTHelper.TrackerRoleEnumMappings
+  langs:
+  - csharp
+  - vb
+  name: OVRTHelper
+  nameWithType: OVRTHelper
+  fullName: DDVRKick.OVRTHelper
+  type: Class
+  source:
+    id: OVRTHelper
+    path: ''
+    startLine: 6366
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: public static class OVRTHelper
+    content.vb: Public Module OVRTHelper
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: DDVRKick.OVRTHelper.TrackerRoleEnumMappings
+  commentId: F:DDVRKick.OVRTHelper.TrackerRoleEnumMappings
+  id: TrackerRoleEnumMappings
+  parent: DDVRKick.OVRTHelper
+  langs:
+  - csharp
+  - vb
+  name: TrackerRoleEnumMappings
+  nameWithType: OVRTHelper.TrackerRoleEnumMappings
+  fullName: DDVRKick.OVRTHelper.TrackerRoleEnumMappings
+  type: Field
+  source:
+    id: TrackerRoleEnumMappings
+    path: ''
+    startLine: 6388
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: public static readonly Dictionary<OVRTHelper.ETrackerRole, string> TrackerRoleEnumMappings
+    return:
+      type: System.Collections.Generic.Dictionary{DDVRKick.OVRTHelper.ETrackerRole,System.String}
+    content.vb: Public Shared ReadOnly TrackerRoleEnumMappings As Dictionary(Of OVRTHelper.ETrackerRole, String)
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: DDVRKick.OVRTHelper.ToVector3(Valve.VR.HmdVector3_t)
+  commentId: M:DDVRKick.OVRTHelper.ToVector3(Valve.VR.HmdVector3_t)
+  id: ToVector3(Valve.VR.HmdVector3_t)
+  isExtensionMethod: true
+  parent: DDVRKick.OVRTHelper
+  langs:
+  - csharp
+  - vb
+  name: ToVector3(HmdVector3_t)
+  nameWithType: OVRTHelper.ToVector3(HmdVector3_t)
+  fullName: DDVRKick.OVRTHelper.ToVector3(Valve.VR.HmdVector3_t)
+  type: Method
+  source:
+    id: ToVector3
+    path: ''
+    startLine: 6409
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: public static Vector3 ToVector3(this HmdVector3_t hmdVector3T)
+    parameters:
+    - id: hmdVector3T
+      type: Valve.VR.HmdVector3_t
+    return:
+      type: Global.Vector3
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToVector3(hmdVector3T As HmdVector3_t) As Vector3
+  overload: DDVRKick.OVRTHelper.ToVector3*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: DDVRKick
+  commentId: N:DDVRKick
+  name: DDVRKick
+  nameWithType: DDVRKick
+  fullName: DDVRKick
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.Dictionary{DDVRKick.OVRTHelper.ETrackerRole,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{DDVRKick.OVRTHelper.ETrackerRole,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<OVRTHelper.ETrackerRole, String>
+  nameWithType: Dictionary<OVRTHelper.ETrackerRole, String>
+  fullName: System.Collections.Generic.Dictionary<DDVRKick.OVRTHelper.ETrackerRole, System.String>
+  nameWithType.vb: Dictionary(Of OVRTHelper.ETrackerRole, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of DDVRKick.OVRTHelper.ETrackerRole, System.String)
+  name.vb: Dictionary(Of OVRTHelper.ETrackerRole, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DDVRKick.OVRTHelper.ETrackerRole
+    name: OVRTHelper.ETrackerRole
+    nameWithType: OVRTHelper.ETrackerRole
+    fullName: DDVRKick.OVRTHelper.ETrackerRole
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DDVRKick.OVRTHelper.ETrackerRole
+    name: OVRTHelper.ETrackerRole
+    nameWithType: OVRTHelper.ETrackerRole
+    fullName: DDVRKick.OVRTHelper.ETrackerRole
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: DDVRKick.OVRTHelper.ToVector3*
+  commentId: Overload:DDVRKick.OVRTHelper.ToVector3
+  name: ToVector3
+  nameWithType: OVRTHelper.ToVector3
+  fullName: DDVRKick.OVRTHelper.ToVector3
+- uid: Valve.VR.HmdVector3_t
+  commentId: T:Valve.VR.HmdVector3_t
+  parent: Valve.VR
+  name: HmdVector3_t
+  nameWithType: HmdVector3_t
+  fullName: Valve.VR.HmdVector3_t
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Valve.VR
+  commentId: N:Valve.VR
+  name: Valve.VR
+  nameWithType: Valve.VR
+  fullName: Valve.VR

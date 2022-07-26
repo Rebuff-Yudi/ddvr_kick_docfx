@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.RhythmDataEditor
+  commentId: T:RhythmTool.RhythmDataEditor
+  id: RhythmDataEditor
+  parent: RhythmTool
+  children:
+  - RhythmTool.RhythmDataEditor.OnInspectorGUI
+  langs:
+  - csharp
+  - vb
+  name: RhythmDataEditor
+  nameWithType: RhythmDataEditor
+  fullName: RhythmTool.RhythmDataEditor
+  type: Class
+  source:
+    id: RhythmDataEditor
+    path: ''
+    startLine: 586
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: 'public class RhythmDataEditor : Editor'
+    content.vb: >-
+      Public Class RhythmDataEditor
+          Inherits Editor
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.RhythmDataEditor.OnInspectorGUI
+  commentId: M:RhythmTool.RhythmDataEditor.OnInspectorGUI
+  id: OnInspectorGUI
+  parent: RhythmTool.RhythmDataEditor
+  langs:
+  - csharp
+  - vb
+  name: OnInspectorGUI()
+  nameWithType: RhythmDataEditor.OnInspectorGUI()
+  fullName: RhythmTool.RhythmDataEditor.OnInspectorGUI()
+  type: Method
+  source:
+    id: OnInspectorGUI
+    path: ''
+    startLine: 600
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public override void OnInspectorGUI()
+    content.vb: Public Overrides Sub OnInspectorGUI
+  overload: RhythmTool.RhythmDataEditor.OnInspectorGUI*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.RhythmDataEditor.OnInspectorGUI*
+  commentId: Overload:RhythmTool.RhythmDataEditor.OnInspectorGUI
+  name: OnInspectorGUI
+  nameWithType: RhythmDataEditor.OnInspectorGUI
+  fullName: RhythmTool.RhythmDataEditor.OnInspectorGUI

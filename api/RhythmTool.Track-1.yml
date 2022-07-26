@@ -1,0 +1,893 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.Track`1
+  commentId: T:RhythmTool.Track`1
+  id: Track`1
+  parent: RhythmTool
+  children:
+  - RhythmTool.Track`1.Add(`0)
+  - RhythmTool.Track`1.count
+  - RhythmTool.Track`1.Create(System.String)
+  - RhythmTool.Track`1.GetFeatures(List{`0},System.Single,System.Single)
+  - RhythmTool.Track`1.GetIndex(`0)
+  - RhythmTool.Track`1.GetIndex(System.Single)
+  - RhythmTool.Track`1.GetIntersectingFeatures(List{`0},System.Single,System.Single)
+  - RhythmTool.Track`1.GetIntersectingIndex(System.Single)
+  - RhythmTool.Track`1.GetNextFeature(System.Single)
+  - RhythmTool.Track`1.GetNextIndex(System.Single)
+  - RhythmTool.Track`1.GetPrevFeature(System.Single)
+  - RhythmTool.Track`1.GetPrevIndex(System.Single)
+  - RhythmTool.Track`1.Item(System.Int32)
+  - RhythmTool.Track`1.Remove(`0)
+  - RhythmTool.Track`1.Sort
+  langs:
+  - csharp
+  - vb
+  name: Track<T>
+  nameWithType: Track<T>
+  fullName: RhythmTool.Track<T>
+  type: Class
+  source:
+    id: Track
+    path: ''
+    startLine: 5324
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nA Track is a collection of Features that are ordered in time.\n"
+  example: []
+  syntax:
+    content: 'public abstract class Track<T> : Track where T : Feature'
+    typeParameters:
+    - id: T
+      description: The type of Features contained in this Track.
+    content.vb: >-
+      Public MustInherit Class Track(Of T As Feature)
+          Inherits Track
+  inheritance:
+  - System.Object
+  - RhythmTool.Track
+  derivedClasses:
+  - RhythmTool.BeatTrack
+  - RhythmTool.ChromaTrack
+  - RhythmTool.LongNoteBeatmapTrack
+  - RhythmTool.LowerNoteTrack
+  - RhythmTool.ObstacleTrack
+  - RhythmTool.OnsetTrack
+  - RhythmTool.UpperNoteTrack
+  - RhythmTool.ValueTrack
+  inheritedMembers:
+  - RhythmTool.Track.name
+  - RhythmTool.Track._name
+  nameWithType.vb: Track(Of T)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: RhythmTool.Track(Of T)
+  name.vb: Track(Of T)
+- uid: RhythmTool.Track`1.Item(System.Int32)
+  commentId: P:RhythmTool.Track`1.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: RhythmTool.Track`1
+  langs:
+  - csharp
+  - vb
+  name: Item[Int32]
+  nameWithType: Track<T>.Item[Int32]
+  fullName: RhythmTool.Track<T>.Item[System.Int32]
+  type: Property
+  source:
+    id: this[]
+    path: ''
+    startLine: 5326
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public T this[int index] { get; }
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: '{T}'
+    content.vb: Public ReadOnly Property Item(index As Integer) As T
+  overload: RhythmTool.Track`1.Item*
+  nameWithType.vb: Track(Of T).Item(Int32)
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: RhythmTool.Track(Of T).Item(System.Int32)
+  name.vb: Item(Int32)
+- uid: RhythmTool.Track`1.count
+  commentId: P:RhythmTool.Track`1.count
+  id: count
+  parent: RhythmTool.Track`1
+  langs:
+  - csharp
+  - vb
+  name: count
+  nameWithType: Track<T>.count
+  fullName: RhythmTool.Track<T>.count
+  type: Property
+  source:
+    id: count
+    path: ''
+    startLine: 5334
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe number of Features contained in this Track.\n"
+  example: []
+  syntax:
+    content: public int count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property count As Integer
+  overload: RhythmTool.Track`1.count*
+  nameWithType.vb: Track(Of T).count
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: RhythmTool.Track(Of T).count
+- uid: RhythmTool.Track`1.Add(`0)
+  commentId: M:RhythmTool.Track`1.Add(`0)
+  id: Add(`0)
+  parent: RhythmTool.Track`1
+  langs:
+  - csharp
+  - vb
+  name: Add(T)
+  nameWithType: Track<T>.Add(T)
+  fullName: RhythmTool.Track<T>.Add(T)
+  type: Method
+  source:
+    id: Add
+    path: ''
+    startLine: 5362
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nAdd a Feature to the Track.\n"
+  example: []
+  syntax:
+    content: public virtual void Add(T feature)
+    parameters:
+    - id: feature
+      type: '{T}'
+      description: The Feature to add.
+    content.vb: Public Overridable Sub Add(feature As T)
+  overload: RhythmTool.Track`1.Add*
+  nameWithType.vb: Track(Of T).Add(T)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: RhythmTool.Track(Of T).Add(T)
+- uid: RhythmTool.Track`1.Remove(`0)
+  commentId: M:RhythmTool.Track`1.Remove(`0)
+  id: Remove(`0)
+  parent: RhythmTool.Track`1
+  langs:
+  - csharp
+  - vb
+  name: Remove(T)
+  nameWithType: Track<T>.Remove(T)
+  fullName: RhythmTool.Track<T>.Remove(T)
+  type: Method
+  source:
+    id: Remove
+    path: ''
+    startLine: 5382
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nRemove a Feature from the Track.\n"
+  example: []
+  syntax:
+    content: public void Remove(T feature)
+    parameters:
+    - id: feature
+      type: '{T}'
+      description: The Feature to remove.
+    content.vb: Public Sub Remove(feature As T)
+  overload: RhythmTool.Track`1.Remove*
+  nameWithType.vb: Track(Of T).Remove(T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: RhythmTool.Track(Of T).Remove(T)
+- uid: RhythmTool.Track`1.Sort
+  commentId: M:RhythmTool.Track`1.Sort
+  id: Sort
+  parent: RhythmTool.Track`1
+  langs:
+  - csharp
+  - vb
+  name: Sort()
+  nameWithType: Track<T>.Sort()
+  fullName: RhythmTool.Track<T>.Sort()
+  type: Method
+  source:
+    id: Sort
+    path: ''
+    startLine: 5392
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nSorts the Track&apos;s Features. Use this after changing a Feature&apos;s timestamp.\n"
+  example: []
+  syntax:
+    content: public void Sort()
+    content.vb: Public Sub Sort
+  overload: RhythmTool.Track`1.Sort*
+  nameWithType.vb: Track(Of T).Sort()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: RhythmTool.Track(Of T).Sort()
+- uid: RhythmTool.Track`1.GetFeatures(List{`0},System.Single,System.Single)
+  commentId: M:RhythmTool.Track`1.GetFeatures(List{`0},System.Single,System.Single)
+  id: GetFeatures(List{`0},System.Single,System.Single)
+  parent: RhythmTool.Track`1
+  langs:
+  - csharp
+  - vb
+  name: GetFeatures(List<T>, Single, Single)
+  nameWithType: Track<T>.GetFeatures(List<T>, Single, Single)
+  fullName: RhythmTool.Track<T>.GetFeatures(List<T>, System.Single, System.Single)
+  type: Method
+  source:
+    id: GetFeatures
+    path: ''
+    startLine: 5405
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nFinds all Features within a certain time frame.\n"
+  example: []
+  syntax:
+    content: public void GetFeatures(List<T> features, float start, float end)
+    parameters:
+    - id: features
+      type: Global.List{{T}}
+      description: The list of Features to populate
+    - id: start
+      type: System.Single
+      description: The starting point in seconds.
+    - id: end
+      type: System.Single
+      description: The end point in seconds.
+    content.vb: Public Sub GetFeatures(features As List(Of T), start As Single, end As Single)
+  overload: RhythmTool.Track`1.GetFeatures*
+  nameWithType.vb: Track(Of T).GetFeatures(List(Of T), Single, Single)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: RhythmTool.Track(Of T).GetFeatures(List(Of T), System.Single, System.Single)
+  name.vb: GetFeatures(List(Of T), Single, Single)
+- uid: RhythmTool.Track`1.GetIntersectingFeatures(List{`0},System.Single,System.Single)
+  commentId: M:RhythmTool.Track`1.GetIntersectingFeatures(List{`0},System.Single,System.Single)
+  id: GetIntersectingFeatures(List{`0},System.Single,System.Single)
+  parent: RhythmTool.Track`1
+  langs:
+  - csharp
+  - vb
+  name: GetIntersectingFeatures(List<T>, Single, Single)
+  nameWithType: Track<T>.GetIntersectingFeatures(List<T>, Single, Single)
+  fullName: RhythmTool.Track<T>.GetIntersectingFeatures(List<T>, System.Single, System.Single)
+  type: Method
+  source:
+    id: GetIntersectingFeatures
+    path: ''
+    startLine: 5420
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nFinds all Features within a certain time frame, including Features with a length that intersects the time frame.\n"
+  example: []
+  syntax:
+    content: public void GetIntersectingFeatures(List<T> features, float start, float end)
+    parameters:
+    - id: features
+      type: Global.List{{T}}
+      description: The list of Features to populate
+    - id: start
+      type: System.Single
+      description: The starting point in seconds.
+    - id: end
+      type: System.Single
+      description: The end point in seconds.
+    content.vb: Public Sub GetIntersectingFeatures(features As List(Of T), start As Single, end As Single)
+  overload: RhythmTool.Track`1.GetIntersectingFeatures*
+  nameWithType.vb: Track(Of T).GetIntersectingFeatures(List(Of T), Single, Single)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: RhythmTool.Track(Of T).GetIntersectingFeatures(List(Of T), System.Single, System.Single)
+  name.vb: GetIntersectingFeatures(List(Of T), Single, Single)
+- uid: RhythmTool.Track`1.GetIndex(System.Single)
+  commentId: M:RhythmTool.Track`1.GetIndex(System.Single)
+  id: GetIndex(System.Single)
+  parent: RhythmTool.Track`1
+  langs:
+  - csharp
+  - vb
+  name: GetIndex(Single)
+  nameWithType: Track<T>.GetIndex(Single)
+  fullName: RhythmTool.Track<T>.GetIndex(System.Single)
+  type: Method
+  source:
+    id: GetIndex
+    path: ''
+    startLine: 5439
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nReturns the index of the Feature that is closest to a timestamp.\n"
+  example: []
+  syntax:
+    content: public int GetIndex(float timestamp)
+    parameters:
+    - id: timestamp
+      type: System.Single
+      description: The timestamp in seconds.
+    return:
+      type: System.Int32
+      description: The index of the Feature that is closest to the timestamp.
+    content.vb: Public Function GetIndex(timestamp As Single) As Integer
+  overload: RhythmTool.Track`1.GetIndex*
+  nameWithType.vb: Track(Of T).GetIndex(Single)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: RhythmTool.Track(Of T).GetIndex(System.Single)
+- uid: RhythmTool.Track`1.GetPrevIndex(System.Single)
+  commentId: M:RhythmTool.Track`1.GetPrevIndex(System.Single)
+  id: GetPrevIndex(System.Single)
+  parent: RhythmTool.Track`1
+  langs:
+  - csharp
+  - vb
+  name: GetPrevIndex(Single)
+  nameWithType: Track<T>.GetPrevIndex(Single)
+  fullName: RhythmTool.Track<T>.GetPrevIndex(System.Single)
+  type: Method
+  source:
+    id: GetPrevIndex
+    path: ''
+    startLine: 5452
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public int GetPrevIndex(float timestamp)
+    parameters:
+    - id: timestamp
+      type: System.Single
+    return:
+      type: System.Int32
+    content.vb: Public Function GetPrevIndex(timestamp As Single) As Integer
+  overload: RhythmTool.Track`1.GetPrevIndex*
+  nameWithType.vb: Track(Of T).GetPrevIndex(Single)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: RhythmTool.Track(Of T).GetPrevIndex(System.Single)
+- uid: RhythmTool.Track`1.GetPrevFeature(System.Single)
+  commentId: M:RhythmTool.Track`1.GetPrevFeature(System.Single)
+  id: GetPrevFeature(System.Single)
+  parent: RhythmTool.Track`1
+  langs:
+  - csharp
+  - vb
+  name: GetPrevFeature(Single)
+  nameWithType: Track<T>.GetPrevFeature(Single)
+  fullName: RhythmTool.Track<T>.GetPrevFeature(System.Single)
+  type: Method
+  source:
+    id: GetPrevFeature
+    path: ''
+    startLine: 5459
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public Feature GetPrevFeature(float timestamp)
+    parameters:
+    - id: timestamp
+      type: System.Single
+    return:
+      type: RhythmTool.Feature
+    content.vb: Public Function GetPrevFeature(timestamp As Single) As Feature
+  overload: RhythmTool.Track`1.GetPrevFeature*
+  nameWithType.vb: Track(Of T).GetPrevFeature(Single)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: RhythmTool.Track(Of T).GetPrevFeature(System.Single)
+- uid: RhythmTool.Track`1.GetNextIndex(System.Single)
+  commentId: M:RhythmTool.Track`1.GetNextIndex(System.Single)
+  id: GetNextIndex(System.Single)
+  parent: RhythmTool.Track`1
+  langs:
+  - csharp
+  - vb
+  name: GetNextIndex(Single)
+  nameWithType: Track<T>.GetNextIndex(Single)
+  fullName: RhythmTool.Track<T>.GetNextIndex(System.Single)
+  type: Method
+  source:
+    id: GetNextIndex
+    path: ''
+    startLine: 5465
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public int GetNextIndex(float timestamp)
+    parameters:
+    - id: timestamp
+      type: System.Single
+    return:
+      type: System.Int32
+    content.vb: Public Function GetNextIndex(timestamp As Single) As Integer
+  overload: RhythmTool.Track`1.GetNextIndex*
+  nameWithType.vb: Track(Of T).GetNextIndex(Single)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: RhythmTool.Track(Of T).GetNextIndex(System.Single)
+- uid: RhythmTool.Track`1.GetNextFeature(System.Single)
+  commentId: M:RhythmTool.Track`1.GetNextFeature(System.Single)
+  id: GetNextFeature(System.Single)
+  parent: RhythmTool.Track`1
+  langs:
+  - csharp
+  - vb
+  name: GetNextFeature(Single)
+  nameWithType: Track<T>.GetNextFeature(Single)
+  fullName: RhythmTool.Track<T>.GetNextFeature(System.Single)
+  type: Method
+  source:
+    id: GetNextFeature
+    path: ''
+    startLine: 5472
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public Feature GetNextFeature(float timestamp)
+    parameters:
+    - id: timestamp
+      type: System.Single
+    return:
+      type: RhythmTool.Feature
+    content.vb: Public Function GetNextFeature(timestamp As Single) As Feature
+  overload: RhythmTool.Track`1.GetNextFeature*
+  nameWithType.vb: Track(Of T).GetNextFeature(Single)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: RhythmTool.Track(Of T).GetNextFeature(System.Single)
+- uid: RhythmTool.Track`1.GetIndex(`0)
+  commentId: M:RhythmTool.Track`1.GetIndex(`0)
+  id: GetIndex(`0)
+  parent: RhythmTool.Track`1
+  langs:
+  - csharp
+  - vb
+  name: GetIndex(T)
+  nameWithType: Track<T>.GetIndex(T)
+  fullName: RhythmTool.Track<T>.GetIndex(T)
+  type: Method
+  source:
+    id: GetIndex
+    path: ''
+    startLine: 5483
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nReturns the index of the Feature.\n"
+  example: []
+  syntax:
+    content: public int GetIndex(T feature)
+    parameters:
+    - id: feature
+      type: '{T}'
+      description: The feature.
+    return:
+      type: System.Int32
+      description: The index of the Feature.
+    content.vb: Public Function GetIndex(feature As T) As Integer
+  overload: RhythmTool.Track`1.GetIndex*
+  nameWithType.vb: Track(Of T).GetIndex(T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: RhythmTool.Track(Of T).GetIndex(T)
+- uid: RhythmTool.Track`1.GetIntersectingIndex(System.Single)
+  commentId: M:RhythmTool.Track`1.GetIntersectingIndex(System.Single)
+  id: GetIntersectingIndex(System.Single)
+  parent: RhythmTool.Track`1
+  langs:
+  - csharp
+  - vb
+  name: GetIntersectingIndex(Single)
+  nameWithType: Track<T>.GetIntersectingIndex(Single)
+  fullName: RhythmTool.Track<T>.GetIntersectingIndex(System.Single)
+  type: Method
+  source:
+    id: GetIntersectingIndex
+    path: ''
+    startLine: 5504
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nReturns the index of the Feature that is closest to a timestamp, Including the feature&apos;s length.\n"
+  example: []
+  syntax:
+    content: public int GetIntersectingIndex(float timestamp)
+    parameters:
+    - id: timestamp
+      type: System.Single
+      description: The timestamp in seconds.
+    return:
+      type: System.Int32
+      description: The index of the Feature that is closest to the timestamp, including the Feature&apos;s length.
+    content.vb: Public Function GetIntersectingIndex(timestamp As Single) As Integer
+  overload: RhythmTool.Track`1.GetIntersectingIndex*
+  nameWithType.vb: Track(Of T).GetIntersectingIndex(Single)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: RhythmTool.Track(Of T).GetIntersectingIndex(System.Single)
+- uid: RhythmTool.Track`1.Create(System.String)
+  commentId: M:RhythmTool.Track`1.Create(System.String)
+  id: Create(System.String)
+  parent: RhythmTool.Track`1
+  langs:
+  - csharp
+  - vb
+  name: Create(String)
+  nameWithType: Track<T>.Create(String)
+  fullName: RhythmTool.Track<T>.Create(System.String)
+  type: Method
+  source:
+    id: Create
+    path: ''
+    startLine: 5592
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nCreate a track of type T with a name.\n"
+  example: []
+  syntax:
+    content: public static Track<T> Create(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the Track
+    return:
+      type: RhythmTool.Track`1
+      description: The new Track.
+    content.vb: Public Shared Function Create(name As String) As Track(Of T)
+  overload: RhythmTool.Track`1.Create*
+  nameWithType.vb: Track(Of T).Create(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: RhythmTool.Track(Of T).Create(System.String)
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: RhythmTool.Track
+  commentId: T:RhythmTool.Track
+  parent: RhythmTool
+  name: Track
+  nameWithType: Track
+  fullName: RhythmTool.Track
+- uid: RhythmTool.Track.name
+  commentId: P:RhythmTool.Track.name
+  parent: RhythmTool.Track
+  name: name
+  nameWithType: Track.name
+  fullName: RhythmTool.Track.name
+- uid: RhythmTool.Track._name
+  commentId: F:RhythmTool.Track._name
+  parent: RhythmTool.Track
+  name: _name
+  nameWithType: Track._name
+  fullName: RhythmTool.Track._name
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.Track`1.Item*
+  commentId: Overload:RhythmTool.Track`1.Item
+  name: Item
+  nameWithType: Track<T>.Item
+  fullName: RhythmTool.Track<T>.Item
+  nameWithType.vb: Track(Of T).Item
+  fullName.vb: RhythmTool.Track(Of T).Item
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: RhythmTool.Track`1.count*
+  commentId: Overload:RhythmTool.Track`1.count
+  name: count
+  nameWithType: Track<T>.count
+  fullName: RhythmTool.Track<T>.count
+  nameWithType.vb: Track(Of T).count
+  fullName.vb: RhythmTool.Track(Of T).count
+- uid: RhythmTool.Track`1.Add*
+  commentId: Overload:RhythmTool.Track`1.Add
+  name: Add
+  nameWithType: Track<T>.Add
+  fullName: RhythmTool.Track<T>.Add
+  nameWithType.vb: Track(Of T).Add
+  fullName.vb: RhythmTool.Track(Of T).Add
+- uid: RhythmTool.Track`1.Remove*
+  commentId: Overload:RhythmTool.Track`1.Remove
+  name: Remove
+  nameWithType: Track<T>.Remove
+  fullName: RhythmTool.Track<T>.Remove
+  nameWithType.vb: Track(Of T).Remove
+  fullName.vb: RhythmTool.Track(Of T).Remove
+- uid: RhythmTool.Track`1.Sort*
+  commentId: Overload:RhythmTool.Track`1.Sort
+  name: Sort
+  nameWithType: Track<T>.Sort
+  fullName: RhythmTool.Track<T>.Sort
+  nameWithType.vb: Track(Of T).Sort
+  fullName.vb: RhythmTool.Track(Of T).Sort
+- uid: RhythmTool.Track`1.GetFeatures*
+  commentId: Overload:RhythmTool.Track`1.GetFeatures
+  name: GetFeatures
+  nameWithType: Track<T>.GetFeatures
+  fullName: RhythmTool.Track<T>.GetFeatures
+  nameWithType.vb: Track(Of T).GetFeatures
+  fullName.vb: RhythmTool.Track(Of T).GetFeatures
+- uid: Global.List{{T}}
+  commentId: '!:Global.List{``0}'
+  definition: Global.List`1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track`1.GetIntersectingFeatures*
+  commentId: Overload:RhythmTool.Track`1.GetIntersectingFeatures
+  name: GetIntersectingFeatures
+  nameWithType: Track<T>.GetIntersectingFeatures
+  fullName: RhythmTool.Track<T>.GetIntersectingFeatures
+  nameWithType.vb: Track(Of T).GetIntersectingFeatures
+  fullName.vb: RhythmTool.Track(Of T).GetIntersectingFeatures
+- uid: RhythmTool.Track`1.GetIndex*
+  commentId: Overload:RhythmTool.Track`1.GetIndex
+  name: GetIndex
+  nameWithType: Track<T>.GetIndex
+  fullName: RhythmTool.Track<T>.GetIndex
+  nameWithType.vb: Track(Of T).GetIndex
+  fullName.vb: RhythmTool.Track(Of T).GetIndex
+- uid: RhythmTool.Track`1.GetPrevIndex*
+  commentId: Overload:RhythmTool.Track`1.GetPrevIndex
+  name: GetPrevIndex
+  nameWithType: Track<T>.GetPrevIndex
+  fullName: RhythmTool.Track<T>.GetPrevIndex
+  nameWithType.vb: Track(Of T).GetPrevIndex
+  fullName.vb: RhythmTool.Track(Of T).GetPrevIndex
+- uid: RhythmTool.Track`1.GetPrevFeature*
+  commentId: Overload:RhythmTool.Track`1.GetPrevFeature
+  name: GetPrevFeature
+  nameWithType: Track<T>.GetPrevFeature
+  fullName: RhythmTool.Track<T>.GetPrevFeature
+  nameWithType.vb: Track(Of T).GetPrevFeature
+  fullName.vb: RhythmTool.Track(Of T).GetPrevFeature
+- uid: RhythmTool.Feature
+  commentId: T:RhythmTool.Feature
+  parent: RhythmTool
+  name: Feature
+  nameWithType: Feature
+  fullName: RhythmTool.Feature
+- uid: RhythmTool.Track`1.GetNextIndex*
+  commentId: Overload:RhythmTool.Track`1.GetNextIndex
+  name: GetNextIndex
+  nameWithType: Track<T>.GetNextIndex
+  fullName: RhythmTool.Track<T>.GetNextIndex
+  nameWithType.vb: Track(Of T).GetNextIndex
+  fullName.vb: RhythmTool.Track(Of T).GetNextIndex
+- uid: RhythmTool.Track`1.GetNextFeature*
+  commentId: Overload:RhythmTool.Track`1.GetNextFeature
+  name: GetNextFeature
+  nameWithType: Track<T>.GetNextFeature
+  fullName: RhythmTool.Track<T>.GetNextFeature
+  nameWithType.vb: Track(Of T).GetNextFeature
+  fullName.vb: RhythmTool.Track(Of T).GetNextFeature
+- uid: RhythmTool.Track`1.GetIntersectingIndex*
+  commentId: Overload:RhythmTool.Track`1.GetIntersectingIndex
+  name: GetIntersectingIndex
+  nameWithType: Track<T>.GetIntersectingIndex
+  fullName: RhythmTool.Track<T>.GetIntersectingIndex
+  nameWithType.vb: Track(Of T).GetIntersectingIndex
+  fullName.vb: RhythmTool.Track(Of T).GetIntersectingIndex
+- uid: RhythmTool.Track`1.Create*
+  commentId: Overload:RhythmTool.Track`1.Create
+  name: Create
+  nameWithType: Track<T>.Create
+  fullName: RhythmTool.Track<T>.Create
+  nameWithType.vb: Track(Of T).Create
+  fullName.vb: RhythmTool.Track(Of T).Create
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: RhythmTool.Track`1
+  commentId: T:RhythmTool.Track`1
+  parent: RhythmTool
+  name: Track<T>
+  nameWithType: Track<T>
+  fullName: RhythmTool.Track<T>
+  nameWithType.vb: Track(Of T)
+  fullName.vb: RhythmTool.Track(Of T)
+  name.vb: Track(Of T)
+  spec.csharp:
+  - uid: RhythmTool.Track`1
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: RhythmTool.Track`1
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

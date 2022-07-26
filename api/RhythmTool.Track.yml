@@ -1,0 +1,133 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.Track
+  commentId: T:RhythmTool.Track
+  id: Track
+  parent: RhythmTool
+  children:
+  - RhythmTool.Track._name
+  - RhythmTool.Track.name
+  langs:
+  - csharp
+  - vb
+  name: Track
+  nameWithType: Track
+  fullName: RhythmTool.Track
+  type: Class
+  source:
+    id: Track
+    path: ''
+    startLine: 5307
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nA Track is a collection of Features that are ordered in time.\n"
+  example: []
+  syntax:
+    content: 'public abstract class Track : ScriptableObject'
+    content.vb: >-
+      Public MustInherit Class Track
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - RhythmTool.Track`1
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: RhythmTool.Track.name
+  commentId: P:RhythmTool.Track.name
+  id: name
+  parent: RhythmTool.Track
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: Track.name
+  fullName: RhythmTool.Track.name
+  type: Property
+  source:
+    id: name
+    path: ''
+    startLine: 5312
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe name of the Track.\n"
+  example: []
+  syntax:
+    content: public string name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property name As String
+  overload: RhythmTool.Track.name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: RhythmTool.Track._name
+  commentId: F:RhythmTool.Track._name
+  id: _name
+  parent: RhythmTool.Track
+  langs:
+  - csharp
+  - vb
+  name: _name
+  nameWithType: Track._name
+  fullName: RhythmTool.Track._name
+  type: Field
+  source:
+    id: _name
+    path: ''
+    startLine: 5317
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: protected string _name
+    return:
+      type: System.String
+    content.vb: Protected _name As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.Track.name*
+  commentId: Overload:RhythmTool.Track.name
+  name: name
+  nameWithType: Track.name
+  fullName: RhythmTool.Track.name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,124 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.FeatureCreator`1
+  commentId: T:RhythmTool.FeatureCreator`1
+  id: FeatureCreator`1
+  parent: RhythmTool
+  children:
+  - RhythmTool.FeatureCreator`1.Create(System.Single,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: FeatureCreator<T>
+  nameWithType: FeatureCreator<T>
+  fullName: RhythmTool.FeatureCreator<T>
+  type: Class
+  source:
+    id: FeatureCreator
+    path: ''
+    startLine: 240
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: >-
+      public class FeatureCreator<T>
+          where T : Feature, new()
+    typeParameters:
+    - id: T
+    content.vb: Public Class FeatureCreator(Of T As {Feature, New})
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - RhythmTool.ChromaCreator
+  - RhythmTool.OnsetCreator
+  - RhythmTool.ValueCreator
+  nameWithType.vb: FeatureCreator(Of T)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: RhythmTool.FeatureCreator(Of T)
+  name.vb: FeatureCreator(Of T)
+- uid: RhythmTool.FeatureCreator`1.Create(System.Single,System.Single)
+  commentId: M:RhythmTool.FeatureCreator`1.Create(System.Single,System.Single)
+  id: Create(System.Single,System.Single)
+  parent: RhythmTool.FeatureCreator`1
+  langs:
+  - csharp
+  - vb
+  name: Create(Single, Single)
+  nameWithType: FeatureCreator<T>.Create(Single, Single)
+  fullName: RhythmTool.FeatureCreator<T>.Create(System.Single, System.Single)
+  type: Method
+  source:
+    id: Create
+    path: ''
+    startLine: 242
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public virtual T Create(float timestamp, float value)
+    parameters:
+    - id: timestamp
+      type: System.Single
+    - id: value
+      type: System.Single
+    return:
+      type: '{T}'
+    content.vb: Public Overridable Function Create(timestamp As Single, value As Single) As T
+  overload: RhythmTool.FeatureCreator`1.Create*
+  nameWithType.vb: FeatureCreator(Of T).Create(Single, Single)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: RhythmTool.FeatureCreator(Of T).Create(System.Single, System.Single)
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.FeatureCreator`1.Create*
+  commentId: Overload:RhythmTool.FeatureCreator`1.Create
+  name: Create
+  nameWithType: FeatureCreator<T>.Create
+  fullName: RhythmTool.FeatureCreator<T>.Create
+  nameWithType.vb: FeatureCreator(Of T).Create
+  fullName.vb: RhythmTool.FeatureCreator(Of T).Create
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

@@ -1,0 +1,580 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.RhythmEventProvider
+  commentId: T:RhythmTool.RhythmEventProvider
+  id: RhythmEventProvider
+  parent: RhythmTool
+  children:
+  - RhythmTool.RhythmEventProvider.offset
+  - RhythmTool.RhythmEventProvider.Process(RhythmTool.RhythmData,System.Single,System.Single)
+  - RhythmTool.RhythmEventProvider.Register``1(Action{``0})
+  - RhythmTool.RhythmEventProvider.Register``1(Action{``0},System.String)
+  - RhythmTool.RhythmEventProvider.Reset(RhythmTool.RhythmData,System.Single)
+  - RhythmTool.RhythmEventProvider.Unregister``1(Action{``0})
+  - RhythmTool.RhythmEventProvider.Unregister``1(Action{``0},System.String)
+  langs:
+  - csharp
+  - vb
+  name: RhythmEventProvider
+  nameWithType: RhythmEventProvider
+  fullName: RhythmTool.RhythmEventProvider
+  type: Class
+  source:
+    id: RhythmEventProvider
+    path: ''
+    startLine: 4753
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nA RhythmEventProvider provides events for Tracks in a RhythmData object.\n"
+  example: []
+  syntax:
+    content: 'public class RhythmEventProvider : RhythmTarget'
+    content.vb: >-
+      Public Class RhythmEventProvider
+          Inherits RhythmTarget
+  inheritance:
+  - System.Object
+  - RhythmTool.RhythmTarget
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.RhythmEventProvider.offset
+  commentId: F:RhythmTool.RhythmEventProvider.offset
+  id: offset
+  parent: RhythmTool.RhythmEventProvider
+  langs:
+  - csharp
+  - vb
+  name: offset
+  nameWithType: RhythmEventProvider.offset
+  fullName: RhythmTool.RhythmEventProvider.offset
+  type: Field
+  source:
+    id: offset
+    path: ''
+    startLine: 4757
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public float offset
+    return:
+      type: System.Single
+    content.vb: Public offset As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.RhythmEventProvider.Process(RhythmTool.RhythmData,System.Single,System.Single)
+  commentId: M:RhythmTool.RhythmEventProvider.Process(RhythmTool.RhythmData,System.Single,System.Single)
+  id: Process(RhythmTool.RhythmData,System.Single,System.Single)
+  parent: RhythmTool.RhythmEventProvider
+  langs:
+  - csharp
+  - vb
+  name: Process(RhythmData, Single, Single)
+  nameWithType: RhythmEventProvider.Process(RhythmData, Single, Single)
+  fullName: RhythmTool.RhythmEventProvider.Process(RhythmTool.RhythmData, System.Single, System.Single)
+  type: Method
+  source:
+    id: Process
+    path: ''
+    startLine: 4767
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nProcess events based on A RhythmData object and a time frame.\n"
+  example: []
+  syntax:
+    content: public override void Process(RhythmData rhythmData, float start, float end)
+    parameters:
+    - id: rhythmData
+      type: RhythmTool.RhythmData
+      description: The RhythmData to process.
+    - id: start
+      type: System.Single
+      description: The start of the time frame in seconds.
+    - id: end
+      type: System.Single
+      description: The end of the time frame in seconds.
+    content.vb: Public Overrides Sub Process(rhythmData As RhythmData, start As Single, end As Single)
+  overridden: RhythmTool.RhythmTarget.Process(RhythmTool.RhythmData,System.Single,System.Single)
+  overload: RhythmTool.RhythmEventProvider.Process*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: RhythmTool.RhythmEventProvider.Reset(RhythmTool.RhythmData,System.Single)
+  commentId: M:RhythmTool.RhythmEventProvider.Reset(RhythmTool.RhythmData,System.Single)
+  id: Reset(RhythmTool.RhythmData,System.Single)
+  parent: RhythmTool.RhythmEventProvider
+  langs:
+  - csharp
+  - vb
+  name: Reset(RhythmData, Single)
+  nameWithType: RhythmEventProvider.Reset(RhythmData, Single)
+  fullName: RhythmTool.RhythmEventProvider.Reset(RhythmTool.RhythmData, System.Single)
+  type: Method
+  source:
+    id: Reset
+    path: ''
+    startLine: 4778
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nIndicate that the playback time has been reset to a different time and process events for a RhythmData.\n"
+  example: []
+  syntax:
+    content: public override void Reset(RhythmData rhythmData, float time)
+    parameters:
+    - id: rhythmData
+      type: RhythmTool.RhythmData
+      description: The rhyRhythmData object.
+    - id: time
+      type: System.Single
+      description: The new playback time.
+    content.vb: Public Overrides Sub Reset(rhythmData As RhythmData, time As Single)
+  overridden: RhythmTool.RhythmTarget.Reset(RhythmTool.RhythmData,System.Single)
+  overload: RhythmTool.RhythmEventProvider.Reset*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: RhythmTool.RhythmEventProvider.Register``1(Action{``0})
+  commentId: M:RhythmTool.RhythmEventProvider.Register``1(Action{``0})
+  id: Register``1(Action{``0})
+  parent: RhythmTool.RhythmEventProvider
+  langs:
+  - csharp
+  - vb
+  name: Register<T>(Action<T>)
+  nameWithType: RhythmEventProvider.Register<T>(Action<T>)
+  fullName: RhythmTool.RhythmEventProvider.Register<T>(Action<T>)
+  type: Method
+  source:
+    id: Register
+    path: ''
+    startLine: 4789
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nRegister a method to receive events for a specific Feature type.\n"
+  example: []
+  syntax:
+    content: >-
+      public void Register<T>(Action<T> action)
+          where T : Feature
+    parameters:
+    - id: action
+      type: Global.Action{{T}}
+      description: The method.
+    typeParameters:
+    - id: T
+      description: The Feature type.
+    content.vb: Public Sub Register(Of T As Feature)(action As Action(Of T))
+  overload: RhythmTool.RhythmEventProvider.Register*
+  nameWithType.vb: RhythmEventProvider.Register(Of T)(Action(Of T))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: RhythmTool.RhythmEventProvider.Register(Of T)(Action(Of T))
+  name.vb: Register(Of T)(Action(Of T))
+- uid: RhythmTool.RhythmEventProvider.Unregister``1(Action{``0})
+  commentId: M:RhythmTool.RhythmEventProvider.Unregister``1(Action{``0})
+  id: Unregister``1(Action{``0})
+  parent: RhythmTool.RhythmEventProvider
+  langs:
+  - csharp
+  - vb
+  name: Unregister<T>(Action<T>)
+  nameWithType: RhythmEventProvider.Unregister<T>(Action<T>)
+  fullName: RhythmTool.RhythmEventProvider.Unregister<T>(Action<T>)
+  type: Method
+  source:
+    id: Unregister
+    path: ''
+    startLine: 4801
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nUnregister a method to receive events for a specific Feature type.\n"
+  example: []
+  syntax:
+    content: >-
+      public void Unregister<T>(Action<T> action)
+          where T : Feature
+    parameters:
+    - id: action
+      type: Global.Action{{T}}
+      description: The method.
+    typeParameters:
+    - id: T
+      description: The Feature type.
+    content.vb: Public Sub Unregister(Of T As Feature)(action As Action(Of T))
+  overload: RhythmTool.RhythmEventProvider.Unregister*
+  nameWithType.vb: RhythmEventProvider.Unregister(Of T)(Action(Of T))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: RhythmTool.RhythmEventProvider.Unregister(Of T)(Action(Of T))
+  name.vb: Unregister(Of T)(Action(Of T))
+- uid: RhythmTool.RhythmEventProvider.Register``1(Action{``0},System.String)
+  commentId: M:RhythmTool.RhythmEventProvider.Register``1(Action{``0},System.String)
+  id: Register``1(Action{``0},System.String)
+  parent: RhythmTool.RhythmEventProvider
+  langs:
+  - csharp
+  - vb
+  name: Register<T>(Action<T>, String)
+  nameWithType: RhythmEventProvider.Register<T>(Action<T>, String)
+  fullName: RhythmTool.RhythmEventProvider.Register<T>(Action<T>, System.String)
+  type: Method
+  source:
+    id: Register
+    path: ''
+    startLine: 4812
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nRegister a method to receive events for a specific Feature type and a specific Track name.\n"
+  example: []
+  syntax:
+    content: >-
+      public void Register<T>(Action<T> action, string trackName)
+          where T : Feature
+    parameters:
+    - id: action
+      type: Global.Action{{T}}
+      description: The method.
+    - id: trackName
+      type: System.String
+      description: The Track name.
+    typeParameters:
+    - id: T
+      description: The Feature type.
+    content.vb: Public Sub Register(Of T As Feature)(action As Action(Of T), trackName As String)
+  overload: RhythmTool.RhythmEventProvider.Register*
+  nameWithType.vb: RhythmEventProvider.Register(Of T)(Action(Of T), String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: RhythmTool.RhythmEventProvider.Register(Of T)(Action(Of T), System.String)
+  name.vb: Register(Of T)(Action(Of T), String)
+- uid: RhythmTool.RhythmEventProvider.Unregister``1(Action{``0},System.String)
+  commentId: M:RhythmTool.RhythmEventProvider.Unregister``1(Action{``0},System.String)
+  id: Unregister``1(Action{``0},System.String)
+  parent: RhythmTool.RhythmEventProvider
+  langs:
+  - csharp
+  - vb
+  name: Unregister<T>(Action<T>, String)
+  nameWithType: RhythmEventProvider.Unregister<T>(Action<T>, String)
+  fullName: RhythmTool.RhythmEventProvider.Unregister<T>(Action<T>, System.String)
+  type: Method
+  source:
+    id: Unregister
+    path: ''
+    startLine: 4835
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nUnregister a method to receive events for a specific Feature type and a specific Track name.\n"
+  example: []
+  syntax:
+    content: >-
+      public void Unregister<T>(Action<T> action, string trackName)
+          where T : Feature
+    parameters:
+    - id: action
+      type: Global.Action{{T}}
+      description: The method.
+    - id: trackName
+      type: System.String
+      description: The Track name.
+    typeParameters:
+    - id: T
+      description: The Feature type.
+    content.vb: Public Sub Unregister(Of T As Feature)(action As Action(Of T), trackName As String)
+  overload: RhythmTool.RhythmEventProvider.Unregister*
+  nameWithType.vb: RhythmEventProvider.Unregister(Of T)(Action(Of T), String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: RhythmTool.RhythmEventProvider.Unregister(Of T)(Action(Of T), System.String)
+  name.vb: Unregister(Of T)(Action(Of T), String)
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: RhythmTool.RhythmTarget
+  commentId: T:RhythmTool.RhythmTarget
+  parent: RhythmTool
+  name: RhythmTarget
+  nameWithType: RhythmTarget
+  fullName: RhythmTool.RhythmTarget
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: RhythmTool.RhythmTarget.Process(RhythmTool.RhythmData,System.Single,System.Single)
+  commentId: M:RhythmTool.RhythmTarget.Process(RhythmTool.RhythmData,System.Single,System.Single)
+  parent: RhythmTool.RhythmTarget
+  isExternal: true
+  name: Process(RhythmData, Single, Single)
+  nameWithType: RhythmTarget.Process(RhythmData, Single, Single)
+  fullName: RhythmTool.RhythmTarget.Process(RhythmTool.RhythmData, System.Single, System.Single)
+  spec.csharp:
+  - uid: RhythmTool.RhythmTarget.Process(RhythmTool.RhythmData,System.Single,System.Single)
+    name: Process
+    nameWithType: RhythmTarget.Process
+    fullName: RhythmTool.RhythmTarget.Process
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RhythmTool.RhythmData
+    name: RhythmData
+    nameWithType: RhythmData
+    fullName: RhythmTool.RhythmData
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.RhythmTarget.Process(RhythmTool.RhythmData,System.Single,System.Single)
+    name: Process
+    nameWithType: RhythmTarget.Process
+    fullName: RhythmTool.RhythmTarget.Process
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RhythmTool.RhythmData
+    name: RhythmData
+    nameWithType: RhythmData
+    fullName: RhythmTool.RhythmData
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.RhythmEventProvider.Process*
+  commentId: Overload:RhythmTool.RhythmEventProvider.Process
+  name: Process
+  nameWithType: RhythmEventProvider.Process
+  fullName: RhythmTool.RhythmEventProvider.Process
+- uid: RhythmTool.RhythmData
+  commentId: T:RhythmTool.RhythmData
+  parent: RhythmTool
+  name: RhythmData
+  nameWithType: RhythmData
+  fullName: RhythmTool.RhythmData
+- uid: RhythmTool.RhythmTarget.Reset(RhythmTool.RhythmData,System.Single)
+  commentId: M:RhythmTool.RhythmTarget.Reset(RhythmTool.RhythmData,System.Single)
+  parent: RhythmTool.RhythmTarget
+  isExternal: true
+  name: Reset(RhythmData, Single)
+  nameWithType: RhythmTarget.Reset(RhythmData, Single)
+  fullName: RhythmTool.RhythmTarget.Reset(RhythmTool.RhythmData, System.Single)
+  spec.csharp:
+  - uid: RhythmTool.RhythmTarget.Reset(RhythmTool.RhythmData,System.Single)
+    name: Reset
+    nameWithType: RhythmTarget.Reset
+    fullName: RhythmTool.RhythmTarget.Reset
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RhythmTool.RhythmData
+    name: RhythmData
+    nameWithType: RhythmData
+    fullName: RhythmTool.RhythmData
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.RhythmTarget.Reset(RhythmTool.RhythmData,System.Single)
+    name: Reset
+    nameWithType: RhythmTarget.Reset
+    fullName: RhythmTool.RhythmTarget.Reset
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RhythmTool.RhythmData
+    name: RhythmData
+    nameWithType: RhythmData
+    fullName: RhythmTool.RhythmData
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.RhythmEventProvider.Reset*
+  commentId: Overload:RhythmTool.RhythmEventProvider.Reset
+  name: Reset
+  nameWithType: RhythmEventProvider.Reset
+  fullName: RhythmTool.RhythmEventProvider.Reset
+- uid: RhythmTool.RhythmEventProvider.Register*
+  commentId: Overload:RhythmTool.RhythmEventProvider.Register
+  name: Register
+  nameWithType: RhythmEventProvider.Register
+  fullName: RhythmTool.RhythmEventProvider.Register
+- uid: Global.Action{{T}}
+  commentId: '!:Global.Action{``0}'
+  definition: Global.Action`1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.RhythmEventProvider.Unregister*
+  commentId: Overload:RhythmTool.RhythmEventProvider.Unregister
+  name: Unregister
+  nameWithType: RhythmEventProvider.Unregister
+  fullName: RhythmTool.RhythmEventProvider.Unregister
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

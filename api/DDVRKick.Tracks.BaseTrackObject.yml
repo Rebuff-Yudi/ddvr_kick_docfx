@@ -1,0 +1,233 @@
+### YamlMime:ManagedReference
+items:
+- uid: DDVRKick.Tracks.BaseTrackObject
+  commentId: T:DDVRKick.Tracks.BaseTrackObject
+  id: BaseTrackObject
+  parent: DDVRKick.Tracks
+  children:
+  - DDVRKick.Tracks.BaseTrackObject.AttachToPath(DOTweenPath,DOTweenPath,System.Action)
+  - DDVRKick.Tracks.BaseTrackObject.OnEnable
+  - DDVRKick.Tracks.BaseTrackObject.pathTween
+  - DDVRKick.Tracks.BaseTrackObject.Reset
+  langs:
+  - csharp
+  - vb
+  name: BaseTrackObject
+  nameWithType: BaseTrackObject
+  fullName: DDVRKick.Tracks.BaseTrackObject
+  type: Class
+  source:
+    id: BaseTrackObject
+    path: ''
+    startLine: 7467
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class BaseTrackObject : MonoBehaviour
+    content.vb: >-
+      <Serializable>
+
+      Public Class BaseTrackObject
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - DDVRKick.Tracks.LongNote
+  - DDVRKick.Tracks.Note
+  - DDVRKick.Tracks.Obstacles
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DDVRKick.Tracks.BaseTrackObject.pathTween
+  commentId: P:DDVRKick.Tracks.BaseTrackObject.pathTween
+  id: pathTween
+  parent: DDVRKick.Tracks.BaseTrackObject
+  langs:
+  - csharp
+  - vb
+  name: pathTween
+  nameWithType: BaseTrackObject.pathTween
+  fullName: DDVRKick.Tracks.BaseTrackObject.pathTween
+  type: Property
+  source:
+    id: pathTween
+    path: ''
+    startLine: 7470
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public Sequence pathTween { get; protected set; }
+    parameters: []
+    return:
+      type: Global.Sequence
+    content.vb: Public Property pathTween As Sequence
+  overload: DDVRKick.Tracks.BaseTrackObject.pathTween*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: DDVRKick.Tracks.BaseTrackObject.OnEnable
+  commentId: M:DDVRKick.Tracks.BaseTrackObject.OnEnable
+  id: OnEnable
+  parent: DDVRKick.Tracks.BaseTrackObject
+  langs:
+  - csharp
+  - vb
+  name: OnEnable()
+  nameWithType: BaseTrackObject.OnEnable()
+  fullName: DDVRKick.Tracks.BaseTrackObject.OnEnable()
+  type: Method
+  source:
+    id: OnEnable
+    path: ''
+    startLine: 7472
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: protected virtual void OnEnable()
+    content.vb: Protected Overridable Sub OnEnable
+  overload: DDVRKick.Tracks.BaseTrackObject.OnEnable*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: DDVRKick.Tracks.BaseTrackObject.Reset
+  commentId: M:DDVRKick.Tracks.BaseTrackObject.Reset
+  id: Reset
+  parent: DDVRKick.Tracks.BaseTrackObject
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: BaseTrackObject.Reset()
+  fullName: DDVRKick.Tracks.BaseTrackObject.Reset()
+  type: Method
+  source:
+    id: Reset
+    path: ''
+    startLine: 7477
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public virtual void Reset()
+    content.vb: Public Overridable Sub Reset
+  overload: DDVRKick.Tracks.BaseTrackObject.Reset*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: DDVRKick.Tracks.BaseTrackObject.AttachToPath(DOTweenPath,DOTweenPath,System.Action)
+  commentId: M:DDVRKick.Tracks.BaseTrackObject.AttachToPath(DOTweenPath,DOTweenPath,System.Action)
+  id: AttachToPath(DOTweenPath,DOTweenPath,System.Action)
+  parent: DDVRKick.Tracks.BaseTrackObject
+  langs:
+  - csharp
+  - vb
+  name: AttachToPath(DOTweenPath, DOTweenPath, Action)
+  nameWithType: BaseTrackObject.AttachToPath(DOTweenPath, DOTweenPath, Action)
+  fullName: DDVRKick.Tracks.BaseTrackObject.AttachToPath(DOTweenPath, DOTweenPath, System.Action)
+  type: Method
+  source:
+    id: AttachToPath
+    path: ''
+    startLine: 7482
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public virtual Sequence AttachToPath(DOTweenPath enterPath, DOTweenPath exitPath = null, Action onReachLineCallback = null)
+    parameters:
+    - id: enterPath
+      type: Global.DOTweenPath
+    - id: exitPath
+      type: Global.DOTweenPath
+    - id: onReachLineCallback
+      type: System.Action
+    return:
+      type: Global.Sequence
+    content.vb: Public Overridable Function AttachToPath(enterPath As DOTweenPath, exitPath As DOTweenPath = Nothing, onReachLineCallback As Action = Nothing) As Sequence
+  overload: DDVRKick.Tracks.BaseTrackObject.AttachToPath*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: DDVRKick.Tracks
+  commentId: N:DDVRKick.Tracks
+  name: DDVRKick.Tracks
+  nameWithType: DDVRKick.Tracks
+  fullName: DDVRKick.Tracks
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DDVRKick.Tracks.BaseTrackObject.pathTween*
+  commentId: Overload:DDVRKick.Tracks.BaseTrackObject.pathTween
+  name: pathTween
+  nameWithType: BaseTrackObject.pathTween
+  fullName: DDVRKick.Tracks.BaseTrackObject.pathTween
+- uid: Global.Sequence
+  isExternal: true
+  name: Sequence
+  nameWithType: Sequence
+  fullName: Sequence
+- uid: DDVRKick.Tracks.BaseTrackObject.OnEnable*
+  commentId: Overload:DDVRKick.Tracks.BaseTrackObject.OnEnable
+  name: OnEnable
+  nameWithType: BaseTrackObject.OnEnable
+  fullName: DDVRKick.Tracks.BaseTrackObject.OnEnable
+- uid: DDVRKick.Tracks.BaseTrackObject.Reset*
+  commentId: Overload:DDVRKick.Tracks.BaseTrackObject.Reset
+  name: Reset
+  nameWithType: BaseTrackObject.Reset
+  fullName: DDVRKick.Tracks.BaseTrackObject.Reset
+- uid: DDVRKick.Tracks.BaseTrackObject.AttachToPath*
+  commentId: Overload:DDVRKick.Tracks.BaseTrackObject.AttachToPath
+  name: AttachToPath
+  nameWithType: BaseTrackObject.AttachToPath
+  fullName: DDVRKick.Tracks.BaseTrackObject.AttachToPath
+- uid: Global.DOTweenPath
+  isExternal: true
+  name: DOTweenPath
+  nameWithType: DOTweenPath
+  fullName: DOTweenPath
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action

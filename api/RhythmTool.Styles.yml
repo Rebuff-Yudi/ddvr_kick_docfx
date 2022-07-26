@@ -1,0 +1,747 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.Styles
+  commentId: T:RhythmTool.Styles
+  id: Styles
+  parent: RhythmTool
+  children:
+  - RhythmTool.Styles.autoScrollButton
+  - RhythmTool.Styles.backgroundColor
+  - RhythmTool.Styles.bpmButton
+  - RhythmTool.Styles.endButton
+  - RhythmTool.Styles.feature
+  - RhythmTool.Styles.featureWidth
+  - RhythmTool.Styles.headerColor
+  - RhythmTool.Styles.headerHeight
+  - RhythmTool.Styles.outOfBoundsColor
+  - RhythmTool.Styles.playButton
+  - RhythmTool.Styles.rulerText
+  - RhythmTool.Styles.selectedTrackColor
+  - RhythmTool.Styles.shadow
+  - RhythmTool.Styles.startButton
+  - RhythmTool.Styles.toolbarHeight
+  - RhythmTool.Styles.trackColor
+  - RhythmTool.Styles.trackHeight
+  - RhythmTool.Styles.trackMargin
+  - RhythmTool.Styles.trackText
+  - RhythmTool.Styles.waveformButton
+  - RhythmTool.Styles.waveFormColor
+  langs:
+  - csharp
+  - vb
+  name: Styles
+  nameWithType: Styles
+  fullName: RhythmTool.Styles
+  type: Class
+  source:
+    id: Styles
+    path: ''
+    startLine: 1495
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: 'public class Styles : MonoBehaviour'
+    content.vb: >-
+      Public Class Styles
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.Styles.playButton
+  commentId: F:RhythmTool.Styles.playButton
+  id: playButton
+  parent: RhythmTool.Styles
+  langs:
+  - csharp
+  - vb
+  name: playButton
+  nameWithType: Styles.playButton
+  fullName: RhythmTool.Styles.playButton
+  type: Field
+  source:
+    id: playButton
+    path: ''
+    startLine: 1497
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static readonly GUIContent playButton
+    return:
+      type: Global.GUIContent
+    content.vb: Public Shared ReadOnly playButton As GUIContent
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RhythmTool.Styles.startButton
+  commentId: F:RhythmTool.Styles.startButton
+  id: startButton
+  parent: RhythmTool.Styles
+  langs:
+  - csharp
+  - vb
+  name: startButton
+  nameWithType: Styles.startButton
+  fullName: RhythmTool.Styles.startButton
+  type: Field
+  source:
+    id: startButton
+    path: ''
+    startLine: 1498
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static readonly GUIContent startButton
+    return:
+      type: Global.GUIContent
+    content.vb: Public Shared ReadOnly startButton As GUIContent
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RhythmTool.Styles.endButton
+  commentId: F:RhythmTool.Styles.endButton
+  id: endButton
+  parent: RhythmTool.Styles
+  langs:
+  - csharp
+  - vb
+  name: endButton
+  nameWithType: Styles.endButton
+  fullName: RhythmTool.Styles.endButton
+  type: Field
+  source:
+    id: endButton
+    path: ''
+    startLine: 1499
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static readonly GUIContent endButton
+    return:
+      type: Global.GUIContent
+    content.vb: Public Shared ReadOnly endButton As GUIContent
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RhythmTool.Styles.autoScrollButton
+  commentId: F:RhythmTool.Styles.autoScrollButton
+  id: autoScrollButton
+  parent: RhythmTool.Styles
+  langs:
+  - csharp
+  - vb
+  name: autoScrollButton
+  nameWithType: Styles.autoScrollButton
+  fullName: RhythmTool.Styles.autoScrollButton
+  type: Field
+  source:
+    id: autoScrollButton
+    path: ''
+    startLine: 1501
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static readonly GUIContent autoScrollButton
+    return:
+      type: Global.GUIContent
+    content.vb: Public Shared ReadOnly autoScrollButton As GUIContent
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RhythmTool.Styles.waveformButton
+  commentId: F:RhythmTool.Styles.waveformButton
+  id: waveformButton
+  parent: RhythmTool.Styles
+  langs:
+  - csharp
+  - vb
+  name: waveformButton
+  nameWithType: Styles.waveformButton
+  fullName: RhythmTool.Styles.waveformButton
+  type: Field
+  source:
+    id: waveformButton
+    path: ''
+    startLine: 1502
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static readonly GUIContent waveformButton
+    return:
+      type: Global.GUIContent
+    content.vb: Public Shared ReadOnly waveformButton As GUIContent
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RhythmTool.Styles.bpmButton
+  commentId: F:RhythmTool.Styles.bpmButton
+  id: bpmButton
+  parent: RhythmTool.Styles
+  langs:
+  - csharp
+  - vb
+  name: bpmButton
+  nameWithType: Styles.bpmButton
+  fullName: RhythmTool.Styles.bpmButton
+  type: Field
+  source:
+    id: bpmButton
+    path: ''
+    startLine: 1503
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static readonly GUIContent bpmButton
+    return:
+      type: Global.GUIContent
+    content.vb: Public Shared ReadOnly bpmButton As GUIContent
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RhythmTool.Styles.rulerText
+  commentId: F:RhythmTool.Styles.rulerText
+  id: rulerText
+  parent: RhythmTool.Styles
+  langs:
+  - csharp
+  - vb
+  name: rulerText
+  nameWithType: Styles.rulerText
+  fullName: RhythmTool.Styles.rulerText
+  type: Field
+  source:
+    id: rulerText
+    path: ''
+    startLine: 1505
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static readonly GUIStyle rulerText
+    return:
+      type: Global.GUIStyle
+    content.vb: Public Shared ReadOnly rulerText As GUIStyle
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RhythmTool.Styles.shadow
+  commentId: F:RhythmTool.Styles.shadow
+  id: shadow
+  parent: RhythmTool.Styles
+  langs:
+  - csharp
+  - vb
+  name: shadow
+  nameWithType: Styles.shadow
+  fullName: RhythmTool.Styles.shadow
+  type: Field
+  source:
+    id: shadow
+    path: ''
+    startLine: 1507
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static readonly GUIStyle shadow
+    return:
+      type: Global.GUIStyle
+    content.vb: Public Shared ReadOnly shadow As GUIStyle
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RhythmTool.Styles.trackText
+  commentId: F:RhythmTool.Styles.trackText
+  id: trackText
+  parent: RhythmTool.Styles
+  langs:
+  - csharp
+  - vb
+  name: trackText
+  nameWithType: Styles.trackText
+  fullName: RhythmTool.Styles.trackText
+  type: Field
+  source:
+    id: trackText
+    path: ''
+    startLine: 1509
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static readonly GUIStyle trackText
+    return:
+      type: Global.GUIStyle
+    content.vb: Public Shared ReadOnly trackText As GUIStyle
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RhythmTool.Styles.headerColor
+  commentId: F:RhythmTool.Styles.headerColor
+  id: headerColor
+  parent: RhythmTool.Styles
+  langs:
+  - csharp
+  - vb
+  name: headerColor
+  nameWithType: Styles.headerColor
+  fullName: RhythmTool.Styles.headerColor
+  type: Field
+  source:
+    id: headerColor
+    path: ''
+    startLine: 1511
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static readonly Color headerColor
+    return:
+      type: Global.Color
+    content.vb: Public Shared ReadOnly headerColor As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RhythmTool.Styles.backgroundColor
+  commentId: F:RhythmTool.Styles.backgroundColor
+  id: backgroundColor
+  parent: RhythmTool.Styles
+  langs:
+  - csharp
+  - vb
+  name: backgroundColor
+  nameWithType: Styles.backgroundColor
+  fullName: RhythmTool.Styles.backgroundColor
+  type: Field
+  source:
+    id: backgroundColor
+    path: ''
+    startLine: 1512
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static readonly Color backgroundColor
+    return:
+      type: Global.Color
+    content.vb: Public Shared ReadOnly backgroundColor As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RhythmTool.Styles.waveFormColor
+  commentId: F:RhythmTool.Styles.waveFormColor
+  id: waveFormColor
+  parent: RhythmTool.Styles
+  langs:
+  - csharp
+  - vb
+  name: waveFormColor
+  nameWithType: Styles.waveFormColor
+  fullName: RhythmTool.Styles.waveFormColor
+  type: Field
+  source:
+    id: waveFormColor
+    path: ''
+    startLine: 1513
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static readonly Color waveFormColor
+    return:
+      type: Global.Color
+    content.vb: Public Shared ReadOnly waveFormColor As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RhythmTool.Styles.outOfBoundsColor
+  commentId: F:RhythmTool.Styles.outOfBoundsColor
+  id: outOfBoundsColor
+  parent: RhythmTool.Styles
+  langs:
+  - csharp
+  - vb
+  name: outOfBoundsColor
+  nameWithType: Styles.outOfBoundsColor
+  fullName: RhythmTool.Styles.outOfBoundsColor
+  type: Field
+  source:
+    id: outOfBoundsColor
+    path: ''
+    startLine: 1515
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static readonly Color outOfBoundsColor
+    return:
+      type: Global.Color
+    content.vb: Public Shared ReadOnly outOfBoundsColor As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RhythmTool.Styles.trackColor
+  commentId: F:RhythmTool.Styles.trackColor
+  id: trackColor
+  parent: RhythmTool.Styles
+  langs:
+  - csharp
+  - vb
+  name: trackColor
+  nameWithType: Styles.trackColor
+  fullName: RhythmTool.Styles.trackColor
+  type: Field
+  source:
+    id: trackColor
+    path: ''
+    startLine: 1517
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static readonly Color trackColor
+    return:
+      type: Global.Color
+    content.vb: Public Shared ReadOnly trackColor As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RhythmTool.Styles.selectedTrackColor
+  commentId: F:RhythmTool.Styles.selectedTrackColor
+  id: selectedTrackColor
+  parent: RhythmTool.Styles
+  langs:
+  - csharp
+  - vb
+  name: selectedTrackColor
+  nameWithType: Styles.selectedTrackColor
+  fullName: RhythmTool.Styles.selectedTrackColor
+  type: Field
+  source:
+    id: selectedTrackColor
+    path: ''
+    startLine: 1518
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static readonly Color selectedTrackColor
+    return:
+      type: Global.Color
+    content.vb: Public Shared ReadOnly selectedTrackColor As Color
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RhythmTool.Styles.feature
+  commentId: F:RhythmTool.Styles.feature
+  id: feature
+  parent: RhythmTool.Styles
+  langs:
+  - csharp
+  - vb
+  name: feature
+  nameWithType: Styles.feature
+  fullName: RhythmTool.Styles.feature
+  type: Field
+  source:
+    id: feature
+    path: ''
+    startLine: 1520
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static readonly GUIStyle feature
+    return:
+      type: Global.GUIStyle
+    content.vb: Public Shared ReadOnly feature As GUIStyle
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RhythmTool.Styles.toolbarHeight
+  commentId: F:RhythmTool.Styles.toolbarHeight
+  id: toolbarHeight
+  parent: RhythmTool.Styles
+  langs:
+  - csharp
+  - vb
+  name: toolbarHeight
+  nameWithType: Styles.toolbarHeight
+  fullName: RhythmTool.Styles.toolbarHeight
+  type: Field
+  source:
+    id: toolbarHeight
+    path: ''
+    startLine: 1522
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static readonly float toolbarHeight
+    return:
+      type: System.Single
+    content.vb: Public Shared ReadOnly toolbarHeight As Single
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RhythmTool.Styles.headerHeight
+  commentId: F:RhythmTool.Styles.headerHeight
+  id: headerHeight
+  parent: RhythmTool.Styles
+  langs:
+  - csharp
+  - vb
+  name: headerHeight
+  nameWithType: Styles.headerHeight
+  fullName: RhythmTool.Styles.headerHeight
+  type: Field
+  source:
+    id: headerHeight
+    path: ''
+    startLine: 1523
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static readonly float headerHeight
+    return:
+      type: System.Single
+    content.vb: Public Shared ReadOnly headerHeight As Single
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RhythmTool.Styles.trackMargin
+  commentId: F:RhythmTool.Styles.trackMargin
+  id: trackMargin
+  parent: RhythmTool.Styles
+  langs:
+  - csharp
+  - vb
+  name: trackMargin
+  nameWithType: Styles.trackMargin
+  fullName: RhythmTool.Styles.trackMargin
+  type: Field
+  source:
+    id: trackMargin
+    path: ''
+    startLine: 1525
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static readonly float trackMargin
+    return:
+      type: System.Single
+    content.vb: Public Shared ReadOnly trackMargin As Single
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RhythmTool.Styles.trackHeight
+  commentId: F:RhythmTool.Styles.trackHeight
+  id: trackHeight
+  parent: RhythmTool.Styles
+  langs:
+  - csharp
+  - vb
+  name: trackHeight
+  nameWithType: Styles.trackHeight
+  fullName: RhythmTool.Styles.trackHeight
+  type: Field
+  source:
+    id: trackHeight
+    path: ''
+    startLine: 1526
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static readonly float trackHeight
+    return:
+      type: System.Single
+    content.vb: Public Shared ReadOnly trackHeight As Single
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RhythmTool.Styles.featureWidth
+  commentId: F:RhythmTool.Styles.featureWidth
+  id: featureWidth
+  parent: RhythmTool.Styles
+  langs:
+  - csharp
+  - vb
+  name: featureWidth
+  nameWithType: Styles.featureWidth
+  fullName: RhythmTool.Styles.featureWidth
+  type: Field
+  source:
+    id: featureWidth
+    path: ''
+    startLine: 1528
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static readonly float featureWidth
+    return:
+      type: System.Single
+    content.vb: Public Shared ReadOnly featureWidth As Single
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GUIContent
+  isExternal: true
+  name: GUIContent
+  nameWithType: GUIContent
+  fullName: GUIContent
+- uid: Global.GUIStyle
+  isExternal: true
+  name: GUIStyle
+  nameWithType: GUIStyle
+  fullName: GUIStyle
+- uid: Global.Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

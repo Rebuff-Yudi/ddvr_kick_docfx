@@ -1,0 +1,177 @@
+### YamlMime:ManagedReference
+items:
+- uid: DDVRKick.UnitySerializedDictionary`2
+  commentId: T:DDVRKick.UnitySerializedDictionary`2
+  id: UnitySerializedDictionary`2
+  parent: DDVRKick
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: UnitySerializedDictionary<TKey, TValue>
+  nameWithType: UnitySerializedDictionary<TKey, TValue>
+  fullName: DDVRKick.UnitySerializedDictionary<TKey, TValue>
+  type: Class
+  source:
+    id: UnitySerializedDictionary
+    path: ''
+    startLine: 6200
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: 'public abstract class UnitySerializedDictionary<TKey, TValue> : Dictionary<TKey, TValue>, IDictionary<TKey, TValue>, ICollection<KeyValuePair<TKey, TValue>>, IDictionary, ICollection, IReadOnlyDictionary<TKey, TValue>, IReadOnlyCollection<KeyValuePair<TKey, TValue>>, IEnumerable<KeyValuePair<TKey, TValue>>, IEnumerable, ISerializable, IDeserializationCallback'
+    typeParameters:
+    - id: TKey
+    - id: TValue
+    content.vb: >-
+      Public MustInherit Class UnitySerializedDictionary(Of TKey, TValue)
+          Inherits Dictionary(Of TKey, TValue)
+          Implements IDictionary(Of TKey, TValue), ICollection(Of KeyValuePair(Of TKey, TValue)), IDictionary, ICollection, IReadOnlyDictionary(Of TKey, TValue), IReadOnlyCollection(Of KeyValuePair(Of TKey, TValue)), IEnumerable(Of KeyValuePair(Of TKey, TValue)), IEnumerable, ISerializable, IDeserializationCallback
+  inheritance:
+  - System.Object
+  - System.Collections.Generic.Dictionary{{TKey},{TValue}}
+  derivedClasses:
+  - DDVRKick.LongNoteTrackDictionary
+  - DDVRKick.LowerNotePathDictionary
+  - DDVRKick.ObstacleTrackDictionary
+  - DDVRKick.UpperNotePathDictionary
+  nameWithType.vb: UnitySerializedDictionary(Of TKey, TValue)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: DDVRKick.UnitySerializedDictionary(Of TKey, TValue)
+  name.vb: UnitySerializedDictionary(Of TKey, TValue)
+references:
+- uid: DDVRKick
+  commentId: N:DDVRKick
+  name: DDVRKick
+  nameWithType: DDVRKick
+  fullName: DDVRKick
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Collections.Generic.Dictionary{{TKey},{TValue}}
+  commentId: T:System.Collections.Generic.Dictionary{`0,`1}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

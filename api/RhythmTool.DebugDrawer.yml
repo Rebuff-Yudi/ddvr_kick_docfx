@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.DebugDrawer
+  commentId: T:RhythmTool.DebugDrawer
+  id: DebugDrawer
+  parent: RhythmTool
+  children:
+  - RhythmTool.DebugDrawer.rhythmPlayer
+  langs:
+  - csharp
+  - vb
+  name: DebugDrawer
+  nameWithType: DebugDrawer
+  fullName: RhythmTool.DebugDrawer
+  type: Class
+  source:
+    id: DebugDrawer
+    path: ''
+    startLine: 3807
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe DebugDrawer is a component that draws basic information for a RhythmPlayer.\n"
+  example: []
+  syntax:
+    content: 'public class DebugDrawer : MonoBehaviour'
+    content.vb: >-
+      Public Class DebugDrawer
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.DebugDrawer.rhythmPlayer
+  commentId: P:RhythmTool.DebugDrawer.rhythmPlayer
+  id: rhythmPlayer
+  parent: RhythmTool.DebugDrawer
+  langs:
+  - csharp
+  - vb
+  name: rhythmPlayer
+  nameWithType: DebugDrawer.rhythmPlayer
+  fullName: RhythmTool.DebugDrawer.rhythmPlayer
+  type: Property
+  source:
+    id: rhythmPlayer
+    path: ''
+    startLine: 3813
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe RhythmPlayer that is being drawn.\n"
+  example: []
+  syntax:
+    content: public RhythmPlayer rhythmPlayer { get; }
+    parameters: []
+    return:
+      type: RhythmTool.RhythmPlayer
+    content.vb: Public ReadOnly Property rhythmPlayer As RhythmPlayer
+  overload: RhythmTool.DebugDrawer.rhythmPlayer*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.DebugDrawer.rhythmPlayer*
+  commentId: Overload:RhythmTool.DebugDrawer.rhythmPlayer
+  name: rhythmPlayer
+  nameWithType: DebugDrawer.rhythmPlayer
+  fullName: RhythmTool.DebugDrawer.rhythmPlayer
+- uid: RhythmTool.RhythmPlayer
+  commentId: T:RhythmTool.RhythmPlayer
+  parent: RhythmTool
+  name: RhythmPlayer
+  nameWithType: RhythmPlayer
+  fullName: RhythmTool.RhythmPlayer

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.Feature
+  commentId: T:RhythmTool.Feature
+  id: Feature
+  parent: RhythmTool
+  children:
+  - RhythmTool.Feature.length
+  - RhythmTool.Feature.timestamp
+  langs:
+  - csharp
+  - vb
+  name: Feature
+  nameWithType: Feature
+  fullName: RhythmTool.Feature
+  type: Class
+  source:
+    id: Feature
+    path: ''
+    startLine: 3983
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nFeature is the base type that holds information in a Track.\n"
+  example: []
+  syntax:
+    content: public class Feature
+    content.vb: Public Class Feature
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - RhythmTool.Beat
+  - RhythmTool.Chroma
+  - RhythmTool.LongNote
+  - RhythmTool.LowerNoteData
+  - RhythmTool.Obstacle
+  - RhythmTool.Onset
+  - RhythmTool.UpperNoteData
+  - RhythmTool.Value
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.Feature.timestamp
+  commentId: F:RhythmTool.Feature.timestamp
+  id: timestamp
+  parent: RhythmTool.Feature
+  langs:
+  - csharp
+  - vb
+  name: timestamp
+  nameWithType: Feature.timestamp
+  fullName: RhythmTool.Feature.timestamp
+  type: Field
+  source:
+    id: timestamp
+    path: ''
+    startLine: 3988
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe time in seconds at which this feature occurs.\n"
+  example: []
+  syntax:
+    content: public float timestamp
+    return:
+      type: System.Single
+    content.vb: Public timestamp As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.Feature.length
+  commentId: F:RhythmTool.Feature.length
+  id: length
+  parent: RhythmTool.Feature
+  langs:
+  - csharp
+  - vb
+  name: length
+  nameWithType: Feature.length
+  fullName: RhythmTool.Feature.length
+  type: Field
+  source:
+    id: length
+    path: ''
+    startLine: 3993
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe duration of this feature in seconds.\n"
+  example: []
+  syntax:
+    content: public float length
+    return:
+      type: System.Single
+    content.vb: Public length As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

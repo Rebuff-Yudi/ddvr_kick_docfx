@@ -1,0 +1,10 @@
+apiRules:
+- include:
+    uidRegex: ^DDVRKick
+    type: Namespace
+- include:
+    uidRegex: ^RhythmTool
+    type: Namespace
+- exclude:
+    uidRegex: .*
+    type: Namespace

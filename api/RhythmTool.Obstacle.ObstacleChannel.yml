@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.Obstacle.ObstacleChannel
+  commentId: T:RhythmTool.Obstacle.ObstacleChannel
+  id: Obstacle.ObstacleChannel
+  parent: RhythmTool
+  children:
+  - RhythmTool.Obstacle.ObstacleChannel.A
+  - RhythmTool.Obstacle.ObstacleChannel.B
+  - RhythmTool.Obstacle.ObstacleChannel.C
+  - RhythmTool.Obstacle.ObstacleChannel.D
+  langs:
+  - csharp
+  - vb
+  name: Obstacle.ObstacleChannel
+  nameWithType: Obstacle.ObstacleChannel
+  fullName: RhythmTool.Obstacle.ObstacleChannel
+  type: Enum
+  source:
+    id: ObstacleChannel
+    path: ''
+    startLine: 6142
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public enum ObstacleChannel
+    content.vb: Public Enum ObstacleChannel
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: RhythmTool.Obstacle.ObstacleChannel.A
+  commentId: F:RhythmTool.Obstacle.ObstacleChannel.A
+  id: A
+  parent: RhythmTool.Obstacle.ObstacleChannel
+  langs:
+  - csharp
+  - vb
+  name: A
+  nameWithType: Obstacle.ObstacleChannel.A
+  fullName: RhythmTool.Obstacle.ObstacleChannel.A
+  type: Field
+  source:
+    id: A
+    path: ''
+    startLine: 6144
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: A = 0
+    return:
+      type: RhythmTool.Obstacle.ObstacleChannel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: RhythmTool.Obstacle.ObstacleChannel.B
+  commentId: F:RhythmTool.Obstacle.ObstacleChannel.B
+  id: B
+  parent: RhythmTool.Obstacle.ObstacleChannel
+  langs:
+  - csharp
+  - vb
+  name: B
+  nameWithType: Obstacle.ObstacleChannel.B
+  fullName: RhythmTool.Obstacle.ObstacleChannel.B
+  type: Field
+  source:
+    id: B
+    path: ''
+    startLine: 6145
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: B = 1
+    return:
+      type: RhythmTool.Obstacle.ObstacleChannel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: RhythmTool.Obstacle.ObstacleChannel.C
+  commentId: F:RhythmTool.Obstacle.ObstacleChannel.C
+  id: C
+  parent: RhythmTool.Obstacle.ObstacleChannel
+  langs:
+  - csharp
+  - vb
+  name: C
+  nameWithType: Obstacle.ObstacleChannel.C
+  fullName: RhythmTool.Obstacle.ObstacleChannel.C
+  type: Field
+  source:
+    id: C
+    path: ''
+    startLine: 6146
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: C = 2
+    return:
+      type: RhythmTool.Obstacle.ObstacleChannel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: RhythmTool.Obstacle.ObstacleChannel.D
+  commentId: F:RhythmTool.Obstacle.ObstacleChannel.D
+  id: D
+  parent: RhythmTool.Obstacle.ObstacleChannel
+  langs:
+  - csharp
+  - vb
+  name: D
+  nameWithType: Obstacle.ObstacleChannel.D
+  fullName: RhythmTool.Obstacle.ObstacleChannel.D
+  type: Field
+  source:
+    id: D
+    path: ''
+    startLine: 6147
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: D = 3
+    return:
+      type: RhythmTool.Obstacle.ObstacleChannel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: RhythmTool.Obstacle.ObstacleChannel
+  commentId: T:RhythmTool.Obstacle.ObstacleChannel
+  parent: RhythmTool
+  name: Obstacle.ObstacleChannel
+  nameWithType: Obstacle.ObstacleChannel
+  fullName: RhythmTool.Obstacle.ObstacleChannel

@@ -1,0 +1,113 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.Chroma
+  commentId: T:RhythmTool.Chroma
+  id: Chroma
+  parent: RhythmTool
+  children:
+  - RhythmTool.Chroma.note
+  langs:
+  - csharp
+  - vb
+  name: Chroma
+  nameWithType: Chroma
+  fullName: RhythmTool.Chroma
+  type: Class
+  source:
+    id: Chroma
+    path: ''
+    startLine: 3769
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nChroma features are closely related to pitch and represent the most prominent notes in the song.\n"
+  example: []
+  syntax:
+    content: 'public class Chroma : Feature'
+    content.vb: >-
+      Public Class Chroma
+          Inherits Feature
+  inheritance:
+  - System.Object
+  - RhythmTool.Feature
+  inheritedMembers:
+  - RhythmTool.Feature.timestamp
+  - RhythmTool.Feature.length
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.Chroma.note
+  commentId: F:RhythmTool.Chroma.note
+  id: note
+  parent: RhythmTool.Chroma
+  langs:
+  - csharp
+  - vb
+  name: note
+  nameWithType: Chroma.note
+  fullName: RhythmTool.Chroma.note
+  type: Field
+  source:
+    id: note
+    path: ''
+    startLine: 3775
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe detected musical note.\n"
+  example: []
+  syntax:
+    content: public Note note
+    return:
+      type: RhythmTool.Note
+    content.vb: Public note As Note
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: RhythmTool.Feature
+  commentId: T:RhythmTool.Feature
+  parent: RhythmTool
+  name: Feature
+  nameWithType: Feature
+  fullName: RhythmTool.Feature
+- uid: RhythmTool.Feature.timestamp
+  commentId: F:RhythmTool.Feature.timestamp
+  parent: RhythmTool.Feature
+  name: timestamp
+  nameWithType: Feature.timestamp
+  fullName: RhythmTool.Feature.timestamp
+- uid: RhythmTool.Feature.length
+  commentId: F:RhythmTool.Feature.length
+  parent: RhythmTool.Feature
+  name: length
+  nameWithType: Feature.length
+  fullName: RhythmTool.Feature.length
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.Note
+  commentId: T:RhythmTool.Note
+  parent: RhythmTool
+  name: Note
+  nameWithType: Note
+  fullName: RhythmTool.Note

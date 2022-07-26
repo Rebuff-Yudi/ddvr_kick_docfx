@@ -1,0 +1,81 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.ClipBoard
+  commentId: T:RhythmTool.ClipBoard
+  id: ClipBoard
+  parent: RhythmTool
+  children:
+  - RhythmTool.ClipBoard.value
+  langs:
+  - csharp
+  - vb
+  name: ClipBoard
+  nameWithType: ClipBoard
+  fullName: RhythmTool.ClipBoard
+  type: Class
+  source:
+    id: ClipBoard
+    path: ''
+    startLine: 662
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public class ClipBoard
+    content.vb: Public Class ClipBoard
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.ClipBoard.value
+  commentId: F:RhythmTool.ClipBoard.value
+  id: value
+  parent: RhythmTool.ClipBoard
+  langs:
+  - csharp
+  - vb
+  name: value
+  nameWithType: ClipBoard.value
+  fullName: RhythmTool.ClipBoard.value
+  type: Field
+  source:
+    id: value
+    path: ''
+    startLine: 664
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static object value
+    return:
+      type: System.Object
+    content.vb: Public Shared value As Object
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,472 @@
+### YamlMime:ManagedReference
+items:
+- uid: DDVRKick.Tracks.TracksManager
+  commentId: T:DDVRKick.Tracks.TracksManager
+  id: TracksManager
+  parent: DDVRKick.Tracks
+  children:
+  - DDVRKick.Tracks.TracksManager.Awake
+  - DDVRKick.Tracks.TracksManager.disposeTime
+  - DDVRKick.Tracks.TracksManager.eventProvider
+  - DDVRKick.Tracks.TracksManager.exitTime
+  - DDVRKick.Tracks.TracksManager.instance
+  - DDVRKick.Tracks.TracksManager.longNoteTracks
+  - DDVRKick.Tracks.TracksManager.lowerTracks
+  - DDVRKick.Tracks.TracksManager.obstaclesTracks
+  - DDVRKick.Tracks.TracksManager.offsetTime
+  - DDVRKick.Tracks.TracksManager.RhythmPlayer
+  - DDVRKick.Tracks.TracksManager.upperTracks
+  langs:
+  - csharp
+  - vb
+  name: TracksManager
+  nameWithType: TracksManager
+  fullName: DDVRKick.Tracks.TracksManager
+  type: Class
+  source:
+    id: TracksManager
+    path: ''
+    startLine: 7297
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: 'public class TracksManager : MonoBehaviour'
+    content.vb: >-
+      Public Class TracksManager
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DDVRKick.Tracks.TracksManager.instance
+  commentId: P:DDVRKick.Tracks.TracksManager.instance
+  id: instance
+  parent: DDVRKick.Tracks.TracksManager
+  langs:
+  - csharp
+  - vb
+  name: instance
+  nameWithType: TracksManager.instance
+  fullName: DDVRKick.Tracks.TracksManager.instance
+  type: Property
+  source:
+    id: instance
+    path: ''
+    startLine: 7299
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public static TracksManager instance { get; }
+    parameters: []
+    return:
+      type: DDVRKick.Tracks.TracksManager
+    content.vb: Public Shared ReadOnly Property instance As TracksManager
+  overload: DDVRKick.Tracks.TracksManager.instance*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: DDVRKick.Tracks.TracksManager.eventProvider
+  commentId: F:DDVRKick.Tracks.TracksManager.eventProvider
+  id: eventProvider
+  parent: DDVRKick.Tracks.TracksManager
+  langs:
+  - csharp
+  - vb
+  name: eventProvider
+  nameWithType: TracksManager.eventProvider
+  fullName: DDVRKick.Tracks.TracksManager.eventProvider
+  type: Field
+  source:
+    id: eventProvider
+    path: ''
+    startLine: 7300
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public RhythmEventProvider eventProvider
+    return:
+      type: RhythmTool.RhythmEventProvider
+    content.vb: Public eventProvider As RhythmEventProvider
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DDVRKick.Tracks.TracksManager.RhythmPlayer
+  commentId: F:DDVRKick.Tracks.TracksManager.RhythmPlayer
+  id: RhythmPlayer
+  parent: DDVRKick.Tracks.TracksManager
+  langs:
+  - csharp
+  - vb
+  name: RhythmPlayer
+  nameWithType: TracksManager.RhythmPlayer
+  fullName: DDVRKick.Tracks.TracksManager.RhythmPlayer
+  type: Field
+  source:
+    id: RhythmPlayer
+    path: ''
+    startLine: 7301
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public RhythmPlayer RhythmPlayer
+    return:
+      type: RhythmTool.RhythmPlayer
+    content.vb: Public RhythmPlayer As RhythmPlayer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DDVRKick.Tracks.TracksManager.disposeTime
+  commentId: F:DDVRKick.Tracks.TracksManager.disposeTime
+  id: disposeTime
+  parent: DDVRKick.Tracks.TracksManager
+  langs:
+  - csharp
+  - vb
+  name: disposeTime
+  nameWithType: TracksManager.disposeTime
+  fullName: DDVRKick.Tracks.TracksManager.disposeTime
+  type: Field
+  source:
+    id: disposeTime
+    path: ''
+    startLine: 7302
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public float disposeTime
+    return:
+      type: System.Single
+    content.vb: Public disposeTime As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DDVRKick.Tracks.TracksManager.exitTime
+  commentId: F:DDVRKick.Tracks.TracksManager.exitTime
+  id: exitTime
+  parent: DDVRKick.Tracks.TracksManager
+  langs:
+  - csharp
+  - vb
+  name: exitTime
+  nameWithType: TracksManager.exitTime
+  fullName: DDVRKick.Tracks.TracksManager.exitTime
+  type: Field
+  source:
+    id: exitTime
+    path: ''
+    startLine: 7303
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public float exitTime
+    return:
+      type: System.Single
+    content.vb: Public exitTime As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DDVRKick.Tracks.TracksManager.offsetTime
+  commentId: P:DDVRKick.Tracks.TracksManager.offsetTime
+  id: offsetTime
+  parent: DDVRKick.Tracks.TracksManager
+  langs:
+  - csharp
+  - vb
+  name: offsetTime
+  nameWithType: TracksManager.offsetTime
+  fullName: DDVRKick.Tracks.TracksManager.offsetTime
+  type: Property
+  source:
+    id: offsetTime
+    path: ''
+    startLine: 7308
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  summary: "\nNormalized accessor for getting song offset value at runtime.\n"
+  example: []
+  syntax:
+    content: public float offsetTime { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property offsetTime As Single
+  overload: DDVRKick.Tracks.TracksManager.offsetTime*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DDVRKick.Tracks.TracksManager.lowerTracks
+  commentId: F:DDVRKick.Tracks.TracksManager.lowerTracks
+  id: lowerTracks
+  parent: DDVRKick.Tracks.TracksManager
+  langs:
+  - csharp
+  - vb
+  name: lowerTracks
+  nameWithType: TracksManager.lowerTracks
+  fullName: DDVRKick.Tracks.TracksManager.lowerTracks
+  type: Field
+  source:
+    id: lowerTracks
+    path: ''
+    startLine: 7314
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  summary: "\nDictionary to store mapping of lower <xref href=\"DDVRKick.Tracks.NoteTrack\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public LowerNotePathDictionary lowerTracks
+    return:
+      type: DDVRKick.LowerNotePathDictionary
+    content.vb: Public lowerTracks As LowerNotePathDictionary
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DDVRKick.Tracks.TracksManager.upperTracks
+  commentId: F:DDVRKick.Tracks.TracksManager.upperTracks
+  id: upperTracks
+  parent: DDVRKick.Tracks.TracksManager
+  langs:
+  - csharp
+  - vb
+  name: upperTracks
+  nameWithType: TracksManager.upperTracks
+  fullName: DDVRKick.Tracks.TracksManager.upperTracks
+  type: Field
+  source:
+    id: upperTracks
+    path: ''
+    startLine: 7319
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  summary: "\nDictionary to store mapping of upper <xref href=\"DDVRKick.Tracks.NoteTrack\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public UpperNotePathDictionary upperTracks
+    return:
+      type: DDVRKick.UpperNotePathDictionary
+    content.vb: Public upperTracks As UpperNotePathDictionary
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DDVRKick.Tracks.TracksManager.obstaclesTracks
+  commentId: F:DDVRKick.Tracks.TracksManager.obstaclesTracks
+  id: obstaclesTracks
+  parent: DDVRKick.Tracks.TracksManager
+  langs:
+  - csharp
+  - vb
+  name: obstaclesTracks
+  nameWithType: TracksManager.obstaclesTracks
+  fullName: DDVRKick.Tracks.TracksManager.obstaclesTracks
+  type: Field
+  source:
+    id: obstaclesTracks
+    path: ''
+    startLine: 7324
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  summary: "\nDictionary to store mapping of <xref href=\"DDVRKick.Tracks.ObstaclesTrack\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public ObstacleTrackDictionary obstaclesTracks
+    return:
+      type: DDVRKick.ObstacleTrackDictionary
+    content.vb: Public obstaclesTracks As ObstacleTrackDictionary
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DDVRKick.Tracks.TracksManager.longNoteTracks
+  commentId: F:DDVRKick.Tracks.TracksManager.longNoteTracks
+  id: longNoteTracks
+  parent: DDVRKick.Tracks.TracksManager
+  langs:
+  - csharp
+  - vb
+  name: longNoteTracks
+  nameWithType: TracksManager.longNoteTracks
+  fullName: DDVRKick.Tracks.TracksManager.longNoteTracks
+  type: Field
+  source:
+    id: longNoteTracks
+    path: ''
+    startLine: 7329
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  summary: "\nDictionary to store mapping of <xref href=\"DDVRKick.Tracks.LongNoteTrack\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public LongNoteTrackDictionary longNoteTracks
+    return:
+      type: DDVRKick.LongNoteTrackDictionary
+    content.vb: Public longNoteTracks As LongNoteTrackDictionary
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DDVRKick.Tracks.TracksManager.Awake
+  commentId: M:DDVRKick.Tracks.TracksManager.Awake
+  id: Awake
+  parent: DDVRKick.Tracks.TracksManager
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: TracksManager.Awake()
+  fullName: DDVRKick.Tracks.TracksManager.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 7331
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public void Awake()
+    content.vb: Public Sub Awake
+  overload: DDVRKick.Tracks.TracksManager.Awake*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DDVRKick.Tracks
+  commentId: N:DDVRKick.Tracks
+  name: DDVRKick.Tracks
+  nameWithType: DDVRKick.Tracks
+  fullName: DDVRKick.Tracks
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DDVRKick.Tracks.TracksManager.instance*
+  commentId: Overload:DDVRKick.Tracks.TracksManager.instance
+  name: instance
+  nameWithType: TracksManager.instance
+  fullName: DDVRKick.Tracks.TracksManager.instance
+- uid: DDVRKick.Tracks.TracksManager
+  commentId: T:DDVRKick.Tracks.TracksManager
+  parent: DDVRKick.Tracks
+  name: TracksManager
+  nameWithType: TracksManager
+  fullName: DDVRKick.Tracks.TracksManager
+- uid: RhythmTool.RhythmEventProvider
+  commentId: T:RhythmTool.RhythmEventProvider
+  parent: RhythmTool
+  name: RhythmEventProvider
+  nameWithType: RhythmEventProvider
+  fullName: RhythmTool.RhythmEventProvider
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: RhythmTool.RhythmPlayer
+  commentId: T:RhythmTool.RhythmPlayer
+  parent: RhythmTool
+  name: RhythmPlayer
+  nameWithType: RhythmPlayer
+  fullName: RhythmTool.RhythmPlayer
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: DDVRKick.Tracks.TracksManager.offsetTime*
+  commentId: Overload:DDVRKick.Tracks.TracksManager.offsetTime
+  name: offsetTime
+  nameWithType: TracksManager.offsetTime
+  fullName: DDVRKick.Tracks.TracksManager.offsetTime
+- uid: DDVRKick.Tracks.NoteTrack
+  commentId: T:DDVRKick.Tracks.NoteTrack
+  parent: DDVRKick.Tracks
+  name: NoteTrack
+  nameWithType: NoteTrack
+  fullName: DDVRKick.Tracks.NoteTrack
+- uid: DDVRKick.LowerNotePathDictionary
+  commentId: T:DDVRKick.LowerNotePathDictionary
+  parent: DDVRKick
+  name: LowerNotePathDictionary
+  nameWithType: LowerNotePathDictionary
+  fullName: DDVRKick.LowerNotePathDictionary
+- uid: DDVRKick
+  commentId: N:DDVRKick
+  name: DDVRKick
+  nameWithType: DDVRKick
+  fullName: DDVRKick
+- uid: DDVRKick.UpperNotePathDictionary
+  commentId: T:DDVRKick.UpperNotePathDictionary
+  parent: DDVRKick
+  name: UpperNotePathDictionary
+  nameWithType: UpperNotePathDictionary
+  fullName: DDVRKick.UpperNotePathDictionary
+- uid: DDVRKick.Tracks.ObstaclesTrack
+  commentId: T:DDVRKick.Tracks.ObstaclesTrack
+  parent: DDVRKick.Tracks
+  name: ObstaclesTrack
+  nameWithType: ObstaclesTrack
+  fullName: DDVRKick.Tracks.ObstaclesTrack
+- uid: DDVRKick.ObstacleTrackDictionary
+  commentId: T:DDVRKick.ObstacleTrackDictionary
+  parent: DDVRKick
+  name: ObstacleTrackDictionary
+  nameWithType: ObstacleTrackDictionary
+  fullName: DDVRKick.ObstacleTrackDictionary
+- uid: DDVRKick.Tracks.LongNoteTrack
+  commentId: T:DDVRKick.Tracks.LongNoteTrack
+  parent: DDVRKick.Tracks
+  name: LongNoteTrack
+  nameWithType: LongNoteTrack
+  fullName: DDVRKick.Tracks.LongNoteTrack
+- uid: DDVRKick.LongNoteTrackDictionary
+  commentId: T:DDVRKick.LongNoteTrackDictionary
+  parent: DDVRKick
+  name: LongNoteTrackDictionary
+  nameWithType: LongNoteTrackDictionary
+  fullName: DDVRKick.LongNoteTrackDictionary
+- uid: DDVRKick.Tracks.TracksManager.Awake*
+  commentId: Overload:DDVRKick.Tracks.TracksManager.Awake
+  name: Awake
+  nameWithType: TracksManager.Awake
+  fullName: DDVRKick.Tracks.TracksManager.Awake

@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: DDVRKick.Utillity
+  commentId: N:DDVRKick.Utillity
+  id: DDVRKick.Utillity
+  children:
+  - DDVRKick.Utillity.GenericHelper
+  langs:
+  - csharp
+  - vb
+  name: DDVRKick.Utillity
+  nameWithType: DDVRKick.Utillity
+  fullName: DDVRKick.Utillity
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: DDVRKick.Utillity.GenericHelper
+  commentId: T:DDVRKick.Utillity.GenericHelper
+  name: GenericHelper
+  nameWithType: GenericHelper
+  fullName: DDVRKick.Utillity.GenericHelper

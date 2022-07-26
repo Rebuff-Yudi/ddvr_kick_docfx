@@ -1,0 +1,249 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.Examples.AudioClipSelector
+  commentId: T:RhythmTool.Examples.AudioClipSelector
+  id: AudioClipSelector
+  parent: RhythmTool.Examples
+  children:
+  - RhythmTool.Examples.AudioClipSelector.NextSong
+  - RhythmTool.Examples.AudioClipSelector.songs
+  langs:
+  - csharp
+  - vb
+  name: AudioClipSelector
+  nameWithType: AudioClipSelector
+  fullName: RhythmTool.Examples.AudioClipSelector
+  type: Class
+  source:
+    id: AudioClipSelector
+    path: ''
+    startLine: 2844
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool.Examples
+  summary: "\nThe AudioClipSelector is a SongSelector that selects a song from a list of AudioClips.\n"
+  example: []
+  syntax:
+    content: 'public class AudioClipSelector : SongSelector'
+    content.vb: >-
+      Public Class AudioClipSelector
+          Inherits SongSelector
+  inheritance:
+  - System.Object
+  - RhythmTool.Examples.SongSelector
+  inheritedMembers:
+  - RhythmTool.Examples.SongSelector.analyzer
+  - RhythmTool.Examples.SongSelector.player
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.Examples.AudioClipSelector.songs
+  commentId: F:RhythmTool.Examples.AudioClipSelector.songs
+  id: songs
+  parent: RhythmTool.Examples.AudioClipSelector
+  langs:
+  - csharp
+  - vb
+  name: songs
+  nameWithType: AudioClipSelector.songs
+  fullName: RhythmTool.Examples.AudioClipSelector.songs
+  type: Field
+  source:
+    id: songs
+    path: ''
+    startLine: 2846
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool.Examples
+  syntax:
+    content: public List<AudioClip> songs
+    return:
+      type: Global.List{AudioClip}
+    content.vb: Public songs As List(Of AudioClip)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.Examples.AudioClipSelector.NextSong
+  commentId: M:RhythmTool.Examples.AudioClipSelector.NextSong
+  id: NextSong
+  parent: RhythmTool.Examples.AudioClipSelector
+  langs:
+  - csharp
+  - vb
+  name: NextSong()
+  nameWithType: AudioClipSelector.NextSong()
+  fullName: RhythmTool.Examples.AudioClipSelector.NextSong()
+  type: Method
+  source:
+    id: NextSong
+    path: ''
+    startLine: 2856
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool.Examples
+  syntax:
+    content: public override void NextSong()
+    content.vb: Public Overrides Sub NextSong
+  overridden: RhythmTool.Examples.SongSelector.NextSong
+  overload: RhythmTool.Examples.AudioClipSelector.NextSong*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: RhythmTool.Examples
+  commentId: N:RhythmTool.Examples
+  name: RhythmTool.Examples
+  nameWithType: RhythmTool.Examples
+  fullName: RhythmTool.Examples
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: RhythmTool.Examples.SongSelector
+  commentId: T:RhythmTool.Examples.SongSelector
+  parent: RhythmTool.Examples
+  name: SongSelector
+  nameWithType: SongSelector
+  fullName: RhythmTool.Examples.SongSelector
+- uid: RhythmTool.Examples.SongSelector.analyzer
+  commentId: F:RhythmTool.Examples.SongSelector.analyzer
+  parent: RhythmTool.Examples.SongSelector
+  name: analyzer
+  nameWithType: SongSelector.analyzer
+  fullName: RhythmTool.Examples.SongSelector.analyzer
+- uid: RhythmTool.Examples.SongSelector.player
+  commentId: F:RhythmTool.Examples.SongSelector.player
+  parent: RhythmTool.Examples.SongSelector
+  name: player
+  nameWithType: SongSelector.player
+  fullName: RhythmTool.Examples.SongSelector.player
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.List{AudioClip}
+  commentId: '!:Global.List{AudioClip}'
+  definition: Global.List`1
+  name: List<AudioClip>
+  nameWithType: List<AudioClip>
+  fullName: List<AudioClip>
+  nameWithType.vb: List(Of AudioClip)
+  fullName.vb: List(Of AudioClip)
+  name.vb: List(Of AudioClip)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.AudioClip
+    name: AudioClip
+    nameWithType: AudioClip
+    fullName: AudioClip
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.AudioClip
+    name: AudioClip
+    nameWithType: AudioClip
+    fullName: AudioClip
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Examples.SongSelector.NextSong
+  commentId: M:RhythmTool.Examples.SongSelector.NextSong
+  parent: RhythmTool.Examples.SongSelector
+  name: NextSong()
+  nameWithType: SongSelector.NextSong()
+  fullName: RhythmTool.Examples.SongSelector.NextSong()
+  spec.csharp:
+  - uid: RhythmTool.Examples.SongSelector.NextSong
+    name: NextSong
+    nameWithType: SongSelector.NextSong
+    fullName: RhythmTool.Examples.SongSelector.NextSong
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Examples.SongSelector.NextSong
+    name: NextSong
+    nameWithType: SongSelector.NextSong
+    fullName: RhythmTool.Examples.SongSelector.NextSong
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Examples.AudioClipSelector.NextSong*
+  commentId: Overload:RhythmTool.Examples.AudioClipSelector.NextSong
+  name: NextSong
+  nameWithType: AudioClipSelector.NextSong
+  fullName: RhythmTool.Examples.AudioClipSelector.NextSong

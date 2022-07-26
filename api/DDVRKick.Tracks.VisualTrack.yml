@@ -1,0 +1,343 @@
+### YamlMime:ManagedReference
+items:
+- uid: DDVRKick.Tracks.VisualTrack
+  commentId: T:DDVRKick.Tracks.VisualTrack
+  id: VisualTrack
+  parent: DDVRKick.Tracks
+  children:
+  - DDVRKick.Tracks.VisualTrack.effect
+  - DDVRKick.Tracks.VisualTrack.isLeftStepOn
+  - DDVRKick.Tracks.VisualTrack.isRightStepOn
+  - DDVRKick.Tracks.VisualTrack.isStepOn
+  - DDVRKick.Tracks.VisualTrack.lineRenderer
+  - DDVRKick.Tracks.VisualTrack.normal
+  - DDVRKick.Tracks.VisualTrack.stepOn
+  - DDVRKick.Tracks.VisualTrack.trigger
+  langs:
+  - csharp
+  - vb
+  name: VisualTrack
+  nameWithType: VisualTrack
+  fullName: DDVRKick.Tracks.VisualTrack
+  type: Class
+  source:
+    id: VisualTrack
+    path: ''
+    startLine: 7394
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  summary: "\nVisualized track for showing which track is been step on by the player.\n"
+  example: []
+  syntax:
+    content: 'public class VisualTrack : MonoBehaviour'
+    content.vb: >-
+      Public Class VisualTrack
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DDVRKick.Tracks.VisualTrack.lineRenderer
+  commentId: P:DDVRKick.Tracks.VisualTrack.lineRenderer
+  id: lineRenderer
+  parent: DDVRKick.Tracks.VisualTrack
+  langs:
+  - csharp
+  - vb
+  name: lineRenderer
+  nameWithType: VisualTrack.lineRenderer
+  fullName: DDVRKick.Tracks.VisualTrack.lineRenderer
+  type: Property
+  source:
+    id: lineRenderer
+    path: ''
+    startLine: 7397
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public LineRenderer lineRenderer { get; }
+    parameters: []
+    return:
+      type: Global.LineRenderer
+    content.vb: Public ReadOnly Property lineRenderer As LineRenderer
+  overload: DDVRKick.Tracks.VisualTrack.lineRenderer*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DDVRKick.Tracks.VisualTrack.trigger
+  commentId: P:DDVRKick.Tracks.VisualTrack.trigger
+  id: trigger
+  parent: DDVRKick.Tracks.VisualTrack
+  langs:
+  - csharp
+  - vb
+  name: trigger
+  nameWithType: VisualTrack.trigger
+  fullName: DDVRKick.Tracks.VisualTrack.trigger
+  type: Property
+  source:
+    id: trigger
+    path: ''
+    startLine: 7408
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public VisualTrackTrigger trigger { get; }
+    parameters: []
+    return:
+      type: DDVRKick.Tracks.VisualTrackTrigger
+    content.vb: Public ReadOnly Property trigger As VisualTrackTrigger
+  overload: DDVRKick.Tracks.VisualTrack.trigger*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DDVRKick.Tracks.VisualTrack.effect
+  commentId: P:DDVRKick.Tracks.VisualTrack.effect
+  id: effect
+  parent: DDVRKick.Tracks.VisualTrack
+  langs:
+  - csharp
+  - vb
+  name: effect
+  nameWithType: VisualTrack.effect
+  fullName: DDVRKick.Tracks.VisualTrack.effect
+  type: Property
+  source:
+    id: effect
+    path: ''
+    startLine: 7423
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public ParticleSystem effect { get; }
+    parameters: []
+    return:
+      type: Global.ParticleSystem
+    content.vb: Public ReadOnly Property effect As ParticleSystem
+  overload: DDVRKick.Tracks.VisualTrack.effect*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DDVRKick.Tracks.VisualTrack.normal
+  commentId: F:DDVRKick.Tracks.VisualTrack.normal
+  id: normal
+  parent: DDVRKick.Tracks.VisualTrack
+  langs:
+  - csharp
+  - vb
+  name: normal
+  nameWithType: VisualTrack.normal
+  fullName: DDVRKick.Tracks.VisualTrack.normal
+  type: Field
+  source:
+    id: normal
+    path: ''
+    startLine: 7434
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public Gradient normal
+    return:
+      type: Global.Gradient
+    content.vb: Public normal As Gradient
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DDVRKick.Tracks.VisualTrack.stepOn
+  commentId: F:DDVRKick.Tracks.VisualTrack.stepOn
+  id: stepOn
+  parent: DDVRKick.Tracks.VisualTrack
+  langs:
+  - csharp
+  - vb
+  name: stepOn
+  nameWithType: VisualTrack.stepOn
+  fullName: DDVRKick.Tracks.VisualTrack.stepOn
+  type: Field
+  source:
+    id: stepOn
+    path: ''
+    startLine: 7434
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public Gradient stepOn
+    return:
+      type: Global.Gradient
+    content.vb: Public stepOn As Gradient
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DDVRKick.Tracks.VisualTrack.isLeftStepOn
+  commentId: F:DDVRKick.Tracks.VisualTrack.isLeftStepOn
+  id: isLeftStepOn
+  parent: DDVRKick.Tracks.VisualTrack
+  langs:
+  - csharp
+  - vb
+  name: isLeftStepOn
+  nameWithType: VisualTrack.isLeftStepOn
+  fullName: DDVRKick.Tracks.VisualTrack.isLeftStepOn
+  type: Field
+  source:
+    id: isLeftStepOn
+    path: ''
+    startLine: 7436
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public bool isLeftStepOn
+    return:
+      type: System.Boolean
+    content.vb: Public isLeftStepOn As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DDVRKick.Tracks.VisualTrack.isRightStepOn
+  commentId: F:DDVRKick.Tracks.VisualTrack.isRightStepOn
+  id: isRightStepOn
+  parent: DDVRKick.Tracks.VisualTrack
+  langs:
+  - csharp
+  - vb
+  name: isRightStepOn
+  nameWithType: VisualTrack.isRightStepOn
+  fullName: DDVRKick.Tracks.VisualTrack.isRightStepOn
+  type: Field
+  source:
+    id: isRightStepOn
+    path: ''
+    startLine: 7436
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public bool isRightStepOn
+    return:
+      type: System.Boolean
+    content.vb: Public isRightStepOn As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DDVRKick.Tracks.VisualTrack.isStepOn
+  commentId: P:DDVRKick.Tracks.VisualTrack.isStepOn
+  id: isStepOn
+  parent: DDVRKick.Tracks.VisualTrack
+  langs:
+  - csharp
+  - vb
+  name: isStepOn
+  nameWithType: VisualTrack.isStepOn
+  fullName: DDVRKick.Tracks.VisualTrack.isStepOn
+  type: Property
+  source:
+    id: isStepOn
+    path: ''
+    startLine: 7437
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public bool isStepOn { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property isStepOn As Boolean
+  overload: DDVRKick.Tracks.VisualTrack.isStepOn*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: DDVRKick.Tracks
+  commentId: N:DDVRKick.Tracks
+  name: DDVRKick.Tracks
+  nameWithType: DDVRKick.Tracks
+  fullName: DDVRKick.Tracks
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DDVRKick.Tracks.VisualTrack.lineRenderer*
+  commentId: Overload:DDVRKick.Tracks.VisualTrack.lineRenderer
+  name: lineRenderer
+  nameWithType: VisualTrack.lineRenderer
+  fullName: DDVRKick.Tracks.VisualTrack.lineRenderer
+- uid: Global.LineRenderer
+  isExternal: true
+  name: LineRenderer
+  nameWithType: LineRenderer
+  fullName: LineRenderer
+- uid: DDVRKick.Tracks.VisualTrack.trigger*
+  commentId: Overload:DDVRKick.Tracks.VisualTrack.trigger
+  name: trigger
+  nameWithType: VisualTrack.trigger
+  fullName: DDVRKick.Tracks.VisualTrack.trigger
+- uid: DDVRKick.Tracks.VisualTrackTrigger
+  commentId: T:DDVRKick.Tracks.VisualTrackTrigger
+  parent: DDVRKick.Tracks
+  name: VisualTrackTrigger
+  nameWithType: VisualTrackTrigger
+  fullName: DDVRKick.Tracks.VisualTrackTrigger
+- uid: DDVRKick.Tracks.VisualTrack.effect*
+  commentId: Overload:DDVRKick.Tracks.VisualTrack.effect
+  name: effect
+  nameWithType: VisualTrack.effect
+  fullName: DDVRKick.Tracks.VisualTrack.effect
+- uid: Global.ParticleSystem
+  isExternal: true
+  name: ParticleSystem
+  nameWithType: ParticleSystem
+  fullName: ParticleSystem
+- uid: Global.Gradient
+  isExternal: true
+  name: Gradient
+  nameWithType: Gradient
+  fullName: Gradient
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: DDVRKick.Tracks.VisualTrack.isStepOn*
+  commentId: Overload:DDVRKick.Tracks.VisualTrack.isStepOn
+  name: isStepOn
+  nameWithType: VisualTrack.isStepOn
+  fullName: DDVRKick.Tracks.VisualTrack.isStepOn

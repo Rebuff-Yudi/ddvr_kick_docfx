@@ -1,0 +1,718 @@
+### YamlMime:ManagedReference
+items:
+- uid: DDVRKick.Tracks.ObstaclesTrack
+  commentId: T:DDVRKick.Tracks.ObstaclesTrack
+  id: ObstaclesTrack
+  parent: DDVRKick.Tracks
+  children:
+  - DDVRKick.Tracks.ObstaclesTrack.GenerateObstacles
+  - DDVRKick.Tracks.ObstaclesTrack.OnPoolCreate
+  - DDVRKick.Tracks.ObstaclesTrack.OnPoolRelease(DDVRKick.Tracks.Obstacles)
+  langs:
+  - csharp
+  - vb
+  name: ObstaclesTrack
+  nameWithType: ObstaclesTrack
+  fullName: DDVRKick.Tracks.ObstaclesTrack
+  type: Class
+  source:
+    id: ObstaclesTrack
+    path: ''
+    startLine: 7259
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: 'public class ObstaclesTrack : BaseTrack<Obstacles>'
+    content.vb: >-
+      Public Class ObstaclesTrack
+          Inherits BaseTrack(Of Obstacles)
+  inheritance:
+  - System.Object
+  - DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}
+  inheritedMembers:
+  - DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.pool
+  - DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.enterPath
+  - DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.exitPath
+  - DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.prefab
+  - DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.collectionCheck
+  - DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.defaultCapacity
+  - DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.maxSize
+  - DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.Start
+  - DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.OnPoolGet(DDVRKick.Tracks.Obstacles)
+  - DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.OnPoolDestroy(DDVRKick.Tracks.Obstacles)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DDVRKick.Tracks.ObstaclesTrack.OnPoolCreate
+  commentId: M:DDVRKick.Tracks.ObstaclesTrack.OnPoolCreate
+  id: OnPoolCreate
+  parent: DDVRKick.Tracks.ObstaclesTrack
+  langs:
+  - csharp
+  - vb
+  name: OnPoolCreate()
+  nameWithType: ObstaclesTrack.OnPoolCreate()
+  fullName: DDVRKick.Tracks.ObstaclesTrack.OnPoolCreate()
+  type: Method
+  source:
+    id: OnPoolCreate
+    path: ''
+    startLine: 7262
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  summary: "\nCreate game object from <xref href=\"DDVRKick.Tracks.BaseTrack%601.prefab\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: protected override Obstacles OnPoolCreate()
+    return:
+      type: DDVRKick.Tracks.Obstacles
+      description: ''
+    content.vb: Protected Overrides Function OnPoolCreate As Obstacles
+  overridden: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.OnPoolCreate
+  overload: DDVRKick.Tracks.ObstaclesTrack.OnPoolCreate*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: DDVRKick.Tracks.ObstaclesTrack.OnPoolRelease(DDVRKick.Tracks.Obstacles)
+  commentId: M:DDVRKick.Tracks.ObstaclesTrack.OnPoolRelease(DDVRKick.Tracks.Obstacles)
+  id: OnPoolRelease(DDVRKick.Tracks.Obstacles)
+  parent: DDVRKick.Tracks.ObstaclesTrack
+  langs:
+  - csharp
+  - vb
+  name: OnPoolRelease(Obstacles)
+  nameWithType: ObstaclesTrack.OnPoolRelease(Obstacles)
+  fullName: DDVRKick.Tracks.ObstaclesTrack.OnPoolRelease(DDVRKick.Tracks.Obstacles)
+  type: Method
+  source:
+    id: OnPoolRelease
+    path: ''
+    startLine: 7273
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  summary: "\nRelease an active object from scene and make it ready in the object pool.\n"
+  example: []
+  syntax:
+    content: protected override void OnPoolRelease(Obstacles obstacles)
+    parameters:
+    - id: obstacles
+      type: DDVRKick.Tracks.Obstacles
+    content.vb: Protected Overrides Sub OnPoolRelease(obstacles As Obstacles)
+  overridden: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.OnPoolRelease(DDVRKick.Tracks.Obstacles)
+  overload: DDVRKick.Tracks.ObstaclesTrack.OnPoolRelease*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: DDVRKick.Tracks.ObstaclesTrack.GenerateObstacles
+  commentId: M:DDVRKick.Tracks.ObstaclesTrack.GenerateObstacles
+  id: GenerateObstacles
+  parent: DDVRKick.Tracks.ObstaclesTrack
+  langs:
+  - csharp
+  - vb
+  name: GenerateObstacles()
+  nameWithType: ObstaclesTrack.GenerateObstacles()
+  fullName: DDVRKick.Tracks.ObstaclesTrack.GenerateObstacles()
+  type: Method
+  source:
+    id: GenerateObstacles
+    path: ''
+    startLine: 7283
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  summary: "\nGenerate an <xref href=\"DDVRKick.Tracks.Obstacles\" data-throw-if-not-resolved=\"false\"></xref> from <xref href=\"DDVRKick.Tracks.BaseTrack%601.pool\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public Obstacles GenerateObstacles()
+    return:
+      type: DDVRKick.Tracks.Obstacles
+      description: ''
+    content.vb: Public Function GenerateObstacles As Obstacles
+  overload: DDVRKick.Tracks.ObstaclesTrack.GenerateObstacles*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DDVRKick.Tracks
+  commentId: N:DDVRKick.Tracks
+  name: DDVRKick.Tracks
+  nameWithType: DDVRKick.Tracks
+  fullName: DDVRKick.Tracks
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}
+  commentId: T:DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}
+  parent: DDVRKick.Tracks
+  definition: DDVRKick.Tracks.BaseTrack`1
+  name: BaseTrack<Obstacles>
+  nameWithType: BaseTrack<Obstacles>
+  fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Obstacles>
+  nameWithType.vb: BaseTrack(Of Obstacles)
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Obstacles)
+  name.vb: BaseTrack(Of Obstacles)
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrack`1
+    name: BaseTrack
+    nameWithType: BaseTrack
+    fullName: DDVRKick.Tracks.BaseTrack
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DDVRKick.Tracks.Obstacles
+    name: Obstacles
+    nameWithType: Obstacles
+    fullName: DDVRKick.Tracks.Obstacles
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrack`1
+    name: BaseTrack
+    nameWithType: BaseTrack
+    fullName: DDVRKick.Tracks.BaseTrack
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DDVRKick.Tracks.Obstacles
+    name: Obstacles
+    nameWithType: Obstacles
+    fullName: DDVRKick.Tracks.Obstacles
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.pool
+  commentId: P:DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.pool
+  parent: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}
+  definition: DDVRKick.Tracks.BaseTrack`1.pool
+  name: pool
+  nameWithType: BaseTrack<Obstacles>.pool
+  fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Obstacles>.pool
+  nameWithType.vb: BaseTrack(Of Obstacles).pool
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Obstacles).pool
+- uid: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.enterPath
+  commentId: F:DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.enterPath
+  parent: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}
+  definition: DDVRKick.Tracks.BaseTrack`1.enterPath
+  name: enterPath
+  nameWithType: BaseTrack<Obstacles>.enterPath
+  fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Obstacles>.enterPath
+  nameWithType.vb: BaseTrack(Of Obstacles).enterPath
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Obstacles).enterPath
+- uid: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.exitPath
+  commentId: F:DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.exitPath
+  parent: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}
+  definition: DDVRKick.Tracks.BaseTrack`1.exitPath
+  name: exitPath
+  nameWithType: BaseTrack<Obstacles>.exitPath
+  fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Obstacles>.exitPath
+  nameWithType.vb: BaseTrack(Of Obstacles).exitPath
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Obstacles).exitPath
+- uid: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.prefab
+  commentId: F:DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.prefab
+  parent: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}
+  definition: DDVRKick.Tracks.BaseTrack`1.prefab
+  name: prefab
+  nameWithType: BaseTrack<Obstacles>.prefab
+  fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Obstacles>.prefab
+  nameWithType.vb: BaseTrack(Of Obstacles).prefab
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Obstacles).prefab
+- uid: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.collectionCheck
+  commentId: F:DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.collectionCheck
+  parent: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}
+  definition: DDVRKick.Tracks.BaseTrack`1.collectionCheck
+  name: collectionCheck
+  nameWithType: BaseTrack<Obstacles>.collectionCheck
+  fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Obstacles>.collectionCheck
+  nameWithType.vb: BaseTrack(Of Obstacles).collectionCheck
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Obstacles).collectionCheck
+- uid: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.defaultCapacity
+  commentId: F:DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.defaultCapacity
+  parent: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}
+  definition: DDVRKick.Tracks.BaseTrack`1.defaultCapacity
+  name: defaultCapacity
+  nameWithType: BaseTrack<Obstacles>.defaultCapacity
+  fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Obstacles>.defaultCapacity
+  nameWithType.vb: BaseTrack(Of Obstacles).defaultCapacity
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Obstacles).defaultCapacity
+- uid: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.maxSize
+  commentId: F:DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.maxSize
+  parent: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}
+  definition: DDVRKick.Tracks.BaseTrack`1.maxSize
+  name: maxSize
+  nameWithType: BaseTrack<Obstacles>.maxSize
+  fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Obstacles>.maxSize
+  nameWithType.vb: BaseTrack(Of Obstacles).maxSize
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Obstacles).maxSize
+- uid: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.Start
+  commentId: M:DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.Start
+  parent: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}
+  definition: DDVRKick.Tracks.BaseTrack`1.Start
+  name: Start()
+  nameWithType: BaseTrack<Obstacles>.Start()
+  fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Obstacles>.Start()
+  nameWithType.vb: BaseTrack(Of Obstacles).Start()
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Obstacles).Start()
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrack`1.Start
+    name: Start
+    nameWithType: BaseTrack<Obstacles>.Start
+    fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Obstacles>.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrack`1.Start
+    name: Start
+    nameWithType: BaseTrack(Of Obstacles).Start
+    fullName: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Obstacles).Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.OnPoolGet(DDVRKick.Tracks.Obstacles)
+  commentId: M:DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.OnPoolGet(DDVRKick.Tracks.Obstacles)
+  parent: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}
+  definition: DDVRKick.Tracks.BaseTrack`1.OnPoolGet(`0)
+  name: OnPoolGet(Obstacles)
+  nameWithType: BaseTrack<Obstacles>.OnPoolGet(Obstacles)
+  fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Obstacles>.OnPoolGet(DDVRKick.Tracks.Obstacles)
+  nameWithType.vb: BaseTrack(Of Obstacles).OnPoolGet(Obstacles)
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Obstacles).OnPoolGet(DDVRKick.Tracks.Obstacles)
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolGet(`0)
+    name: OnPoolGet
+    nameWithType: BaseTrack<Obstacles>.OnPoolGet
+    fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Obstacles>.OnPoolGet
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: DDVRKick.Tracks.Obstacles
+    name: Obstacles
+    nameWithType: Obstacles
+    fullName: DDVRKick.Tracks.Obstacles
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolGet(`0)
+    name: OnPoolGet
+    nameWithType: BaseTrack(Of Obstacles).OnPoolGet
+    fullName: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Obstacles).OnPoolGet
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: DDVRKick.Tracks.Obstacles
+    name: Obstacles
+    nameWithType: Obstacles
+    fullName: DDVRKick.Tracks.Obstacles
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.OnPoolDestroy(DDVRKick.Tracks.Obstacles)
+  commentId: M:DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.OnPoolDestroy(DDVRKick.Tracks.Obstacles)
+  parent: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}
+  definition: DDVRKick.Tracks.BaseTrack`1.OnPoolDestroy(`0)
+  name: OnPoolDestroy(Obstacles)
+  nameWithType: BaseTrack<Obstacles>.OnPoolDestroy(Obstacles)
+  fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Obstacles>.OnPoolDestroy(DDVRKick.Tracks.Obstacles)
+  nameWithType.vb: BaseTrack(Of Obstacles).OnPoolDestroy(Obstacles)
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Obstacles).OnPoolDestroy(DDVRKick.Tracks.Obstacles)
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolDestroy(`0)
+    name: OnPoolDestroy
+    nameWithType: BaseTrack<Obstacles>.OnPoolDestroy
+    fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Obstacles>.OnPoolDestroy
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: DDVRKick.Tracks.Obstacles
+    name: Obstacles
+    nameWithType: Obstacles
+    fullName: DDVRKick.Tracks.Obstacles
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolDestroy(`0)
+    name: OnPoolDestroy
+    nameWithType: BaseTrack(Of Obstacles).OnPoolDestroy
+    fullName: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Obstacles).OnPoolDestroy
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: DDVRKick.Tracks.Obstacles
+    name: Obstacles
+    nameWithType: Obstacles
+    fullName: DDVRKick.Tracks.Obstacles
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DDVRKick.Tracks.BaseTrack`1
+  commentId: T:DDVRKick.Tracks.BaseTrack`1
+  name: BaseTrack<T>
+  nameWithType: BaseTrack<T>
+  fullName: DDVRKick.Tracks.BaseTrack<T>
+  nameWithType.vb: BaseTrack(Of T)
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T)
+  name.vb: BaseTrack(Of T)
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrack`1
+    name: BaseTrack
+    nameWithType: BaseTrack
+    fullName: DDVRKick.Tracks.BaseTrack
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrack`1
+    name: BaseTrack
+    nameWithType: BaseTrack
+    fullName: DDVRKick.Tracks.BaseTrack
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DDVRKick.Tracks.BaseTrack`1.pool
+  commentId: P:DDVRKick.Tracks.BaseTrack`1.pool
+  name: pool
+  nameWithType: BaseTrack<T>.pool
+  fullName: DDVRKick.Tracks.BaseTrack<T>.pool
+  nameWithType.vb: BaseTrack(Of T).pool
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).pool
+- uid: DDVRKick.Tracks.BaseTrack`1.enterPath
+  commentId: F:DDVRKick.Tracks.BaseTrack`1.enterPath
+  name: enterPath
+  nameWithType: BaseTrack<T>.enterPath
+  fullName: DDVRKick.Tracks.BaseTrack<T>.enterPath
+  nameWithType.vb: BaseTrack(Of T).enterPath
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).enterPath
+- uid: DDVRKick.Tracks.BaseTrack`1.exitPath
+  commentId: F:DDVRKick.Tracks.BaseTrack`1.exitPath
+  name: exitPath
+  nameWithType: BaseTrack<T>.exitPath
+  fullName: DDVRKick.Tracks.BaseTrack<T>.exitPath
+  nameWithType.vb: BaseTrack(Of T).exitPath
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).exitPath
+- uid: DDVRKick.Tracks.BaseTrack`1.prefab
+  commentId: F:DDVRKick.Tracks.BaseTrack`1.prefab
+  name: prefab
+  nameWithType: BaseTrack<T>.prefab
+  fullName: DDVRKick.Tracks.BaseTrack<T>.prefab
+  nameWithType.vb: BaseTrack(Of T).prefab
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).prefab
+- uid: DDVRKick.Tracks.BaseTrack`1.collectionCheck
+  commentId: F:DDVRKick.Tracks.BaseTrack`1.collectionCheck
+  name: collectionCheck
+  nameWithType: BaseTrack<T>.collectionCheck
+  fullName: DDVRKick.Tracks.BaseTrack<T>.collectionCheck
+  nameWithType.vb: BaseTrack(Of T).collectionCheck
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).collectionCheck
+- uid: DDVRKick.Tracks.BaseTrack`1.defaultCapacity
+  commentId: F:DDVRKick.Tracks.BaseTrack`1.defaultCapacity
+  name: defaultCapacity
+  nameWithType: BaseTrack<T>.defaultCapacity
+  fullName: DDVRKick.Tracks.BaseTrack<T>.defaultCapacity
+  nameWithType.vb: BaseTrack(Of T).defaultCapacity
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).defaultCapacity
+- uid: DDVRKick.Tracks.BaseTrack`1.maxSize
+  commentId: F:DDVRKick.Tracks.BaseTrack`1.maxSize
+  name: maxSize
+  nameWithType: BaseTrack<T>.maxSize
+  fullName: DDVRKick.Tracks.BaseTrack<T>.maxSize
+  nameWithType.vb: BaseTrack(Of T).maxSize
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).maxSize
+- uid: DDVRKick.Tracks.BaseTrack`1.Start
+  commentId: M:DDVRKick.Tracks.BaseTrack`1.Start
+  name: Start()
+  nameWithType: BaseTrack<T>.Start()
+  fullName: DDVRKick.Tracks.BaseTrack<T>.Start()
+  nameWithType.vb: BaseTrack(Of T).Start()
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).Start()
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrack`1.Start
+    name: Start
+    nameWithType: BaseTrack<T>.Start
+    fullName: DDVRKick.Tracks.BaseTrack<T>.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrack`1.Start
+    name: Start
+    nameWithType: BaseTrack(Of T).Start
+    fullName: DDVRKick.Tracks.BaseTrack(Of T).Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DDVRKick.Tracks.BaseTrack`1.OnPoolGet(`0)
+  commentId: M:DDVRKick.Tracks.BaseTrack`1.OnPoolGet(`0)
+  name: OnPoolGet(T)
+  nameWithType: BaseTrack<T>.OnPoolGet(T)
+  fullName: DDVRKick.Tracks.BaseTrack<T>.OnPoolGet(T)
+  nameWithType.vb: BaseTrack(Of T).OnPoolGet(T)
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).OnPoolGet(T)
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolGet(`0)
+    name: OnPoolGet
+    nameWithType: BaseTrack<T>.OnPoolGet
+    fullName: DDVRKick.Tracks.BaseTrack<T>.OnPoolGet
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolGet(`0)
+    name: OnPoolGet
+    nameWithType: BaseTrack(Of T).OnPoolGet
+    fullName: DDVRKick.Tracks.BaseTrack(Of T).OnPoolGet
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DDVRKick.Tracks.BaseTrack`1.OnPoolDestroy(`0)
+  commentId: M:DDVRKick.Tracks.BaseTrack`1.OnPoolDestroy(`0)
+  name: OnPoolDestroy(T)
+  nameWithType: BaseTrack<T>.OnPoolDestroy(T)
+  fullName: DDVRKick.Tracks.BaseTrack<T>.OnPoolDestroy(T)
+  nameWithType.vb: BaseTrack(Of T).OnPoolDestroy(T)
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).OnPoolDestroy(T)
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolDestroy(`0)
+    name: OnPoolDestroy
+    nameWithType: BaseTrack<T>.OnPoolDestroy
+    fullName: DDVRKick.Tracks.BaseTrack<T>.OnPoolDestroy
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolDestroy(`0)
+    name: OnPoolDestroy
+    nameWithType: BaseTrack(Of T).OnPoolDestroy
+    fullName: DDVRKick.Tracks.BaseTrack(Of T).OnPoolDestroy
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.OnPoolCreate
+  commentId: M:DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.OnPoolCreate
+  parent: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}
+  definition: DDVRKick.Tracks.BaseTrack`1.OnPoolCreate
+  name: OnPoolCreate()
+  nameWithType: BaseTrack<Obstacles>.OnPoolCreate()
+  fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Obstacles>.OnPoolCreate()
+  nameWithType.vb: BaseTrack(Of Obstacles).OnPoolCreate()
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Obstacles).OnPoolCreate()
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolCreate
+    name: OnPoolCreate
+    nameWithType: BaseTrack<Obstacles>.OnPoolCreate
+    fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Obstacles>.OnPoolCreate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolCreate
+    name: OnPoolCreate
+    nameWithType: BaseTrack(Of Obstacles).OnPoolCreate
+    fullName: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Obstacles).OnPoolCreate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DDVRKick.Tracks.ObstaclesTrack.OnPoolCreate*
+  commentId: Overload:DDVRKick.Tracks.ObstaclesTrack.OnPoolCreate
+  name: OnPoolCreate
+  nameWithType: ObstaclesTrack.OnPoolCreate
+  fullName: DDVRKick.Tracks.ObstaclesTrack.OnPoolCreate
+- uid: DDVRKick.Tracks.Obstacles
+  commentId: T:DDVRKick.Tracks.Obstacles
+  parent: DDVRKick.Tracks
+  name: Obstacles
+  nameWithType: Obstacles
+  fullName: DDVRKick.Tracks.Obstacles
+- uid: DDVRKick.Tracks.BaseTrack`1.OnPoolCreate
+  commentId: M:DDVRKick.Tracks.BaseTrack`1.OnPoolCreate
+  name: OnPoolCreate()
+  nameWithType: BaseTrack<T>.OnPoolCreate()
+  fullName: DDVRKick.Tracks.BaseTrack<T>.OnPoolCreate()
+  nameWithType.vb: BaseTrack(Of T).OnPoolCreate()
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).OnPoolCreate()
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolCreate
+    name: OnPoolCreate
+    nameWithType: BaseTrack<T>.OnPoolCreate
+    fullName: DDVRKick.Tracks.BaseTrack<T>.OnPoolCreate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolCreate
+    name: OnPoolCreate
+    nameWithType: BaseTrack(Of T).OnPoolCreate
+    fullName: DDVRKick.Tracks.BaseTrack(Of T).OnPoolCreate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.OnPoolRelease(DDVRKick.Tracks.Obstacles)
+  commentId: M:DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}.OnPoolRelease(DDVRKick.Tracks.Obstacles)
+  parent: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Obstacles}
+  definition: DDVRKick.Tracks.BaseTrack`1.OnPoolRelease(`0)
+  name: OnPoolRelease(Obstacles)
+  nameWithType: BaseTrack<Obstacles>.OnPoolRelease(Obstacles)
+  fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Obstacles>.OnPoolRelease(DDVRKick.Tracks.Obstacles)
+  nameWithType.vb: BaseTrack(Of Obstacles).OnPoolRelease(Obstacles)
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Obstacles).OnPoolRelease(DDVRKick.Tracks.Obstacles)
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolRelease(`0)
+    name: OnPoolRelease
+    nameWithType: BaseTrack<Obstacles>.OnPoolRelease
+    fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Obstacles>.OnPoolRelease
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: DDVRKick.Tracks.Obstacles
+    name: Obstacles
+    nameWithType: Obstacles
+    fullName: DDVRKick.Tracks.Obstacles
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolRelease(`0)
+    name: OnPoolRelease
+    nameWithType: BaseTrack(Of Obstacles).OnPoolRelease
+    fullName: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Obstacles).OnPoolRelease
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: DDVRKick.Tracks.Obstacles
+    name: Obstacles
+    nameWithType: Obstacles
+    fullName: DDVRKick.Tracks.Obstacles
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DDVRKick.Tracks.ObstaclesTrack.OnPoolRelease*
+  commentId: Overload:DDVRKick.Tracks.ObstaclesTrack.OnPoolRelease
+  name: OnPoolRelease
+  nameWithType: ObstaclesTrack.OnPoolRelease
+  fullName: DDVRKick.Tracks.ObstaclesTrack.OnPoolRelease
+- uid: DDVRKick.Tracks.BaseTrack`1.OnPoolRelease(`0)
+  commentId: M:DDVRKick.Tracks.BaseTrack`1.OnPoolRelease(`0)
+  name: OnPoolRelease(T)
+  nameWithType: BaseTrack<T>.OnPoolRelease(T)
+  fullName: DDVRKick.Tracks.BaseTrack<T>.OnPoolRelease(T)
+  nameWithType.vb: BaseTrack(Of T).OnPoolRelease(T)
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).OnPoolRelease(T)
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolRelease(`0)
+    name: OnPoolRelease
+    nameWithType: BaseTrack<T>.OnPoolRelease
+    fullName: DDVRKick.Tracks.BaseTrack<T>.OnPoolRelease
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolRelease(`0)
+    name: OnPoolRelease
+    nameWithType: BaseTrack(Of T).OnPoolRelease
+    fullName: DDVRKick.Tracks.BaseTrack(Of T).OnPoolRelease
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DDVRKick.Tracks.ObstaclesTrack.GenerateObstacles*
+  commentId: Overload:DDVRKick.Tracks.ObstaclesTrack.GenerateObstacles
+  name: GenerateObstacles
+  nameWithType: ObstaclesTrack.GenerateObstacles
+  fullName: DDVRKick.Tracks.ObstaclesTrack.GenerateObstacles

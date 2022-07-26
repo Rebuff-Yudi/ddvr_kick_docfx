@@ -1,0 +1,91 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.EditorAnalyzer
+  commentId: T:RhythmTool.EditorAnalyzer
+  id: EditorAnalyzer
+  parent: RhythmTool
+  children:
+  - RhythmTool.EditorAnalyzer.#ctor(AudioClip)
+  langs:
+  - csharp
+  - vb
+  name: EditorAnalyzer
+  nameWithType: EditorAnalyzer
+  fullName: RhythmTool.EditorAnalyzer
+  type: Class
+  source:
+    id: EditorAnalyzer
+    path: ''
+    startLine: 95
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public class EditorAnalyzer
+    content.vb: Public Class EditorAnalyzer
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.EditorAnalyzer.#ctor(AudioClip)
+  commentId: M:RhythmTool.EditorAnalyzer.#ctor(AudioClip)
+  id: '#ctor(AudioClip)'
+  parent: RhythmTool.EditorAnalyzer
+  langs:
+  - csharp
+  - vb
+  name: EditorAnalyzer(AudioClip)
+  nameWithType: EditorAnalyzer.EditorAnalyzer(AudioClip)
+  fullName: RhythmTool.EditorAnalyzer.EditorAnalyzer(AudioClip)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 103
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public EditorAnalyzer(AudioClip audioClip)
+    parameters:
+    - id: audioClip
+      type: Global.AudioClip
+    content.vb: Public Sub New(audioClip As AudioClip)
+  overload: RhythmTool.EditorAnalyzer.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.EditorAnalyzer.#ctor*
+  commentId: Overload:RhythmTool.EditorAnalyzer.#ctor
+  name: EditorAnalyzer
+  nameWithType: EditorAnalyzer.EditorAnalyzer
+  fullName: RhythmTool.EditorAnalyzer.EditorAnalyzer
+- uid: Global.AudioClip
+  isExternal: true
+  name: AudioClip
+  nameWithType: AudioClip
+  fullName: AudioClip

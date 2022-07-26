@@ -1,0 +1,682 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.TrackDrawer`1
+  commentId: T:RhythmTool.TrackDrawer`1
+  id: TrackDrawer`1
+  parent: RhythmTool
+  children:
+  - RhythmTool.TrackDrawer`1.#ctor
+  - RhythmTool.TrackDrawer`1.DrawFeature(`0,Rect,System.Single,System.Single)
+  - RhythmTool.TrackDrawer`1.DrawTrack(RhythmTool.Track,Rect,System.Single,System.Single)
+  - RhythmTool.TrackDrawer`1.DrawTrack(RhythmTool.Track{`0},Rect,System.Single,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: TrackDrawer<T>
+  nameWithType: TrackDrawer<T>
+  fullName: RhythmTool.TrackDrawer<T>
+  type: Class
+  source:
+    id: TrackDrawer
+    path: ''
+    startLine: 3899
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe TrackDrawer draws basic information for a specific Track.\n"
+  example: []
+  syntax:
+    content: 'public class TrackDrawer<T> : TrackDrawer where T : Feature'
+    typeParameters:
+    - id: T
+      description: The type of Feature to draw.
+    content.vb: >-
+      Public Class TrackDrawer(Of T As Feature)
+          Inherits TrackDrawer
+  inheritance:
+  - System.Object
+  - RhythmTool.TrackDrawer
+  derivedClasses:
+  - RhythmTool.ChromaDrawer
+  - RhythmTool.OnsetDrawer
+  - RhythmTool.ValueDrawer
+  inheritedMembers:
+  - RhythmTool.TrackDrawer.Draw(RhythmTool.Track,Rect,System.Single,System.Single)
+  - RhythmTool.TrackDrawer.GetTrackDrawer(RhythmTool.Track)
+  - RhythmTool.TrackDrawer.GetFeaturePosition(RhythmTool.Feature,Rect,System.Single,System.Single)
+  - RhythmTool.TrackDrawer.DrawRect(Rect)
+  nameWithType.vb: TrackDrawer(Of T)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: RhythmTool.TrackDrawer(Of T)
+  name.vb: TrackDrawer(Of T)
+- uid: RhythmTool.TrackDrawer`1.#ctor
+  commentId: M:RhythmTool.TrackDrawer`1.#ctor
+  id: '#ctor'
+  parent: RhythmTool.TrackDrawer`1
+  langs:
+  - csharp
+  - vb
+  name: TrackDrawer()
+  nameWithType: TrackDrawer<T>.TrackDrawer()
+  fullName: RhythmTool.TrackDrawer<T>.TrackDrawer()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 3903
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public TrackDrawer()
+    content.vb: Public Sub New
+  overload: RhythmTool.TrackDrawer`1.#ctor*
+  nameWithType.vb: TrackDrawer(Of T).TrackDrawer()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: RhythmTool.TrackDrawer(Of T).TrackDrawer()
+- uid: RhythmTool.TrackDrawer`1.DrawTrack(RhythmTool.Track,Rect,System.Single,System.Single)
+  commentId: M:RhythmTool.TrackDrawer`1.DrawTrack(RhythmTool.Track,Rect,System.Single,System.Single)
+  id: DrawTrack(RhythmTool.Track,Rect,System.Single,System.Single)
+  parent: RhythmTool.TrackDrawer`1
+  langs:
+  - csharp
+  - vb
+  name: DrawTrack(Track, Rect, Single, Single)
+  nameWithType: TrackDrawer<T>.DrawTrack(Track, Rect, Single, Single)
+  fullName: RhythmTool.TrackDrawer<T>.DrawTrack(RhythmTool.Track, Rect, System.Single, System.Single)
+  type: Method
+  source:
+    id: DrawTrack
+    path: ''
+    startLine: 3908
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: protected override void DrawTrack(Track track, Rect rect, float start, float end)
+    parameters:
+    - id: track
+      type: RhythmTool.Track
+    - id: rect
+      type: Global.Rect
+    - id: start
+      type: System.Single
+    - id: end
+      type: System.Single
+    content.vb: Protected Overrides Sub DrawTrack(track As Track, rect As Rect, start As Single, end As Single)
+  overridden: RhythmTool.TrackDrawer.DrawTrack(RhythmTool.Track,Rect,System.Single,System.Single)
+  overload: RhythmTool.TrackDrawer`1.DrawTrack*
+  nameWithType.vb: TrackDrawer(Of T).DrawTrack(Track, Rect, Single, Single)
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+  fullName.vb: RhythmTool.TrackDrawer(Of T).DrawTrack(RhythmTool.Track, Rect, System.Single, System.Single)
+- uid: RhythmTool.TrackDrawer`1.DrawTrack(RhythmTool.Track{`0},Rect,System.Single,System.Single)
+  commentId: M:RhythmTool.TrackDrawer`1.DrawTrack(RhythmTool.Track{`0},Rect,System.Single,System.Single)
+  id: DrawTrack(RhythmTool.Track{`0},Rect,System.Single,System.Single)
+  parent: RhythmTool.TrackDrawer`1
+  langs:
+  - csharp
+  - vb
+  name: DrawTrack(Track<T>, Rect, Single, Single)
+  nameWithType: TrackDrawer<T>.DrawTrack(Track<T>, Rect, Single, Single)
+  fullName: RhythmTool.TrackDrawer<T>.DrawTrack(RhythmTool.Track<T>, Rect, System.Single, System.Single)
+  type: Method
+  source:
+    id: DrawTrack
+    path: ''
+    startLine: 3913
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: protected virtual void DrawTrack(Track<T> track, Rect rect, float start, float end)
+    parameters:
+    - id: track
+      type: RhythmTool.Track{{T}}
+    - id: rect
+      type: Global.Rect
+    - id: start
+      type: System.Single
+    - id: end
+      type: System.Single
+    content.vb: Protected Overridable Sub DrawTrack(track As Track(Of T), rect As Rect, start As Single, end As Single)
+  overload: RhythmTool.TrackDrawer`1.DrawTrack*
+  nameWithType.vb: TrackDrawer(Of T).DrawTrack(Track(Of T), Rect, Single, Single)
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+  fullName.vb: RhythmTool.TrackDrawer(Of T).DrawTrack(RhythmTool.Track(Of T), Rect, System.Single, System.Single)
+  name.vb: DrawTrack(Track(Of T), Rect, Single, Single)
+- uid: RhythmTool.TrackDrawer`1.DrawFeature(`0,Rect,System.Single,System.Single)
+  commentId: M:RhythmTool.TrackDrawer`1.DrawFeature(`0,Rect,System.Single,System.Single)
+  id: DrawFeature(`0,Rect,System.Single,System.Single)
+  parent: RhythmTool.TrackDrawer`1
+  langs:
+  - csharp
+  - vb
+  name: DrawFeature(T, Rect, Single, Single)
+  nameWithType: TrackDrawer<T>.DrawFeature(T, Rect, Single, Single)
+  fullName: RhythmTool.TrackDrawer<T>.DrawFeature(T, Rect, System.Single, System.Single)
+  type: Method
+  source:
+    id: DrawFeature
+    path: ''
+    startLine: 3925
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: protected virtual void DrawFeature(T feature, Rect rect, float start, float end)
+    parameters:
+    - id: feature
+      type: '{T}'
+    - id: rect
+      type: Global.Rect
+    - id: start
+      type: System.Single
+    - id: end
+      type: System.Single
+    content.vb: Protected Overridable Sub DrawFeature(feature As T, rect As Rect, start As Single, end As Single)
+  overload: RhythmTool.TrackDrawer`1.DrawFeature*
+  nameWithType.vb: TrackDrawer(Of T).DrawFeature(T, Rect, Single, Single)
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+  fullName.vb: RhythmTool.TrackDrawer(Of T).DrawFeature(T, Rect, System.Single, System.Single)
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: RhythmTool.TrackDrawer
+  commentId: T:RhythmTool.TrackDrawer
+  parent: RhythmTool
+  name: TrackDrawer
+  nameWithType: TrackDrawer
+  fullName: RhythmTool.TrackDrawer
+- uid: RhythmTool.TrackDrawer.Draw(RhythmTool.Track,Rect,System.Single,System.Single)
+  commentId: M:RhythmTool.TrackDrawer.Draw(RhythmTool.Track,Rect,System.Single,System.Single)
+  parent: RhythmTool.TrackDrawer
+  isExternal: true
+  name: Draw(Track, Rect, Single, Single)
+  nameWithType: TrackDrawer.Draw(Track, Rect, Single, Single)
+  fullName: RhythmTool.TrackDrawer.Draw(RhythmTool.Track, Rect, System.Single, System.Single)
+  spec.csharp:
+  - uid: RhythmTool.TrackDrawer.Draw(RhythmTool.Track,Rect,System.Single,System.Single)
+    name: Draw
+    nameWithType: TrackDrawer.Draw
+    fullName: RhythmTool.TrackDrawer.Draw
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RhythmTool.Track
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Rect
+    name: Rect
+    nameWithType: Rect
+    fullName: Rect
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.TrackDrawer.Draw(RhythmTool.Track,Rect,System.Single,System.Single)
+    name: Draw
+    nameWithType: TrackDrawer.Draw
+    fullName: RhythmTool.TrackDrawer.Draw
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RhythmTool.Track
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Rect
+    name: Rect
+    nameWithType: Rect
+    fullName: Rect
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.TrackDrawer.GetTrackDrawer(RhythmTool.Track)
+  commentId: M:RhythmTool.TrackDrawer.GetTrackDrawer(RhythmTool.Track)
+  parent: RhythmTool.TrackDrawer
+  name: GetTrackDrawer(Track)
+  nameWithType: TrackDrawer.GetTrackDrawer(Track)
+  fullName: RhythmTool.TrackDrawer.GetTrackDrawer(RhythmTool.Track)
+  spec.csharp:
+  - uid: RhythmTool.TrackDrawer.GetTrackDrawer(RhythmTool.Track)
+    name: GetTrackDrawer
+    nameWithType: TrackDrawer.GetTrackDrawer
+    fullName: RhythmTool.TrackDrawer.GetTrackDrawer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RhythmTool.Track
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.TrackDrawer.GetTrackDrawer(RhythmTool.Track)
+    name: GetTrackDrawer
+    nameWithType: TrackDrawer.GetTrackDrawer
+    fullName: RhythmTool.TrackDrawer.GetTrackDrawer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RhythmTool.Track
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.TrackDrawer.GetFeaturePosition(RhythmTool.Feature,Rect,System.Single,System.Single)
+  commentId: M:RhythmTool.TrackDrawer.GetFeaturePosition(RhythmTool.Feature,Rect,System.Single,System.Single)
+  parent: RhythmTool.TrackDrawer
+  isExternal: true
+  name: GetFeaturePosition(Feature, Rect, Single, Single)
+  nameWithType: TrackDrawer.GetFeaturePosition(Feature, Rect, Single, Single)
+  fullName: RhythmTool.TrackDrawer.GetFeaturePosition(RhythmTool.Feature, Rect, System.Single, System.Single)
+  spec.csharp:
+  - uid: RhythmTool.TrackDrawer.GetFeaturePosition(RhythmTool.Feature,Rect,System.Single,System.Single)
+    name: GetFeaturePosition
+    nameWithType: TrackDrawer.GetFeaturePosition
+    fullName: RhythmTool.TrackDrawer.GetFeaturePosition
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RhythmTool.Feature
+    name: Feature
+    nameWithType: Feature
+    fullName: RhythmTool.Feature
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Rect
+    name: Rect
+    nameWithType: Rect
+    fullName: Rect
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.TrackDrawer.GetFeaturePosition(RhythmTool.Feature,Rect,System.Single,System.Single)
+    name: GetFeaturePosition
+    nameWithType: TrackDrawer.GetFeaturePosition
+    fullName: RhythmTool.TrackDrawer.GetFeaturePosition
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RhythmTool.Feature
+    name: Feature
+    nameWithType: Feature
+    fullName: RhythmTool.Feature
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Rect
+    name: Rect
+    nameWithType: Rect
+    fullName: Rect
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.TrackDrawer.DrawRect(Rect)
+  commentId: M:RhythmTool.TrackDrawer.DrawRect(Rect)
+  parent: RhythmTool.TrackDrawer
+  isExternal: true
+  name: DrawRect(Rect)
+  nameWithType: TrackDrawer.DrawRect(Rect)
+  fullName: RhythmTool.TrackDrawer.DrawRect(Rect)
+  spec.csharp:
+  - uid: RhythmTool.TrackDrawer.DrawRect(Rect)
+    name: DrawRect
+    nameWithType: TrackDrawer.DrawRect
+    fullName: RhythmTool.TrackDrawer.DrawRect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Rect
+    name: Rect
+    nameWithType: Rect
+    fullName: Rect
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.TrackDrawer.DrawRect(Rect)
+    name: DrawRect
+    nameWithType: TrackDrawer.DrawRect
+    fullName: RhythmTool.TrackDrawer.DrawRect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Rect
+    name: Rect
+    nameWithType: Rect
+    fullName: Rect
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.TrackDrawer`1.#ctor*
+  commentId: Overload:RhythmTool.TrackDrawer`1.#ctor
+  name: TrackDrawer
+  nameWithType: TrackDrawer<T>.TrackDrawer
+  fullName: RhythmTool.TrackDrawer<T>.TrackDrawer
+  nameWithType.vb: TrackDrawer(Of T).TrackDrawer
+  fullName.vb: RhythmTool.TrackDrawer(Of T).TrackDrawer
+- uid: RhythmTool.TrackDrawer.DrawTrack(RhythmTool.Track,Rect,System.Single,System.Single)
+  commentId: M:RhythmTool.TrackDrawer.DrawTrack(RhythmTool.Track,Rect,System.Single,System.Single)
+  parent: RhythmTool.TrackDrawer
+  isExternal: true
+  name: DrawTrack(Track, Rect, Single, Single)
+  nameWithType: TrackDrawer.DrawTrack(Track, Rect, Single, Single)
+  fullName: RhythmTool.TrackDrawer.DrawTrack(RhythmTool.Track, Rect, System.Single, System.Single)
+  spec.csharp:
+  - uid: RhythmTool.TrackDrawer.DrawTrack(RhythmTool.Track,Rect,System.Single,System.Single)
+    name: DrawTrack
+    nameWithType: TrackDrawer.DrawTrack
+    fullName: RhythmTool.TrackDrawer.DrawTrack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RhythmTool.Track
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Rect
+    name: Rect
+    nameWithType: Rect
+    fullName: Rect
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.TrackDrawer.DrawTrack(RhythmTool.Track,Rect,System.Single,System.Single)
+    name: DrawTrack
+    nameWithType: TrackDrawer.DrawTrack
+    fullName: RhythmTool.TrackDrawer.DrawTrack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RhythmTool.Track
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Rect
+    name: Rect
+    nameWithType: Rect
+    fullName: Rect
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.TrackDrawer`1.DrawTrack*
+  commentId: Overload:RhythmTool.TrackDrawer`1.DrawTrack
+  name: DrawTrack
+  nameWithType: TrackDrawer<T>.DrawTrack
+  fullName: RhythmTool.TrackDrawer<T>.DrawTrack
+  nameWithType.vb: TrackDrawer(Of T).DrawTrack
+  fullName.vb: RhythmTool.TrackDrawer(Of T).DrawTrack
+- uid: RhythmTool.Track
+  commentId: T:RhythmTool.Track
+  parent: RhythmTool
+  name: Track
+  nameWithType: Track
+  fullName: RhythmTool.Track
+- uid: Global.Rect
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: Rect
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: RhythmTool.Track{{T}}
+  commentId: T:RhythmTool.Track{`0}
+  parent: RhythmTool
+  definition: RhythmTool.Track`1
+  name: Track<T>
+  nameWithType: Track<T>
+  fullName: RhythmTool.Track<T>
+  nameWithType.vb: Track(Of T)
+  fullName.vb: RhythmTool.Track(Of T)
+  name.vb: Track(Of T)
+  spec.csharp:
+  - uid: RhythmTool.Track`1
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: RhythmTool.Track`1
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track`1
+  commentId: T:RhythmTool.Track`1
+  parent: RhythmTool
+  name: Track<T>
+  nameWithType: Track<T>
+  fullName: RhythmTool.Track<T>
+  nameWithType.vb: Track(Of T)
+  fullName.vb: RhythmTool.Track(Of T)
+  name.vb: Track(Of T)
+  spec.csharp:
+  - uid: RhythmTool.Track`1
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: RhythmTool.Track`1
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.TrackDrawer`1.DrawFeature*
+  commentId: Overload:RhythmTool.TrackDrawer`1.DrawFeature
+  name: DrawFeature
+  nameWithType: TrackDrawer<T>.DrawFeature
+  fullName: RhythmTool.TrackDrawer<T>.DrawFeature
+  nameWithType.vb: TrackDrawer(Of T).DrawFeature
+  fullName.vb: RhythmTool.TrackDrawer(Of T).DrawFeature
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

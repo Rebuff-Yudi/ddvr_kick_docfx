@@ -1,0 +1,196 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.LowerNoteData
+  commentId: T:RhythmTool.LowerNoteData
+  id: LowerNoteData
+  parent: RhythmTool
+  children:
+  - RhythmTool.LowerNoteData.isPhysicalNote
+  - RhythmTool.LowerNoteData.pathType
+  langs:
+  - csharp
+  - vb
+  name: LowerNoteData
+  nameWithType: LowerNoteData
+  fullName: RhythmTool.LowerNoteData
+  type: Class
+  source:
+    id: LowerNoteData
+    path: ''
+    startLine: 6097
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LowerNoteData : Feature, INoteData
+    content.vb: >-
+      <Serializable>
+
+      Public Class LowerNoteData
+          Inherits Feature
+          Implements INoteData
+  inheritance:
+  - System.Object
+  - RhythmTool.Feature
+  implements:
+  - RhythmTool.INoteData
+  inheritedMembers:
+  - RhythmTool.Feature.timestamp
+  - RhythmTool.Feature.length
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.LowerNoteData.isPhysicalNote
+  commentId: P:RhythmTool.LowerNoteData.isPhysicalNote
+  id: isPhysicalNote
+  parent: RhythmTool.LowerNoteData
+  langs:
+  - csharp
+  - vb
+  name: isPhysicalNote
+  nameWithType: LowerNoteData.isPhysicalNote
+  fullName: RhythmTool.LowerNoteData.isPhysicalNote
+  type: Property
+  source:
+    id: isPhysicalNote
+    path: ''
+    startLine: 6100
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public bool isPhysicalNote { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property isPhysicalNote As Boolean
+  overload: RhythmTool.LowerNoteData.isPhysicalNote*
+  implements:
+  - RhythmTool.INoteData.isPhysicalNote
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.LowerNoteData.pathType
+  commentId: P:RhythmTool.LowerNoteData.pathType
+  id: pathType
+  parent: RhythmTool.LowerNoteData
+  langs:
+  - csharp
+  - vb
+  name: pathType
+  nameWithType: LowerNoteData.pathType
+  fullName: RhythmTool.LowerNoteData.pathType
+  type: Property
+  source:
+    id: pathType
+    path: ''
+    startLine: 6106
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public PathType pathType { get; set; }
+    parameters: []
+    return:
+      type: RhythmTool.PathType
+    content.vb: Public Property pathType As PathType
+  overload: RhythmTool.LowerNoteData.pathType*
+  implements:
+  - RhythmTool.INoteData.pathType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: RhythmTool.Feature
+  commentId: T:RhythmTool.Feature
+  parent: RhythmTool
+  name: Feature
+  nameWithType: Feature
+  fullName: RhythmTool.Feature
+- uid: RhythmTool.INoteData
+  commentId: T:RhythmTool.INoteData
+  parent: RhythmTool
+  name: INoteData
+  nameWithType: INoteData
+  fullName: RhythmTool.INoteData
+- uid: RhythmTool.Feature.timestamp
+  commentId: F:RhythmTool.Feature.timestamp
+  parent: RhythmTool.Feature
+  name: timestamp
+  nameWithType: Feature.timestamp
+  fullName: RhythmTool.Feature.timestamp
+- uid: RhythmTool.Feature.length
+  commentId: F:RhythmTool.Feature.length
+  parent: RhythmTool.Feature
+  name: length
+  nameWithType: Feature.length
+  fullName: RhythmTool.Feature.length
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.LowerNoteData.isPhysicalNote*
+  commentId: Overload:RhythmTool.LowerNoteData.isPhysicalNote
+  name: isPhysicalNote
+  nameWithType: LowerNoteData.isPhysicalNote
+  fullName: RhythmTool.LowerNoteData.isPhysicalNote
+- uid: RhythmTool.INoteData.isPhysicalNote
+  commentId: P:RhythmTool.INoteData.isPhysicalNote
+  parent: RhythmTool.INoteData
+  name: isPhysicalNote
+  nameWithType: INoteData.isPhysicalNote
+  fullName: RhythmTool.INoteData.isPhysicalNote
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: RhythmTool.LowerNoteData.pathType*
+  commentId: Overload:RhythmTool.LowerNoteData.pathType
+  name: pathType
+  nameWithType: LowerNoteData.pathType
+  fullName: RhythmTool.LowerNoteData.pathType
+- uid: RhythmTool.INoteData.pathType
+  commentId: P:RhythmTool.INoteData.pathType
+  parent: RhythmTool.INoteData
+  name: pathType
+  nameWithType: INoteData.pathType
+  fullName: RhythmTool.INoteData.pathType
+- uid: RhythmTool.PathType
+  commentId: T:RhythmTool.PathType
+  parent: RhythmTool
+  name: PathType
+  nameWithType: PathType
+  fullName: RhythmTool.PathType

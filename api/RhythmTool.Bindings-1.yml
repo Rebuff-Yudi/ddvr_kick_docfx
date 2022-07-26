@@ -1,0 +1,144 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.Bindings`1
+  commentId: T:RhythmTool.Bindings`1
+  id: Bindings`1
+  parent: RhythmTool
+  children:
+  - RhythmTool.Bindings`1.GetBinding(System.Object[])
+  langs:
+  - csharp
+  - vb
+  name: Bindings<T>
+  nameWithType: Bindings<T>
+  fullName: RhythmTool.Bindings<T>
+  type: Class
+  source:
+    id: Bindings
+    path: ''
+    startLine: 3459
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nUtility class for creating matching generic types.\n"
+  example: []
+  syntax:
+    content: public static class Bindings<T>
+    typeParameters:
+    - id: T
+      description: The type to find.
+    content.vb: Public Module Bindings(Of T)
+  inheritance:
+  - System.Object
+  nameWithType.vb: Bindings(Of T)
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+  fullName.vb: RhythmTool.Bindings(Of T)
+  name.vb: Bindings(Of T)
+- uid: RhythmTool.Bindings`1.GetBinding(System.Object[])
+  commentId: M:RhythmTool.Bindings`1.GetBinding(System.Object[])
+  id: GetBinding(System.Object[])
+  parent: RhythmTool.Bindings`1
+  langs:
+  - csharp
+  - vb
+  name: GetBinding(Object[])
+  nameWithType: Bindings<T>.GetBinding(Object[])
+  fullName: RhythmTool.Bindings<T>.GetBinding(System.Object[])
+  type: Method
+  source:
+    id: GetBinding
+    path: ''
+    startLine: 3470
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nFind the most concrete implementation of type T that matches args.\n"
+  example: []
+  syntax:
+    content: public static T GetBinding(params object[] args)
+    parameters:
+    - id: args
+      type: System.Object[]
+      description: Arguments that match the constructor of T.
+    return:
+      type: '{T}'
+      description: An instance of the most concrete implementation.
+    content.vb: Public Shared Function GetBinding(ParamArray args As Object()) As T
+  overload: RhythmTool.Bindings`1.GetBinding*
+  nameWithType.vb: Bindings(Of T).GetBinding(Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: RhythmTool.Bindings(Of T).GetBinding(System.Object())
+  name.vb: GetBinding(Object())
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.Bindings`1.GetBinding*
+  commentId: Overload:RhythmTool.Bindings`1.GetBinding
+  name: GetBinding
+  nameWithType: Bindings<T>.GetBinding
+  fullName: RhythmTool.Bindings<T>.GetBinding
+  nameWithType.vb: Bindings(Of T).GetBinding
+  fullName.vb: RhythmTool.Bindings(Of T).GetBinding
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

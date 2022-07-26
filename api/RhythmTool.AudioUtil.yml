@@ -1,0 +1,362 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.AudioUtil
+  commentId: T:RhythmTool.AudioUtil
+  id: AudioUtil
+  parent: RhythmTool
+  children:
+  - RhythmTool.AudioUtil.audioCLip
+  - RhythmTool.AudioUtil.isPlaying
+  - RhythmTool.AudioUtil.Pause
+  - RhythmTool.AudioUtil.Play
+  - RhythmTool.AudioUtil.Stop
+  - RhythmTool.AudioUtil.time
+  - RhythmTool.AudioUtil.UnPause
+  - RhythmTool.AudioUtil.volume
+  langs:
+  - csharp
+  - vb
+  name: AudioUtil
+  nameWithType: AudioUtil
+  fullName: RhythmTool.AudioUtil
+  type: Class
+  source:
+    id: AudioUtil
+    path: ''
+    startLine: 5
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public class AudioUtil
+    content.vb: Public Class AudioUtil
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.AudioUtil.audioCLip
+  commentId: P:RhythmTool.AudioUtil.audioCLip
+  id: audioCLip
+  parent: RhythmTool.AudioUtil
+  langs:
+  - csharp
+  - vb
+  name: audioCLip
+  nameWithType: AudioUtil.audioCLip
+  fullName: RhythmTool.AudioUtil.audioCLip
+  type: Property
+  source:
+    id: audioCLip
+    path: ''
+    startLine: 9
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static AudioClip audioCLip { get; set; }
+    parameters: []
+    return:
+      type: Global.AudioClip
+    content.vb: Public Shared Property audioCLip As AudioClip
+  overload: RhythmTool.AudioUtil.audioCLip*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: RhythmTool.AudioUtil.isPlaying
+  commentId: P:RhythmTool.AudioUtil.isPlaying
+  id: isPlaying
+  parent: RhythmTool.AudioUtil
+  langs:
+  - csharp
+  - vb
+  name: isPlaying
+  nameWithType: AudioUtil.isPlaying
+  fullName: RhythmTool.AudioUtil.isPlaying
+  type: Property
+  source:
+    id: isPlaying
+    path: ''
+    startLine: 21
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static bool isPlaying { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property isPlaying As Boolean
+  overload: RhythmTool.AudioUtil.isPlaying*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RhythmTool.AudioUtil.volume
+  commentId: P:RhythmTool.AudioUtil.volume
+  id: volume
+  parent: RhythmTool.AudioUtil
+  langs:
+  - csharp
+  - vb
+  name: volume
+  nameWithType: AudioUtil.volume
+  fullName: RhythmTool.AudioUtil.volume
+  type: Property
+  source:
+    id: volume
+    path: ''
+    startLine: 29
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static float volume { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Shared Property volume As Single
+  overload: RhythmTool.AudioUtil.volume*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: RhythmTool.AudioUtil.time
+  commentId: P:RhythmTool.AudioUtil.time
+  id: time
+  parent: RhythmTool.AudioUtil
+  langs:
+  - csharp
+  - vb
+  name: time
+  nameWithType: AudioUtil.time
+  fullName: RhythmTool.AudioUtil.time
+  type: Property
+  source:
+    id: time
+    path: ''
+    startLine: 41
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static float time { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Shared Property time As Single
+  overload: RhythmTool.AudioUtil.time*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: RhythmTool.AudioUtil.Play
+  commentId: M:RhythmTool.AudioUtil.Play
+  id: Play
+  parent: RhythmTool.AudioUtil
+  langs:
+  - csharp
+  - vb
+  name: Play()
+  nameWithType: AudioUtil.Play()
+  fullName: RhythmTool.AudioUtil.Play()
+  type: Method
+  source:
+    id: Play
+    path: ''
+    startLine: 66
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static void Play()
+    content.vb: Public Shared Sub Play
+  overload: RhythmTool.AudioUtil.Play*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: RhythmTool.AudioUtil.Stop
+  commentId: M:RhythmTool.AudioUtil.Stop
+  id: Stop
+  parent: RhythmTool.AudioUtil
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: AudioUtil.Stop()
+  fullName: RhythmTool.AudioUtil.Stop()
+  type: Method
+  source:
+    id: Stop
+    path: ''
+    startLine: 71
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static void Stop()
+    content.vb: Public Shared Sub Stop
+  overload: RhythmTool.AudioUtil.Stop*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: RhythmTool.AudioUtil.Pause
+  commentId: M:RhythmTool.AudioUtil.Pause
+  id: Pause
+  parent: RhythmTool.AudioUtil
+  langs:
+  - csharp
+  - vb
+  name: Pause()
+  nameWithType: AudioUtil.Pause()
+  fullName: RhythmTool.AudioUtil.Pause()
+  type: Method
+  source:
+    id: Pause
+    path: ''
+    startLine: 76
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static void Pause()
+    content.vb: Public Shared Sub Pause
+  overload: RhythmTool.AudioUtil.Pause*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: RhythmTool.AudioUtil.UnPause
+  commentId: M:RhythmTool.AudioUtil.UnPause
+  id: UnPause
+  parent: RhythmTool.AudioUtil
+  langs:
+  - csharp
+  - vb
+  name: UnPause()
+  nameWithType: AudioUtil.UnPause()
+  fullName: RhythmTool.AudioUtil.UnPause()
+  type: Method
+  source:
+    id: UnPause
+    path: ''
+    startLine: 81
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static void UnPause()
+    content.vb: Public Shared Sub UnPause
+  overload: RhythmTool.AudioUtil.UnPause*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.AudioUtil.audioCLip*
+  commentId: Overload:RhythmTool.AudioUtil.audioCLip
+  name: audioCLip
+  nameWithType: AudioUtil.audioCLip
+  fullName: RhythmTool.AudioUtil.audioCLip
+- uid: Global.AudioClip
+  isExternal: true
+  name: AudioClip
+  nameWithType: AudioClip
+  fullName: AudioClip
+- uid: RhythmTool.AudioUtil.isPlaying*
+  commentId: Overload:RhythmTool.AudioUtil.isPlaying
+  name: isPlaying
+  nameWithType: AudioUtil.isPlaying
+  fullName: RhythmTool.AudioUtil.isPlaying
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: RhythmTool.AudioUtil.volume*
+  commentId: Overload:RhythmTool.AudioUtil.volume
+  name: volume
+  nameWithType: AudioUtil.volume
+  fullName: RhythmTool.AudioUtil.volume
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: RhythmTool.AudioUtil.time*
+  commentId: Overload:RhythmTool.AudioUtil.time
+  name: time
+  nameWithType: AudioUtil.time
+  fullName: RhythmTool.AudioUtil.time
+- uid: RhythmTool.AudioUtil.Play*
+  commentId: Overload:RhythmTool.AudioUtil.Play
+  name: Play
+  nameWithType: AudioUtil.Play
+  fullName: RhythmTool.AudioUtil.Play
+- uid: RhythmTool.AudioUtil.Stop*
+  commentId: Overload:RhythmTool.AudioUtil.Stop
+  name: Stop
+  nameWithType: AudioUtil.Stop
+  fullName: RhythmTool.AudioUtil.Stop
+- uid: RhythmTool.AudioUtil.Pause*
+  commentId: Overload:RhythmTool.AudioUtil.Pause
+  name: Pause
+  nameWithType: AudioUtil.Pause
+  fullName: RhythmTool.AudioUtil.Pause
+- uid: RhythmTool.AudioUtil.UnPause*
+  commentId: Overload:RhythmTool.AudioUtil.UnPause
+  name: UnPause
+  nameWithType: AudioUtil.UnPause
+  fullName: RhythmTool.AudioUtil.UnPause

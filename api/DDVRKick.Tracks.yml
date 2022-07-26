@@ -1,0 +1,149 @@
+### YamlMime:ManagedReference
+items:
+- uid: DDVRKick.Tracks
+  commentId: N:DDVRKick.Tracks
+  id: DDVRKick.Tracks
+  children:
+  - DDVRKick.Tracks.BaseTrack`1
+  - DDVRKick.Tracks.BaseTrackObject
+  - DDVRKick.Tracks.LongNote
+  - DDVRKick.Tracks.LongNoteHead
+  - DDVRKick.Tracks.LongNoteTail
+  - DDVRKick.Tracks.LongNoteTrack
+  - DDVRKick.Tracks.Note
+  - DDVRKick.Tracks.NoteBody
+  - DDVRKick.Tracks.NoteTrack
+  - DDVRKick.Tracks.Obstacles
+  - DDVRKick.Tracks.ObstaclesTrack
+  - DDVRKick.Tracks.TracksManager
+  - DDVRKick.Tracks.VisualTrack
+  - DDVRKick.Tracks.VisualTrackTrigger
+  langs:
+  - csharp
+  - vb
+  name: DDVRKick.Tracks
+  nameWithType: DDVRKick.Tracks
+  fullName: DDVRKick.Tracks
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: DDVRKick.Tracks.BaseTrack`1
+  commentId: T:DDVRKick.Tracks.BaseTrack`1
+  name: BaseTrack<T>
+  nameWithType: BaseTrack<T>
+  fullName: DDVRKick.Tracks.BaseTrack<T>
+  nameWithType.vb: BaseTrack(Of T)
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T)
+  name.vb: BaseTrack(Of T)
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrack`1
+    name: BaseTrack
+    nameWithType: BaseTrack
+    fullName: DDVRKick.Tracks.BaseTrack
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrack`1
+    name: BaseTrack
+    nameWithType: BaseTrack
+    fullName: DDVRKick.Tracks.BaseTrack
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DDVRKick.Tracks.LongNoteTrack
+  commentId: T:DDVRKick.Tracks.LongNoteTrack
+  parent: DDVRKick.Tracks
+  name: LongNoteTrack
+  nameWithType: LongNoteTrack
+  fullName: DDVRKick.Tracks.LongNoteTrack
+- uid: DDVRKick.Tracks.NoteTrack
+  commentId: T:DDVRKick.Tracks.NoteTrack
+  parent: DDVRKick.Tracks
+  name: NoteTrack
+  nameWithType: NoteTrack
+  fullName: DDVRKick.Tracks.NoteTrack
+- uid: DDVRKick.Tracks.ObstaclesTrack
+  commentId: T:DDVRKick.Tracks.ObstaclesTrack
+  parent: DDVRKick.Tracks
+  name: ObstaclesTrack
+  nameWithType: ObstaclesTrack
+  fullName: DDVRKick.Tracks.ObstaclesTrack
+- uid: DDVRKick.Tracks.TracksManager
+  commentId: T:DDVRKick.Tracks.TracksManager
+  parent: DDVRKick.Tracks
+  name: TracksManager
+  nameWithType: TracksManager
+  fullName: DDVRKick.Tracks.TracksManager
+- uid: DDVRKick.Tracks.VisualTrack
+  commentId: T:DDVRKick.Tracks.VisualTrack
+  parent: DDVRKick.Tracks
+  name: VisualTrack
+  nameWithType: VisualTrack
+  fullName: DDVRKick.Tracks.VisualTrack
+- uid: DDVRKick.Tracks.VisualTrackTrigger
+  commentId: T:DDVRKick.Tracks.VisualTrackTrigger
+  parent: DDVRKick.Tracks
+  name: VisualTrackTrigger
+  nameWithType: VisualTrackTrigger
+  fullName: DDVRKick.Tracks.VisualTrackTrigger
+- uid: DDVRKick.Tracks.BaseTrackObject
+  commentId: T:DDVRKick.Tracks.BaseTrackObject
+  parent: DDVRKick.Tracks
+  name: BaseTrackObject
+  nameWithType: BaseTrackObject
+  fullName: DDVRKick.Tracks.BaseTrackObject
+- uid: DDVRKick.Tracks.LongNote
+  commentId: T:DDVRKick.Tracks.LongNote
+  parent: DDVRKick.Tracks
+  name: LongNote
+  nameWithType: LongNote
+  fullName: DDVRKick.Tracks.LongNote
+- uid: DDVRKick.Tracks.LongNoteHead
+  commentId: T:DDVRKick.Tracks.LongNoteHead
+  parent: DDVRKick.Tracks
+  name: LongNoteHead
+  nameWithType: LongNoteHead
+  fullName: DDVRKick.Tracks.LongNoteHead
+- uid: DDVRKick.Tracks.LongNoteTail
+  commentId: T:DDVRKick.Tracks.LongNoteTail
+  parent: DDVRKick.Tracks
+  name: LongNoteTail
+  nameWithType: LongNoteTail
+  fullName: DDVRKick.Tracks.LongNoteTail
+- uid: DDVRKick.Tracks.Note
+  commentId: T:DDVRKick.Tracks.Note
+  parent: DDVRKick.Tracks
+  name: Note
+  nameWithType: Note
+  fullName: DDVRKick.Tracks.Note
+- uid: DDVRKick.Tracks.NoteBody
+  commentId: T:DDVRKick.Tracks.NoteBody
+  parent: DDVRKick.Tracks
+  name: NoteBody
+  nameWithType: NoteBody
+  fullName: DDVRKick.Tracks.NoteBody
+- uid: DDVRKick.Tracks.Obstacles
+  commentId: T:DDVRKick.Tracks.Obstacles
+  parent: DDVRKick.Tracks
+  name: Obstacles
+  nameWithType: Obstacles
+  fullName: DDVRKick.Tracks.Obstacles
+- uid: DDVRKick.Tracks
+  commentId: N:DDVRKick.Tracks
+  name: DDVRKick.Tracks
+  nameWithType: DDVRKick.Tracks
+  fullName: DDVRKick.Tracks

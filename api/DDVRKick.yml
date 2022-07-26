@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: DDVRKick
+  commentId: N:DDVRKick
+  id: DDVRKick
+  children:
+  - DDVRKick.LongNoteTrackDictionary
+  - DDVRKick.LowerNotePathDictionary
+  - DDVRKick.NoteCollider
+  - DDVRKick.ObstacleTrackDictionary
+  - DDVRKick.OVRTHelper
+  - DDVRKick.OVRTHelper.ETrackerRole
+  - DDVRKick.PlayerHead
+  - DDVRKick.ShoeRaycaster
+  - DDVRKick.TagSelectorAttribute
+  - DDVRKick.TrackerCalibrator
+  - DDVRKick.UnitySerializedDictionary`2
+  - DDVRKick.UpperNotePathDictionary
+  langs:
+  - csharp
+  - vb
+  name: DDVRKick
+  nameWithType: DDVRKick
+  fullName: DDVRKick
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: DDVRKick.LowerNotePathDictionary
+  commentId: T:DDVRKick.LowerNotePathDictionary
+  parent: DDVRKick
+  name: LowerNotePathDictionary
+  nameWithType: LowerNotePathDictionary
+  fullName: DDVRKick.LowerNotePathDictionary
+- uid: DDVRKick.UpperNotePathDictionary
+  commentId: T:DDVRKick.UpperNotePathDictionary
+  parent: DDVRKick
+  name: UpperNotePathDictionary
+  nameWithType: UpperNotePathDictionary
+  fullName: DDVRKick.UpperNotePathDictionary
+- uid: DDVRKick.ObstacleTrackDictionary
+  commentId: T:DDVRKick.ObstacleTrackDictionary
+  parent: DDVRKick
+  name: ObstacleTrackDictionary
+  nameWithType: ObstacleTrackDictionary
+  fullName: DDVRKick.ObstacleTrackDictionary
+- uid: DDVRKick.LongNoteTrackDictionary
+  commentId: T:DDVRKick.LongNoteTrackDictionary
+  parent: DDVRKick
+  name: LongNoteTrackDictionary
+  nameWithType: LongNoteTrackDictionary
+  fullName: DDVRKick.LongNoteTrackDictionary
+- uid: DDVRKick.UnitySerializedDictionary`2
+  commentId: T:DDVRKick.UnitySerializedDictionary`2
+  name: UnitySerializedDictionary<TKey, TValue>
+  nameWithType: UnitySerializedDictionary<TKey, TValue>
+  fullName: DDVRKick.UnitySerializedDictionary<TKey, TValue>
+  nameWithType.vb: UnitySerializedDictionary(Of TKey, TValue)
+  fullName.vb: DDVRKick.UnitySerializedDictionary(Of TKey, TValue)
+  name.vb: UnitySerializedDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: DDVRKick.UnitySerializedDictionary`2
+    name: UnitySerializedDictionary
+    nameWithType: UnitySerializedDictionary
+    fullName: DDVRKick.UnitySerializedDictionary
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: DDVRKick.UnitySerializedDictionary`2
+    name: UnitySerializedDictionary
+    nameWithType: UnitySerializedDictionary
+    fullName: DDVRKick.UnitySerializedDictionary
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DDVRKick.NoteCollider
+  commentId: T:DDVRKick.NoteCollider
+  parent: DDVRKick
+  name: NoteCollider
+  nameWithType: NoteCollider
+  fullName: DDVRKick.NoteCollider
+- uid: DDVRKick.OVRTHelper
+  commentId: T:DDVRKick.OVRTHelper
+  name: OVRTHelper
+  nameWithType: OVRTHelper
+  fullName: DDVRKick.OVRTHelper
+- uid: DDVRKick.OVRTHelper.ETrackerRole
+  commentId: T:DDVRKick.OVRTHelper.ETrackerRole
+  parent: DDVRKick
+  name: OVRTHelper.ETrackerRole
+  nameWithType: OVRTHelper.ETrackerRole
+  fullName: DDVRKick.OVRTHelper.ETrackerRole
+- uid: DDVRKick.PlayerHead
+  commentId: T:DDVRKick.PlayerHead
+  parent: DDVRKick
+  name: PlayerHead
+  nameWithType: PlayerHead
+  fullName: DDVRKick.PlayerHead
+- uid: DDVRKick.ShoeRaycaster
+  commentId: T:DDVRKick.ShoeRaycaster
+  name: ShoeRaycaster
+  nameWithType: ShoeRaycaster
+  fullName: DDVRKick.ShoeRaycaster
+- uid: DDVRKick.TagSelectorAttribute
+  commentId: T:DDVRKick.TagSelectorAttribute
+  name: TagSelectorAttribute
+  nameWithType: TagSelectorAttribute
+  fullName: DDVRKick.TagSelectorAttribute
+- uid: DDVRKick.TrackerCalibrator
+  commentId: T:DDVRKick.TrackerCalibrator
+  name: TrackerCalibrator
+  nameWithType: TrackerCalibrator
+  fullName: DDVRKick.TrackerCalibrator
+- uid: DDVRKick
+  commentId: N:DDVRKick
+  name: DDVRKick
+  nameWithType: DDVRKick
+  fullName: DDVRKick

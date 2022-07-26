@@ -1,0 +1,96 @@
+### YamlMime:ManagedReference
+items:
+- uid: DDVRKick.Tracks.VisualTrackTrigger
+  commentId: T:DDVRKick.Tracks.VisualTrackTrigger
+  id: VisualTrackTrigger
+  parent: DDVRKick.Tracks
+  children:
+  - DDVRKick.Tracks.VisualTrackTrigger.track
+  langs:
+  - csharp
+  - vb
+  name: VisualTrackTrigger
+  nameWithType: VisualTrackTrigger
+  fullName: DDVRKick.Tracks.VisualTrackTrigger
+  type: Class
+  source:
+    id: VisualTrackTrigger
+    path: ''
+    startLine: 7456
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: 'public class VisualTrackTrigger : MonoBehaviour'
+    content.vb: >-
+      Public Class VisualTrackTrigger
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DDVRKick.Tracks.VisualTrackTrigger.track
+  commentId: P:DDVRKick.Tracks.VisualTrackTrigger.track
+  id: track
+  parent: DDVRKick.Tracks.VisualTrackTrigger
+  langs:
+  - csharp
+  - vb
+  name: track
+  nameWithType: VisualTrackTrigger.track
+  fullName: DDVRKick.Tracks.VisualTrackTrigger.track
+  type: Property
+  source:
+    id: track
+    path: ''
+    startLine: 7458
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public VisualTrack track { get; set; }
+    parameters: []
+    return:
+      type: DDVRKick.Tracks.VisualTrack
+    content.vb: Public Property track As VisualTrack
+  overload: DDVRKick.Tracks.VisualTrackTrigger.track*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: DDVRKick.Tracks
+  commentId: N:DDVRKick.Tracks
+  name: DDVRKick.Tracks
+  nameWithType: DDVRKick.Tracks
+  fullName: DDVRKick.Tracks
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DDVRKick.Tracks.VisualTrackTrigger.track*
+  commentId: Overload:DDVRKick.Tracks.VisualTrackTrigger.track
+  name: track
+  nameWithType: VisualTrackTrigger.track
+  fullName: DDVRKick.Tracks.VisualTrackTrigger.track
+- uid: DDVRKick.Tracks.VisualTrack
+  commentId: T:DDVRKick.Tracks.VisualTrack
+  parent: DDVRKick.Tracks
+  name: VisualTrack
+  nameWithType: VisualTrack
+  fullName: DDVRKick.Tracks.VisualTrack

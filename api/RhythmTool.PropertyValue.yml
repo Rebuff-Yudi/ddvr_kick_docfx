@@ -1,0 +1,371 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.PropertyValue
+  commentId: T:RhythmTool.PropertyValue
+  id: PropertyValue
+  parent: RhythmTool
+  children:
+  - RhythmTool.PropertyValue.#ctor(SerializedProperty)
+  - RhythmTool.PropertyValue.ApplyValue(SerializedProperty)
+  - RhythmTool.PropertyValue.enumValueIndex
+  - RhythmTool.PropertyValue.floatValue
+  - RhythmTool.PropertyValue.intValue
+  - RhythmTool.PropertyValue.op_Addition(RhythmTool.PropertyValue,RhythmTool.PropertyValue)
+  - RhythmTool.PropertyValue.op_Subtraction(RhythmTool.PropertyValue,RhythmTool.PropertyValue)
+  - RhythmTool.PropertyValue.stringValue
+  - RhythmTool.PropertyValue.vector3Value
+  langs:
+  - csharp
+  - vb
+  name: PropertyValue
+  nameWithType: PropertyValue
+  fullName: RhythmTool.PropertyValue
+  type: Struct
+  source:
+    id: PropertyValue
+    path: ''
+    startLine: 1935
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public struct PropertyValue
+    content.vb: Public Structure PropertyValue
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: RhythmTool.PropertyValue.floatValue
+  commentId: F:RhythmTool.PropertyValue.floatValue
+  id: floatValue
+  parent: RhythmTool.PropertyValue
+  langs:
+  - csharp
+  - vb
+  name: floatValue
+  nameWithType: PropertyValue.floatValue
+  fullName: RhythmTool.PropertyValue.floatValue
+  type: Field
+  source:
+    id: floatValue
+    path: ''
+    startLine: 1937
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public float floatValue
+    return:
+      type: System.Single
+    content.vb: Public floatValue As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.PropertyValue.intValue
+  commentId: F:RhythmTool.PropertyValue.intValue
+  id: intValue
+  parent: RhythmTool.PropertyValue
+  langs:
+  - csharp
+  - vb
+  name: intValue
+  nameWithType: PropertyValue.intValue
+  fullName: RhythmTool.PropertyValue.intValue
+  type: Field
+  source:
+    id: intValue
+    path: ''
+    startLine: 1938
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public int intValue
+    return:
+      type: System.Int32
+    content.vb: Public intValue As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.PropertyValue.enumValueIndex
+  commentId: F:RhythmTool.PropertyValue.enumValueIndex
+  id: enumValueIndex
+  parent: RhythmTool.PropertyValue
+  langs:
+  - csharp
+  - vb
+  name: enumValueIndex
+  nameWithType: PropertyValue.enumValueIndex
+  fullName: RhythmTool.PropertyValue.enumValueIndex
+  type: Field
+  source:
+    id: enumValueIndex
+    path: ''
+    startLine: 1939
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public int enumValueIndex
+    return:
+      type: System.Int32
+    content.vb: Public enumValueIndex As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.PropertyValue.vector3Value
+  commentId: F:RhythmTool.PropertyValue.vector3Value
+  id: vector3Value
+  parent: RhythmTool.PropertyValue
+  langs:
+  - csharp
+  - vb
+  name: vector3Value
+  nameWithType: PropertyValue.vector3Value
+  fullName: RhythmTool.PropertyValue.vector3Value
+  type: Field
+  source:
+    id: vector3Value
+    path: ''
+    startLine: 1940
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public Vector3 vector3Value
+    return:
+      type: Global.Vector3
+    content.vb: Public vector3Value As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.PropertyValue.stringValue
+  commentId: F:RhythmTool.PropertyValue.stringValue
+  id: stringValue
+  parent: RhythmTool.PropertyValue
+  langs:
+  - csharp
+  - vb
+  name: stringValue
+  nameWithType: PropertyValue.stringValue
+  fullName: RhythmTool.PropertyValue.stringValue
+  type: Field
+  source:
+    id: stringValue
+    path: ''
+    startLine: 1941
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public string stringValue
+    return:
+      type: System.String
+    content.vb: Public stringValue As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.PropertyValue.#ctor(SerializedProperty)
+  commentId: M:RhythmTool.PropertyValue.#ctor(SerializedProperty)
+  id: '#ctor(SerializedProperty)'
+  parent: RhythmTool.PropertyValue
+  langs:
+  - csharp
+  - vb
+  name: PropertyValue(SerializedProperty)
+  nameWithType: PropertyValue.PropertyValue(SerializedProperty)
+  fullName: RhythmTool.PropertyValue.PropertyValue(SerializedProperty)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1943
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public PropertyValue(SerializedProperty property)
+    parameters:
+    - id: property
+      type: Global.SerializedProperty
+    content.vb: Public Sub New(property As SerializedProperty)
+  overload: RhythmTool.PropertyValue.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.PropertyValue.ApplyValue(SerializedProperty)
+  commentId: M:RhythmTool.PropertyValue.ApplyValue(SerializedProperty)
+  id: ApplyValue(SerializedProperty)
+  parent: RhythmTool.PropertyValue
+  langs:
+  - csharp
+  - vb
+  name: ApplyValue(SerializedProperty)
+  nameWithType: PropertyValue.ApplyValue(SerializedProperty)
+  fullName: RhythmTool.PropertyValue.ApplyValue(SerializedProperty)
+  type: Method
+  source:
+    id: ApplyValue
+    path: ''
+    startLine: 1963
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public void ApplyValue(SerializedProperty property)
+    parameters:
+    - id: property
+      type: Global.SerializedProperty
+    content.vb: Public Sub ApplyValue(property As SerializedProperty)
+  overload: RhythmTool.PropertyValue.ApplyValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.PropertyValue.op_Addition(RhythmTool.PropertyValue,RhythmTool.PropertyValue)
+  commentId: M:RhythmTool.PropertyValue.op_Addition(RhythmTool.PropertyValue,RhythmTool.PropertyValue)
+  id: op_Addition(RhythmTool.PropertyValue,RhythmTool.PropertyValue)
+  parent: RhythmTool.PropertyValue
+  langs:
+  - csharp
+  - vb
+  name: Addition(PropertyValue, PropertyValue)
+  nameWithType: PropertyValue.Addition(PropertyValue, PropertyValue)
+  fullName: RhythmTool.PropertyValue.Addition(RhythmTool.PropertyValue, RhythmTool.PropertyValue)
+  type: Operator
+  source:
+    id: op_Addition
+    path: ''
+    startLine: 1992
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static PropertyValue operator +(PropertyValue a, PropertyValue b)
+    parameters:
+    - id: a
+      type: RhythmTool.PropertyValue
+    - id: b
+      type: RhythmTool.PropertyValue
+    return:
+      type: RhythmTool.PropertyValue
+    content.vb: Public Shared Operator +(a As PropertyValue, b As PropertyValue) As PropertyValue
+  overload: RhythmTool.PropertyValue.op_Addition*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: RhythmTool.PropertyValue.op_Subtraction(RhythmTool.PropertyValue,RhythmTool.PropertyValue)
+  commentId: M:RhythmTool.PropertyValue.op_Subtraction(RhythmTool.PropertyValue,RhythmTool.PropertyValue)
+  id: op_Subtraction(RhythmTool.PropertyValue,RhythmTool.PropertyValue)
+  parent: RhythmTool.PropertyValue
+  langs:
+  - csharp
+  - vb
+  name: Subtraction(PropertyValue, PropertyValue)
+  nameWithType: PropertyValue.Subtraction(PropertyValue, PropertyValue)
+  fullName: RhythmTool.PropertyValue.Subtraction(RhythmTool.PropertyValue, RhythmTool.PropertyValue)
+  type: Operator
+  source:
+    id: op_Subtraction
+    path: ''
+    startLine: 2004
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static PropertyValue operator -(PropertyValue a, PropertyValue b)
+    parameters:
+    - id: a
+      type: RhythmTool.PropertyValue
+    - id: b
+      type: RhythmTool.PropertyValue
+    return:
+      type: RhythmTool.PropertyValue
+    content.vb: Public Shared Operator -(a As PropertyValue, b As PropertyValue) As PropertyValue
+  overload: RhythmTool.PropertyValue.op_Subtraction*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: RhythmTool.PropertyValue.#ctor*
+  commentId: Overload:RhythmTool.PropertyValue.#ctor
+  name: PropertyValue
+  nameWithType: PropertyValue.PropertyValue
+  fullName: RhythmTool.PropertyValue.PropertyValue
+- uid: Global.SerializedProperty
+  isExternal: true
+  name: SerializedProperty
+  nameWithType: SerializedProperty
+  fullName: SerializedProperty
+- uid: RhythmTool.PropertyValue.ApplyValue*
+  commentId: Overload:RhythmTool.PropertyValue.ApplyValue
+  name: ApplyValue
+  nameWithType: PropertyValue.ApplyValue
+  fullName: RhythmTool.PropertyValue.ApplyValue
+- uid: RhythmTool.PropertyValue.op_Addition*
+  commentId: Overload:RhythmTool.PropertyValue.op_Addition
+  name: Addition
+  nameWithType: PropertyValue.Addition
+  fullName: RhythmTool.PropertyValue.Addition
+- uid: RhythmTool.PropertyValue
+  commentId: T:RhythmTool.PropertyValue
+  parent: RhythmTool
+  name: PropertyValue
+  nameWithType: PropertyValue
+  fullName: RhythmTool.PropertyValue
+- uid: RhythmTool.PropertyValue.op_Subtraction*
+  commentId: Overload:RhythmTool.PropertyValue.op_Subtraction
+  name: Subtraction
+  nameWithType: PropertyValue.Subtraction
+  fullName: RhythmTool.PropertyValue.Subtraction

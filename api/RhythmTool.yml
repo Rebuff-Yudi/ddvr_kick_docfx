@@ -1,0 +1,702 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  id: RhythmTool
+  children:
+  - RhythmTool.Analysis
+  - RhythmTool.Analysis`1
+  - RhythmTool.AudioUtil
+  - RhythmTool.Beat
+  - RhythmTool.BeatTrack
+  - RhythmTool.BeatTracker
+  - RhythmTool.Bindings`1
+  - RhythmTool.Chroma
+  - RhythmTool.ChromaCreator
+  - RhythmTool.ChromaDrawer
+  - RhythmTool.Chromagram
+  - RhythmTool.ChromaGUI
+  - RhythmTool.ChromaTrack
+  - RhythmTool.ClipBoard
+  - RhythmTool.DebugDrawer
+  - RhythmTool.EditorAnalyzer
+  - RhythmTool.EditorState
+  - RhythmTool.Feature
+  - RhythmTool.FeatureCreator`1
+  - RhythmTool.FeatureEditMode
+  - RhythmTool.FeatureGUI
+  - RhythmTool.FeatureGUI`1
+  - RhythmTool.FeatureSelection
+  - RhythmTool.INoteData
+  - RhythmTool.LomontFFT
+  - RhythmTool.LongNote
+  - RhythmTool.LongNote.Track
+  - RhythmTool.LongNoteBeatmapTrack
+  - RhythmTool.LongNoteGUI
+  - RhythmTool.LowerNoteData
+  - RhythmTool.LowerNoteTrack
+  - RhythmTool.LowerNoteTrackGUI
+  - RhythmTool.Note
+  - RhythmTool.Obstacle
+  - RhythmTool.Obstacle.ObstacleChannel
+  - RhythmTool.ObstacleGUI
+  - RhythmTool.ObstacleTrack
+  - RhythmTool.Onset
+  - RhythmTool.OnsetCreator
+  - RhythmTool.OnsetDetector
+  - RhythmTool.OnsetDrawer
+  - RhythmTool.OnsetGUI
+  - RhythmTool.OnsetTrack
+  - RhythmTool.PathType
+  - RhythmTool.PropertyValue
+  - RhythmTool.RhythmAnalyzer
+  - RhythmTool.RhythmData
+  - RhythmTool.RhythmDataEditor
+  - RhythmTool.RhythmEventProvider
+  - RhythmTool.RhythmPlayer
+  - RhythmTool.RhythmTarget
+  - RhythmTool.RhythmToolWindow
+  - RhythmTool.Segmenter
+  - RhythmTool.Styles
+  - RhythmTool.TimeRuler
+  - RhythmTool.Track
+  - RhythmTool.Track`1
+  - RhythmTool.TrackDrawer
+  - RhythmTool.TrackDrawer`1
+  - RhythmTool.TrackEditor
+  - RhythmTool.TrackGUI
+  - RhythmTool.TrackGUI`1
+  - RhythmTool.UpperNoteData
+  - RhythmTool.UpperNoteTrack
+  - RhythmTool.UpperNoteTrackGUI
+  - RhythmTool.Util
+  - RhythmTool.Value
+  - RhythmTool.ValueCreator
+  - RhythmTool.ValueDrawer
+  - RhythmTool.ValueGUI
+  - RhythmTool.ValueTrack
+  - RhythmTool.VolumeSampler
+  - RhythmTool.WaveformView
+  langs:
+  - csharp
+  - vb
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: RhythmTool.AudioUtil
+  commentId: T:RhythmTool.AudioUtil
+  name: AudioUtil
+  nameWithType: AudioUtil
+  fullName: RhythmTool.AudioUtil
+- uid: RhythmTool.EditorAnalyzer
+  commentId: T:RhythmTool.EditorAnalyzer
+  name: EditorAnalyzer
+  nameWithType: EditorAnalyzer
+  fullName: RhythmTool.EditorAnalyzer
+- uid: RhythmTool.FeatureCreator`1
+  commentId: T:RhythmTool.FeatureCreator`1
+  name: FeatureCreator<T>
+  nameWithType: FeatureCreator<T>
+  fullName: RhythmTool.FeatureCreator<T>
+  nameWithType.vb: FeatureCreator(Of T)
+  fullName.vb: RhythmTool.FeatureCreator(Of T)
+  name.vb: FeatureCreator(Of T)
+  spec.csharp:
+  - uid: RhythmTool.FeatureCreator`1
+    name: FeatureCreator
+    nameWithType: FeatureCreator
+    fullName: RhythmTool.FeatureCreator
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: RhythmTool.FeatureCreator`1
+    name: FeatureCreator
+    nameWithType: FeatureCreator
+    fullName: RhythmTool.FeatureCreator
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.OnsetCreator
+  commentId: T:RhythmTool.OnsetCreator
+  name: OnsetCreator
+  nameWithType: OnsetCreator
+  fullName: RhythmTool.OnsetCreator
+- uid: RhythmTool.ValueCreator
+  commentId: T:RhythmTool.ValueCreator
+  name: ValueCreator
+  nameWithType: ValueCreator
+  fullName: RhythmTool.ValueCreator
+- uid: RhythmTool.ChromaCreator
+  commentId: T:RhythmTool.ChromaCreator
+  name: ChromaCreator
+  nameWithType: ChromaCreator
+  fullName: RhythmTool.ChromaCreator
+- uid: RhythmTool.FeatureGUI
+  commentId: T:RhythmTool.FeatureGUI
+  parent: RhythmTool
+  name: FeatureGUI
+  nameWithType: FeatureGUI
+  fullName: RhythmTool.FeatureGUI
+- uid: RhythmTool.FeatureGUI`1
+  commentId: T:RhythmTool.FeatureGUI`1
+  name: FeatureGUI<T>
+  nameWithType: FeatureGUI<T>
+  fullName: RhythmTool.FeatureGUI<T>
+  nameWithType.vb: FeatureGUI(Of T)
+  fullName.vb: RhythmTool.FeatureGUI(Of T)
+  name.vb: FeatureGUI(Of T)
+  spec.csharp:
+  - uid: RhythmTool.FeatureGUI`1
+    name: FeatureGUI
+    nameWithType: FeatureGUI
+    fullName: RhythmTool.FeatureGUI
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: RhythmTool.FeatureGUI`1
+    name: FeatureGUI
+    nameWithType: FeatureGUI
+    fullName: RhythmTool.FeatureGUI
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.OnsetGUI
+  commentId: T:RhythmTool.OnsetGUI
+  name: OnsetGUI
+  nameWithType: OnsetGUI
+  fullName: RhythmTool.OnsetGUI
+- uid: RhythmTool.ValueGUI
+  commentId: T:RhythmTool.ValueGUI
+  name: ValueGUI
+  nameWithType: ValueGUI
+  fullName: RhythmTool.ValueGUI
+- uid: RhythmTool.ChromaGUI
+  commentId: T:RhythmTool.ChromaGUI
+  name: ChromaGUI
+  nameWithType: ChromaGUI
+  fullName: RhythmTool.ChromaGUI
+- uid: RhythmTool.FeatureSelection
+  commentId: T:RhythmTool.FeatureSelection
+  parent: RhythmTool
+  name: FeatureSelection
+  nameWithType: FeatureSelection
+  fullName: RhythmTool.FeatureSelection
+- uid: RhythmTool.RhythmDataEditor
+  commentId: T:RhythmTool.RhythmDataEditor
+  name: RhythmDataEditor
+  nameWithType: RhythmDataEditor
+  fullName: RhythmTool.RhythmDataEditor
+- uid: RhythmTool.EditorState
+  commentId: T:RhythmTool.EditorState
+  parent: RhythmTool
+  name: EditorState
+  nameWithType: EditorState
+  fullName: RhythmTool.EditorState
+- uid: RhythmTool.ClipBoard
+  commentId: T:RhythmTool.ClipBoard
+  name: ClipBoard
+  nameWithType: ClipBoard
+  fullName: RhythmTool.ClipBoard
+- uid: RhythmTool.RhythmToolWindow
+  commentId: T:RhythmTool.RhythmToolWindow
+  parent: RhythmTool
+  name: RhythmToolWindow
+  nameWithType: RhythmToolWindow
+  fullName: RhythmTool.RhythmToolWindow
+- uid: RhythmTool.Styles
+  commentId: T:RhythmTool.Styles
+  name: Styles
+  nameWithType: Styles
+  fullName: RhythmTool.Styles
+- uid: RhythmTool.TimeRuler
+  commentId: T:RhythmTool.TimeRuler
+  name: TimeRuler
+  nameWithType: TimeRuler
+  fullName: RhythmTool.TimeRuler
+- uid: RhythmTool.FeatureEditMode
+  commentId: T:RhythmTool.FeatureEditMode
+  parent: RhythmTool
+  name: FeatureEditMode
+  nameWithType: FeatureEditMode
+  fullName: RhythmTool.FeatureEditMode
+- uid: RhythmTool.TrackEditor
+  commentId: T:RhythmTool.TrackEditor
+  name: TrackEditor
+  nameWithType: TrackEditor
+  fullName: RhythmTool.TrackEditor
+- uid: RhythmTool.PropertyValue
+  commentId: T:RhythmTool.PropertyValue
+  parent: RhythmTool
+  name: PropertyValue
+  nameWithType: PropertyValue
+  fullName: RhythmTool.PropertyValue
+- uid: RhythmTool.TrackGUI
+  commentId: T:RhythmTool.TrackGUI
+  parent: RhythmTool
+  name: TrackGUI
+  nameWithType: TrackGUI
+  fullName: RhythmTool.TrackGUI
+- uid: RhythmTool.TrackGUI`1
+  commentId: T:RhythmTool.TrackGUI`1
+  name: TrackGUI<T>
+  nameWithType: TrackGUI<T>
+  fullName: RhythmTool.TrackGUI<T>
+  nameWithType.vb: TrackGUI(Of T)
+  fullName.vb: RhythmTool.TrackGUI(Of T)
+  name.vb: TrackGUI(Of T)
+  spec.csharp:
+  - uid: RhythmTool.TrackGUI`1
+    name: TrackGUI
+    nameWithType: TrackGUI
+    fullName: RhythmTool.TrackGUI
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: RhythmTool.TrackGUI`1
+    name: TrackGUI
+    nameWithType: TrackGUI
+    fullName: RhythmTool.TrackGUI
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.WaveformView
+  commentId: T:RhythmTool.WaveformView
+  name: WaveformView
+  nameWithType: WaveformView
+  fullName: RhythmTool.WaveformView
+- uid: RhythmTool.LongNoteGUI
+  commentId: T:RhythmTool.LongNoteGUI
+  name: LongNoteGUI
+  nameWithType: LongNoteGUI
+  fullName: RhythmTool.LongNoteGUI
+- uid: RhythmTool.LowerNoteTrackGUI
+  commentId: T:RhythmTool.LowerNoteTrackGUI
+  name: LowerNoteTrackGUI
+  nameWithType: LowerNoteTrackGUI
+  fullName: RhythmTool.LowerNoteTrackGUI
+- uid: RhythmTool.ObstacleGUI
+  commentId: T:RhythmTool.ObstacleGUI
+  name: ObstacleGUI
+  nameWithType: ObstacleGUI
+  fullName: RhythmTool.ObstacleGUI
+- uid: RhythmTool.UpperNoteTrackGUI
+  commentId: T:RhythmTool.UpperNoteTrackGUI
+  name: UpperNoteTrackGUI
+  nameWithType: UpperNoteTrackGUI
+  fullName: RhythmTool.UpperNoteTrackGUI
+- uid: RhythmTool.Analysis
+  commentId: T:RhythmTool.Analysis
+  parent: RhythmTool
+  name: Analysis
+  nameWithType: Analysis
+  fullName: RhythmTool.Analysis
+- uid: RhythmTool.Analysis`1
+  commentId: T:RhythmTool.Analysis`1
+  name: Analysis<T>
+  nameWithType: Analysis<T>
+  fullName: RhythmTool.Analysis<T>
+  nameWithType.vb: Analysis(Of T)
+  fullName.vb: RhythmTool.Analysis(Of T)
+  name.vb: Analysis(Of T)
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1
+    name: Analysis
+    nameWithType: Analysis
+    fullName: RhythmTool.Analysis
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: RhythmTool.Analysis`1
+    name: Analysis
+    nameWithType: Analysis
+    fullName: RhythmTool.Analysis
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.BeatTrack
+  commentId: T:RhythmTool.BeatTrack
+  name: BeatTrack
+  nameWithType: BeatTrack
+  fullName: RhythmTool.BeatTrack
+- uid: RhythmTool.Beat
+  commentId: T:RhythmTool.Beat
+  name: Beat
+  nameWithType: Beat
+  fullName: RhythmTool.Beat
+- uid: RhythmTool.BeatTracker
+  commentId: T:RhythmTool.BeatTracker
+  name: BeatTracker
+  nameWithType: BeatTracker
+  fullName: RhythmTool.BeatTracker
+- uid: RhythmTool.Bindings`1
+  commentId: T:RhythmTool.Bindings`1
+  name: Bindings<T>
+  nameWithType: Bindings<T>
+  fullName: RhythmTool.Bindings<T>
+  nameWithType.vb: Bindings(Of T)
+  fullName.vb: RhythmTool.Bindings(Of T)
+  name.vb: Bindings(Of T)
+  spec.csharp:
+  - uid: RhythmTool.Bindings`1
+    name: Bindings
+    nameWithType: Bindings
+    fullName: RhythmTool.Bindings
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: RhythmTool.Bindings`1
+    name: Bindings
+    nameWithType: Bindings
+    fullName: RhythmTool.Bindings
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Chromagram
+  commentId: T:RhythmTool.Chromagram
+  name: Chromagram
+  nameWithType: Chromagram
+  fullName: RhythmTool.Chromagram
+- uid: RhythmTool.ChromaTrack
+  commentId: T:RhythmTool.ChromaTrack
+  name: ChromaTrack
+  nameWithType: ChromaTrack
+  fullName: RhythmTool.ChromaTrack
+- uid: RhythmTool.Chroma
+  commentId: T:RhythmTool.Chroma
+  parent: RhythmTool
+  name: Chroma
+  nameWithType: Chroma
+  fullName: RhythmTool.Chroma
+- uid: RhythmTool.Note
+  commentId: T:RhythmTool.Note
+  parent: RhythmTool
+  name: Note
+  nameWithType: Note
+  fullName: RhythmTool.Note
+- uid: RhythmTool.DebugDrawer
+  commentId: T:RhythmTool.DebugDrawer
+  name: DebugDrawer
+  nameWithType: DebugDrawer
+  fullName: RhythmTool.DebugDrawer
+- uid: RhythmTool.TrackDrawer
+  commentId: T:RhythmTool.TrackDrawer
+  parent: RhythmTool
+  name: TrackDrawer
+  nameWithType: TrackDrawer
+  fullName: RhythmTool.TrackDrawer
+- uid: RhythmTool.TrackDrawer`1
+  commentId: T:RhythmTool.TrackDrawer`1
+  name: TrackDrawer<T>
+  nameWithType: TrackDrawer<T>
+  fullName: RhythmTool.TrackDrawer<T>
+  nameWithType.vb: TrackDrawer(Of T)
+  fullName.vb: RhythmTool.TrackDrawer(Of T)
+  name.vb: TrackDrawer(Of T)
+  spec.csharp:
+  - uid: RhythmTool.TrackDrawer`1
+    name: TrackDrawer
+    nameWithType: TrackDrawer
+    fullName: RhythmTool.TrackDrawer
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: RhythmTool.TrackDrawer`1
+    name: TrackDrawer
+    nameWithType: TrackDrawer
+    fullName: RhythmTool.TrackDrawer
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.OnsetDrawer
+  commentId: T:RhythmTool.OnsetDrawer
+  name: OnsetDrawer
+  nameWithType: OnsetDrawer
+  fullName: RhythmTool.OnsetDrawer
+- uid: RhythmTool.ChromaDrawer
+  commentId: T:RhythmTool.ChromaDrawer
+  name: ChromaDrawer
+  nameWithType: ChromaDrawer
+  fullName: RhythmTool.ChromaDrawer
+- uid: RhythmTool.ValueDrawer
+  commentId: T:RhythmTool.ValueDrawer
+  name: ValueDrawer
+  nameWithType: ValueDrawer
+  fullName: RhythmTool.ValueDrawer
+- uid: RhythmTool.Feature
+  commentId: T:RhythmTool.Feature
+  parent: RhythmTool
+  name: Feature
+  nameWithType: Feature
+  fullName: RhythmTool.Feature
+- uid: RhythmTool.LomontFFT
+  commentId: T:RhythmTool.LomontFFT
+  name: LomontFFT
+  nameWithType: LomontFFT
+  fullName: RhythmTool.LomontFFT
+- uid: RhythmTool.OnsetDetector
+  commentId: T:RhythmTool.OnsetDetector
+  name: OnsetDetector
+  nameWithType: OnsetDetector
+  fullName: RhythmTool.OnsetDetector
+- uid: RhythmTool.OnsetTrack
+  commentId: T:RhythmTool.OnsetTrack
+  name: OnsetTrack
+  nameWithType: OnsetTrack
+  fullName: RhythmTool.OnsetTrack
+- uid: RhythmTool.Onset
+  commentId: T:RhythmTool.Onset
+  parent: RhythmTool
+  name: Onset
+  nameWithType: Onset
+  fullName: RhythmTool.Onset
+- uid: RhythmTool.RhythmAnalyzer
+  commentId: T:RhythmTool.RhythmAnalyzer
+  parent: RhythmTool
+  name: RhythmAnalyzer
+  nameWithType: RhythmAnalyzer
+  fullName: RhythmTool.RhythmAnalyzer
+- uid: RhythmTool.RhythmData
+  commentId: T:RhythmTool.RhythmData
+  parent: RhythmTool
+  name: RhythmData
+  nameWithType: RhythmData
+  fullName: RhythmTool.RhythmData
+- uid: RhythmTool.RhythmEventProvider
+  commentId: T:RhythmTool.RhythmEventProvider
+  parent: RhythmTool
+  name: RhythmEventProvider
+  nameWithType: RhythmEventProvider
+  fullName: RhythmTool.RhythmEventProvider
+- uid: RhythmTool.RhythmPlayer
+  commentId: T:RhythmTool.RhythmPlayer
+  parent: RhythmTool
+  name: RhythmPlayer
+  nameWithType: RhythmPlayer
+  fullName: RhythmTool.RhythmPlayer
+- uid: RhythmTool.RhythmTarget
+  commentId: T:RhythmTool.RhythmTarget
+  parent: RhythmTool
+  name: RhythmTarget
+  nameWithType: RhythmTarget
+  fullName: RhythmTool.RhythmTarget
+- uid: RhythmTool.Segmenter
+  commentId: T:RhythmTool.Segmenter
+  name: Segmenter
+  nameWithType: Segmenter
+  fullName: RhythmTool.Segmenter
+- uid: RhythmTool.Track
+  commentId: T:RhythmTool.Track
+  parent: RhythmTool
+  name: Track
+  nameWithType: Track
+  fullName: RhythmTool.Track
+- uid: RhythmTool.Track`1
+  commentId: T:RhythmTool.Track`1
+  parent: RhythmTool
+  name: Track<T>
+  nameWithType: Track<T>
+  fullName: RhythmTool.Track<T>
+  nameWithType.vb: Track(Of T)
+  fullName.vb: RhythmTool.Track(Of T)
+  name.vb: Track(Of T)
+  spec.csharp:
+  - uid: RhythmTool.Track`1
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: RhythmTool.Track`1
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Util
+  commentId: T:RhythmTool.Util
+  name: Util
+  nameWithType: Util
+  fullName: RhythmTool.Util
+- uid: RhythmTool.ValueTrack
+  commentId: T:RhythmTool.ValueTrack
+  name: ValueTrack
+  nameWithType: ValueTrack
+  fullName: RhythmTool.ValueTrack
+- uid: RhythmTool.Value
+  commentId: T:RhythmTool.Value
+  parent: RhythmTool
+  name: Value
+  nameWithType: Value
+  fullName: RhythmTool.Value
+- uid: RhythmTool.VolumeSampler
+  commentId: T:RhythmTool.VolumeSampler
+  name: VolumeSampler
+  nameWithType: VolumeSampler
+  fullName: RhythmTool.VolumeSampler
+- uid: RhythmTool.LongNote
+  commentId: T:RhythmTool.LongNote
+  parent: RhythmTool
+  name: LongNote
+  nameWithType: LongNote
+  fullName: RhythmTool.LongNote
+- uid: RhythmTool.LongNote.Track
+  commentId: T:RhythmTool.LongNote.Track
+  parent: RhythmTool
+  name: LongNote.Track
+  nameWithType: LongNote.Track
+  fullName: RhythmTool.LongNote.Track
+- uid: RhythmTool.LongNoteBeatmapTrack
+  commentId: T:RhythmTool.LongNoteBeatmapTrack
+  name: LongNoteBeatmapTrack
+  nameWithType: LongNoteBeatmapTrack
+  fullName: RhythmTool.LongNoteBeatmapTrack
+- uid: RhythmTool.LowerNoteTrack
+  commentId: T:RhythmTool.LowerNoteTrack
+  name: LowerNoteTrack
+  nameWithType: LowerNoteTrack
+  fullName: RhythmTool.LowerNoteTrack
+- uid: RhythmTool.PathType
+  commentId: T:RhythmTool.PathType
+  parent: RhythmTool
+  name: PathType
+  nameWithType: PathType
+  fullName: RhythmTool.PathType
+- uid: RhythmTool.INoteData
+  commentId: T:RhythmTool.INoteData
+  parent: RhythmTool
+  name: INoteData
+  nameWithType: INoteData
+  fullName: RhythmTool.INoteData
+- uid: RhythmTool.LowerNoteData
+  commentId: T:RhythmTool.LowerNoteData
+  name: LowerNoteData
+  nameWithType: LowerNoteData
+  fullName: RhythmTool.LowerNoteData
+- uid: RhythmTool.UpperNoteData
+  commentId: T:RhythmTool.UpperNoteData
+  name: UpperNoteData
+  nameWithType: UpperNoteData
+  fullName: RhythmTool.UpperNoteData
+- uid: RhythmTool.Obstacle
+  commentId: T:RhythmTool.Obstacle
+  name: Obstacle
+  nameWithType: Obstacle
+  fullName: RhythmTool.Obstacle
+- uid: RhythmTool.Obstacle.ObstacleChannel
+  commentId: T:RhythmTool.Obstacle.ObstacleChannel
+  parent: RhythmTool
+  name: Obstacle.ObstacleChannel
+  nameWithType: Obstacle.ObstacleChannel
+  fullName: RhythmTool.Obstacle.ObstacleChannel
+- uid: RhythmTool.ObstacleTrack
+  commentId: T:RhythmTool.ObstacleTrack
+  name: ObstacleTrack
+  nameWithType: ObstacleTrack
+  fullName: RhythmTool.ObstacleTrack
+- uid: RhythmTool.UpperNoteTrack
+  commentId: T:RhythmTool.UpperNoteTrack
+  name: UpperNoteTrack
+  nameWithType: UpperNoteTrack
+  fullName: RhythmTool.UpperNoteTrack
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool

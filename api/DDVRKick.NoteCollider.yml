@@ -1,0 +1,341 @@
+### YamlMime:ManagedReference
+items:
+- uid: DDVRKick.NoteCollider
+  commentId: T:DDVRKick.NoteCollider
+  id: NoteCollider
+  parent: DDVRKick
+  children:
+  - DDVRKick.NoteCollider.Awake
+  - DDVRKick.NoteCollider.collider
+  - DDVRKick.NoteCollider.FlyForce
+  - DDVRKick.NoteCollider.modelRoot
+  - DDVRKick.NoteCollider.origin
+  - DDVRKick.NoteCollider.rigidbody
+  - DDVRKick.NoteCollider.Role
+  - DDVRKick.NoteCollider.Velocity
+  langs:
+  - csharp
+  - vb
+  name: NoteCollider
+  nameWithType: NoteCollider
+  fullName: DDVRKick.NoteCollider
+  type: Class
+  source:
+    id: NoteCollider
+    path: ''
+    startLine: 6237
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: 'public class NoteCollider : MonoBehaviour'
+    content.vb: >-
+      Public Class NoteCollider
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DDVRKick.NoteCollider.rigidbody
+  commentId: P:DDVRKick.NoteCollider.rigidbody
+  id: rigidbody
+  parent: DDVRKick.NoteCollider
+  langs:
+  - csharp
+  - vb
+  name: rigidbody
+  nameWithType: NoteCollider.rigidbody
+  fullName: DDVRKick.NoteCollider.rigidbody
+  type: Property
+  source:
+    id: rigidbody
+    path: ''
+    startLine: 6240
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: public Rigidbody rigidbody { get; }
+    parameters: []
+    return:
+      type: Global.Rigidbody
+    content.vb: Public ReadOnly Property rigidbody As Rigidbody
+  overload: DDVRKick.NoteCollider.rigidbody*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DDVRKick.NoteCollider.collider
+  commentId: F:DDVRKick.NoteCollider.collider
+  id: collider
+  parent: DDVRKick.NoteCollider
+  langs:
+  - csharp
+  - vb
+  name: collider
+  nameWithType: NoteCollider.collider
+  fullName: DDVRKick.NoteCollider.collider
+  type: Field
+  source:
+    id: collider
+    path: ''
+    startLine: 6250
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: public Collider collider
+    return:
+      type: Global.Collider
+    content.vb: Public collider As Collider
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DDVRKick.NoteCollider.modelRoot
+  commentId: P:DDVRKick.NoteCollider.modelRoot
+  id: modelRoot
+  parent: DDVRKick.NoteCollider
+  langs:
+  - csharp
+  - vb
+  name: modelRoot
+  nameWithType: NoteCollider.modelRoot
+  fullName: DDVRKick.NoteCollider.modelRoot
+  type: Property
+  source:
+    id: modelRoot
+    path: ''
+    startLine: 6252
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: public Transform modelRoot { get; }
+    parameters: []
+    return:
+      type: Global.Transform
+    content.vb: Public ReadOnly Property modelRoot As Transform
+  overload: DDVRKick.NoteCollider.modelRoot*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DDVRKick.NoteCollider.Role
+  commentId: F:DDVRKick.NoteCollider.Role
+  id: Role
+  parent: DDVRKick.NoteCollider
+  langs:
+  - csharp
+  - vb
+  name: Role
+  nameWithType: NoteCollider.Role
+  fullName: DDVRKick.NoteCollider.Role
+  type: Field
+  source:
+    id: Role
+    path: ''
+    startLine: 6263
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: public OVRTHelper.ETrackerRole Role
+    return:
+      type: DDVRKick.OVRTHelper.ETrackerRole
+    content.vb: Public Role As OVRTHelper.ETrackerRole
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DDVRKick.NoteCollider.origin
+  commentId: F:DDVRKick.NoteCollider.origin
+  id: origin
+  parent: DDVRKick.NoteCollider
+  langs:
+  - csharp
+  - vb
+  name: origin
+  nameWithType: NoteCollider.origin
+  fullName: DDVRKick.NoteCollider.origin
+  type: Field
+  source:
+    id: origin
+    path: ''
+    startLine: 6281
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: public Transform origin
+    return:
+      type: Global.Transform
+    content.vb: Public origin As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DDVRKick.NoteCollider.Velocity
+  commentId: P:DDVRKick.NoteCollider.Velocity
+  id: Velocity
+  parent: DDVRKick.NoteCollider
+  langs:
+  - csharp
+  - vb
+  name: Velocity
+  nameWithType: NoteCollider.Velocity
+  fullName: DDVRKick.NoteCollider.Velocity
+  type: Property
+  source:
+    id: Velocity
+    path: ''
+    startLine: 6291
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: public Vector3 Velocity { get; }
+    parameters: []
+    return:
+      type: Global.Vector3
+    content.vb: Public ReadOnly Property Velocity As Vector3
+  overload: DDVRKick.NoteCollider.Velocity*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DDVRKick.NoteCollider.FlyForce
+  commentId: F:DDVRKick.NoteCollider.FlyForce
+  id: FlyForce
+  parent: DDVRKick.NoteCollider
+  langs:
+  - csharp
+  - vb
+  name: FlyForce
+  nameWithType: NoteCollider.FlyForce
+  fullName: DDVRKick.NoteCollider.FlyForce
+  type: Field
+  source:
+    id: FlyForce
+    path: ''
+    startLine: 6293
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: public float FlyForce
+    return:
+      type: System.Single
+    content.vb: Public FlyForce As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DDVRKick.NoteCollider.Awake
+  commentId: M:DDVRKick.NoteCollider.Awake
+  id: Awake
+  parent: DDVRKick.NoteCollider
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: NoteCollider.Awake()
+  fullName: DDVRKick.NoteCollider.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 6294
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: public void Awake()
+    content.vb: Public Sub Awake
+  overload: DDVRKick.NoteCollider.Awake*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DDVRKick
+  commentId: N:DDVRKick
+  name: DDVRKick
+  nameWithType: DDVRKick
+  fullName: DDVRKick
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DDVRKick.NoteCollider.rigidbody*
+  commentId: Overload:DDVRKick.NoteCollider.rigidbody
+  name: rigidbody
+  nameWithType: NoteCollider.rigidbody
+  fullName: DDVRKick.NoteCollider.rigidbody
+- uid: Global.Rigidbody
+  isExternal: true
+  name: Rigidbody
+  nameWithType: Rigidbody
+  fullName: Rigidbody
+- uid: Global.Collider
+  isExternal: true
+  name: Collider
+  nameWithType: Collider
+  fullName: Collider
+- uid: DDVRKick.NoteCollider.modelRoot*
+  commentId: Overload:DDVRKick.NoteCollider.modelRoot
+  name: modelRoot
+  nameWithType: NoteCollider.modelRoot
+  fullName: DDVRKick.NoteCollider.modelRoot
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: DDVRKick.OVRTHelper.ETrackerRole
+  commentId: T:DDVRKick.OVRTHelper.ETrackerRole
+  parent: DDVRKick
+  name: OVRTHelper.ETrackerRole
+  nameWithType: OVRTHelper.ETrackerRole
+  fullName: DDVRKick.OVRTHelper.ETrackerRole
+- uid: DDVRKick.NoteCollider.Velocity*
+  commentId: Overload:DDVRKick.NoteCollider.Velocity
+  name: Velocity
+  nameWithType: NoteCollider.Velocity
+  fullName: DDVRKick.NoteCollider.Velocity
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: DDVRKick.NoteCollider.Awake*
+  commentId: Overload:DDVRKick.NoteCollider.Awake
+  name: Awake
+  nameWithType: NoteCollider.Awake
+  fullName: DDVRKick.NoteCollider.Awake

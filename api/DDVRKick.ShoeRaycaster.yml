@@ -1,0 +1,164 @@
+### YamlMime:ManagedReference
+items:
+- uid: DDVRKick.ShoeRaycaster
+  commentId: T:DDVRKick.ShoeRaycaster
+  id: ShoeRaycaster
+  parent: DDVRKick
+  children:
+  - DDVRKick.ShoeRaycaster.layerMask
+  - DDVRKick.ShoeRaycaster.noteCollider
+  - DDVRKick.ShoeRaycaster.role
+  langs:
+  - csharp
+  - vb
+  name: ShoeRaycaster
+  nameWithType: ShoeRaycaster
+  fullName: DDVRKick.ShoeRaycaster
+  type: Class
+  source:
+    id: ShoeRaycaster
+    path: ''
+    startLine: 6443
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: 'public class ShoeRaycaster : MonoBehaviour'
+    content.vb: >-
+      Public Class ShoeRaycaster
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DDVRKick.ShoeRaycaster.noteCollider
+  commentId: F:DDVRKick.ShoeRaycaster.noteCollider
+  id: noteCollider
+  parent: DDVRKick.ShoeRaycaster
+  langs:
+  - csharp
+  - vb
+  name: noteCollider
+  nameWithType: ShoeRaycaster.noteCollider
+  fullName: DDVRKick.ShoeRaycaster.noteCollider
+  type: Field
+  source:
+    id: noteCollider
+    path: ''
+    startLine: 6445
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: public NoteCollider noteCollider
+    return:
+      type: DDVRKick.NoteCollider
+    content.vb: Public noteCollider As NoteCollider
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DDVRKick.ShoeRaycaster.role
+  commentId: P:DDVRKick.ShoeRaycaster.role
+  id: role
+  parent: DDVRKick.ShoeRaycaster
+  langs:
+  - csharp
+  - vb
+  name: role
+  nameWithType: ShoeRaycaster.role
+  fullName: DDVRKick.ShoeRaycaster.role
+  type: Property
+  source:
+    id: role
+    path: ''
+    startLine: 6446
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: public OVRTHelper.ETrackerRole role { get; }
+    parameters: []
+    return:
+      type: DDVRKick.OVRTHelper.ETrackerRole
+    content.vb: Public ReadOnly Property role As OVRTHelper.ETrackerRole
+  overload: DDVRKick.ShoeRaycaster.role*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DDVRKick.ShoeRaycaster.layerMask
+  commentId: F:DDVRKick.ShoeRaycaster.layerMask
+  id: layerMask
+  parent: DDVRKick.ShoeRaycaster
+  langs:
+  - csharp
+  - vb
+  name: layerMask
+  nameWithType: ShoeRaycaster.layerMask
+  fullName: DDVRKick.ShoeRaycaster.layerMask
+  type: Field
+  source:
+    id: layerMask
+    path: ''
+    startLine: 6448
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: public LayerMask layerMask
+    return:
+      type: Global.LayerMask
+    content.vb: Public layerMask As LayerMask
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DDVRKick
+  commentId: N:DDVRKick
+  name: DDVRKick
+  nameWithType: DDVRKick
+  fullName: DDVRKick
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DDVRKick.NoteCollider
+  commentId: T:DDVRKick.NoteCollider
+  parent: DDVRKick
+  name: NoteCollider
+  nameWithType: NoteCollider
+  fullName: DDVRKick.NoteCollider
+- uid: DDVRKick.ShoeRaycaster.role*
+  commentId: Overload:DDVRKick.ShoeRaycaster.role
+  name: role
+  nameWithType: ShoeRaycaster.role
+  fullName: DDVRKick.ShoeRaycaster.role
+- uid: DDVRKick.OVRTHelper.ETrackerRole
+  commentId: T:DDVRKick.OVRTHelper.ETrackerRole
+  parent: DDVRKick
+  name: OVRTHelper.ETrackerRole
+  nameWithType: OVRTHelper.ETrackerRole
+  fullName: DDVRKick.OVRTHelper.ETrackerRole
+- uid: Global.LayerMask
+  commentId: '!:Global.LayerMask'
+  isExternal: true
+  name: LayerMask
+  nameWithType: LayerMask
+  fullName: LayerMask

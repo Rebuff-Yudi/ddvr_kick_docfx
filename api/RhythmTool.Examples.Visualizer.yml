@@ -1,0 +1,228 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.Examples.Visualizer
+  commentId: T:RhythmTool.Examples.Visualizer
+  id: Visualizer
+  parent: RhythmTool.Examples
+  children:
+  - RhythmTool.Examples.Visualizer.analyzer
+  - RhythmTool.Examples.Visualizer.eventProvider
+  - RhythmTool.Examples.Visualizer.linePrefab
+  - RhythmTool.Examples.Visualizer.player
+  - RhythmTool.Examples.Visualizer.textBPM
+  langs:
+  - csharp
+  - vb
+  name: Visualizer
+  nameWithType: Visualizer
+  fullName: RhythmTool.Examples.Visualizer
+  type: Class
+  source:
+    id: Visualizer
+    path: ''
+    startLine: 2901
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool.Examples
+  syntax:
+    content: 'public class Visualizer : MonoBehaviour'
+    content.vb: >-
+      Public Class Visualizer
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.Examples.Visualizer.analyzer
+  commentId: F:RhythmTool.Examples.Visualizer.analyzer
+  id: analyzer
+  parent: RhythmTool.Examples.Visualizer
+  langs:
+  - csharp
+  - vb
+  name: analyzer
+  nameWithType: Visualizer.analyzer
+  fullName: RhythmTool.Examples.Visualizer.analyzer
+  type: Field
+  source:
+    id: analyzer
+    path: ''
+    startLine: 2903
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool.Examples
+  syntax:
+    content: public RhythmAnalyzer analyzer
+    return:
+      type: RhythmTool.RhythmAnalyzer
+    content.vb: Public analyzer As RhythmAnalyzer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.Examples.Visualizer.player
+  commentId: F:RhythmTool.Examples.Visualizer.player
+  id: player
+  parent: RhythmTool.Examples.Visualizer
+  langs:
+  - csharp
+  - vb
+  name: player
+  nameWithType: Visualizer.player
+  fullName: RhythmTool.Examples.Visualizer.player
+  type: Field
+  source:
+    id: player
+    path: ''
+    startLine: 2904
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool.Examples
+  syntax:
+    content: public RhythmPlayer player
+    return:
+      type: RhythmTool.RhythmPlayer
+    content.vb: Public player As RhythmPlayer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.Examples.Visualizer.eventProvider
+  commentId: F:RhythmTool.Examples.Visualizer.eventProvider
+  id: eventProvider
+  parent: RhythmTool.Examples.Visualizer
+  langs:
+  - csharp
+  - vb
+  name: eventProvider
+  nameWithType: Visualizer.eventProvider
+  fullName: RhythmTool.Examples.Visualizer.eventProvider
+  type: Field
+  source:
+    id: eventProvider
+    path: ''
+    startLine: 2905
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool.Examples
+  syntax:
+    content: public RhythmEventProvider eventProvider
+    return:
+      type: RhythmTool.RhythmEventProvider
+    content.vb: Public eventProvider As RhythmEventProvider
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.Examples.Visualizer.textBPM
+  commentId: F:RhythmTool.Examples.Visualizer.textBPM
+  id: textBPM
+  parent: RhythmTool.Examples.Visualizer
+  langs:
+  - csharp
+  - vb
+  name: textBPM
+  nameWithType: Visualizer.textBPM
+  fullName: RhythmTool.Examples.Visualizer.textBPM
+  type: Field
+  source:
+    id: textBPM
+    path: ''
+    startLine: 2907
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool.Examples
+  syntax:
+    content: public Text textBPM
+    return:
+      type: Global.Text
+    content.vb: Public textBPM As Text
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.Examples.Visualizer.linePrefab
+  commentId: F:RhythmTool.Examples.Visualizer.linePrefab
+  id: linePrefab
+  parent: RhythmTool.Examples.Visualizer
+  langs:
+  - csharp
+  - vb
+  name: linePrefab
+  nameWithType: Visualizer.linePrefab
+  fullName: RhythmTool.Examples.Visualizer.linePrefab
+  type: Field
+  source:
+    id: linePrefab
+    path: ''
+    startLine: 2909
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool.Examples
+  syntax:
+    content: public Line linePrefab
+    return:
+      type: RhythmTool.Examples.Line
+    content.vb: Public linePrefab As Line
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: RhythmTool.Examples
+  commentId: N:RhythmTool.Examples
+  name: RhythmTool.Examples
+  nameWithType: RhythmTool.Examples
+  fullName: RhythmTool.Examples
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.RhythmAnalyzer
+  commentId: T:RhythmTool.RhythmAnalyzer
+  parent: RhythmTool
+  name: RhythmAnalyzer
+  nameWithType: RhythmAnalyzer
+  fullName: RhythmTool.RhythmAnalyzer
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: RhythmTool.RhythmPlayer
+  commentId: T:RhythmTool.RhythmPlayer
+  parent: RhythmTool
+  name: RhythmPlayer
+  nameWithType: RhythmPlayer
+  fullName: RhythmTool.RhythmPlayer
+- uid: RhythmTool.RhythmEventProvider
+  commentId: T:RhythmTool.RhythmEventProvider
+  parent: RhythmTool
+  name: RhythmEventProvider
+  nameWithType: RhythmEventProvider
+  fullName: RhythmTool.RhythmEventProvider
+- uid: Global.Text
+  commentId: '!:Global.Text'
+  isExternal: true
+  name: Text
+  nameWithType: Text
+  fullName: Text
+- uid: RhythmTool.Examples.Line
+  commentId: T:RhythmTool.Examples.Line
+  parent: RhythmTool.Examples
+  name: Line
+  nameWithType: Line
+  fullName: RhythmTool.Examples.Line

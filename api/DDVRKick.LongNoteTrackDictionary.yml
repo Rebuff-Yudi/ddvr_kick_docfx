@@ -1,0 +1,280 @@
+### YamlMime:ManagedReference
+items:
+- uid: DDVRKick.LongNoteTrackDictionary
+  commentId: T:DDVRKick.LongNoteTrackDictionary
+  id: LongNoteTrackDictionary
+  parent: DDVRKick
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: LongNoteTrackDictionary
+  nameWithType: LongNoteTrackDictionary
+  fullName: DDVRKick.LongNoteTrackDictionary
+  type: Class
+  source:
+    id: LongNoteTrackDictionary
+    path: ''
+    startLine: 6195
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LongNoteTrackDictionary : UnitySerializedDictionary<LongNote.Track, LongNoteTrack>, IDictionary<LongNote.Track, LongNoteTrack>, ICollection<KeyValuePair<LongNote.Track, LongNoteTrack>>, IDictionary, ICollection, IReadOnlyDictionary<LongNote.Track, LongNoteTrack>, IReadOnlyCollection<KeyValuePair<LongNote.Track, LongNoteTrack>>, IEnumerable<KeyValuePair<LongNote.Track, LongNoteTrack>>, IEnumerable, ISerializable, IDeserializationCallback
+    content.vb: >-
+      <Serializable>
+
+      Public Class LongNoteTrackDictionary
+          Inherits UnitySerializedDictionary(Of LongNote.Track, LongNoteTrack)
+          Implements IDictionary(Of LongNote.Track, LongNoteTrack), ICollection(Of KeyValuePair(Of LongNote.Track, LongNoteTrack)), IDictionary, ICollection, IReadOnlyDictionary(Of LongNote.Track, LongNoteTrack), IReadOnlyCollection(Of KeyValuePair(Of LongNote.Track, LongNoteTrack)), IEnumerable(Of KeyValuePair(Of LongNote.Track, LongNoteTrack)), IEnumerable, ISerializable, IDeserializationCallback
+  inheritance:
+  - System.Object
+  - System.Collections.Generic.Dictionary{RhythmTool.LongNote.Track,DDVRKick.Tracks.LongNoteTrack}
+  - DDVRKick.UnitySerializedDictionary{RhythmTool.LongNote.Track,DDVRKick.Tracks.LongNoteTrack}
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: DDVRKick
+  commentId: N:DDVRKick
+  name: DDVRKick
+  nameWithType: DDVRKick
+  fullName: DDVRKick
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Collections.Generic.Dictionary{RhythmTool.LongNote.Track,DDVRKick.Tracks.LongNoteTrack}
+  commentId: T:System.Collections.Generic.Dictionary{RhythmTool.LongNote.Track,DDVRKick.Tracks.LongNoteTrack}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<LongNote.Track, LongNoteTrack>
+  nameWithType: Dictionary<LongNote.Track, LongNoteTrack>
+  fullName: System.Collections.Generic.Dictionary<RhythmTool.LongNote.Track, DDVRKick.Tracks.LongNoteTrack>
+  nameWithType.vb: Dictionary(Of LongNote.Track, LongNoteTrack)
+  fullName.vb: System.Collections.Generic.Dictionary(Of RhythmTool.LongNote.Track, DDVRKick.Tracks.LongNoteTrack)
+  name.vb: Dictionary(Of LongNote.Track, LongNoteTrack)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: RhythmTool.LongNote.Track
+    name: LongNote.Track
+    nameWithType: LongNote.Track
+    fullName: RhythmTool.LongNote.Track
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DDVRKick.Tracks.LongNoteTrack
+    name: LongNoteTrack
+    nameWithType: LongNoteTrack
+    fullName: DDVRKick.Tracks.LongNoteTrack
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: RhythmTool.LongNote.Track
+    name: LongNote.Track
+    nameWithType: LongNote.Track
+    fullName: RhythmTool.LongNote.Track
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DDVRKick.Tracks.LongNoteTrack
+    name: LongNoteTrack
+    nameWithType: LongNoteTrack
+    fullName: DDVRKick.Tracks.LongNoteTrack
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DDVRKick.UnitySerializedDictionary{RhythmTool.LongNote.Track,DDVRKick.Tracks.LongNoteTrack}
+  commentId: T:DDVRKick.UnitySerializedDictionary{RhythmTool.LongNote.Track,DDVRKick.Tracks.LongNoteTrack}
+  parent: DDVRKick
+  definition: DDVRKick.UnitySerializedDictionary`2
+  name: UnitySerializedDictionary<LongNote.Track, LongNoteTrack>
+  nameWithType: UnitySerializedDictionary<LongNote.Track, LongNoteTrack>
+  fullName: DDVRKick.UnitySerializedDictionary<RhythmTool.LongNote.Track, DDVRKick.Tracks.LongNoteTrack>
+  nameWithType.vb: UnitySerializedDictionary(Of LongNote.Track, LongNoteTrack)
+  fullName.vb: DDVRKick.UnitySerializedDictionary(Of RhythmTool.LongNote.Track, DDVRKick.Tracks.LongNoteTrack)
+  name.vb: UnitySerializedDictionary(Of LongNote.Track, LongNoteTrack)
+  spec.csharp:
+  - uid: DDVRKick.UnitySerializedDictionary`2
+    name: UnitySerializedDictionary
+    nameWithType: UnitySerializedDictionary
+    fullName: DDVRKick.UnitySerializedDictionary
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: RhythmTool.LongNote.Track
+    name: LongNote.Track
+    nameWithType: LongNote.Track
+    fullName: RhythmTool.LongNote.Track
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DDVRKick.Tracks.LongNoteTrack
+    name: LongNoteTrack
+    nameWithType: LongNoteTrack
+    fullName: DDVRKick.Tracks.LongNoteTrack
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: DDVRKick.UnitySerializedDictionary`2
+    name: UnitySerializedDictionary
+    nameWithType: UnitySerializedDictionary
+    fullName: DDVRKick.UnitySerializedDictionary
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: RhythmTool.LongNote.Track
+    name: LongNote.Track
+    nameWithType: LongNote.Track
+    fullName: RhythmTool.LongNote.Track
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: DDVRKick.Tracks.LongNoteTrack
+    name: LongNoteTrack
+    nameWithType: LongNoteTrack
+    fullName: DDVRKick.Tracks.LongNoteTrack
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: DDVRKick.UnitySerializedDictionary`2
+  commentId: T:DDVRKick.UnitySerializedDictionary`2
+  name: UnitySerializedDictionary<TKey, TValue>
+  nameWithType: UnitySerializedDictionary<TKey, TValue>
+  fullName: DDVRKick.UnitySerializedDictionary<TKey, TValue>
+  nameWithType.vb: UnitySerializedDictionary(Of TKey, TValue)
+  fullName.vb: DDVRKick.UnitySerializedDictionary(Of TKey, TValue)
+  name.vb: UnitySerializedDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: DDVRKick.UnitySerializedDictionary`2
+    name: UnitySerializedDictionary
+    nameWithType: UnitySerializedDictionary
+    fullName: DDVRKick.UnitySerializedDictionary
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: DDVRKick.UnitySerializedDictionary`2
+    name: UnitySerializedDictionary
+    nameWithType: UnitySerializedDictionary
+    fullName: DDVRKick.UnitySerializedDictionary
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )

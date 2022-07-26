@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.Examples.SongSelector
+  commentId: T:RhythmTool.Examples.SongSelector
+  id: SongSelector
+  parent: RhythmTool.Examples
+  children:
+  - RhythmTool.Examples.SongSelector.analyzer
+  - RhythmTool.Examples.SongSelector.NextSong
+  - RhythmTool.Examples.SongSelector.player
+  langs:
+  - csharp
+  - vb
+  name: SongSelector
+  nameWithType: SongSelector
+  fullName: RhythmTool.Examples.SongSelector
+  type: Class
+  source:
+    id: SongSelector
+    path: ''
+    startLine: 2829
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool.Examples
+  summary: "\nThe SongSelector selects a song and starts analyzing and playing it.\n"
+  example: []
+  syntax:
+    content: 'public abstract class SongSelector : MonoBehaviour'
+    content.vb: >-
+      Public MustInherit Class SongSelector
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - RhythmTool.Examples.AudioClipSelector
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: RhythmTool.Examples.SongSelector.analyzer
+  commentId: F:RhythmTool.Examples.SongSelector.analyzer
+  id: analyzer
+  parent: RhythmTool.Examples.SongSelector
+  langs:
+  - csharp
+  - vb
+  name: analyzer
+  nameWithType: SongSelector.analyzer
+  fullName: RhythmTool.Examples.SongSelector.analyzer
+  type: Field
+  source:
+    id: analyzer
+    path: ''
+    startLine: 2831
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool.Examples
+  syntax:
+    content: public RhythmAnalyzer analyzer
+    return:
+      type: RhythmTool.RhythmAnalyzer
+    content.vb: Public analyzer As RhythmAnalyzer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.Examples.SongSelector.player
+  commentId: F:RhythmTool.Examples.SongSelector.player
+  id: player
+  parent: RhythmTool.Examples.SongSelector
+  langs:
+  - csharp
+  - vb
+  name: player
+  nameWithType: SongSelector.player
+  fullName: RhythmTool.Examples.SongSelector.player
+  type: Field
+  source:
+    id: player
+    path: ''
+    startLine: 2832
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool.Examples
+  syntax:
+    content: public RhythmPlayer player
+    return:
+      type: RhythmTool.RhythmPlayer
+    content.vb: Public player As RhythmPlayer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.Examples.SongSelector.NextSong
+  commentId: M:RhythmTool.Examples.SongSelector.NextSong
+  id: NextSong
+  parent: RhythmTool.Examples.SongSelector
+  langs:
+  - csharp
+  - vb
+  name: NextSong()
+  nameWithType: SongSelector.NextSong()
+  fullName: RhythmTool.Examples.SongSelector.NextSong()
+  type: Method
+  source:
+    id: NextSong
+    path: ''
+    startLine: 2834
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool.Examples
+  syntax:
+    content: public virtual void NextSong()
+    content.vb: Public Overridable Sub NextSong
+  overload: RhythmTool.Examples.SongSelector.NextSong*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: RhythmTool.Examples
+  commentId: N:RhythmTool.Examples
+  name: RhythmTool.Examples
+  nameWithType: RhythmTool.Examples
+  fullName: RhythmTool.Examples
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.RhythmAnalyzer
+  commentId: T:RhythmTool.RhythmAnalyzer
+  parent: RhythmTool
+  name: RhythmAnalyzer
+  nameWithType: RhythmAnalyzer
+  fullName: RhythmTool.RhythmAnalyzer
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: RhythmTool.RhythmPlayer
+  commentId: T:RhythmTool.RhythmPlayer
+  parent: RhythmTool
+  name: RhythmPlayer
+  nameWithType: RhythmPlayer
+  fullName: RhythmTool.RhythmPlayer
+- uid: RhythmTool.Examples.SongSelector.NextSong*
+  commentId: Overload:RhythmTool.Examples.SongSelector.NextSong
+  name: NextSong
+  nameWithType: SongSelector.NextSong
+  fullName: RhythmTool.Examples.SongSelector.NextSong

@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.LongNote
+  commentId: T:RhythmTool.LongNote
+  id: LongNote
+  parent: RhythmTool
+  children:
+  - RhythmTool.LongNote.track
+  langs:
+  - csharp
+  - vb
+  name: LongNote
+  nameWithType: LongNote
+  fullName: RhythmTool.LongNote
+  type: Class
+  source:
+    id: LongNote
+    path: ''
+    startLine: 6041
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LongNote : Feature
+    content.vb: >-
+      <Serializable>
+
+      Public Class LongNote
+          Inherits Feature
+  inheritance:
+  - System.Object
+  - RhythmTool.Feature
+  inheritedMembers:
+  - RhythmTool.Feature.timestamp
+  - RhythmTool.Feature.length
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.LongNote.track
+  commentId: F:RhythmTool.LongNote.track
+  id: track
+  parent: RhythmTool.LongNote
+  langs:
+  - csharp
+  - vb
+  name: track
+  nameWithType: LongNote.track
+  fullName: RhythmTool.LongNote.track
+  type: Field
+  source:
+    id: track
+    path: ''
+    startLine: 6052
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public LongNote.Track track
+    return:
+      type: RhythmTool.LongNote.Track
+    content.vb: Public track As LongNote.Track
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: RhythmTool.Feature
+  commentId: T:RhythmTool.Feature
+  parent: RhythmTool
+  name: Feature
+  nameWithType: Feature
+  fullName: RhythmTool.Feature
+- uid: RhythmTool.Feature.timestamp
+  commentId: F:RhythmTool.Feature.timestamp
+  parent: RhythmTool.Feature
+  name: timestamp
+  nameWithType: Feature.timestamp
+  fullName: RhythmTool.Feature.timestamp
+- uid: RhythmTool.Feature.length
+  commentId: F:RhythmTool.Feature.length
+  parent: RhythmTool.Feature
+  name: length
+  nameWithType: Feature.length
+  fullName: RhythmTool.Feature.length
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.LongNote.Track
+  commentId: T:RhythmTool.LongNote.Track
+  parent: RhythmTool
+  name: LongNote.Track
+  nameWithType: LongNote.Track
+  fullName: RhythmTool.LongNote.Track

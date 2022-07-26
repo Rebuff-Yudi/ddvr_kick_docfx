@@ -1,0 +1,701 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.RhythmPlayer
+  commentId: T:RhythmTool.RhythmPlayer
+  id: RhythmPlayer
+  parent: RhythmTool
+  children:
+  - RhythmTool.RhythmPlayer.audioClip
+  - RhythmTool.RhythmPlayer.audioSource
+  - RhythmTool.RhythmPlayer.isPlaying
+  - RhythmTool.RhythmPlayer.Pause
+  - RhythmTool.RhythmPlayer.pitch
+  - RhythmTool.RhythmPlayer.Play(System.Single)
+  - RhythmTool.RhythmPlayer.prevTime
+  - RhythmTool.RhythmPlayer.Reset
+  - RhythmTool.RhythmPlayer.rhythmData
+  - RhythmTool.RhythmPlayer.SongEnded
+  - RhythmTool.RhythmPlayer.Stop
+  - RhythmTool.RhythmPlayer.targets
+  - RhythmTool.RhythmPlayer.time
+  - RhythmTool.RhythmPlayer.UnPause
+  - RhythmTool.RhythmPlayer.volume
+  langs:
+  - csharp
+  - vb
+  name: RhythmPlayer
+  nameWithType: RhythmPlayer
+  fullName: RhythmTool.RhythmPlayer
+  type: Class
+  source:
+    id: RhythmPlayer
+    path: ''
+    startLine: 4934
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe RhythmPlayer syncs RhythmData with an AudioSource. \nIt provides more accurate time information than an AudioSource.\n"
+  example: []
+  syntax:
+    content: 'public class RhythmPlayer : MonoBehaviour'
+    content.vb: >-
+      Public Class RhythmPlayer
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.RhythmPlayer.SongEnded
+  commentId: E:RhythmTool.RhythmPlayer.SongEnded
+  id: SongEnded
+  parent: RhythmTool.RhythmPlayer
+  langs:
+  - csharp
+  - vb
+  name: SongEnded
+  nameWithType: RhythmPlayer.SongEnded
+  fullName: RhythmTool.RhythmPlayer.SongEnded
+  type: Event
+  source:
+    id: SongEnded
+    path: ''
+    startLine: 4940
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThis event occurs when the AudioSource has reached the end of the AudioClip.\n"
+  example: []
+  syntax:
+    content: public event Action SongEnded
+    return:
+      type: Global.Action
+    content.vb: Public Event SongEnded As Action
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.RhythmPlayer.Reset
+  commentId: E:RhythmTool.RhythmPlayer.Reset
+  id: Reset
+  parent: RhythmTool.RhythmPlayer
+  langs:
+  - csharp
+  - vb
+  name: Reset
+  nameWithType: RhythmPlayer.Reset
+  fullName: RhythmTool.RhythmPlayer.Reset
+  type: Event
+  source:
+    id: Reset
+    path: ''
+    startLine: 4945
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThis event occurs when the playback time of the AudioSource has been reset to another time.\n"
+  example: []
+  syntax:
+    content: public event Action Reset
+    return:
+      type: Global.Action
+    content.vb: Public Event Reset As Action
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.RhythmPlayer.audioSource
+  commentId: P:RhythmTool.RhythmPlayer.audioSource
+  id: audioSource
+  parent: RhythmTool.RhythmPlayer
+  langs:
+  - csharp
+  - vb
+  name: audioSource
+  nameWithType: RhythmPlayer.audioSource
+  fullName: RhythmTool.RhythmPlayer.audioSource
+  type: Property
+  source:
+    id: audioSource
+    path: ''
+    startLine: 4950
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe AudioSource that is being used by this RhythmPlayer.\n"
+  example: []
+  syntax:
+    content: public AudioSource audioSource { get; }
+    parameters: []
+    return:
+      type: Global.AudioSource
+    content.vb: Public ReadOnly Property audioSource As AudioSource
+  overload: RhythmTool.RhythmPlayer.audioSource*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: RhythmTool.RhythmPlayer.audioClip
+  commentId: P:RhythmTool.RhythmPlayer.audioClip
+  id: audioClip
+  parent: RhythmTool.RhythmPlayer
+  langs:
+  - csharp
+  - vb
+  name: audioClip
+  nameWithType: RhythmPlayer.audioClip
+  fullName: RhythmTool.RhythmPlayer.audioClip
+  type: Property
+  source:
+    id: audioClip
+    path: ''
+    startLine: 4955
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe AudioClip that is part of the RhythmData.\n"
+  example: []
+  syntax:
+    content: public AudioClip audioClip { get; }
+    parameters: []
+    return:
+      type: Global.AudioClip
+    content.vb: Public ReadOnly Property audioClip As AudioClip
+  overload: RhythmTool.RhythmPlayer.audioClip*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: RhythmTool.RhythmPlayer.time
+  commentId: P:RhythmTool.RhythmPlayer.time
+  id: time
+  parent: RhythmTool.RhythmPlayer
+  langs:
+  - csharp
+  - vb
+  name: time
+  nameWithType: RhythmPlayer.time
+  fullName: RhythmTool.RhythmPlayer.time
+  type: Property
+  source:
+    id: time
+    path: ''
+    startLine: 4969
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe current playback position in seconds.\n"
+  example: []
+  syntax:
+    content: public float time { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property time As Single
+  overload: RhythmTool.RhythmPlayer.time*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.RhythmPlayer.volume
+  commentId: P:RhythmTool.RhythmPlayer.volume
+  id: volume
+  parent: RhythmTool.RhythmPlayer
+  langs:
+  - csharp
+  - vb
+  name: volume
+  nameWithType: RhythmPlayer.volume
+  fullName: RhythmTool.RhythmPlayer.volume
+  type: Property
+  source:
+    id: volume
+    path: ''
+    startLine: 4982
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe volume of the AudioSource.\n"
+  example: []
+  syntax:
+    content: public float volume { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property volume As Single
+  overload: RhythmTool.RhythmPlayer.volume*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.RhythmPlayer.pitch
+  commentId: P:RhythmTool.RhythmPlayer.pitch
+  id: pitch
+  parent: RhythmTool.RhythmPlayer
+  langs:
+  - csharp
+  - vb
+  name: pitch
+  nameWithType: RhythmPlayer.pitch
+  fullName: RhythmTool.RhythmPlayer.pitch
+  type: Property
+  source:
+    id: pitch
+    path: ''
+    startLine: 4991
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe pitch of the AudioSource.\n"
+  example: []
+  syntax:
+    content: public float pitch { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property pitch As Single
+  overload: RhythmTool.RhythmPlayer.pitch*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.RhythmPlayer.isPlaying
+  commentId: P:RhythmTool.RhythmPlayer.isPlaying
+  id: isPlaying
+  parent: RhythmTool.RhythmPlayer
+  langs:
+  - csharp
+  - vb
+  name: isPlaying
+  nameWithType: RhythmPlayer.isPlaying
+  fullName: RhythmTool.RhythmPlayer.isPlaying
+  type: Property
+  source:
+    id: isPlaying
+    path: ''
+    startLine: 5000
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nIs the AudioSource playing right now?\n"
+  example: []
+  syntax:
+    content: public bool isPlaying { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property isPlaying As Boolean
+  overload: RhythmTool.RhythmPlayer.isPlaying*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: RhythmTool.RhythmPlayer.prevTime
+  commentId: P:RhythmTool.RhythmPlayer.prevTime
+  id: prevTime
+  parent: RhythmTool.RhythmPlayer
+  langs:
+  - csharp
+  - vb
+  name: prevTime
+  nameWithType: RhythmPlayer.prevTime
+  fullName: RhythmTool.RhythmPlayer.prevTime
+  type: Property
+  source:
+    id: prevTime
+    path: ''
+    startLine: 5008
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe previous playback position in seconds.\n"
+  example: []
+  syntax:
+    content: public float prevTime { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property prevTime As Single
+  overload: RhythmTool.RhythmPlayer.prevTime*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: RhythmTool.RhythmPlayer.rhythmData
+  commentId: F:RhythmTool.RhythmPlayer.rhythmData
+  id: rhythmData
+  parent: RhythmTool.RhythmPlayer
+  langs:
+  - csharp
+  - vb
+  name: rhythmData
+  nameWithType: RhythmPlayer.rhythmData
+  fullName: RhythmTool.RhythmPlayer.rhythmData
+  type: Field
+  source:
+    id: rhythmData
+    path: ''
+    startLine: 5013
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe RhythmData object to use. \n"
+  example: []
+  syntax:
+    content: public RhythmData rhythmData
+    return:
+      type: RhythmTool.RhythmData
+    content.vb: Public rhythmData As RhythmData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.RhythmPlayer.targets
+  commentId: F:RhythmTool.RhythmPlayer.targets
+  id: targets
+  parent: RhythmTool.RhythmPlayer
+  langs:
+  - csharp
+  - vb
+  name: targets
+  nameWithType: RhythmPlayer.targets
+  fullName: RhythmTool.RhythmPlayer.targets
+  type: Field
+  source:
+    id: targets
+    path: ''
+    startLine: 5018
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nA list of RhythmTargets to target with a RhythmData and time information.\n"
+  example: []
+  syntax:
+    content: public List<RhythmTarget> targets
+    return:
+      type: Global.List{RhythmTool.RhythmTarget}
+    content.vb: Public targets As List(Of RhythmTarget)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.RhythmPlayer.Play(System.Single)
+  commentId: M:RhythmTool.RhythmPlayer.Play(System.Single)
+  id: Play(System.Single)
+  parent: RhythmTool.RhythmPlayer
+  langs:
+  - csharp
+  - vb
+  name: Play(Single)
+  nameWithType: RhythmPlayer.Play(Single)
+  fullName: RhythmTool.RhythmPlayer.Play(System.Single)
+  type: Method
+  source:
+    id: Play
+    path: ''
+    startLine: 5025
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nPlay the AudioClip. \n"
+  example: []
+  syntax:
+    content: public void Play(float time = 0F)
+    parameters:
+    - id: time
+      type: System.Single
+    content.vb: Public Sub Play(time As Single = 0F)
+  overload: RhythmTool.RhythmPlayer.Play*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.RhythmPlayer.Stop
+  commentId: M:RhythmTool.RhythmPlayer.Stop
+  id: Stop
+  parent: RhythmTool.RhythmPlayer
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: RhythmPlayer.Stop()
+  fullName: RhythmTool.RhythmPlayer.Stop()
+  type: Method
+  source:
+    id: Stop
+    path: ''
+    startLine: 5042
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nStop playing the AudioClip.\n"
+  example: []
+  syntax:
+    content: public void Stop()
+    content.vb: Public Sub Stop
+  overload: RhythmTool.RhythmPlayer.Stop*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.RhythmPlayer.Pause
+  commentId: M:RhythmTool.RhythmPlayer.Pause
+  id: Pause
+  parent: RhythmTool.RhythmPlayer
+  langs:
+  - csharp
+  - vb
+  name: Pause()
+  nameWithType: RhythmPlayer.Pause()
+  fullName: RhythmTool.RhythmPlayer.Pause()
+  type: Method
+  source:
+    id: Pause
+    path: ''
+    startLine: 5050
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nPause playback.\n"
+  example: []
+  syntax:
+    content: public void Pause()
+    content.vb: Public Sub Pause
+  overload: RhythmTool.RhythmPlayer.Pause*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.RhythmPlayer.UnPause
+  commentId: M:RhythmTool.RhythmPlayer.UnPause
+  id: UnPause
+  parent: RhythmTool.RhythmPlayer
+  langs:
+  - csharp
+  - vb
+  name: UnPause()
+  nameWithType: RhythmPlayer.UnPause()
+  fullName: RhythmTool.RhythmPlayer.UnPause()
+  type: Method
+  source:
+    id: UnPause
+    path: ''
+    startLine: 5058
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nUnpause playback.\n"
+  example: []
+  syntax:
+    content: public void UnPause()
+    content.vb: Public Sub UnPause
+  overload: RhythmTool.RhythmPlayer.UnPause*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: RhythmTool.RhythmPlayer.audioSource*
+  commentId: Overload:RhythmTool.RhythmPlayer.audioSource
+  name: audioSource
+  nameWithType: RhythmPlayer.audioSource
+  fullName: RhythmTool.RhythmPlayer.audioSource
+- uid: Global.AudioSource
+  isExternal: true
+  name: AudioSource
+  nameWithType: AudioSource
+  fullName: AudioSource
+- uid: RhythmTool.RhythmPlayer.audioClip*
+  commentId: Overload:RhythmTool.RhythmPlayer.audioClip
+  name: audioClip
+  nameWithType: RhythmPlayer.audioClip
+  fullName: RhythmTool.RhythmPlayer.audioClip
+- uid: Global.AudioClip
+  isExternal: true
+  name: AudioClip
+  nameWithType: AudioClip
+  fullName: AudioClip
+- uid: RhythmTool.RhythmPlayer.time*
+  commentId: Overload:RhythmTool.RhythmPlayer.time
+  name: time
+  nameWithType: RhythmPlayer.time
+  fullName: RhythmTool.RhythmPlayer.time
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: RhythmTool.RhythmPlayer.volume*
+  commentId: Overload:RhythmTool.RhythmPlayer.volume
+  name: volume
+  nameWithType: RhythmPlayer.volume
+  fullName: RhythmTool.RhythmPlayer.volume
+- uid: RhythmTool.RhythmPlayer.pitch*
+  commentId: Overload:RhythmTool.RhythmPlayer.pitch
+  name: pitch
+  nameWithType: RhythmPlayer.pitch
+  fullName: RhythmTool.RhythmPlayer.pitch
+- uid: RhythmTool.RhythmPlayer.isPlaying*
+  commentId: Overload:RhythmTool.RhythmPlayer.isPlaying
+  name: isPlaying
+  nameWithType: RhythmPlayer.isPlaying
+  fullName: RhythmTool.RhythmPlayer.isPlaying
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: RhythmTool.RhythmPlayer.prevTime*
+  commentId: Overload:RhythmTool.RhythmPlayer.prevTime
+  name: prevTime
+  nameWithType: RhythmPlayer.prevTime
+  fullName: RhythmTool.RhythmPlayer.prevTime
+- uid: RhythmTool.RhythmData
+  commentId: T:RhythmTool.RhythmData
+  parent: RhythmTool
+  name: RhythmData
+  nameWithType: RhythmData
+  fullName: RhythmTool.RhythmData
+- uid: Global.List{RhythmTool.RhythmTarget}
+  commentId: '!:Global.List{RhythmTool.RhythmTarget}'
+  definition: Global.List`1
+  name: List<RhythmTarget>
+  nameWithType: List<RhythmTarget>
+  fullName: List<RhythmTool.RhythmTarget>
+  nameWithType.vb: List(Of RhythmTarget)
+  fullName.vb: List(Of RhythmTool.RhythmTarget)
+  name.vb: List(Of RhythmTarget)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: RhythmTool.RhythmTarget
+    name: RhythmTarget
+    nameWithType: RhythmTarget
+    fullName: RhythmTool.RhythmTarget
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: RhythmTool.RhythmTarget
+    name: RhythmTarget
+    nameWithType: RhythmTarget
+    fullName: RhythmTool.RhythmTarget
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.RhythmPlayer.Play*
+  commentId: Overload:RhythmTool.RhythmPlayer.Play
+  name: Play
+  nameWithType: RhythmPlayer.Play
+  fullName: RhythmTool.RhythmPlayer.Play
+- uid: RhythmTool.RhythmPlayer.Stop*
+  commentId: Overload:RhythmTool.RhythmPlayer.Stop
+  name: Stop
+  nameWithType: RhythmPlayer.Stop
+  fullName: RhythmTool.RhythmPlayer.Stop
+- uid: RhythmTool.RhythmPlayer.Pause*
+  commentId: Overload:RhythmTool.RhythmPlayer.Pause
+  name: Pause
+  nameWithType: RhythmPlayer.Pause
+  fullName: RhythmTool.RhythmPlayer.Pause
+- uid: RhythmTool.RhythmPlayer.UnPause*
+  commentId: Overload:RhythmTool.RhythmPlayer.UnPause
+  name: UnPause
+  nameWithType: RhythmPlayer.UnPause
+  fullName: RhythmTool.RhythmPlayer.UnPause

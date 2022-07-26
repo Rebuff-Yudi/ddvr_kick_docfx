@@ -1,0 +1,418 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.FeatureSelection
+  commentId: T:RhythmTool.FeatureSelection
+  id: FeatureSelection
+  parent: RhythmTool
+  children:
+  - RhythmTool.FeatureSelection.Add(System.Int32)
+  - RhythmTool.FeatureSelection.Clear
+  - RhythmTool.FeatureSelection.Contains(System.Int32)
+  - RhythmTool.FeatureSelection.count
+  - RhythmTool.FeatureSelection.indices
+  - RhythmTool.FeatureSelection.instance
+  - RhythmTool.FeatureSelection.Remove(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: FeatureSelection
+  nameWithType: FeatureSelection
+  fullName: RhythmTool.FeatureSelection
+  type: Class
+  source:
+    id: FeatureSelection
+    path: ''
+    startLine: 516
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: 'public class FeatureSelection : ScriptableObject'
+    content.vb: >-
+      Public Class FeatureSelection
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.FeatureSelection.instance
+  commentId: P:RhythmTool.FeatureSelection.instance
+  id: instance
+  parent: RhythmTool.FeatureSelection
+  langs:
+  - csharp
+  - vb
+  name: instance
+  nameWithType: FeatureSelection.instance
+  fullName: RhythmTool.FeatureSelection.instance
+  type: Property
+  source:
+    id: instance
+    path: ''
+    startLine: 518
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static FeatureSelection instance { get; }
+    parameters: []
+    return:
+      type: RhythmTool.FeatureSelection
+    content.vb: Public Shared ReadOnly Property instance As FeatureSelection
+  overload: RhythmTool.FeatureSelection.instance*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RhythmTool.FeatureSelection.indices
+  commentId: P:RhythmTool.FeatureSelection.indices
+  id: indices
+  parent: RhythmTool.FeatureSelection
+  langs:
+  - csharp
+  - vb
+  name: indices
+  nameWithType: FeatureSelection.indices
+  fullName: RhythmTool.FeatureSelection.indices
+  type: Property
+  source:
+    id: indices
+    path: ''
+    startLine: 528
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static List<int> indices { get; }
+    parameters: []
+    return:
+      type: Global.List{System.Int32}
+    content.vb: Public Shared ReadOnly Property indices As List(Of Integer)
+  overload: RhythmTool.FeatureSelection.indices*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RhythmTool.FeatureSelection.count
+  commentId: P:RhythmTool.FeatureSelection.count
+  id: count
+  parent: RhythmTool.FeatureSelection
+  langs:
+  - csharp
+  - vb
+  name: count
+  nameWithType: FeatureSelection.count
+  fullName: RhythmTool.FeatureSelection.count
+  type: Property
+  source:
+    id: count
+    path: ''
+    startLine: 536
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static int count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property count As Integer
+  overload: RhythmTool.FeatureSelection.count*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RhythmTool.FeatureSelection.Add(System.Int32)
+  commentId: M:RhythmTool.FeatureSelection.Add(System.Int32)
+  id: Add(System.Int32)
+  parent: RhythmTool.FeatureSelection
+  langs:
+  - csharp
+  - vb
+  name: Add(Int32)
+  nameWithType: FeatureSelection.Add(Int32)
+  fullName: RhythmTool.FeatureSelection.Add(System.Int32)
+  type: Method
+  source:
+    id: Add
+    path: ''
+    startLine: 549
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static void Add(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    content.vb: Public Shared Sub Add(index As Integer)
+  overload: RhythmTool.FeatureSelection.Add*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: RhythmTool.FeatureSelection.Remove(System.Int32)
+  commentId: M:RhythmTool.FeatureSelection.Remove(System.Int32)
+  id: Remove(System.Int32)
+  parent: RhythmTool.FeatureSelection
+  langs:
+  - csharp
+  - vb
+  name: Remove(Int32)
+  nameWithType: FeatureSelection.Remove(Int32)
+  fullName: RhythmTool.FeatureSelection.Remove(System.Int32)
+  type: Method
+  source:
+    id: Remove
+    path: ''
+    startLine: 554
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static void Remove(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    content.vb: Public Shared Sub Remove(index As Integer)
+  overload: RhythmTool.FeatureSelection.Remove*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: RhythmTool.FeatureSelection.Clear
+  commentId: M:RhythmTool.FeatureSelection.Clear
+  id: Clear
+  parent: RhythmTool.FeatureSelection
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: FeatureSelection.Clear()
+  fullName: RhythmTool.FeatureSelection.Clear()
+  type: Method
+  source:
+    id: Clear
+    path: ''
+    startLine: 559
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static void Clear()
+    content.vb: Public Shared Sub Clear
+  overload: RhythmTool.FeatureSelection.Clear*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: RhythmTool.FeatureSelection.Contains(System.Int32)
+  commentId: M:RhythmTool.FeatureSelection.Contains(System.Int32)
+  id: Contains(System.Int32)
+  parent: RhythmTool.FeatureSelection
+  langs:
+  - csharp
+  - vb
+  name: Contains(Int32)
+  nameWithType: FeatureSelection.Contains(Int32)
+  fullName: RhythmTool.FeatureSelection.Contains(System.Int32)
+  type: Method
+  source:
+    id: Contains
+    path: ''
+    startLine: 564
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static bool Contains(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Contains(index As Integer) As Boolean
+  overload: RhythmTool.FeatureSelection.Contains*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.FeatureSelection.instance*
+  commentId: Overload:RhythmTool.FeatureSelection.instance
+  name: instance
+  nameWithType: FeatureSelection.instance
+  fullName: RhythmTool.FeatureSelection.instance
+- uid: RhythmTool.FeatureSelection
+  commentId: T:RhythmTool.FeatureSelection
+  parent: RhythmTool
+  name: FeatureSelection
+  nameWithType: FeatureSelection
+  fullName: RhythmTool.FeatureSelection
+- uid: RhythmTool.FeatureSelection.indices*
+  commentId: Overload:RhythmTool.FeatureSelection.indices
+  name: indices
+  nameWithType: FeatureSelection.indices
+  fullName: RhythmTool.FeatureSelection.indices
+- uid: Global.List{System.Int32}
+  commentId: '!:Global.List{System.Int32}'
+  definition: Global.List`1
+  name: List<Int32>
+  nameWithType: List<Int32>
+  fullName: List<System.Int32>
+  nameWithType.vb: List(Of Int32)
+  fullName.vb: List(Of System.Int32)
+  name.vb: List(Of Int32)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.FeatureSelection.count*
+  commentId: Overload:RhythmTool.FeatureSelection.count
+  name: count
+  nameWithType: FeatureSelection.count
+  fullName: RhythmTool.FeatureSelection.count
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: RhythmTool.FeatureSelection.Add*
+  commentId: Overload:RhythmTool.FeatureSelection.Add
+  name: Add
+  nameWithType: FeatureSelection.Add
+  fullName: RhythmTool.FeatureSelection.Add
+- uid: RhythmTool.FeatureSelection.Remove*
+  commentId: Overload:RhythmTool.FeatureSelection.Remove
+  name: Remove
+  nameWithType: FeatureSelection.Remove
+  fullName: RhythmTool.FeatureSelection.Remove
+- uid: RhythmTool.FeatureSelection.Clear*
+  commentId: Overload:RhythmTool.FeatureSelection.Clear
+  name: Clear
+  nameWithType: FeatureSelection.Clear
+  fullName: RhythmTool.FeatureSelection.Clear
+- uid: RhythmTool.FeatureSelection.Contains*
+  commentId: Overload:RhythmTool.FeatureSelection.Contains
+  name: Contains
+  nameWithType: FeatureSelection.Contains
+  fullName: RhythmTool.FeatureSelection.Contains
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

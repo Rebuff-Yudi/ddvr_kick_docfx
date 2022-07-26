@@ -1,0 +1,4 @@
+- name: About this project
+  href: index.md
+- name: Beatmap editor
+  href: beatmap-editor.md

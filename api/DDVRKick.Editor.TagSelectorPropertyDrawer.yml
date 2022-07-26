@@ -1,0 +1,109 @@
+### YamlMime:ManagedReference
+items:
+- uid: DDVRKick.Editor.TagSelectorPropertyDrawer
+  commentId: T:DDVRKick.Editor.TagSelectorPropertyDrawer
+  id: TagSelectorPropertyDrawer
+  parent: DDVRKick.Editor
+  children:
+  - DDVRKick.Editor.TagSelectorPropertyDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  langs:
+  - csharp
+  - vb
+  name: TagSelectorPropertyDrawer
+  nameWithType: TagSelectorPropertyDrawer
+  fullName: DDVRKick.Editor.TagSelectorPropertyDrawer
+  type: Class
+  source:
+    id: TagSelectorPropertyDrawer
+    path: ''
+    startLine: 6614
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Editor
+  syntax:
+    content: 'public class TagSelectorPropertyDrawer : PropertyDrawer'
+    content.vb: >-
+      Public Class TagSelectorPropertyDrawer
+          Inherits PropertyDrawer
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DDVRKick.Editor.TagSelectorPropertyDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  commentId: M:DDVRKick.Editor.TagSelectorPropertyDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  id: OnGUI(Rect,SerializedProperty,GUIContent)
+  parent: DDVRKick.Editor.TagSelectorPropertyDrawer
+  langs:
+  - csharp
+  - vb
+  name: OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: TagSelectorPropertyDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  fullName: DDVRKick.Editor.TagSelectorPropertyDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  type: Method
+  source:
+    id: OnGUI
+    path: ''
+    startLine: 6617
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Editor
+  syntax:
+    content: public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
+    parameters:
+    - id: position
+      type: Global.Rect
+    - id: property
+      type: Global.SerializedProperty
+    - id: label
+      type: Global.GUIContent
+    content.vb: Public Overrides Sub OnGUI(position As Rect, property As SerializedProperty, label As GUIContent)
+  overload: DDVRKick.Editor.TagSelectorPropertyDrawer.OnGUI*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: DDVRKick.Editor
+  commentId: N:DDVRKick.Editor
+  name: DDVRKick.Editor
+  nameWithType: DDVRKick.Editor
+  fullName: DDVRKick.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DDVRKick.Editor.TagSelectorPropertyDrawer.OnGUI*
+  commentId: Overload:DDVRKick.Editor.TagSelectorPropertyDrawer.OnGUI
+  name: OnGUI
+  nameWithType: TagSelectorPropertyDrawer.OnGUI
+  fullName: DDVRKick.Editor.TagSelectorPropertyDrawer.OnGUI
+- uid: Global.Rect
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: Rect
+- uid: Global.SerializedProperty
+  isExternal: true
+  name: SerializedProperty
+  nameWithType: SerializedProperty
+  fullName: SerializedProperty
+- uid: Global.GUIContent
+  isExternal: true
+  name: GUIContent
+  nameWithType: GUIContent
+  fullName: GUIContent

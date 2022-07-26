@@ -1,0 +1,931 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.OnsetDetector
+  commentId: T:RhythmTool.OnsetDetector
+  id: OnsetDetector
+  parent: RhythmTool
+  children:
+  - RhythmTool.OnsetDetector.bufferSize
+  - RhythmTool.OnsetDetector.Initialize(System.Int32,System.Int32,System.Int32)
+  - RhythmTool.OnsetDetector.name
+  - RhythmTool.OnsetDetector.normalization
+  - RhythmTool.OnsetDetector.Process(System.Single[],System.Single[],System.Int32)
+  - RhythmTool.OnsetDetector.threshold
+  langs:
+  - csharp
+  - vb
+  name: OnsetDetector
+  nameWithType: OnsetDetector
+  fullName: RhythmTool.OnsetDetector
+  type: Class
+  source:
+    id: OnsetDetector
+    path: ''
+    startLine: 4178
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe OnsetDetector estimates times at which onsets occur in a song. \nAn onset is the start of a note in a song.\n"
+  example: []
+  syntax:
+    content: 'public class OnsetDetector : Analysis<Onset>'
+    content.vb: >-
+      Public Class OnsetDetector
+          Inherits Analysis(Of Onset)
+  inheritance:
+  - System.Object
+  - RhythmTool.Analysis
+  - RhythmTool.Analysis{RhythmTool.Onset}
+  inheritedMembers:
+  - RhythmTool.Analysis{RhythmTool.Onset}.track
+  - RhythmTool.Analysis{RhythmTool.Onset}.GetTrack
+  - RhythmTool.Analysis{RhythmTool.Onset}.AddFeature(RhythmTool.Onset)
+  - RhythmTool.Analysis{RhythmTool.Onset}.RemoveFeature(RhythmTool.Onset)
+  - RhythmTool.Analysis.sampleRate
+  - RhythmTool.Analysis.frameSize
+  - RhythmTool.Analysis.hopSize
+  - RhythmTool.Analysis.frameIndex
+  - RhythmTool.Analysis.FrameIndexToSeconds(System.Single)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.OnsetDetector.name
+  commentId: P:RhythmTool.OnsetDetector.name
+  id: name
+  parent: RhythmTool.OnsetDetector
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: OnsetDetector.name
+  fullName: RhythmTool.OnsetDetector.name
+  type: Property
+  source:
+    id: name
+    path: ''
+    startLine: 4181
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public override string name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property name As String
+  overridden: RhythmTool.Analysis.name
+  overload: RhythmTool.OnsetDetector.name*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: RhythmTool.OnsetDetector.normalization
+  commentId: F:RhythmTool.OnsetDetector.normalization
+  id: normalization
+  parent: RhythmTool.OnsetDetector
+  langs:
+  - csharp
+  - vb
+  name: normalization
+  nameWithType: OnsetDetector.normalization
+  fullName: RhythmTool.OnsetDetector.normalization
+  type: Field
+  source:
+    id: normalization
+    path: ''
+    startLine: 4190
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public float normalization
+    return:
+      type: System.Single
+    content.vb: Public normalization As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.OnsetDetector.threshold
+  commentId: F:RhythmTool.OnsetDetector.threshold
+  id: threshold
+  parent: RhythmTool.OnsetDetector
+  langs:
+  - csharp
+  - vb
+  name: threshold
+  nameWithType: OnsetDetector.threshold
+  fullName: RhythmTool.OnsetDetector.threshold
+  type: Field
+  source:
+    id: threshold
+    path: ''
+    startLine: 4193
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public float threshold
+    return:
+      type: System.Single
+    content.vb: Public threshold As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.OnsetDetector.bufferSize
+  commentId: F:RhythmTool.OnsetDetector.bufferSize
+  id: bufferSize
+  parent: RhythmTool.OnsetDetector
+  langs:
+  - csharp
+  - vb
+  name: bufferSize
+  nameWithType: OnsetDetector.bufferSize
+  fullName: RhythmTool.OnsetDetector.bufferSize
+  type: Field
+  source:
+    id: bufferSize
+    path: ''
+    startLine: 4196
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public int bufferSize
+    return:
+      type: System.Int32
+    content.vb: Public bufferSize As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.OnsetDetector.Initialize(System.Int32,System.Int32,System.Int32)
+  commentId: M:RhythmTool.OnsetDetector.Initialize(System.Int32,System.Int32,System.Int32)
+  id: Initialize(System.Int32,System.Int32,System.Int32)
+  parent: RhythmTool.OnsetDetector
+  langs:
+  - csharp
+  - vb
+  name: Initialize(Int32, Int32, Int32)
+  nameWithType: OnsetDetector.Initialize(Int32, Int32, Int32)
+  fullName: RhythmTool.OnsetDetector.Initialize(System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    id: Initialize
+    path: ''
+    startLine: 4208
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public override void Initialize(int sampleRate, int frameSize, int hopSize)
+    parameters:
+    - id: sampleRate
+      type: System.Int32
+    - id: frameSize
+      type: System.Int32
+    - id: hopSize
+      type: System.Int32
+    content.vb: Public Overrides Sub Initialize(sampleRate As Integer, frameSize As Integer, hopSize As Integer)
+  overridden: RhythmTool.Analysis{RhythmTool.Onset}.Initialize(System.Int32,System.Int32,System.Int32)
+  overload: RhythmTool.OnsetDetector.Initialize*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: RhythmTool.OnsetDetector.Process(System.Single[],System.Single[],System.Int32)
+  commentId: M:RhythmTool.OnsetDetector.Process(System.Single[],System.Single[],System.Int32)
+  id: Process(System.Single[],System.Single[],System.Int32)
+  parent: RhythmTool.OnsetDetector
+  langs:
+  - csharp
+  - vb
+  name: Process(Single[], Single[], Int32)
+  nameWithType: OnsetDetector.Process(Single[], Single[], Int32)
+  fullName: RhythmTool.OnsetDetector.Process(System.Single[], System.Single[], System.Int32)
+  type: Method
+  source:
+    id: Process
+    path: ''
+    startLine: 4220
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public override void Process(float[] samples, float[] magnitude, int frameIndex)
+    parameters:
+    - id: samples
+      type: System.Single[]
+    - id: magnitude
+      type: System.Single[]
+    - id: frameIndex
+      type: System.Int32
+    content.vb: Public Overrides Sub Process(samples As Single(), magnitude As Single(), frameIndex As Integer)
+  overridden: RhythmTool.Analysis.Process(System.Single[],System.Single[],System.Int32)
+  overload: RhythmTool.OnsetDetector.Process*
+  nameWithType.vb: OnsetDetector.Process(Single(), Single(), Int32)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: RhythmTool.OnsetDetector.Process(System.Single(), System.Single(), System.Int32)
+  name.vb: Process(Single(), Single(), Int32)
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: RhythmTool.Analysis
+  commentId: T:RhythmTool.Analysis
+  parent: RhythmTool
+  name: Analysis
+  nameWithType: Analysis
+  fullName: RhythmTool.Analysis
+- uid: RhythmTool.Analysis{RhythmTool.Onset}
+  commentId: T:RhythmTool.Analysis{RhythmTool.Onset}
+  parent: RhythmTool
+  definition: RhythmTool.Analysis`1
+  name: Analysis<Onset>
+  nameWithType: Analysis<Onset>
+  fullName: RhythmTool.Analysis<RhythmTool.Onset>
+  nameWithType.vb: Analysis(Of Onset)
+  fullName.vb: RhythmTool.Analysis(Of RhythmTool.Onset)
+  name.vb: Analysis(Of Onset)
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1
+    name: Analysis
+    nameWithType: Analysis
+    fullName: RhythmTool.Analysis
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: RhythmTool.Onset
+    name: Onset
+    nameWithType: Onset
+    fullName: RhythmTool.Onset
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: RhythmTool.Analysis`1
+    name: Analysis
+    nameWithType: Analysis
+    fullName: RhythmTool.Analysis
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: RhythmTool.Onset
+    name: Onset
+    nameWithType: Onset
+    fullName: RhythmTool.Onset
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Analysis{RhythmTool.Onset}.track
+  commentId: P:RhythmTool.Analysis{RhythmTool.Onset}.track
+  parent: RhythmTool.Analysis{RhythmTool.Onset}
+  definition: RhythmTool.Analysis`1.track
+  name: track
+  nameWithType: Analysis<Onset>.track
+  fullName: RhythmTool.Analysis<RhythmTool.Onset>.track
+  nameWithType.vb: Analysis(Of Onset).track
+  fullName.vb: RhythmTool.Analysis(Of RhythmTool.Onset).track
+- uid: RhythmTool.Analysis{RhythmTool.Onset}.GetTrack
+  commentId: M:RhythmTool.Analysis{RhythmTool.Onset}.GetTrack
+  parent: RhythmTool.Analysis{RhythmTool.Onset}
+  definition: RhythmTool.Analysis`1.GetTrack
+  name: GetTrack()
+  nameWithType: Analysis<Onset>.GetTrack()
+  fullName: RhythmTool.Analysis<RhythmTool.Onset>.GetTrack()
+  nameWithType.vb: Analysis(Of Onset).GetTrack()
+  fullName.vb: RhythmTool.Analysis(Of RhythmTool.Onset).GetTrack()
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1.GetTrack
+    name: GetTrack
+    nameWithType: Analysis<Onset>.GetTrack
+    fullName: RhythmTool.Analysis<RhythmTool.Onset>.GetTrack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Analysis`1.GetTrack
+    name: GetTrack
+    nameWithType: Analysis(Of Onset).GetTrack
+    fullName: RhythmTool.Analysis(Of RhythmTool.Onset).GetTrack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Analysis{RhythmTool.Onset}.AddFeature(RhythmTool.Onset)
+  commentId: M:RhythmTool.Analysis{RhythmTool.Onset}.AddFeature(RhythmTool.Onset)
+  parent: RhythmTool.Analysis{RhythmTool.Onset}
+  definition: RhythmTool.Analysis`1.AddFeature(`0)
+  name: AddFeature(Onset)
+  nameWithType: Analysis<Onset>.AddFeature(Onset)
+  fullName: RhythmTool.Analysis<RhythmTool.Onset>.AddFeature(RhythmTool.Onset)
+  nameWithType.vb: Analysis(Of Onset).AddFeature(Onset)
+  fullName.vb: RhythmTool.Analysis(Of RhythmTool.Onset).AddFeature(RhythmTool.Onset)
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1.AddFeature(`0)
+    name: AddFeature
+    nameWithType: Analysis<Onset>.AddFeature
+    fullName: RhythmTool.Analysis<RhythmTool.Onset>.AddFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RhythmTool.Onset
+    name: Onset
+    nameWithType: Onset
+    fullName: RhythmTool.Onset
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Analysis`1.AddFeature(`0)
+    name: AddFeature
+    nameWithType: Analysis(Of Onset).AddFeature
+    fullName: RhythmTool.Analysis(Of RhythmTool.Onset).AddFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RhythmTool.Onset
+    name: Onset
+    nameWithType: Onset
+    fullName: RhythmTool.Onset
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Analysis{RhythmTool.Onset}.RemoveFeature(RhythmTool.Onset)
+  commentId: M:RhythmTool.Analysis{RhythmTool.Onset}.RemoveFeature(RhythmTool.Onset)
+  parent: RhythmTool.Analysis{RhythmTool.Onset}
+  definition: RhythmTool.Analysis`1.RemoveFeature(`0)
+  name: RemoveFeature(Onset)
+  nameWithType: Analysis<Onset>.RemoveFeature(Onset)
+  fullName: RhythmTool.Analysis<RhythmTool.Onset>.RemoveFeature(RhythmTool.Onset)
+  nameWithType.vb: Analysis(Of Onset).RemoveFeature(Onset)
+  fullName.vb: RhythmTool.Analysis(Of RhythmTool.Onset).RemoveFeature(RhythmTool.Onset)
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1.RemoveFeature(`0)
+    name: RemoveFeature
+    nameWithType: Analysis<Onset>.RemoveFeature
+    fullName: RhythmTool.Analysis<RhythmTool.Onset>.RemoveFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RhythmTool.Onset
+    name: Onset
+    nameWithType: Onset
+    fullName: RhythmTool.Onset
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Analysis`1.RemoveFeature(`0)
+    name: RemoveFeature
+    nameWithType: Analysis(Of Onset).RemoveFeature
+    fullName: RhythmTool.Analysis(Of RhythmTool.Onset).RemoveFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RhythmTool.Onset
+    name: Onset
+    nameWithType: Onset
+    fullName: RhythmTool.Onset
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Analysis.sampleRate
+  commentId: P:RhythmTool.Analysis.sampleRate
+  parent: RhythmTool.Analysis
+  name: sampleRate
+  nameWithType: Analysis.sampleRate
+  fullName: RhythmTool.Analysis.sampleRate
+- uid: RhythmTool.Analysis.frameSize
+  commentId: P:RhythmTool.Analysis.frameSize
+  parent: RhythmTool.Analysis
+  name: frameSize
+  nameWithType: Analysis.frameSize
+  fullName: RhythmTool.Analysis.frameSize
+- uid: RhythmTool.Analysis.hopSize
+  commentId: P:RhythmTool.Analysis.hopSize
+  parent: RhythmTool.Analysis
+  name: hopSize
+  nameWithType: Analysis.hopSize
+  fullName: RhythmTool.Analysis.hopSize
+- uid: RhythmTool.Analysis.frameIndex
+  commentId: P:RhythmTool.Analysis.frameIndex
+  parent: RhythmTool.Analysis
+  name: frameIndex
+  nameWithType: Analysis.frameIndex
+  fullName: RhythmTool.Analysis.frameIndex
+- uid: RhythmTool.Analysis.FrameIndexToSeconds(System.Single)
+  commentId: M:RhythmTool.Analysis.FrameIndexToSeconds(System.Single)
+  parent: RhythmTool.Analysis
+  isExternal: true
+  name: FrameIndexToSeconds(Single)
+  nameWithType: Analysis.FrameIndexToSeconds(Single)
+  fullName: RhythmTool.Analysis.FrameIndexToSeconds(System.Single)
+  spec.csharp:
+  - uid: RhythmTool.Analysis.FrameIndexToSeconds(System.Single)
+    name: FrameIndexToSeconds
+    nameWithType: Analysis.FrameIndexToSeconds
+    fullName: RhythmTool.Analysis.FrameIndexToSeconds
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Analysis.FrameIndexToSeconds(System.Single)
+    name: FrameIndexToSeconds
+    nameWithType: Analysis.FrameIndexToSeconds
+    fullName: RhythmTool.Analysis.FrameIndexToSeconds
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.Analysis`1
+  commentId: T:RhythmTool.Analysis`1
+  name: Analysis<T>
+  nameWithType: Analysis<T>
+  fullName: RhythmTool.Analysis<T>
+  nameWithType.vb: Analysis(Of T)
+  fullName.vb: RhythmTool.Analysis(Of T)
+  name.vb: Analysis(Of T)
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1
+    name: Analysis
+    nameWithType: Analysis
+    fullName: RhythmTool.Analysis
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: RhythmTool.Analysis`1
+    name: Analysis
+    nameWithType: Analysis
+    fullName: RhythmTool.Analysis
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Analysis`1.track
+  commentId: P:RhythmTool.Analysis`1.track
+  name: track
+  nameWithType: Analysis<T>.track
+  fullName: RhythmTool.Analysis<T>.track
+  nameWithType.vb: Analysis(Of T).track
+  fullName.vb: RhythmTool.Analysis(Of T).track
+- uid: RhythmTool.Analysis`1.GetTrack
+  commentId: M:RhythmTool.Analysis`1.GetTrack
+  name: GetTrack()
+  nameWithType: Analysis<T>.GetTrack()
+  fullName: RhythmTool.Analysis<T>.GetTrack()
+  nameWithType.vb: Analysis(Of T).GetTrack()
+  fullName.vb: RhythmTool.Analysis(Of T).GetTrack()
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1.GetTrack
+    name: GetTrack
+    nameWithType: Analysis<T>.GetTrack
+    fullName: RhythmTool.Analysis<T>.GetTrack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Analysis`1.GetTrack
+    name: GetTrack
+    nameWithType: Analysis(Of T).GetTrack
+    fullName: RhythmTool.Analysis(Of T).GetTrack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Analysis`1.AddFeature(`0)
+  commentId: M:RhythmTool.Analysis`1.AddFeature(`0)
+  name: AddFeature(T)
+  nameWithType: Analysis<T>.AddFeature(T)
+  fullName: RhythmTool.Analysis<T>.AddFeature(T)
+  nameWithType.vb: Analysis(Of T).AddFeature(T)
+  fullName.vb: RhythmTool.Analysis(Of T).AddFeature(T)
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1.AddFeature(`0)
+    name: AddFeature
+    nameWithType: Analysis<T>.AddFeature
+    fullName: RhythmTool.Analysis<T>.AddFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Analysis`1.AddFeature(`0)
+    name: AddFeature
+    nameWithType: Analysis(Of T).AddFeature
+    fullName: RhythmTool.Analysis(Of T).AddFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Analysis`1.RemoveFeature(`0)
+  commentId: M:RhythmTool.Analysis`1.RemoveFeature(`0)
+  name: RemoveFeature(T)
+  nameWithType: Analysis<T>.RemoveFeature(T)
+  fullName: RhythmTool.Analysis<T>.RemoveFeature(T)
+  nameWithType.vb: Analysis(Of T).RemoveFeature(T)
+  fullName.vb: RhythmTool.Analysis(Of T).RemoveFeature(T)
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1.RemoveFeature(`0)
+    name: RemoveFeature
+    nameWithType: Analysis<T>.RemoveFeature
+    fullName: RhythmTool.Analysis<T>.RemoveFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Analysis`1.RemoveFeature(`0)
+    name: RemoveFeature
+    nameWithType: Analysis(Of T).RemoveFeature
+    fullName: RhythmTool.Analysis(Of T).RemoveFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Analysis.name
+  commentId: P:RhythmTool.Analysis.name
+  parent: RhythmTool.Analysis
+  name: name
+  nameWithType: Analysis.name
+  fullName: RhythmTool.Analysis.name
+- uid: RhythmTool.OnsetDetector.name*
+  commentId: Overload:RhythmTool.OnsetDetector.name
+  name: name
+  nameWithType: OnsetDetector.name
+  fullName: RhythmTool.OnsetDetector.name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: RhythmTool.Analysis{RhythmTool.Onset}.Initialize(System.Int32,System.Int32,System.Int32)
+  commentId: M:RhythmTool.Analysis{RhythmTool.Onset}.Initialize(System.Int32,System.Int32,System.Int32)
+  parent: RhythmTool.Analysis{RhythmTool.Onset}
+  definition: RhythmTool.Analysis`1.Initialize(System.Int32,System.Int32,System.Int32)
+  name: Initialize(Int32, Int32, Int32)
+  nameWithType: Analysis<Onset>.Initialize(Int32, Int32, Int32)
+  fullName: RhythmTool.Analysis<RhythmTool.Onset>.Initialize(System.Int32, System.Int32, System.Int32)
+  nameWithType.vb: Analysis(Of Onset).Initialize(Int32, Int32, Int32)
+  fullName.vb: RhythmTool.Analysis(Of RhythmTool.Onset).Initialize(System.Int32, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1.Initialize(System.Int32,System.Int32,System.Int32)
+    name: Initialize
+    nameWithType: Analysis<Onset>.Initialize
+    fullName: RhythmTool.Analysis<RhythmTool.Onset>.Initialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Analysis`1.Initialize(System.Int32,System.Int32,System.Int32)
+    name: Initialize
+    nameWithType: Analysis(Of Onset).Initialize
+    fullName: RhythmTool.Analysis(Of RhythmTool.Onset).Initialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.OnsetDetector.Initialize*
+  commentId: Overload:RhythmTool.OnsetDetector.Initialize
+  name: Initialize
+  nameWithType: OnsetDetector.Initialize
+  fullName: RhythmTool.OnsetDetector.Initialize
+- uid: RhythmTool.Analysis`1.Initialize(System.Int32,System.Int32,System.Int32)
+  commentId: M:RhythmTool.Analysis`1.Initialize(System.Int32,System.Int32,System.Int32)
+  isExternal: true
+  name: Initialize(Int32, Int32, Int32)
+  nameWithType: Analysis<T>.Initialize(Int32, Int32, Int32)
+  fullName: RhythmTool.Analysis<T>.Initialize(System.Int32, System.Int32, System.Int32)
+  nameWithType.vb: Analysis(Of T).Initialize(Int32, Int32, Int32)
+  fullName.vb: RhythmTool.Analysis(Of T).Initialize(System.Int32, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1.Initialize(System.Int32,System.Int32,System.Int32)
+    name: Initialize
+    nameWithType: Analysis<T>.Initialize
+    fullName: RhythmTool.Analysis<T>.Initialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Analysis`1.Initialize(System.Int32,System.Int32,System.Int32)
+    name: Initialize
+    nameWithType: Analysis(Of T).Initialize
+    fullName: RhythmTool.Analysis(Of T).Initialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Analysis.Process(System.Single[],System.Single[],System.Int32)
+  commentId: M:RhythmTool.Analysis.Process(System.Single[],System.Single[],System.Int32)
+  parent: RhythmTool.Analysis
+  isExternal: true
+  name: Process(Single[], Single[], Int32)
+  nameWithType: Analysis.Process(Single[], Single[], Int32)
+  fullName: RhythmTool.Analysis.Process(System.Single[], System.Single[], System.Int32)
+  nameWithType.vb: Analysis.Process(Single(), Single(), Int32)
+  fullName.vb: RhythmTool.Analysis.Process(System.Single(), System.Single(), System.Int32)
+  name.vb: Process(Single(), Single(), Int32)
+  spec.csharp:
+  - uid: RhythmTool.Analysis.Process(System.Single[],System.Single[],System.Int32)
+    name: Process
+    nameWithType: Analysis.Process
+    fullName: RhythmTool.Analysis.Process
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Analysis.Process(System.Single[],System.Single[],System.Int32)
+    name: Process
+    nameWithType: Analysis.Process
+    fullName: RhythmTool.Analysis.Process
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.OnsetDetector.Process*
+  commentId: Overload:RhythmTool.OnsetDetector.Process
+  name: Process
+  nameWithType: OnsetDetector.Process
+  fullName: RhythmTool.OnsetDetector.Process
+- uid: System.Single[]
+  isExternal: true
+  name: Single[]
+  nameWithType: Single[]
+  fullName: System.Single[]
+  nameWithType.vb: Single()
+  fullName.vb: System.Single()
+  name.vb: Single()
+  spec.csharp:
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -1,0 +1,377 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.TrackGUI`1
+  commentId: T:RhythmTool.TrackGUI`1
+  id: TrackGUI`1
+  parent: RhythmTool
+  children:
+  - RhythmTool.TrackGUI`1.#ctor(RhythmTool.Track{`0})
+  - RhythmTool.TrackGUI`1.CreateFeature(System.Single,System.Single)
+  - RhythmTool.TrackGUI`1.OnGUI(Rect,RhythmTool.EditorState)
+  - RhythmTool.TrackGUI`1.Track
+  langs:
+  - csharp
+  - vb
+  name: TrackGUI<T>
+  nameWithType: TrackGUI<T>
+  fullName: RhythmTool.TrackGUI<T>
+  type: Class
+  source:
+    id: TrackGUI
+    path: ''
+    startLine: 2029
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: 'public class TrackGUI<T> : TrackGUI where T : Feature, new()'
+    typeParameters:
+    - id: T
+    content.vb: >-
+      Public Class TrackGUI(Of T As {Feature, New})
+          Inherits TrackGUI
+  inheritance:
+  - System.Object
+  - RhythmTool.TrackGUI
+  nameWithType.vb: TrackGUI(Of T)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: RhythmTool.TrackGUI(Of T)
+  name.vb: TrackGUI(Of T)
+- uid: RhythmTool.TrackGUI`1.Track
+  commentId: P:RhythmTool.TrackGUI`1.Track
+  id: Track
+  parent: RhythmTool.TrackGUI`1
+  langs:
+  - csharp
+  - vb
+  name: Track
+  nameWithType: TrackGUI<T>.Track
+  fullName: RhythmTool.TrackGUI<T>.Track
+  type: Property
+  source:
+    id: Track
+    path: ''
+    startLine: 2033
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public Track<T> Track { get; }
+    parameters: []
+    return:
+      type: RhythmTool.Track{{T}}
+    content.vb: Public ReadOnly Property Track As Track(Of T)
+  overload: RhythmTool.TrackGUI`1.Track*
+  nameWithType.vb: TrackGUI(Of T).Track
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: RhythmTool.TrackGUI(Of T).Track
+- uid: RhythmTool.TrackGUI`1.#ctor(RhythmTool.Track{`0})
+  commentId: M:RhythmTool.TrackGUI`1.#ctor(RhythmTool.Track{`0})
+  id: '#ctor(RhythmTool.Track{`0})'
+  parent: RhythmTool.TrackGUI`1
+  langs:
+  - csharp
+  - vb
+  name: TrackGUI(Track<T>)
+  nameWithType: TrackGUI<T>.TrackGUI(Track<T>)
+  fullName: RhythmTool.TrackGUI<T>.TrackGUI(RhythmTool.Track<T>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 2046
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public TrackGUI(Track<T> track)
+    parameters:
+    - id: track
+      type: RhythmTool.Track{{T}}
+    content.vb: Public Sub New(track As Track(Of T))
+  overload: RhythmTool.TrackGUI`1.#ctor*
+  nameWithType.vb: TrackGUI(Of T).TrackGUI(Track(Of T))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: RhythmTool.TrackGUI(Of T).TrackGUI(RhythmTool.Track(Of T))
+  name.vb: TrackGUI(Track(Of T))
+- uid: RhythmTool.TrackGUI`1.OnGUI(Rect,RhythmTool.EditorState)
+  commentId: M:RhythmTool.TrackGUI`1.OnGUI(Rect,RhythmTool.EditorState)
+  id: OnGUI(Rect,RhythmTool.EditorState)
+  parent: RhythmTool.TrackGUI`1
+  langs:
+  - csharp
+  - vb
+  name: OnGUI(Rect, EditorState)
+  nameWithType: TrackGUI<T>.OnGUI(Rect, EditorState)
+  fullName: RhythmTool.TrackGUI<T>.OnGUI(Rect, RhythmTool.EditorState)
+  type: Method
+  source:
+    id: OnGUI
+    path: ''
+    startLine: 2057
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public override void OnGUI(Rect rect, EditorState state)
+    parameters:
+    - id: rect
+      type: Global.Rect
+    - id: state
+      type: RhythmTool.EditorState
+    content.vb: Public Overrides Sub OnGUI(rect As Rect, state As EditorState)
+  overridden: RhythmTool.TrackGUI.OnGUI(Rect,RhythmTool.EditorState)
+  overload: RhythmTool.TrackGUI`1.OnGUI*
+  nameWithType.vb: TrackGUI(Of T).OnGUI(Rect, EditorState)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: RhythmTool.TrackGUI(Of T).OnGUI(Rect, RhythmTool.EditorState)
+- uid: RhythmTool.TrackGUI`1.CreateFeature(System.Single,System.Single)
+  commentId: M:RhythmTool.TrackGUI`1.CreateFeature(System.Single,System.Single)
+  id: CreateFeature(System.Single,System.Single)
+  parent: RhythmTool.TrackGUI`1
+  langs:
+  - csharp
+  - vb
+  name: CreateFeature(Single, Single)
+  nameWithType: TrackGUI<T>.CreateFeature(Single, Single)
+  fullName: RhythmTool.TrackGUI<T>.CreateFeature(System.Single, System.Single)
+  type: Method
+  source:
+    id: CreateFeature
+    path: ''
+    startLine: 2362
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public void CreateFeature(float timestamp, float value = 0F)
+    parameters:
+    - id: timestamp
+      type: System.Single
+    - id: value
+      type: System.Single
+    content.vb: Public Sub CreateFeature(timestamp As Single, value As Single = 0F)
+  overload: RhythmTool.TrackGUI`1.CreateFeature*
+  nameWithType.vb: TrackGUI(Of T).CreateFeature(Single, Single)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: RhythmTool.TrackGUI(Of T).CreateFeature(System.Single, System.Single)
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: RhythmTool.TrackGUI
+  commentId: T:RhythmTool.TrackGUI
+  parent: RhythmTool
+  name: TrackGUI
+  nameWithType: TrackGUI
+  fullName: RhythmTool.TrackGUI
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.TrackGUI`1.Track*
+  commentId: Overload:RhythmTool.TrackGUI`1.Track
+  name: Track
+  nameWithType: TrackGUI<T>.Track
+  fullName: RhythmTool.TrackGUI<T>.Track
+  nameWithType.vb: TrackGUI(Of T).Track
+  fullName.vb: RhythmTool.TrackGUI(Of T).Track
+- uid: RhythmTool.Track{{T}}
+  commentId: T:RhythmTool.Track{`0}
+  parent: RhythmTool
+  definition: RhythmTool.Track`1
+  name: Track<T>
+  nameWithType: Track<T>
+  fullName: RhythmTool.Track<T>
+  nameWithType.vb: Track(Of T)
+  fullName.vb: RhythmTool.Track(Of T)
+  name.vb: Track(Of T)
+  spec.csharp:
+  - uid: RhythmTool.Track`1
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: RhythmTool.Track`1
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track`1
+  commentId: T:RhythmTool.Track`1
+  parent: RhythmTool
+  name: Track<T>
+  nameWithType: Track<T>
+  fullName: RhythmTool.Track<T>
+  nameWithType.vb: Track(Of T)
+  fullName.vb: RhythmTool.Track(Of T)
+  name.vb: Track(Of T)
+  spec.csharp:
+  - uid: RhythmTool.Track`1
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: RhythmTool.Track`1
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.TrackGUI`1.#ctor*
+  commentId: Overload:RhythmTool.TrackGUI`1.#ctor
+  name: TrackGUI
+  nameWithType: TrackGUI<T>.TrackGUI
+  fullName: RhythmTool.TrackGUI<T>.TrackGUI
+  nameWithType.vb: TrackGUI(Of T).TrackGUI
+  fullName.vb: RhythmTool.TrackGUI(Of T).TrackGUI
+- uid: RhythmTool.TrackGUI.OnGUI(Rect,RhythmTool.EditorState)
+  commentId: M:RhythmTool.TrackGUI.OnGUI(Rect,RhythmTool.EditorState)
+  parent: RhythmTool.TrackGUI
+  isExternal: true
+  name: OnGUI(Rect, EditorState)
+  nameWithType: TrackGUI.OnGUI(Rect, EditorState)
+  fullName: RhythmTool.TrackGUI.OnGUI(Rect, RhythmTool.EditorState)
+  spec.csharp:
+  - uid: RhythmTool.TrackGUI.OnGUI(Rect,RhythmTool.EditorState)
+    name: OnGUI
+    nameWithType: TrackGUI.OnGUI
+    fullName: RhythmTool.TrackGUI.OnGUI
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Rect
+    name: Rect
+    nameWithType: Rect
+    fullName: Rect
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: RhythmTool.EditorState
+    name: EditorState
+    nameWithType: EditorState
+    fullName: RhythmTool.EditorState
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.TrackGUI.OnGUI(Rect,RhythmTool.EditorState)
+    name: OnGUI
+    nameWithType: TrackGUI.OnGUI
+    fullName: RhythmTool.TrackGUI.OnGUI
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Rect
+    name: Rect
+    nameWithType: Rect
+    fullName: Rect
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: RhythmTool.EditorState
+    name: EditorState
+    nameWithType: EditorState
+    fullName: RhythmTool.EditorState
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.TrackGUI`1.OnGUI*
+  commentId: Overload:RhythmTool.TrackGUI`1.OnGUI
+  name: OnGUI
+  nameWithType: TrackGUI<T>.OnGUI
+  fullName: RhythmTool.TrackGUI<T>.OnGUI
+  nameWithType.vb: TrackGUI(Of T).OnGUI
+  fullName.vb: RhythmTool.TrackGUI(Of T).OnGUI
+- uid: Global.Rect
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: Rect
+- uid: RhythmTool.EditorState
+  commentId: T:RhythmTool.EditorState
+  parent: RhythmTool
+  name: EditorState
+  nameWithType: EditorState
+  fullName: RhythmTool.EditorState
+- uid: RhythmTool.TrackGUI`1.CreateFeature*
+  commentId: Overload:RhythmTool.TrackGUI`1.CreateFeature
+  name: CreateFeature
+  nameWithType: TrackGUI<T>.CreateFeature
+  fullName: RhythmTool.TrackGUI<T>.CreateFeature
+  nameWithType.vb: TrackGUI(Of T).CreateFeature
+  fullName.vb: RhythmTool.TrackGUI(Of T).CreateFeature
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

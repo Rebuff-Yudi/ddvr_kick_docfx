@@ -1,0 +1,141 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.Examples.Line
+  commentId: T:RhythmTool.Examples.Line
+  id: Line
+  parent: RhythmTool.Examples
+  children:
+  - RhythmTool.Examples.Line.Init(Color,System.Single,System.Single)
+  - RhythmTool.Examples.Line.timestamp
+  langs:
+  - csharp
+  - vb
+  name: Line
+  nameWithType: Line
+  fullName: RhythmTool.Examples.Line
+  type: Class
+  source:
+    id: Line
+    path: ''
+    startLine: 2881
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool.Examples
+  syntax:
+    content: 'public class Line : MonoBehaviour'
+    content.vb: >-
+      Public Class Line
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.Examples.Line.timestamp
+  commentId: P:RhythmTool.Examples.Line.timestamp
+  id: timestamp
+  parent: RhythmTool.Examples.Line
+  langs:
+  - csharp
+  - vb
+  name: timestamp
+  nameWithType: Line.timestamp
+  fullName: RhythmTool.Examples.Line.timestamp
+  type: Property
+  source:
+    id: timestamp
+    path: ''
+    startLine: 2883
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool.Examples
+  syntax:
+    content: public float timestamp { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property timestamp As Single
+  overload: RhythmTool.Examples.Line.timestamp*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: RhythmTool.Examples.Line.Init(Color,System.Single,System.Single)
+  commentId: M:RhythmTool.Examples.Line.Init(Color,System.Single,System.Single)
+  id: Init(Color,System.Single,System.Single)
+  parent: RhythmTool.Examples.Line
+  langs:
+  - csharp
+  - vb
+  name: Init(Color, Single, Single)
+  nameWithType: Line.Init(Color, Single, Single)
+  fullName: RhythmTool.Examples.Line.Init(Color, System.Single, System.Single)
+  type: Method
+  source:
+    id: Init
+    path: ''
+    startLine: 2885
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool.Examples
+  syntax:
+    content: public void Init(Color color, float opacity, float timestamp)
+    parameters:
+    - id: color
+      type: Global.Color
+    - id: opacity
+      type: System.Single
+    - id: timestamp
+      type: System.Single
+    content.vb: Public Sub Init(color As Color, opacity As Single, timestamp As Single)
+  overload: RhythmTool.Examples.Line.Init*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: RhythmTool.Examples
+  commentId: N:RhythmTool.Examples
+  name: RhythmTool.Examples
+  nameWithType: RhythmTool.Examples
+  fullName: RhythmTool.Examples
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.Examples.Line.timestamp*
+  commentId: Overload:RhythmTool.Examples.Line.timestamp
+  name: timestamp
+  nameWithType: Line.timestamp
+  fullName: RhythmTool.Examples.Line.timestamp
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: RhythmTool.Examples.Line.Init*
+  commentId: Overload:RhythmTool.Examples.Line.Init
+  name: Init
+  nameWithType: Line.Init
+  fullName: RhythmTool.Examples.Line.Init
+- uid: Global.Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color

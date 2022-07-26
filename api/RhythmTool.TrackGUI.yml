@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.TrackGUI
+  commentId: T:RhythmTool.TrackGUI
+  id: TrackGUI
+  parent: RhythmTool
+  children:
+  - RhythmTool.TrackGUI.OnGUI(Rect,RhythmTool.EditorState)
+  langs:
+  - csharp
+  - vb
+  name: TrackGUI
+  nameWithType: TrackGUI
+  fullName: RhythmTool.TrackGUI
+  type: Class
+  source:
+    id: TrackGUI
+    path: ''
+    startLine: 2024
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public abstract class TrackGUI
+    content.vb: Public MustInherit Class TrackGUI
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - RhythmTool.TrackGUI`1
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: RhythmTool.TrackGUI.OnGUI(Rect,RhythmTool.EditorState)
+  commentId: M:RhythmTool.TrackGUI.OnGUI(Rect,RhythmTool.EditorState)
+  id: OnGUI(Rect,RhythmTool.EditorState)
+  parent: RhythmTool.TrackGUI
+  langs:
+  - csharp
+  - vb
+  name: OnGUI(Rect, EditorState)
+  nameWithType: TrackGUI.OnGUI(Rect, EditorState)
+  fullName: RhythmTool.TrackGUI.OnGUI(Rect, RhythmTool.EditorState)
+  type: Method
+  source:
+    id: OnGUI
+    path: ''
+    startLine: 2026
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public abstract void OnGUI(Rect rect, EditorState state)
+    parameters:
+    - id: rect
+      type: Global.Rect
+    - id: state
+      type: RhythmTool.EditorState
+    content.vb: Public MustOverride Sub OnGUI(rect As Rect, state As EditorState)
+  overload: RhythmTool.TrackGUI.OnGUI*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.TrackGUI.OnGUI*
+  commentId: Overload:RhythmTool.TrackGUI.OnGUI
+  name: OnGUI
+  nameWithType: TrackGUI.OnGUI
+  fullName: RhythmTool.TrackGUI.OnGUI
+- uid: Global.Rect
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: Rect
+- uid: RhythmTool.EditorState
+  commentId: T:RhythmTool.EditorState
+  parent: RhythmTool
+  name: EditorState
+  nameWithType: EditorState
+  fullName: RhythmTool.EditorState

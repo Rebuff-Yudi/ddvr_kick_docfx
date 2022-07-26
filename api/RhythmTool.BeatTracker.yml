@@ -1,0 +1,840 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.BeatTracker
+  commentId: T:RhythmTool.BeatTracker
+  id: BeatTracker
+  parent: RhythmTool
+  children:
+  - RhythmTool.BeatTracker.Initialize(System.Int32,System.Int32,System.Int32)
+  - RhythmTool.BeatTracker.name
+  - RhythmTool.BeatTracker.Process(System.Single[],System.Single[],System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: BeatTracker
+  nameWithType: BeatTracker
+  fullName: RhythmTool.BeatTracker
+  type: Class
+  source:
+    id: BeatTracker
+    path: ''
+    startLine: 3204
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe BeatTracker estimates at which points beats occur in the song. \nThe beat represents the rhythm of the song.\n"
+  example: []
+  syntax:
+    content: 'public class BeatTracker : Analysis<Beat>'
+    content.vb: >-
+      Public Class BeatTracker
+          Inherits Analysis(Of Beat)
+  inheritance:
+  - System.Object
+  - RhythmTool.Analysis
+  - RhythmTool.Analysis{RhythmTool.Beat}
+  inheritedMembers:
+  - RhythmTool.Analysis{RhythmTool.Beat}.track
+  - RhythmTool.Analysis{RhythmTool.Beat}.GetTrack
+  - RhythmTool.Analysis{RhythmTool.Beat}.AddFeature(RhythmTool.Beat)
+  - RhythmTool.Analysis{RhythmTool.Beat}.RemoveFeature(RhythmTool.Beat)
+  - RhythmTool.Analysis.sampleRate
+  - RhythmTool.Analysis.frameSize
+  - RhythmTool.Analysis.hopSize
+  - RhythmTool.Analysis.frameIndex
+  - RhythmTool.Analysis.FrameIndexToSeconds(System.Single)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.BeatTracker.name
+  commentId: P:RhythmTool.BeatTracker.name
+  id: name
+  parent: RhythmTool.BeatTracker
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: BeatTracker.name
+  fullName: RhythmTool.BeatTracker.name
+  type: Property
+  source:
+    id: name
+    path: ''
+    startLine: 3207
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public override string name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property name As String
+  overridden: RhythmTool.Analysis.name
+  overload: RhythmTool.BeatTracker.name*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: RhythmTool.BeatTracker.Initialize(System.Int32,System.Int32,System.Int32)
+  commentId: M:RhythmTool.BeatTracker.Initialize(System.Int32,System.Int32,System.Int32)
+  id: Initialize(System.Int32,System.Int32,System.Int32)
+  parent: RhythmTool.BeatTracker
+  langs:
+  - csharp
+  - vb
+  name: Initialize(Int32, Int32, Int32)
+  nameWithType: BeatTracker.Initialize(Int32, Int32, Int32)
+  fullName: RhythmTool.BeatTracker.Initialize(System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    id: Initialize
+    path: ''
+    startLine: 3246
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public override void Initialize(int sampleRate, int frameSize, int hopSize)
+    parameters:
+    - id: sampleRate
+      type: System.Int32
+    - id: frameSize
+      type: System.Int32
+    - id: hopSize
+      type: System.Int32
+    content.vb: Public Overrides Sub Initialize(sampleRate As Integer, frameSize As Integer, hopSize As Integer)
+  overridden: RhythmTool.Analysis{RhythmTool.Beat}.Initialize(System.Int32,System.Int32,System.Int32)
+  overload: RhythmTool.BeatTracker.Initialize*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: RhythmTool.BeatTracker.Process(System.Single[],System.Single[],System.Int32)
+  commentId: M:RhythmTool.BeatTracker.Process(System.Single[],System.Single[],System.Int32)
+  id: Process(System.Single[],System.Single[],System.Int32)
+  parent: RhythmTool.BeatTracker
+  langs:
+  - csharp
+  - vb
+  name: Process(Single[], Single[], Int32)
+  nameWithType: BeatTracker.Process(Single[], Single[], Int32)
+  fullName: RhythmTool.BeatTracker.Process(System.Single[], System.Single[], System.Int32)
+  type: Method
+  source:
+    id: Process
+    path: ''
+    startLine: 3286
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public override void Process(float[] samples, float[] magnitude, int frameIndex)
+    parameters:
+    - id: samples
+      type: System.Single[]
+    - id: magnitude
+      type: System.Single[]
+    - id: frameIndex
+      type: System.Int32
+    content.vb: Public Overrides Sub Process(samples As Single(), magnitude As Single(), frameIndex As Integer)
+  overridden: RhythmTool.Analysis.Process(System.Single[],System.Single[],System.Int32)
+  overload: RhythmTool.BeatTracker.Process*
+  nameWithType.vb: BeatTracker.Process(Single(), Single(), Int32)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: RhythmTool.BeatTracker.Process(System.Single(), System.Single(), System.Int32)
+  name.vb: Process(Single(), Single(), Int32)
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: RhythmTool.Analysis
+  commentId: T:RhythmTool.Analysis
+  parent: RhythmTool
+  name: Analysis
+  nameWithType: Analysis
+  fullName: RhythmTool.Analysis
+- uid: RhythmTool.Analysis{RhythmTool.Beat}
+  commentId: T:RhythmTool.Analysis{RhythmTool.Beat}
+  parent: RhythmTool
+  definition: RhythmTool.Analysis`1
+  name: Analysis<Beat>
+  nameWithType: Analysis<Beat>
+  fullName: RhythmTool.Analysis<RhythmTool.Beat>
+  nameWithType.vb: Analysis(Of Beat)
+  fullName.vb: RhythmTool.Analysis(Of RhythmTool.Beat)
+  name.vb: Analysis(Of Beat)
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1
+    name: Analysis
+    nameWithType: Analysis
+    fullName: RhythmTool.Analysis
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: RhythmTool.Beat
+    name: Beat
+    nameWithType: Beat
+    fullName: RhythmTool.Beat
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: RhythmTool.Analysis`1
+    name: Analysis
+    nameWithType: Analysis
+    fullName: RhythmTool.Analysis
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: RhythmTool.Beat
+    name: Beat
+    nameWithType: Beat
+    fullName: RhythmTool.Beat
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Analysis{RhythmTool.Beat}.track
+  commentId: P:RhythmTool.Analysis{RhythmTool.Beat}.track
+  parent: RhythmTool.Analysis{RhythmTool.Beat}
+  definition: RhythmTool.Analysis`1.track
+  name: track
+  nameWithType: Analysis<Beat>.track
+  fullName: RhythmTool.Analysis<RhythmTool.Beat>.track
+  nameWithType.vb: Analysis(Of Beat).track
+  fullName.vb: RhythmTool.Analysis(Of RhythmTool.Beat).track
+- uid: RhythmTool.Analysis{RhythmTool.Beat}.GetTrack
+  commentId: M:RhythmTool.Analysis{RhythmTool.Beat}.GetTrack
+  parent: RhythmTool.Analysis{RhythmTool.Beat}
+  definition: RhythmTool.Analysis`1.GetTrack
+  name: GetTrack()
+  nameWithType: Analysis<Beat>.GetTrack()
+  fullName: RhythmTool.Analysis<RhythmTool.Beat>.GetTrack()
+  nameWithType.vb: Analysis(Of Beat).GetTrack()
+  fullName.vb: RhythmTool.Analysis(Of RhythmTool.Beat).GetTrack()
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1.GetTrack
+    name: GetTrack
+    nameWithType: Analysis<Beat>.GetTrack
+    fullName: RhythmTool.Analysis<RhythmTool.Beat>.GetTrack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Analysis`1.GetTrack
+    name: GetTrack
+    nameWithType: Analysis(Of Beat).GetTrack
+    fullName: RhythmTool.Analysis(Of RhythmTool.Beat).GetTrack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Analysis{RhythmTool.Beat}.AddFeature(RhythmTool.Beat)
+  commentId: M:RhythmTool.Analysis{RhythmTool.Beat}.AddFeature(RhythmTool.Beat)
+  parent: RhythmTool.Analysis{RhythmTool.Beat}
+  definition: RhythmTool.Analysis`1.AddFeature(`0)
+  name: AddFeature(Beat)
+  nameWithType: Analysis<Beat>.AddFeature(Beat)
+  fullName: RhythmTool.Analysis<RhythmTool.Beat>.AddFeature(RhythmTool.Beat)
+  nameWithType.vb: Analysis(Of Beat).AddFeature(Beat)
+  fullName.vb: RhythmTool.Analysis(Of RhythmTool.Beat).AddFeature(RhythmTool.Beat)
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1.AddFeature(`0)
+    name: AddFeature
+    nameWithType: Analysis<Beat>.AddFeature
+    fullName: RhythmTool.Analysis<RhythmTool.Beat>.AddFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RhythmTool.Beat
+    name: Beat
+    nameWithType: Beat
+    fullName: RhythmTool.Beat
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Analysis`1.AddFeature(`0)
+    name: AddFeature
+    nameWithType: Analysis(Of Beat).AddFeature
+    fullName: RhythmTool.Analysis(Of RhythmTool.Beat).AddFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RhythmTool.Beat
+    name: Beat
+    nameWithType: Beat
+    fullName: RhythmTool.Beat
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Analysis{RhythmTool.Beat}.RemoveFeature(RhythmTool.Beat)
+  commentId: M:RhythmTool.Analysis{RhythmTool.Beat}.RemoveFeature(RhythmTool.Beat)
+  parent: RhythmTool.Analysis{RhythmTool.Beat}
+  definition: RhythmTool.Analysis`1.RemoveFeature(`0)
+  name: RemoveFeature(Beat)
+  nameWithType: Analysis<Beat>.RemoveFeature(Beat)
+  fullName: RhythmTool.Analysis<RhythmTool.Beat>.RemoveFeature(RhythmTool.Beat)
+  nameWithType.vb: Analysis(Of Beat).RemoveFeature(Beat)
+  fullName.vb: RhythmTool.Analysis(Of RhythmTool.Beat).RemoveFeature(RhythmTool.Beat)
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1.RemoveFeature(`0)
+    name: RemoveFeature
+    nameWithType: Analysis<Beat>.RemoveFeature
+    fullName: RhythmTool.Analysis<RhythmTool.Beat>.RemoveFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RhythmTool.Beat
+    name: Beat
+    nameWithType: Beat
+    fullName: RhythmTool.Beat
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Analysis`1.RemoveFeature(`0)
+    name: RemoveFeature
+    nameWithType: Analysis(Of Beat).RemoveFeature
+    fullName: RhythmTool.Analysis(Of RhythmTool.Beat).RemoveFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RhythmTool.Beat
+    name: Beat
+    nameWithType: Beat
+    fullName: RhythmTool.Beat
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Analysis.sampleRate
+  commentId: P:RhythmTool.Analysis.sampleRate
+  parent: RhythmTool.Analysis
+  name: sampleRate
+  nameWithType: Analysis.sampleRate
+  fullName: RhythmTool.Analysis.sampleRate
+- uid: RhythmTool.Analysis.frameSize
+  commentId: P:RhythmTool.Analysis.frameSize
+  parent: RhythmTool.Analysis
+  name: frameSize
+  nameWithType: Analysis.frameSize
+  fullName: RhythmTool.Analysis.frameSize
+- uid: RhythmTool.Analysis.hopSize
+  commentId: P:RhythmTool.Analysis.hopSize
+  parent: RhythmTool.Analysis
+  name: hopSize
+  nameWithType: Analysis.hopSize
+  fullName: RhythmTool.Analysis.hopSize
+- uid: RhythmTool.Analysis.frameIndex
+  commentId: P:RhythmTool.Analysis.frameIndex
+  parent: RhythmTool.Analysis
+  name: frameIndex
+  nameWithType: Analysis.frameIndex
+  fullName: RhythmTool.Analysis.frameIndex
+- uid: RhythmTool.Analysis.FrameIndexToSeconds(System.Single)
+  commentId: M:RhythmTool.Analysis.FrameIndexToSeconds(System.Single)
+  parent: RhythmTool.Analysis
+  isExternal: true
+  name: FrameIndexToSeconds(Single)
+  nameWithType: Analysis.FrameIndexToSeconds(Single)
+  fullName: RhythmTool.Analysis.FrameIndexToSeconds(System.Single)
+  spec.csharp:
+  - uid: RhythmTool.Analysis.FrameIndexToSeconds(System.Single)
+    name: FrameIndexToSeconds
+    nameWithType: Analysis.FrameIndexToSeconds
+    fullName: RhythmTool.Analysis.FrameIndexToSeconds
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Analysis.FrameIndexToSeconds(System.Single)
+    name: FrameIndexToSeconds
+    nameWithType: Analysis.FrameIndexToSeconds
+    fullName: RhythmTool.Analysis.FrameIndexToSeconds
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.Analysis`1
+  commentId: T:RhythmTool.Analysis`1
+  name: Analysis<T>
+  nameWithType: Analysis<T>
+  fullName: RhythmTool.Analysis<T>
+  nameWithType.vb: Analysis(Of T)
+  fullName.vb: RhythmTool.Analysis(Of T)
+  name.vb: Analysis(Of T)
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1
+    name: Analysis
+    nameWithType: Analysis
+    fullName: RhythmTool.Analysis
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: RhythmTool.Analysis`1
+    name: Analysis
+    nameWithType: Analysis
+    fullName: RhythmTool.Analysis
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Analysis`1.track
+  commentId: P:RhythmTool.Analysis`1.track
+  name: track
+  nameWithType: Analysis<T>.track
+  fullName: RhythmTool.Analysis<T>.track
+  nameWithType.vb: Analysis(Of T).track
+  fullName.vb: RhythmTool.Analysis(Of T).track
+- uid: RhythmTool.Analysis`1.GetTrack
+  commentId: M:RhythmTool.Analysis`1.GetTrack
+  name: GetTrack()
+  nameWithType: Analysis<T>.GetTrack()
+  fullName: RhythmTool.Analysis<T>.GetTrack()
+  nameWithType.vb: Analysis(Of T).GetTrack()
+  fullName.vb: RhythmTool.Analysis(Of T).GetTrack()
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1.GetTrack
+    name: GetTrack
+    nameWithType: Analysis<T>.GetTrack
+    fullName: RhythmTool.Analysis<T>.GetTrack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Analysis`1.GetTrack
+    name: GetTrack
+    nameWithType: Analysis(Of T).GetTrack
+    fullName: RhythmTool.Analysis(Of T).GetTrack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Analysis`1.AddFeature(`0)
+  commentId: M:RhythmTool.Analysis`1.AddFeature(`0)
+  name: AddFeature(T)
+  nameWithType: Analysis<T>.AddFeature(T)
+  fullName: RhythmTool.Analysis<T>.AddFeature(T)
+  nameWithType.vb: Analysis(Of T).AddFeature(T)
+  fullName.vb: RhythmTool.Analysis(Of T).AddFeature(T)
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1.AddFeature(`0)
+    name: AddFeature
+    nameWithType: Analysis<T>.AddFeature
+    fullName: RhythmTool.Analysis<T>.AddFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Analysis`1.AddFeature(`0)
+    name: AddFeature
+    nameWithType: Analysis(Of T).AddFeature
+    fullName: RhythmTool.Analysis(Of T).AddFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Analysis`1.RemoveFeature(`0)
+  commentId: M:RhythmTool.Analysis`1.RemoveFeature(`0)
+  name: RemoveFeature(T)
+  nameWithType: Analysis<T>.RemoveFeature(T)
+  fullName: RhythmTool.Analysis<T>.RemoveFeature(T)
+  nameWithType.vb: Analysis(Of T).RemoveFeature(T)
+  fullName.vb: RhythmTool.Analysis(Of T).RemoveFeature(T)
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1.RemoveFeature(`0)
+    name: RemoveFeature
+    nameWithType: Analysis<T>.RemoveFeature
+    fullName: RhythmTool.Analysis<T>.RemoveFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Analysis`1.RemoveFeature(`0)
+    name: RemoveFeature
+    nameWithType: Analysis(Of T).RemoveFeature
+    fullName: RhythmTool.Analysis(Of T).RemoveFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Analysis.name
+  commentId: P:RhythmTool.Analysis.name
+  parent: RhythmTool.Analysis
+  name: name
+  nameWithType: Analysis.name
+  fullName: RhythmTool.Analysis.name
+- uid: RhythmTool.BeatTracker.name*
+  commentId: Overload:RhythmTool.BeatTracker.name
+  name: name
+  nameWithType: BeatTracker.name
+  fullName: RhythmTool.BeatTracker.name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: RhythmTool.Analysis{RhythmTool.Beat}.Initialize(System.Int32,System.Int32,System.Int32)
+  commentId: M:RhythmTool.Analysis{RhythmTool.Beat}.Initialize(System.Int32,System.Int32,System.Int32)
+  parent: RhythmTool.Analysis{RhythmTool.Beat}
+  definition: RhythmTool.Analysis`1.Initialize(System.Int32,System.Int32,System.Int32)
+  name: Initialize(Int32, Int32, Int32)
+  nameWithType: Analysis<Beat>.Initialize(Int32, Int32, Int32)
+  fullName: RhythmTool.Analysis<RhythmTool.Beat>.Initialize(System.Int32, System.Int32, System.Int32)
+  nameWithType.vb: Analysis(Of Beat).Initialize(Int32, Int32, Int32)
+  fullName.vb: RhythmTool.Analysis(Of RhythmTool.Beat).Initialize(System.Int32, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1.Initialize(System.Int32,System.Int32,System.Int32)
+    name: Initialize
+    nameWithType: Analysis<Beat>.Initialize
+    fullName: RhythmTool.Analysis<RhythmTool.Beat>.Initialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Analysis`1.Initialize(System.Int32,System.Int32,System.Int32)
+    name: Initialize
+    nameWithType: Analysis(Of Beat).Initialize
+    fullName: RhythmTool.Analysis(Of RhythmTool.Beat).Initialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.BeatTracker.Initialize*
+  commentId: Overload:RhythmTool.BeatTracker.Initialize
+  name: Initialize
+  nameWithType: BeatTracker.Initialize
+  fullName: RhythmTool.BeatTracker.Initialize
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: RhythmTool.Analysis`1.Initialize(System.Int32,System.Int32,System.Int32)
+  commentId: M:RhythmTool.Analysis`1.Initialize(System.Int32,System.Int32,System.Int32)
+  isExternal: true
+  name: Initialize(Int32, Int32, Int32)
+  nameWithType: Analysis<T>.Initialize(Int32, Int32, Int32)
+  fullName: RhythmTool.Analysis<T>.Initialize(System.Int32, System.Int32, System.Int32)
+  nameWithType.vb: Analysis(Of T).Initialize(Int32, Int32, Int32)
+  fullName.vb: RhythmTool.Analysis(Of T).Initialize(System.Int32, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1.Initialize(System.Int32,System.Int32,System.Int32)
+    name: Initialize
+    nameWithType: Analysis<T>.Initialize
+    fullName: RhythmTool.Analysis<T>.Initialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Analysis`1.Initialize(System.Int32,System.Int32,System.Int32)
+    name: Initialize
+    nameWithType: Analysis(Of T).Initialize
+    fullName: RhythmTool.Analysis(Of T).Initialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Analysis.Process(System.Single[],System.Single[],System.Int32)
+  commentId: M:RhythmTool.Analysis.Process(System.Single[],System.Single[],System.Int32)
+  parent: RhythmTool.Analysis
+  isExternal: true
+  name: Process(Single[], Single[], Int32)
+  nameWithType: Analysis.Process(Single[], Single[], Int32)
+  fullName: RhythmTool.Analysis.Process(System.Single[], System.Single[], System.Int32)
+  nameWithType.vb: Analysis.Process(Single(), Single(), Int32)
+  fullName.vb: RhythmTool.Analysis.Process(System.Single(), System.Single(), System.Int32)
+  name.vb: Process(Single(), Single(), Int32)
+  spec.csharp:
+  - uid: RhythmTool.Analysis.Process(System.Single[],System.Single[],System.Int32)
+    name: Process
+    nameWithType: Analysis.Process
+    fullName: RhythmTool.Analysis.Process
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Analysis.Process(System.Single[],System.Single[],System.Int32)
+    name: Process
+    nameWithType: Analysis.Process
+    fullName: RhythmTool.Analysis.Process
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.BeatTracker.Process*
+  commentId: Overload:RhythmTool.BeatTracker.Process
+  name: Process
+  nameWithType: BeatTracker.Process
+  fullName: RhythmTool.BeatTracker.Process
+- uid: System.Single[]
+  isExternal: true
+  name: Single[]
+  nameWithType: Single[]
+  fullName: System.Single[]
+  nameWithType.vb: Single()
+  fullName.vb: System.Single()
+  name.vb: Single()
+  spec.csharp:
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

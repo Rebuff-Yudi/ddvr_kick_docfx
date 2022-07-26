@@ -1,0 +1,610 @@
+### YamlMime:ManagedReference
+items:
+- uid: DDVRKick.Tracks.BaseTrack`1
+  commentId: T:DDVRKick.Tracks.BaseTrack`1
+  id: BaseTrack`1
+  parent: DDVRKick.Tracks
+  children:
+  - DDVRKick.Tracks.BaseTrack`1.collectionCheck
+  - DDVRKick.Tracks.BaseTrack`1.defaultCapacity
+  - DDVRKick.Tracks.BaseTrack`1.enterPath
+  - DDVRKick.Tracks.BaseTrack`1.exitPath
+  - DDVRKick.Tracks.BaseTrack`1.maxSize
+  - DDVRKick.Tracks.BaseTrack`1.OnPoolCreate
+  - DDVRKick.Tracks.BaseTrack`1.OnPoolDestroy(`0)
+  - DDVRKick.Tracks.BaseTrack`1.OnPoolGet(`0)
+  - DDVRKick.Tracks.BaseTrack`1.OnPoolRelease(`0)
+  - DDVRKick.Tracks.BaseTrack`1.pool
+  - DDVRKick.Tracks.BaseTrack`1.prefab
+  - DDVRKick.Tracks.BaseTrack`1.Start
+  langs:
+  - csharp
+  - vb
+  name: BaseTrack<T>
+  nameWithType: BaseTrack<T>
+  fullName: DDVRKick.Tracks.BaseTrack<T>
+  type: Class
+  source:
+    id: BaseTrack
+    path: ''
+    startLine: 7055
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: 'public class BaseTrack<T> : MonoBehaviour where T : BaseTrackObject'
+    typeParameters:
+    - id: T
+    content.vb: >-
+      Public Class BaseTrack(Of T As BaseTrackObject)
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - DDVRKick.Tracks.LongNoteTrack
+  - DDVRKick.Tracks.NoteTrack
+  - DDVRKick.Tracks.ObstaclesTrack
+  nameWithType.vb: BaseTrack(Of T)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T)
+  name.vb: BaseTrack(Of T)
+- uid: DDVRKick.Tracks.BaseTrack`1.pool
+  commentId: P:DDVRKick.Tracks.BaseTrack`1.pool
+  id: pool
+  parent: DDVRKick.Tracks.BaseTrack`1
+  langs:
+  - csharp
+  - vb
+  name: pool
+  nameWithType: BaseTrack<T>.pool
+  fullName: DDVRKick.Tracks.BaseTrack<T>.pool
+  type: Property
+  source:
+    id: pool
+    path: ''
+    startLine: 7057
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public ObjectPool<T> pool { get; }
+    parameters: []
+    return:
+      type: Global.ObjectPool{{T}}
+    content.vb: Public ReadOnly Property pool As ObjectPool(Of T)
+  overload: DDVRKick.Tracks.BaseTrack`1.pool*
+  nameWithType.vb: BaseTrack(Of T).pool
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).pool
+- uid: DDVRKick.Tracks.BaseTrack`1.enterPath
+  commentId: F:DDVRKick.Tracks.BaseTrack`1.enterPath
+  id: enterPath
+  parent: DDVRKick.Tracks.BaseTrack`1
+  langs:
+  - csharp
+  - vb
+  name: enterPath
+  nameWithType: BaseTrack<T>.enterPath
+  fullName: DDVRKick.Tracks.BaseTrack<T>.enterPath
+  type: Field
+  source:
+    id: enterPath
+    path: ''
+    startLine: 7060
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public DOTweenPath enterPath
+    return:
+      type: Global.DOTweenPath
+    content.vb: Public enterPath As DOTweenPath
+  nameWithType.vb: BaseTrack(Of T).enterPath
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).enterPath
+- uid: DDVRKick.Tracks.BaseTrack`1.exitPath
+  commentId: F:DDVRKick.Tracks.BaseTrack`1.exitPath
+  id: exitPath
+  parent: DDVRKick.Tracks.BaseTrack`1
+  langs:
+  - csharp
+  - vb
+  name: exitPath
+  nameWithType: BaseTrack<T>.exitPath
+  fullName: DDVRKick.Tracks.BaseTrack<T>.exitPath
+  type: Field
+  source:
+    id: exitPath
+    path: ''
+    startLine: 7061
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public DOTweenPath exitPath
+    return:
+      type: Global.DOTweenPath
+    content.vb: Public exitPath As DOTweenPath
+  nameWithType.vb: BaseTrack(Of T).exitPath
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).exitPath
+- uid: DDVRKick.Tracks.BaseTrack`1.prefab
+  commentId: F:DDVRKick.Tracks.BaseTrack`1.prefab
+  id: prefab
+  parent: DDVRKick.Tracks.BaseTrack`1
+  langs:
+  - csharp
+  - vb
+  name: prefab
+  nameWithType: BaseTrack<T>.prefab
+  fullName: DDVRKick.Tracks.BaseTrack<T>.prefab
+  type: Field
+  source:
+    id: prefab
+    path: ''
+    startLine: 7063
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public T prefab
+    return:
+      type: '{T}'
+    content.vb: Public prefab As T
+  nameWithType.vb: BaseTrack(Of T).prefab
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).prefab
+- uid: DDVRKick.Tracks.BaseTrack`1.collectionCheck
+  commentId: F:DDVRKick.Tracks.BaseTrack`1.collectionCheck
+  id: collectionCheck
+  parent: DDVRKick.Tracks.BaseTrack`1
+  langs:
+  - csharp
+  - vb
+  name: collectionCheck
+  nameWithType: BaseTrack<T>.collectionCheck
+  fullName: DDVRKick.Tracks.BaseTrack<T>.collectionCheck
+  type: Field
+  source:
+    id: collectionCheck
+    path: ''
+    startLine: 7064
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public bool collectionCheck
+    return:
+      type: System.Boolean
+    content.vb: Public collectionCheck As Boolean
+  nameWithType.vb: BaseTrack(Of T).collectionCheck
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).collectionCheck
+- uid: DDVRKick.Tracks.BaseTrack`1.defaultCapacity
+  commentId: F:DDVRKick.Tracks.BaseTrack`1.defaultCapacity
+  id: defaultCapacity
+  parent: DDVRKick.Tracks.BaseTrack`1
+  langs:
+  - csharp
+  - vb
+  name: defaultCapacity
+  nameWithType: BaseTrack<T>.defaultCapacity
+  fullName: DDVRKick.Tracks.BaseTrack<T>.defaultCapacity
+  type: Field
+  source:
+    id: defaultCapacity
+    path: ''
+    startLine: 7065
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public int defaultCapacity
+    return:
+      type: System.Int32
+    content.vb: Public defaultCapacity As Integer
+  nameWithType.vb: BaseTrack(Of T).defaultCapacity
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).defaultCapacity
+- uid: DDVRKick.Tracks.BaseTrack`1.maxSize
+  commentId: F:DDVRKick.Tracks.BaseTrack`1.maxSize
+  id: maxSize
+  parent: DDVRKick.Tracks.BaseTrack`1
+  langs:
+  - csharp
+  - vb
+  name: maxSize
+  nameWithType: BaseTrack<T>.maxSize
+  fullName: DDVRKick.Tracks.BaseTrack<T>.maxSize
+  type: Field
+  source:
+    id: maxSize
+    path: ''
+    startLine: 7065
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public int maxSize
+    return:
+      type: System.Int32
+    content.vb: Public maxSize As Integer
+  nameWithType.vb: BaseTrack(Of T).maxSize
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).maxSize
+- uid: DDVRKick.Tracks.BaseTrack`1.Start
+  commentId: M:DDVRKick.Tracks.BaseTrack`1.Start
+  id: Start
+  parent: DDVRKick.Tracks.BaseTrack`1
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: BaseTrack<T>.Start()
+  fullName: DDVRKick.Tracks.BaseTrack<T>.Start()
+  type: Method
+  source:
+    id: Start
+    path: ''
+    startLine: 7067
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: protected virtual void Start()
+    content.vb: Protected Overridable Sub Start
+  overload: DDVRKick.Tracks.BaseTrack`1.Start*
+  nameWithType.vb: BaseTrack(Of T).Start()
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).Start()
+- uid: DDVRKick.Tracks.BaseTrack`1.OnPoolCreate
+  commentId: M:DDVRKick.Tracks.BaseTrack`1.OnPoolCreate
+  id: OnPoolCreate
+  parent: DDVRKick.Tracks.BaseTrack`1
+  langs:
+  - csharp
+  - vb
+  name: OnPoolCreate()
+  nameWithType: BaseTrack<T>.OnPoolCreate()
+  fullName: DDVRKick.Tracks.BaseTrack<T>.OnPoolCreate()
+  type: Method
+  source:
+    id: OnPoolCreate
+    path: ''
+    startLine: 7084
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  summary: "\nCreate game object from <xref href=\"DDVRKick.Tracks.BaseTrack%601.prefab\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: protected virtual T OnPoolCreate()
+    return:
+      type: '{T}'
+      description: ''
+    content.vb: Protected Overridable Function OnPoolCreate As T
+  overload: DDVRKick.Tracks.BaseTrack`1.OnPoolCreate*
+  nameWithType.vb: BaseTrack(Of T).OnPoolCreate()
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).OnPoolCreate()
+- uid: DDVRKick.Tracks.BaseTrack`1.OnPoolGet(`0)
+  commentId: M:DDVRKick.Tracks.BaseTrack`1.OnPoolGet(`0)
+  id: OnPoolGet(`0)
+  parent: DDVRKick.Tracks.BaseTrack`1
+  langs:
+  - csharp
+  - vb
+  name: OnPoolGet(T)
+  nameWithType: BaseTrack<T>.OnPoolGet(T)
+  fullName: DDVRKick.Tracks.BaseTrack<T>.OnPoolGet(T)
+  type: Method
+  source:
+    id: OnPoolGet
+    path: ''
+    startLine: 7093
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  summary: "\nFetch a &apos;ready&apos; object from the object pool.\n"
+  example: []
+  syntax:
+    content: protected virtual void OnPoolGet(T obj)
+    parameters:
+    - id: obj
+      type: '{T}'
+      description: ''
+    content.vb: Protected Overridable Sub OnPoolGet(obj As T)
+  overload: DDVRKick.Tracks.BaseTrack`1.OnPoolGet*
+  nameWithType.vb: BaseTrack(Of T).OnPoolGet(T)
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).OnPoolGet(T)
+- uid: DDVRKick.Tracks.BaseTrack`1.OnPoolRelease(`0)
+  commentId: M:DDVRKick.Tracks.BaseTrack`1.OnPoolRelease(`0)
+  id: OnPoolRelease(`0)
+  parent: DDVRKick.Tracks.BaseTrack`1
+  langs:
+  - csharp
+  - vb
+  name: OnPoolRelease(T)
+  nameWithType: BaseTrack<T>.OnPoolRelease(T)
+  fullName: DDVRKick.Tracks.BaseTrack<T>.OnPoolRelease(T)
+  type: Method
+  source:
+    id: OnPoolRelease
+    path: ''
+    startLine: 7102
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  summary: "\nRelease an active object from scene and make it ready in the object pool.\n"
+  example: []
+  syntax:
+    content: protected virtual void OnPoolRelease(T obj)
+    parameters:
+    - id: obj
+      type: '{T}'
+      description: ''
+    content.vb: Protected Overridable Sub OnPoolRelease(obj As T)
+  overload: DDVRKick.Tracks.BaseTrack`1.OnPoolRelease*
+  nameWithType.vb: BaseTrack(Of T).OnPoolRelease(T)
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).OnPoolRelease(T)
+- uid: DDVRKick.Tracks.BaseTrack`1.OnPoolDestroy(`0)
+  commentId: M:DDVRKick.Tracks.BaseTrack`1.OnPoolDestroy(`0)
+  id: OnPoolDestroy(`0)
+  parent: DDVRKick.Tracks.BaseTrack`1
+  langs:
+  - csharp
+  - vb
+  name: OnPoolDestroy(T)
+  nameWithType: BaseTrack<T>.OnPoolDestroy(T)
+  fullName: DDVRKick.Tracks.BaseTrack<T>.OnPoolDestroy(T)
+  type: Method
+  source:
+    id: OnPoolDestroy
+    path: ''
+    startLine: 7111
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  summary: "\nDestroy the game object if no longer need it.\n"
+  example: []
+  syntax:
+    content: protected virtual void OnPoolDestroy(T obj)
+    parameters:
+    - id: obj
+      type: '{T}'
+      description: ''
+    content.vb: Protected Overridable Sub OnPoolDestroy(obj As T)
+  overload: DDVRKick.Tracks.BaseTrack`1.OnPoolDestroy*
+  nameWithType.vb: BaseTrack(Of T).OnPoolDestroy(T)
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).OnPoolDestroy(T)
+references:
+- uid: DDVRKick.Tracks
+  commentId: N:DDVRKick.Tracks
+  name: DDVRKick.Tracks
+  nameWithType: DDVRKick.Tracks
+  fullName: DDVRKick.Tracks
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DDVRKick.Tracks.BaseTrack`1.pool*
+  commentId: Overload:DDVRKick.Tracks.BaseTrack`1.pool
+  name: pool
+  nameWithType: BaseTrack<T>.pool
+  fullName: DDVRKick.Tracks.BaseTrack<T>.pool
+  nameWithType.vb: BaseTrack(Of T).pool
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).pool
+- uid: Global.ObjectPool{{T}}
+  commentId: '!:Global.ObjectPool{`0}'
+  definition: Global.ObjectPool`1
+  name: ObjectPool<T>
+  nameWithType: ObjectPool<T>
+  fullName: ObjectPool<T>
+  nameWithType.vb: ObjectPool(Of T)
+  fullName.vb: ObjectPool(Of T)
+  name.vb: ObjectPool(Of T)
+  spec.csharp:
+  - uid: Global.ObjectPool`1
+    name: ObjectPool
+    nameWithType: ObjectPool
+    fullName: ObjectPool
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.ObjectPool`1
+    name: ObjectPool
+    nameWithType: ObjectPool
+    fullName: ObjectPool
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.ObjectPool`1
+  commentId: '!:Global.ObjectPool`1'
+  isExternal: true
+  name: ObjectPool<>
+  nameWithType: ObjectPool<>
+  fullName: ObjectPool<>
+  nameWithType.vb: ObjectPool(Of )
+  fullName.vb: ObjectPool(Of )
+  name.vb: ObjectPool(Of )
+  spec.csharp:
+  - uid: Global.ObjectPool`1
+    name: ObjectPool
+    nameWithType: ObjectPool
+    fullName: ObjectPool
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.ObjectPool`1
+    name: ObjectPool
+    nameWithType: ObjectPool
+    fullName: ObjectPool
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.DOTweenPath
+  isExternal: true
+  name: DOTweenPath
+  nameWithType: DOTweenPath
+  fullName: DOTweenPath
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: DDVRKick.Tracks.BaseTrack`1.Start*
+  commentId: Overload:DDVRKick.Tracks.BaseTrack`1.Start
+  name: Start
+  nameWithType: BaseTrack<T>.Start
+  fullName: DDVRKick.Tracks.BaseTrack<T>.Start
+  nameWithType.vb: BaseTrack(Of T).Start
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).Start
+- uid: DDVRKick.Tracks.BaseTrack`1.prefab
+  commentId: F:DDVRKick.Tracks.BaseTrack`1.prefab
+  name: prefab
+  nameWithType: BaseTrack<T>.prefab
+  fullName: DDVRKick.Tracks.BaseTrack<T>.prefab
+  nameWithType.vb: BaseTrack(Of T).prefab
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).prefab
+- uid: DDVRKick.Tracks.BaseTrack`1.OnPoolCreate*
+  commentId: Overload:DDVRKick.Tracks.BaseTrack`1.OnPoolCreate
+  name: OnPoolCreate
+  nameWithType: BaseTrack<T>.OnPoolCreate
+  fullName: DDVRKick.Tracks.BaseTrack<T>.OnPoolCreate
+  nameWithType.vb: BaseTrack(Of T).OnPoolCreate
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).OnPoolCreate
+- uid: DDVRKick.Tracks.BaseTrack`1.OnPoolGet*
+  commentId: Overload:DDVRKick.Tracks.BaseTrack`1.OnPoolGet
+  name: OnPoolGet
+  nameWithType: BaseTrack<T>.OnPoolGet
+  fullName: DDVRKick.Tracks.BaseTrack<T>.OnPoolGet
+  nameWithType.vb: BaseTrack(Of T).OnPoolGet
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).OnPoolGet
+- uid: DDVRKick.Tracks.BaseTrack`1.OnPoolRelease*
+  commentId: Overload:DDVRKick.Tracks.BaseTrack`1.OnPoolRelease
+  name: OnPoolRelease
+  nameWithType: BaseTrack<T>.OnPoolRelease
+  fullName: DDVRKick.Tracks.BaseTrack<T>.OnPoolRelease
+  nameWithType.vb: BaseTrack(Of T).OnPoolRelease
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).OnPoolRelease
+- uid: DDVRKick.Tracks.BaseTrack`1.OnPoolDestroy*
+  commentId: Overload:DDVRKick.Tracks.BaseTrack`1.OnPoolDestroy
+  name: OnPoolDestroy
+  nameWithType: BaseTrack<T>.OnPoolDestroy
+  fullName: DDVRKick.Tracks.BaseTrack<T>.OnPoolDestroy
+  nameWithType.vb: BaseTrack(Of T).OnPoolDestroy
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).OnPoolDestroy

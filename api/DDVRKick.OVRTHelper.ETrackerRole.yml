@@ -1,0 +1,506 @@
+### YamlMime:ManagedReference
+items:
+- uid: DDVRKick.OVRTHelper.ETrackerRole
+  commentId: T:DDVRKick.OVRTHelper.ETrackerRole
+  id: OVRTHelper.ETrackerRole
+  parent: DDVRKick
+  children:
+  - DDVRKick.OVRTHelper.ETrackerRole.AnyHand
+  - DDVRKick.OVRTHelper.ETrackerRole.Camera
+  - DDVRKick.OVRTHelper.ETrackerRole.Chest
+  - DDVRKick.OVRTHelper.ETrackerRole.Keyboard
+  - DDVRKick.OVRTHelper.ETrackerRole.LeftElbow
+  - DDVRKick.OVRTHelper.ETrackerRole.LeftFoot
+  - DDVRKick.OVRTHelper.ETrackerRole.LeftHand
+  - DDVRKick.OVRTHelper.ETrackerRole.LeftKnee
+  - DDVRKick.OVRTHelper.ETrackerRole.LeftShoulder
+  - DDVRKick.OVRTHelper.ETrackerRole.None
+  - DDVRKick.OVRTHelper.ETrackerRole.RightElbow
+  - DDVRKick.OVRTHelper.ETrackerRole.RightFoot
+  - DDVRKick.OVRTHelper.ETrackerRole.RightHand
+  - DDVRKick.OVRTHelper.ETrackerRole.RightKnee
+  - DDVRKick.OVRTHelper.ETrackerRole.RightShoulder
+  - DDVRKick.OVRTHelper.ETrackerRole.Waist
+  langs:
+  - csharp
+  - vb
+  name: OVRTHelper.ETrackerRole
+  nameWithType: OVRTHelper.ETrackerRole
+  fullName: DDVRKick.OVRTHelper.ETrackerRole
+  type: Enum
+  source:
+    id: ETrackerRole
+    path: ''
+    startLine: 6368
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: public enum ETrackerRole
+    content.vb: Public Enum ETrackerRole
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: DDVRKick.OVRTHelper.ETrackerRole.None
+  commentId: F:DDVRKick.OVRTHelper.ETrackerRole.None
+  id: None
+  parent: DDVRKick.OVRTHelper.ETrackerRole
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: OVRTHelper.ETrackerRole.None
+  fullName: DDVRKick.OVRTHelper.ETrackerRole.None
+  type: Field
+  source:
+    id: None
+    path: ''
+    startLine: 6370
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: None = 0
+    return:
+      type: DDVRKick.OVRTHelper.ETrackerRole
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DDVRKick.OVRTHelper.ETrackerRole.AnyHand
+  commentId: F:DDVRKick.OVRTHelper.ETrackerRole.AnyHand
+  id: AnyHand
+  parent: DDVRKick.OVRTHelper.ETrackerRole
+  langs:
+  - csharp
+  - vb
+  name: AnyHand
+  nameWithType: OVRTHelper.ETrackerRole.AnyHand
+  fullName: DDVRKick.OVRTHelper.ETrackerRole.AnyHand
+  type: Field
+  source:
+    id: AnyHand
+    path: ''
+    startLine: 6371
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: AnyHand = 1
+    return:
+      type: DDVRKick.OVRTHelper.ETrackerRole
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DDVRKick.OVRTHelper.ETrackerRole.LeftHand
+  commentId: F:DDVRKick.OVRTHelper.ETrackerRole.LeftHand
+  id: LeftHand
+  parent: DDVRKick.OVRTHelper.ETrackerRole
+  langs:
+  - csharp
+  - vb
+  name: LeftHand
+  nameWithType: OVRTHelper.ETrackerRole.LeftHand
+  fullName: DDVRKick.OVRTHelper.ETrackerRole.LeftHand
+  type: Field
+  source:
+    id: LeftHand
+    path: ''
+    startLine: 6372
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: LeftHand = 2
+    return:
+      type: DDVRKick.OVRTHelper.ETrackerRole
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DDVRKick.OVRTHelper.ETrackerRole.RightHand
+  commentId: F:DDVRKick.OVRTHelper.ETrackerRole.RightHand
+  id: RightHand
+  parent: DDVRKick.OVRTHelper.ETrackerRole
+  langs:
+  - csharp
+  - vb
+  name: RightHand
+  nameWithType: OVRTHelper.ETrackerRole.RightHand
+  fullName: DDVRKick.OVRTHelper.ETrackerRole.RightHand
+  type: Field
+  source:
+    id: RightHand
+    path: ''
+    startLine: 6373
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: RightHand = 3
+    return:
+      type: DDVRKick.OVRTHelper.ETrackerRole
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DDVRKick.OVRTHelper.ETrackerRole.LeftFoot
+  commentId: F:DDVRKick.OVRTHelper.ETrackerRole.LeftFoot
+  id: LeftFoot
+  parent: DDVRKick.OVRTHelper.ETrackerRole
+  langs:
+  - csharp
+  - vb
+  name: LeftFoot
+  nameWithType: OVRTHelper.ETrackerRole.LeftFoot
+  fullName: DDVRKick.OVRTHelper.ETrackerRole.LeftFoot
+  type: Field
+  source:
+    id: LeftFoot
+    path: ''
+    startLine: 6374
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: LeftFoot = 4
+    return:
+      type: DDVRKick.OVRTHelper.ETrackerRole
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DDVRKick.OVRTHelper.ETrackerRole.RightFoot
+  commentId: F:DDVRKick.OVRTHelper.ETrackerRole.RightFoot
+  id: RightFoot
+  parent: DDVRKick.OVRTHelper.ETrackerRole
+  langs:
+  - csharp
+  - vb
+  name: RightFoot
+  nameWithType: OVRTHelper.ETrackerRole.RightFoot
+  fullName: DDVRKick.OVRTHelper.ETrackerRole.RightFoot
+  type: Field
+  source:
+    id: RightFoot
+    path: ''
+    startLine: 6375
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: RightFoot = 5
+    return:
+      type: DDVRKick.OVRTHelper.ETrackerRole
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DDVRKick.OVRTHelper.ETrackerRole.LeftShoulder
+  commentId: F:DDVRKick.OVRTHelper.ETrackerRole.LeftShoulder
+  id: LeftShoulder
+  parent: DDVRKick.OVRTHelper.ETrackerRole
+  langs:
+  - csharp
+  - vb
+  name: LeftShoulder
+  nameWithType: OVRTHelper.ETrackerRole.LeftShoulder
+  fullName: DDVRKick.OVRTHelper.ETrackerRole.LeftShoulder
+  type: Field
+  source:
+    id: LeftShoulder
+    path: ''
+    startLine: 6376
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: LeftShoulder = 6
+    return:
+      type: DDVRKick.OVRTHelper.ETrackerRole
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DDVRKick.OVRTHelper.ETrackerRole.RightShoulder
+  commentId: F:DDVRKick.OVRTHelper.ETrackerRole.RightShoulder
+  id: RightShoulder
+  parent: DDVRKick.OVRTHelper.ETrackerRole
+  langs:
+  - csharp
+  - vb
+  name: RightShoulder
+  nameWithType: OVRTHelper.ETrackerRole.RightShoulder
+  fullName: DDVRKick.OVRTHelper.ETrackerRole.RightShoulder
+  type: Field
+  source:
+    id: RightShoulder
+    path: ''
+    startLine: 6377
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: RightShoulder = 7
+    return:
+      type: DDVRKick.OVRTHelper.ETrackerRole
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DDVRKick.OVRTHelper.ETrackerRole.LeftElbow
+  commentId: F:DDVRKick.OVRTHelper.ETrackerRole.LeftElbow
+  id: LeftElbow
+  parent: DDVRKick.OVRTHelper.ETrackerRole
+  langs:
+  - csharp
+  - vb
+  name: LeftElbow
+  nameWithType: OVRTHelper.ETrackerRole.LeftElbow
+  fullName: DDVRKick.OVRTHelper.ETrackerRole.LeftElbow
+  type: Field
+  source:
+    id: LeftElbow
+    path: ''
+    startLine: 6378
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: LeftElbow = 8
+    return:
+      type: DDVRKick.OVRTHelper.ETrackerRole
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DDVRKick.OVRTHelper.ETrackerRole.RightElbow
+  commentId: F:DDVRKick.OVRTHelper.ETrackerRole.RightElbow
+  id: RightElbow
+  parent: DDVRKick.OVRTHelper.ETrackerRole
+  langs:
+  - csharp
+  - vb
+  name: RightElbow
+  nameWithType: OVRTHelper.ETrackerRole.RightElbow
+  fullName: DDVRKick.OVRTHelper.ETrackerRole.RightElbow
+  type: Field
+  source:
+    id: RightElbow
+    path: ''
+    startLine: 6379
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: RightElbow = 9
+    return:
+      type: DDVRKick.OVRTHelper.ETrackerRole
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DDVRKick.OVRTHelper.ETrackerRole.LeftKnee
+  commentId: F:DDVRKick.OVRTHelper.ETrackerRole.LeftKnee
+  id: LeftKnee
+  parent: DDVRKick.OVRTHelper.ETrackerRole
+  langs:
+  - csharp
+  - vb
+  name: LeftKnee
+  nameWithType: OVRTHelper.ETrackerRole.LeftKnee
+  fullName: DDVRKick.OVRTHelper.ETrackerRole.LeftKnee
+  type: Field
+  source:
+    id: LeftKnee
+    path: ''
+    startLine: 6380
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: LeftKnee = 10
+    return:
+      type: DDVRKick.OVRTHelper.ETrackerRole
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DDVRKick.OVRTHelper.ETrackerRole.RightKnee
+  commentId: F:DDVRKick.OVRTHelper.ETrackerRole.RightKnee
+  id: RightKnee
+  parent: DDVRKick.OVRTHelper.ETrackerRole
+  langs:
+  - csharp
+  - vb
+  name: RightKnee
+  nameWithType: OVRTHelper.ETrackerRole.RightKnee
+  fullName: DDVRKick.OVRTHelper.ETrackerRole.RightKnee
+  type: Field
+  source:
+    id: RightKnee
+    path: ''
+    startLine: 6381
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: RightKnee = 11
+    return:
+      type: DDVRKick.OVRTHelper.ETrackerRole
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DDVRKick.OVRTHelper.ETrackerRole.Waist
+  commentId: F:DDVRKick.OVRTHelper.ETrackerRole.Waist
+  id: Waist
+  parent: DDVRKick.OVRTHelper.ETrackerRole
+  langs:
+  - csharp
+  - vb
+  name: Waist
+  nameWithType: OVRTHelper.ETrackerRole.Waist
+  fullName: DDVRKick.OVRTHelper.ETrackerRole.Waist
+  type: Field
+  source:
+    id: Waist
+    path: ''
+    startLine: 6382
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: Waist = 12
+    return:
+      type: DDVRKick.OVRTHelper.ETrackerRole
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DDVRKick.OVRTHelper.ETrackerRole.Chest
+  commentId: F:DDVRKick.OVRTHelper.ETrackerRole.Chest
+  id: Chest
+  parent: DDVRKick.OVRTHelper.ETrackerRole
+  langs:
+  - csharp
+  - vb
+  name: Chest
+  nameWithType: OVRTHelper.ETrackerRole.Chest
+  fullName: DDVRKick.OVRTHelper.ETrackerRole.Chest
+  type: Field
+  source:
+    id: Chest
+    path: ''
+    startLine: 6383
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: Chest = 13
+    return:
+      type: DDVRKick.OVRTHelper.ETrackerRole
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DDVRKick.OVRTHelper.ETrackerRole.Camera
+  commentId: F:DDVRKick.OVRTHelper.ETrackerRole.Camera
+  id: Camera
+  parent: DDVRKick.OVRTHelper.ETrackerRole
+  langs:
+  - csharp
+  - vb
+  name: Camera
+  nameWithType: OVRTHelper.ETrackerRole.Camera
+  fullName: DDVRKick.OVRTHelper.ETrackerRole.Camera
+  type: Field
+  source:
+    id: Camera
+    path: ''
+    startLine: 6384
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: Camera = 14
+    return:
+      type: DDVRKick.OVRTHelper.ETrackerRole
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DDVRKick.OVRTHelper.ETrackerRole.Keyboard
+  commentId: F:DDVRKick.OVRTHelper.ETrackerRole.Keyboard
+  id: Keyboard
+  parent: DDVRKick.OVRTHelper.ETrackerRole
+  langs:
+  - csharp
+  - vb
+  name: Keyboard
+  nameWithType: OVRTHelper.ETrackerRole.Keyboard
+  fullName: DDVRKick.OVRTHelper.ETrackerRole.Keyboard
+  type: Field
+  source:
+    id: Keyboard
+    path: ''
+    startLine: 6385
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: Keyboard = 15
+    return:
+      type: DDVRKick.OVRTHelper.ETrackerRole
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DDVRKick
+  commentId: N:DDVRKick
+  name: DDVRKick
+  nameWithType: DDVRKick
+  fullName: DDVRKick
+- uid: DDVRKick.OVRTHelper.ETrackerRole
+  commentId: T:DDVRKick.OVRTHelper.ETrackerRole
+  parent: DDVRKick
+  name: OVRTHelper.ETrackerRole
+  nameWithType: OVRTHelper.ETrackerRole
+  fullName: DDVRKick.OVRTHelper.ETrackerRole

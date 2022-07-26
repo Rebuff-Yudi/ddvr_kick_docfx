@@ -1,0 +1,840 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.Chromagram
+  commentId: T:RhythmTool.Chromagram
+  id: Chromagram
+  parent: RhythmTool
+  children:
+  - RhythmTool.Chromagram.Initialize(System.Int32,System.Int32,System.Int32)
+  - RhythmTool.Chromagram.name
+  - RhythmTool.Chromagram.Process(System.Single[],System.Single[],System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: Chromagram
+  nameWithType: Chromagram
+  fullName: RhythmTool.Chromagram
+  type: Class
+  source:
+    id: Chromagram
+    path: ''
+    startLine: 3582
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe Chromagram detects the most prominent notes at different times in the song.\n"
+  example: []
+  syntax:
+    content: 'public class Chromagram : Analysis<Chroma>'
+    content.vb: >-
+      Public Class Chromagram
+          Inherits Analysis(Of Chroma)
+  inheritance:
+  - System.Object
+  - RhythmTool.Analysis
+  - RhythmTool.Analysis{RhythmTool.Chroma}
+  inheritedMembers:
+  - RhythmTool.Analysis{RhythmTool.Chroma}.track
+  - RhythmTool.Analysis{RhythmTool.Chroma}.GetTrack
+  - RhythmTool.Analysis{RhythmTool.Chroma}.AddFeature(RhythmTool.Chroma)
+  - RhythmTool.Analysis{RhythmTool.Chroma}.RemoveFeature(RhythmTool.Chroma)
+  - RhythmTool.Analysis.sampleRate
+  - RhythmTool.Analysis.frameSize
+  - RhythmTool.Analysis.hopSize
+  - RhythmTool.Analysis.frameIndex
+  - RhythmTool.Analysis.FrameIndexToSeconds(System.Single)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.Chromagram.name
+  commentId: P:RhythmTool.Chromagram.name
+  id: name
+  parent: RhythmTool.Chromagram
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: Chromagram.name
+  fullName: RhythmTool.Chromagram.name
+  type: Property
+  source:
+    id: name
+    path: ''
+    startLine: 3585
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public override string name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property name As String
+  overridden: RhythmTool.Analysis.name
+  overload: RhythmTool.Chromagram.name*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: RhythmTool.Chromagram.Initialize(System.Int32,System.Int32,System.Int32)
+  commentId: M:RhythmTool.Chromagram.Initialize(System.Int32,System.Int32,System.Int32)
+  id: Initialize(System.Int32,System.Int32,System.Int32)
+  parent: RhythmTool.Chromagram
+  langs:
+  - csharp
+  - vb
+  name: Initialize(Int32, Int32, Int32)
+  nameWithType: Chromagram.Initialize(Int32, Int32, Int32)
+  fullName: RhythmTool.Chromagram.Initialize(System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    id: Initialize
+    path: ''
+    startLine: 3619
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public override void Initialize(int sampleRate, int frameSize, int hopSize)
+    parameters:
+    - id: sampleRate
+      type: System.Int32
+    - id: frameSize
+      type: System.Int32
+    - id: hopSize
+      type: System.Int32
+    content.vb: Public Overrides Sub Initialize(sampleRate As Integer, frameSize As Integer, hopSize As Integer)
+  overridden: RhythmTool.Analysis{RhythmTool.Chroma}.Initialize(System.Int32,System.Int32,System.Int32)
+  overload: RhythmTool.Chromagram.Initialize*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: RhythmTool.Chromagram.Process(System.Single[],System.Single[],System.Int32)
+  commentId: M:RhythmTool.Chromagram.Process(System.Single[],System.Single[],System.Int32)
+  id: Process(System.Single[],System.Single[],System.Int32)
+  parent: RhythmTool.Chromagram
+  langs:
+  - csharp
+  - vb
+  name: Process(Single[], Single[], Int32)
+  nameWithType: Chromagram.Process(Single[], Single[], Int32)
+  fullName: RhythmTool.Chromagram.Process(System.Single[], System.Single[], System.Int32)
+  type: Method
+  source:
+    id: Process
+    path: ''
+    startLine: 3651
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public override void Process(float[] samples, float[] magnitude, int frameIndex)
+    parameters:
+    - id: samples
+      type: System.Single[]
+    - id: magnitude
+      type: System.Single[]
+    - id: frameIndex
+      type: System.Int32
+    content.vb: Public Overrides Sub Process(samples As Single(), magnitude As Single(), frameIndex As Integer)
+  overridden: RhythmTool.Analysis.Process(System.Single[],System.Single[],System.Int32)
+  overload: RhythmTool.Chromagram.Process*
+  nameWithType.vb: Chromagram.Process(Single(), Single(), Int32)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: RhythmTool.Chromagram.Process(System.Single(), System.Single(), System.Int32)
+  name.vb: Process(Single(), Single(), Int32)
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: RhythmTool.Analysis
+  commentId: T:RhythmTool.Analysis
+  parent: RhythmTool
+  name: Analysis
+  nameWithType: Analysis
+  fullName: RhythmTool.Analysis
+- uid: RhythmTool.Analysis{RhythmTool.Chroma}
+  commentId: T:RhythmTool.Analysis{RhythmTool.Chroma}
+  parent: RhythmTool
+  definition: RhythmTool.Analysis`1
+  name: Analysis<Chroma>
+  nameWithType: Analysis<Chroma>
+  fullName: RhythmTool.Analysis<RhythmTool.Chroma>
+  nameWithType.vb: Analysis(Of Chroma)
+  fullName.vb: RhythmTool.Analysis(Of RhythmTool.Chroma)
+  name.vb: Analysis(Of Chroma)
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1
+    name: Analysis
+    nameWithType: Analysis
+    fullName: RhythmTool.Analysis
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: RhythmTool.Chroma
+    name: Chroma
+    nameWithType: Chroma
+    fullName: RhythmTool.Chroma
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: RhythmTool.Analysis`1
+    name: Analysis
+    nameWithType: Analysis
+    fullName: RhythmTool.Analysis
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: RhythmTool.Chroma
+    name: Chroma
+    nameWithType: Chroma
+    fullName: RhythmTool.Chroma
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Analysis{RhythmTool.Chroma}.track
+  commentId: P:RhythmTool.Analysis{RhythmTool.Chroma}.track
+  parent: RhythmTool.Analysis{RhythmTool.Chroma}
+  definition: RhythmTool.Analysis`1.track
+  name: track
+  nameWithType: Analysis<Chroma>.track
+  fullName: RhythmTool.Analysis<RhythmTool.Chroma>.track
+  nameWithType.vb: Analysis(Of Chroma).track
+  fullName.vb: RhythmTool.Analysis(Of RhythmTool.Chroma).track
+- uid: RhythmTool.Analysis{RhythmTool.Chroma}.GetTrack
+  commentId: M:RhythmTool.Analysis{RhythmTool.Chroma}.GetTrack
+  parent: RhythmTool.Analysis{RhythmTool.Chroma}
+  definition: RhythmTool.Analysis`1.GetTrack
+  name: GetTrack()
+  nameWithType: Analysis<Chroma>.GetTrack()
+  fullName: RhythmTool.Analysis<RhythmTool.Chroma>.GetTrack()
+  nameWithType.vb: Analysis(Of Chroma).GetTrack()
+  fullName.vb: RhythmTool.Analysis(Of RhythmTool.Chroma).GetTrack()
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1.GetTrack
+    name: GetTrack
+    nameWithType: Analysis<Chroma>.GetTrack
+    fullName: RhythmTool.Analysis<RhythmTool.Chroma>.GetTrack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Analysis`1.GetTrack
+    name: GetTrack
+    nameWithType: Analysis(Of Chroma).GetTrack
+    fullName: RhythmTool.Analysis(Of RhythmTool.Chroma).GetTrack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Analysis{RhythmTool.Chroma}.AddFeature(RhythmTool.Chroma)
+  commentId: M:RhythmTool.Analysis{RhythmTool.Chroma}.AddFeature(RhythmTool.Chroma)
+  parent: RhythmTool.Analysis{RhythmTool.Chroma}
+  definition: RhythmTool.Analysis`1.AddFeature(`0)
+  name: AddFeature(Chroma)
+  nameWithType: Analysis<Chroma>.AddFeature(Chroma)
+  fullName: RhythmTool.Analysis<RhythmTool.Chroma>.AddFeature(RhythmTool.Chroma)
+  nameWithType.vb: Analysis(Of Chroma).AddFeature(Chroma)
+  fullName.vb: RhythmTool.Analysis(Of RhythmTool.Chroma).AddFeature(RhythmTool.Chroma)
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1.AddFeature(`0)
+    name: AddFeature
+    nameWithType: Analysis<Chroma>.AddFeature
+    fullName: RhythmTool.Analysis<RhythmTool.Chroma>.AddFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RhythmTool.Chroma
+    name: Chroma
+    nameWithType: Chroma
+    fullName: RhythmTool.Chroma
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Analysis`1.AddFeature(`0)
+    name: AddFeature
+    nameWithType: Analysis(Of Chroma).AddFeature
+    fullName: RhythmTool.Analysis(Of RhythmTool.Chroma).AddFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RhythmTool.Chroma
+    name: Chroma
+    nameWithType: Chroma
+    fullName: RhythmTool.Chroma
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Analysis{RhythmTool.Chroma}.RemoveFeature(RhythmTool.Chroma)
+  commentId: M:RhythmTool.Analysis{RhythmTool.Chroma}.RemoveFeature(RhythmTool.Chroma)
+  parent: RhythmTool.Analysis{RhythmTool.Chroma}
+  definition: RhythmTool.Analysis`1.RemoveFeature(`0)
+  name: RemoveFeature(Chroma)
+  nameWithType: Analysis<Chroma>.RemoveFeature(Chroma)
+  fullName: RhythmTool.Analysis<RhythmTool.Chroma>.RemoveFeature(RhythmTool.Chroma)
+  nameWithType.vb: Analysis(Of Chroma).RemoveFeature(Chroma)
+  fullName.vb: RhythmTool.Analysis(Of RhythmTool.Chroma).RemoveFeature(RhythmTool.Chroma)
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1.RemoveFeature(`0)
+    name: RemoveFeature
+    nameWithType: Analysis<Chroma>.RemoveFeature
+    fullName: RhythmTool.Analysis<RhythmTool.Chroma>.RemoveFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RhythmTool.Chroma
+    name: Chroma
+    nameWithType: Chroma
+    fullName: RhythmTool.Chroma
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Analysis`1.RemoveFeature(`0)
+    name: RemoveFeature
+    nameWithType: Analysis(Of Chroma).RemoveFeature
+    fullName: RhythmTool.Analysis(Of RhythmTool.Chroma).RemoveFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: RhythmTool.Chroma
+    name: Chroma
+    nameWithType: Chroma
+    fullName: RhythmTool.Chroma
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Analysis.sampleRate
+  commentId: P:RhythmTool.Analysis.sampleRate
+  parent: RhythmTool.Analysis
+  name: sampleRate
+  nameWithType: Analysis.sampleRate
+  fullName: RhythmTool.Analysis.sampleRate
+- uid: RhythmTool.Analysis.frameSize
+  commentId: P:RhythmTool.Analysis.frameSize
+  parent: RhythmTool.Analysis
+  name: frameSize
+  nameWithType: Analysis.frameSize
+  fullName: RhythmTool.Analysis.frameSize
+- uid: RhythmTool.Analysis.hopSize
+  commentId: P:RhythmTool.Analysis.hopSize
+  parent: RhythmTool.Analysis
+  name: hopSize
+  nameWithType: Analysis.hopSize
+  fullName: RhythmTool.Analysis.hopSize
+- uid: RhythmTool.Analysis.frameIndex
+  commentId: P:RhythmTool.Analysis.frameIndex
+  parent: RhythmTool.Analysis
+  name: frameIndex
+  nameWithType: Analysis.frameIndex
+  fullName: RhythmTool.Analysis.frameIndex
+- uid: RhythmTool.Analysis.FrameIndexToSeconds(System.Single)
+  commentId: M:RhythmTool.Analysis.FrameIndexToSeconds(System.Single)
+  parent: RhythmTool.Analysis
+  isExternal: true
+  name: FrameIndexToSeconds(Single)
+  nameWithType: Analysis.FrameIndexToSeconds(Single)
+  fullName: RhythmTool.Analysis.FrameIndexToSeconds(System.Single)
+  spec.csharp:
+  - uid: RhythmTool.Analysis.FrameIndexToSeconds(System.Single)
+    name: FrameIndexToSeconds
+    nameWithType: Analysis.FrameIndexToSeconds
+    fullName: RhythmTool.Analysis.FrameIndexToSeconds
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Analysis.FrameIndexToSeconds(System.Single)
+    name: FrameIndexToSeconds
+    nameWithType: Analysis.FrameIndexToSeconds
+    fullName: RhythmTool.Analysis.FrameIndexToSeconds
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.Analysis`1
+  commentId: T:RhythmTool.Analysis`1
+  name: Analysis<T>
+  nameWithType: Analysis<T>
+  fullName: RhythmTool.Analysis<T>
+  nameWithType.vb: Analysis(Of T)
+  fullName.vb: RhythmTool.Analysis(Of T)
+  name.vb: Analysis(Of T)
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1
+    name: Analysis
+    nameWithType: Analysis
+    fullName: RhythmTool.Analysis
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: RhythmTool.Analysis`1
+    name: Analysis
+    nameWithType: Analysis
+    fullName: RhythmTool.Analysis
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Analysis`1.track
+  commentId: P:RhythmTool.Analysis`1.track
+  name: track
+  nameWithType: Analysis<T>.track
+  fullName: RhythmTool.Analysis<T>.track
+  nameWithType.vb: Analysis(Of T).track
+  fullName.vb: RhythmTool.Analysis(Of T).track
+- uid: RhythmTool.Analysis`1.GetTrack
+  commentId: M:RhythmTool.Analysis`1.GetTrack
+  name: GetTrack()
+  nameWithType: Analysis<T>.GetTrack()
+  fullName: RhythmTool.Analysis<T>.GetTrack()
+  nameWithType.vb: Analysis(Of T).GetTrack()
+  fullName.vb: RhythmTool.Analysis(Of T).GetTrack()
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1.GetTrack
+    name: GetTrack
+    nameWithType: Analysis<T>.GetTrack
+    fullName: RhythmTool.Analysis<T>.GetTrack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Analysis`1.GetTrack
+    name: GetTrack
+    nameWithType: Analysis(Of T).GetTrack
+    fullName: RhythmTool.Analysis(Of T).GetTrack
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Analysis`1.AddFeature(`0)
+  commentId: M:RhythmTool.Analysis`1.AddFeature(`0)
+  name: AddFeature(T)
+  nameWithType: Analysis<T>.AddFeature(T)
+  fullName: RhythmTool.Analysis<T>.AddFeature(T)
+  nameWithType.vb: Analysis(Of T).AddFeature(T)
+  fullName.vb: RhythmTool.Analysis(Of T).AddFeature(T)
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1.AddFeature(`0)
+    name: AddFeature
+    nameWithType: Analysis<T>.AddFeature
+    fullName: RhythmTool.Analysis<T>.AddFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Analysis`1.AddFeature(`0)
+    name: AddFeature
+    nameWithType: Analysis(Of T).AddFeature
+    fullName: RhythmTool.Analysis(Of T).AddFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Analysis`1.RemoveFeature(`0)
+  commentId: M:RhythmTool.Analysis`1.RemoveFeature(`0)
+  name: RemoveFeature(T)
+  nameWithType: Analysis<T>.RemoveFeature(T)
+  fullName: RhythmTool.Analysis<T>.RemoveFeature(T)
+  nameWithType.vb: Analysis(Of T).RemoveFeature(T)
+  fullName.vb: RhythmTool.Analysis(Of T).RemoveFeature(T)
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1.RemoveFeature(`0)
+    name: RemoveFeature
+    nameWithType: Analysis<T>.RemoveFeature
+    fullName: RhythmTool.Analysis<T>.RemoveFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Analysis`1.RemoveFeature(`0)
+    name: RemoveFeature
+    nameWithType: Analysis(Of T).RemoveFeature
+    fullName: RhythmTool.Analysis(Of T).RemoveFeature
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Analysis.name
+  commentId: P:RhythmTool.Analysis.name
+  parent: RhythmTool.Analysis
+  name: name
+  nameWithType: Analysis.name
+  fullName: RhythmTool.Analysis.name
+- uid: RhythmTool.Chromagram.name*
+  commentId: Overload:RhythmTool.Chromagram.name
+  name: name
+  nameWithType: Chromagram.name
+  fullName: RhythmTool.Chromagram.name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: RhythmTool.Analysis{RhythmTool.Chroma}.Initialize(System.Int32,System.Int32,System.Int32)
+  commentId: M:RhythmTool.Analysis{RhythmTool.Chroma}.Initialize(System.Int32,System.Int32,System.Int32)
+  parent: RhythmTool.Analysis{RhythmTool.Chroma}
+  definition: RhythmTool.Analysis`1.Initialize(System.Int32,System.Int32,System.Int32)
+  name: Initialize(Int32, Int32, Int32)
+  nameWithType: Analysis<Chroma>.Initialize(Int32, Int32, Int32)
+  fullName: RhythmTool.Analysis<RhythmTool.Chroma>.Initialize(System.Int32, System.Int32, System.Int32)
+  nameWithType.vb: Analysis(Of Chroma).Initialize(Int32, Int32, Int32)
+  fullName.vb: RhythmTool.Analysis(Of RhythmTool.Chroma).Initialize(System.Int32, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1.Initialize(System.Int32,System.Int32,System.Int32)
+    name: Initialize
+    nameWithType: Analysis<Chroma>.Initialize
+    fullName: RhythmTool.Analysis<RhythmTool.Chroma>.Initialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Analysis`1.Initialize(System.Int32,System.Int32,System.Int32)
+    name: Initialize
+    nameWithType: Analysis(Of Chroma).Initialize
+    fullName: RhythmTool.Analysis(Of RhythmTool.Chroma).Initialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Chromagram.Initialize*
+  commentId: Overload:RhythmTool.Chromagram.Initialize
+  name: Initialize
+  nameWithType: Chromagram.Initialize
+  fullName: RhythmTool.Chromagram.Initialize
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: RhythmTool.Analysis`1.Initialize(System.Int32,System.Int32,System.Int32)
+  commentId: M:RhythmTool.Analysis`1.Initialize(System.Int32,System.Int32,System.Int32)
+  isExternal: true
+  name: Initialize(Int32, Int32, Int32)
+  nameWithType: Analysis<T>.Initialize(Int32, Int32, Int32)
+  fullName: RhythmTool.Analysis<T>.Initialize(System.Int32, System.Int32, System.Int32)
+  nameWithType.vb: Analysis(Of T).Initialize(Int32, Int32, Int32)
+  fullName.vb: RhythmTool.Analysis(Of T).Initialize(System.Int32, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: RhythmTool.Analysis`1.Initialize(System.Int32,System.Int32,System.Int32)
+    name: Initialize
+    nameWithType: Analysis<T>.Initialize
+    fullName: RhythmTool.Analysis<T>.Initialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Analysis`1.Initialize(System.Int32,System.Int32,System.Int32)
+    name: Initialize
+    nameWithType: Analysis(Of T).Initialize
+    fullName: RhythmTool.Analysis(Of T).Initialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Analysis.Process(System.Single[],System.Single[],System.Int32)
+  commentId: M:RhythmTool.Analysis.Process(System.Single[],System.Single[],System.Int32)
+  parent: RhythmTool.Analysis
+  isExternal: true
+  name: Process(Single[], Single[], Int32)
+  nameWithType: Analysis.Process(Single[], Single[], Int32)
+  fullName: RhythmTool.Analysis.Process(System.Single[], System.Single[], System.Int32)
+  nameWithType.vb: Analysis.Process(Single(), Single(), Int32)
+  fullName.vb: RhythmTool.Analysis.Process(System.Single(), System.Single(), System.Int32)
+  name.vb: Process(Single(), Single(), Int32)
+  spec.csharp:
+  - uid: RhythmTool.Analysis.Process(System.Single[],System.Single[],System.Int32)
+    name: Process
+    nameWithType: Analysis.Process
+    fullName: RhythmTool.Analysis.Process
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.Analysis.Process(System.Single[],System.Single[],System.Int32)
+    name: Process
+    nameWithType: Analysis.Process
+    fullName: RhythmTool.Analysis.Process
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Chromagram.Process*
+  commentId: Overload:RhythmTool.Chromagram.Process
+  name: Process
+  nameWithType: Chromagram.Process
+  fullName: RhythmTool.Chromagram.Process
+- uid: System.Single[]
+  isExternal: true
+  name: Single[]
+  nameWithType: Single[]
+  fullName: System.Single[]
+  nameWithType.vb: Single()
+  fullName.vb: System.Single()
+  name.vb: Single()
+  spec.csharp:
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

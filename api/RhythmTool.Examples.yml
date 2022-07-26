@@ -1,0 +1,47 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.Examples
+  commentId: N:RhythmTool.Examples
+  id: RhythmTool.Examples
+  children:
+  - RhythmTool.Examples.AudioClipSelector
+  - RhythmTool.Examples.Line
+  - RhythmTool.Examples.SongSelector
+  - RhythmTool.Examples.Visualizer
+  langs:
+  - csharp
+  - vb
+  name: RhythmTool.Examples
+  nameWithType: RhythmTool.Examples
+  fullName: RhythmTool.Examples
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: RhythmTool.Examples.SongSelector
+  commentId: T:RhythmTool.Examples.SongSelector
+  parent: RhythmTool.Examples
+  name: SongSelector
+  nameWithType: SongSelector
+  fullName: RhythmTool.Examples.SongSelector
+- uid: RhythmTool.Examples.AudioClipSelector
+  commentId: T:RhythmTool.Examples.AudioClipSelector
+  name: AudioClipSelector
+  nameWithType: AudioClipSelector
+  fullName: RhythmTool.Examples.AudioClipSelector
+- uid: RhythmTool.Examples.Line
+  commentId: T:RhythmTool.Examples.Line
+  parent: RhythmTool.Examples
+  name: Line
+  nameWithType: Line
+  fullName: RhythmTool.Examples.Line
+- uid: RhythmTool.Examples.Visualizer
+  commentId: T:RhythmTool.Examples.Visualizer
+  name: Visualizer
+  nameWithType: Visualizer
+  fullName: RhythmTool.Examples.Visualizer
+- uid: RhythmTool.Examples
+  commentId: N:RhythmTool.Examples
+  name: RhythmTool.Examples
+  nameWithType: RhythmTool.Examples
+  fullName: RhythmTool.Examples

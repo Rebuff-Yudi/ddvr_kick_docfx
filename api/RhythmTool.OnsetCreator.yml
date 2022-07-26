@@ -1,0 +1,298 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.OnsetCreator
+  commentId: T:RhythmTool.OnsetCreator
+  id: OnsetCreator
+  parent: RhythmTool
+  children:
+  - RhythmTool.OnsetCreator.Create(System.Single,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: OnsetCreator
+  nameWithType: OnsetCreator
+  fullName: RhythmTool.OnsetCreator
+  type: Class
+  source:
+    id: OnsetCreator
+    path: ''
+    startLine: 253
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: 'public class OnsetCreator : FeatureCreator<Onset>'
+    content.vb: >-
+      Public Class OnsetCreator
+          Inherits FeatureCreator(Of Onset)
+  inheritance:
+  - System.Object
+  - RhythmTool.FeatureCreator{RhythmTool.Onset}
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.OnsetCreator.Create(System.Single,System.Single)
+  commentId: M:RhythmTool.OnsetCreator.Create(System.Single,System.Single)
+  id: Create(System.Single,System.Single)
+  parent: RhythmTool.OnsetCreator
+  langs:
+  - csharp
+  - vb
+  name: Create(Single, Single)
+  nameWithType: OnsetCreator.Create(Single, Single)
+  fullName: RhythmTool.OnsetCreator.Create(System.Single, System.Single)
+  type: Method
+  source:
+    id: Create
+    path: ''
+    startLine: 255
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public override Onset Create(float timestamp, float value)
+    parameters:
+    - id: timestamp
+      type: System.Single
+    - id: value
+      type: System.Single
+    return:
+      type: RhythmTool.Onset
+    content.vb: Public Overrides Function Create(timestamp As Single, value As Single) As Onset
+  overridden: RhythmTool.FeatureCreator{RhythmTool.Onset}.Create(System.Single,System.Single)
+  overload: RhythmTool.OnsetCreator.Create*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: RhythmTool.FeatureCreator{RhythmTool.Onset}
+  commentId: T:RhythmTool.FeatureCreator{RhythmTool.Onset}
+  parent: RhythmTool
+  definition: RhythmTool.FeatureCreator`1
+  name: FeatureCreator<Onset>
+  nameWithType: FeatureCreator<Onset>
+  fullName: RhythmTool.FeatureCreator<RhythmTool.Onset>
+  nameWithType.vb: FeatureCreator(Of Onset)
+  fullName.vb: RhythmTool.FeatureCreator(Of RhythmTool.Onset)
+  name.vb: FeatureCreator(Of Onset)
+  spec.csharp:
+  - uid: RhythmTool.FeatureCreator`1
+    name: FeatureCreator
+    nameWithType: FeatureCreator
+    fullName: RhythmTool.FeatureCreator
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: RhythmTool.Onset
+    name: Onset
+    nameWithType: Onset
+    fullName: RhythmTool.Onset
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: RhythmTool.FeatureCreator`1
+    name: FeatureCreator
+    nameWithType: FeatureCreator
+    fullName: RhythmTool.FeatureCreator
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: RhythmTool.Onset
+    name: Onset
+    nameWithType: Onset
+    fullName: RhythmTool.Onset
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.FeatureCreator`1
+  commentId: T:RhythmTool.FeatureCreator`1
+  name: FeatureCreator<T>
+  nameWithType: FeatureCreator<T>
+  fullName: RhythmTool.FeatureCreator<T>
+  nameWithType.vb: FeatureCreator(Of T)
+  fullName.vb: RhythmTool.FeatureCreator(Of T)
+  name.vb: FeatureCreator(Of T)
+  spec.csharp:
+  - uid: RhythmTool.FeatureCreator`1
+    name: FeatureCreator
+    nameWithType: FeatureCreator
+    fullName: RhythmTool.FeatureCreator
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: RhythmTool.FeatureCreator`1
+    name: FeatureCreator
+    nameWithType: FeatureCreator
+    fullName: RhythmTool.FeatureCreator
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.FeatureCreator{RhythmTool.Onset}.Create(System.Single,System.Single)
+  commentId: M:RhythmTool.FeatureCreator{RhythmTool.Onset}.Create(System.Single,System.Single)
+  parent: RhythmTool.FeatureCreator{RhythmTool.Onset}
+  definition: RhythmTool.FeatureCreator`1.Create(System.Single,System.Single)
+  name: Create(Single, Single)
+  nameWithType: FeatureCreator<Onset>.Create(Single, Single)
+  fullName: RhythmTool.FeatureCreator<RhythmTool.Onset>.Create(System.Single, System.Single)
+  nameWithType.vb: FeatureCreator(Of Onset).Create(Single, Single)
+  fullName.vb: RhythmTool.FeatureCreator(Of RhythmTool.Onset).Create(System.Single, System.Single)
+  spec.csharp:
+  - uid: RhythmTool.FeatureCreator`1.Create(System.Single,System.Single)
+    name: Create
+    nameWithType: FeatureCreator<Onset>.Create
+    fullName: RhythmTool.FeatureCreator<RhythmTool.Onset>.Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.FeatureCreator`1.Create(System.Single,System.Single)
+    name: Create
+    nameWithType: FeatureCreator(Of Onset).Create
+    fullName: RhythmTool.FeatureCreator(Of RhythmTool.Onset).Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.OnsetCreator.Create*
+  commentId: Overload:RhythmTool.OnsetCreator.Create
+  name: Create
+  nameWithType: OnsetCreator.Create
+  fullName: RhythmTool.OnsetCreator.Create
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: RhythmTool.Onset
+  commentId: T:RhythmTool.Onset
+  parent: RhythmTool
+  name: Onset
+  nameWithType: Onset
+  fullName: RhythmTool.Onset
+- uid: RhythmTool.FeatureCreator`1.Create(System.Single,System.Single)
+  commentId: M:RhythmTool.FeatureCreator`1.Create(System.Single,System.Single)
+  isExternal: true
+  name: Create(Single, Single)
+  nameWithType: FeatureCreator<T>.Create(Single, Single)
+  fullName: RhythmTool.FeatureCreator<T>.Create(System.Single, System.Single)
+  nameWithType.vb: FeatureCreator(Of T).Create(Single, Single)
+  fullName.vb: RhythmTool.FeatureCreator(Of T).Create(System.Single, System.Single)
+  spec.csharp:
+  - uid: RhythmTool.FeatureCreator`1.Create(System.Single,System.Single)
+    name: Create
+    nameWithType: FeatureCreator<T>.Create
+    fullName: RhythmTool.FeatureCreator<T>.Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.FeatureCreator`1.Create(System.Single,System.Single)
+    name: Create
+    nameWithType: FeatureCreator(Of T).Create
+    fullName: RhythmTool.FeatureCreator(Of T).Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

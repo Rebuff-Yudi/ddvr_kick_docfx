@@ -1,0 +1,365 @@
+### YamlMime:ManagedReference
+items:
+- uid: DDVRKick.Tracks.NoteBody
+  commentId: T:DDVRKick.Tracks.NoteBody
+  id: NoteBody
+  parent: DDVRKick.Tracks
+  children:
+  - DDVRKick.Tracks.NoteBody.audioSource
+  - DDVRKick.Tracks.NoteBody.collider
+  - DDVRKick.Tracks.NoteBody.effect
+  - DDVRKick.Tracks.NoteBody.kickable
+  - DDVRKick.Tracks.NoteBody.meshRenderer
+  - DDVRKick.Tracks.NoteBody.note
+  - DDVRKick.Tracks.NoteBody.Reset
+  - DDVRKick.Tracks.NoteBody.rigidbody
+  langs:
+  - csharp
+  - vb
+  name: NoteBody
+  nameWithType: NoteBody
+  fullName: DDVRKick.Tracks.NoteBody
+  type: Class
+  source:
+    id: NoteBody
+    path: ''
+    startLine: 7648
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: 'public class NoteBody : MonoBehaviour'
+    content.vb: >-
+      Public Class NoteBody
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DDVRKick.Tracks.NoteBody.note
+  commentId: F:DDVRKick.Tracks.NoteBody.note
+  id: note
+  parent: DDVRKick.Tracks.NoteBody
+  langs:
+  - csharp
+  - vb
+  name: note
+  nameWithType: NoteBody.note
+  fullName: DDVRKick.Tracks.NoteBody.note
+  type: Field
+  source:
+    id: note
+    path: ''
+    startLine: 7651
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public Note note
+    return:
+      type: DDVRKick.Tracks.Note
+    content.vb: Public note As Note
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DDVRKick.Tracks.NoteBody.kickable
+  commentId: F:DDVRKick.Tracks.NoteBody.kickable
+  id: kickable
+  parent: DDVRKick.Tracks.NoteBody
+  langs:
+  - csharp
+  - vb
+  name: kickable
+  nameWithType: NoteBody.kickable
+  fullName: DDVRKick.Tracks.NoteBody.kickable
+  type: Field
+  source:
+    id: kickable
+    path: ''
+    startLine: 7653
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public bool kickable
+    return:
+      type: System.Boolean
+    content.vb: Public kickable As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DDVRKick.Tracks.NoteBody.rigidbody
+  commentId: P:DDVRKick.Tracks.NoteBody.rigidbody
+  id: rigidbody
+  parent: DDVRKick.Tracks.NoteBody
+  langs:
+  - csharp
+  - vb
+  name: rigidbody
+  nameWithType: NoteBody.rigidbody
+  fullName: DDVRKick.Tracks.NoteBody.rigidbody
+  type: Property
+  source:
+    id: rigidbody
+    path: ''
+    startLine: 7660
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public Rigidbody rigidbody { get; }
+    parameters: []
+    return:
+      type: Global.Rigidbody
+    content.vb: Public ReadOnly Property rigidbody As Rigidbody
+  overload: DDVRKick.Tracks.NoteBody.rigidbody*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DDVRKick.Tracks.NoteBody.collider
+  commentId: P:DDVRKick.Tracks.NoteBody.collider
+  id: collider
+  parent: DDVRKick.Tracks.NoteBody
+  langs:
+  - csharp
+  - vb
+  name: collider
+  nameWithType: NoteBody.collider
+  fullName: DDVRKick.Tracks.NoteBody.collider
+  type: Property
+  source:
+    id: collider
+    path: ''
+    startLine: 7671
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public Collider collider { get; }
+    parameters: []
+    return:
+      type: Global.Collider
+    content.vb: Public ReadOnly Property collider As Collider
+  overload: DDVRKick.Tracks.NoteBody.collider*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DDVRKick.Tracks.NoteBody.effect
+  commentId: P:DDVRKick.Tracks.NoteBody.effect
+  id: effect
+  parent: DDVRKick.Tracks.NoteBody
+  langs:
+  - csharp
+  - vb
+  name: effect
+  nameWithType: NoteBody.effect
+  fullName: DDVRKick.Tracks.NoteBody.effect
+  type: Property
+  source:
+    id: effect
+    path: ''
+    startLine: 7682
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public ParticleSystem effect { get; }
+    parameters: []
+    return:
+      type: Global.ParticleSystem
+    content.vb: Public ReadOnly Property effect As ParticleSystem
+  overload: DDVRKick.Tracks.NoteBody.effect*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DDVRKick.Tracks.NoteBody.audioSource
+  commentId: P:DDVRKick.Tracks.NoteBody.audioSource
+  id: audioSource
+  parent: DDVRKick.Tracks.NoteBody
+  langs:
+  - csharp
+  - vb
+  name: audioSource
+  nameWithType: NoteBody.audioSource
+  fullName: DDVRKick.Tracks.NoteBody.audioSource
+  type: Property
+  source:
+    id: audioSource
+    path: ''
+    startLine: 7693
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public AudioSource audioSource { get; }
+    parameters: []
+    return:
+      type: Global.AudioSource
+    content.vb: Public ReadOnly Property audioSource As AudioSource
+  overload: DDVRKick.Tracks.NoteBody.audioSource*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DDVRKick.Tracks.NoteBody.meshRenderer
+  commentId: P:DDVRKick.Tracks.NoteBody.meshRenderer
+  id: meshRenderer
+  parent: DDVRKick.Tracks.NoteBody
+  langs:
+  - csharp
+  - vb
+  name: meshRenderer
+  nameWithType: NoteBody.meshRenderer
+  fullName: DDVRKick.Tracks.NoteBody.meshRenderer
+  type: Property
+  source:
+    id: meshRenderer
+    path: ''
+    startLine: 7704
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public MeshRenderer meshRenderer { get; }
+    parameters: []
+    return:
+      type: Global.MeshRenderer
+    content.vb: Public ReadOnly Property meshRenderer As MeshRenderer
+  overload: DDVRKick.Tracks.NoteBody.meshRenderer*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DDVRKick.Tracks.NoteBody.Reset
+  commentId: M:DDVRKick.Tracks.NoteBody.Reset
+  id: Reset
+  parent: DDVRKick.Tracks.NoteBody
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: NoteBody.Reset()
+  fullName: DDVRKick.Tracks.NoteBody.Reset()
+  type: Method
+  source:
+    id: Reset
+    path: ''
+    startLine: 7814
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public void Reset()
+    content.vb: Public Sub Reset
+  overload: DDVRKick.Tracks.NoteBody.Reset*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DDVRKick.Tracks
+  commentId: N:DDVRKick.Tracks
+  name: DDVRKick.Tracks
+  nameWithType: DDVRKick.Tracks
+  fullName: DDVRKick.Tracks
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DDVRKick.Tracks.Note
+  commentId: T:DDVRKick.Tracks.Note
+  parent: DDVRKick.Tracks
+  name: Note
+  nameWithType: Note
+  fullName: DDVRKick.Tracks.Note
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: DDVRKick.Tracks.NoteBody.rigidbody*
+  commentId: Overload:DDVRKick.Tracks.NoteBody.rigidbody
+  name: rigidbody
+  nameWithType: NoteBody.rigidbody
+  fullName: DDVRKick.Tracks.NoteBody.rigidbody
+- uid: Global.Rigidbody
+  isExternal: true
+  name: Rigidbody
+  nameWithType: Rigidbody
+  fullName: Rigidbody
+- uid: DDVRKick.Tracks.NoteBody.collider*
+  commentId: Overload:DDVRKick.Tracks.NoteBody.collider
+  name: collider
+  nameWithType: NoteBody.collider
+  fullName: DDVRKick.Tracks.NoteBody.collider
+- uid: Global.Collider
+  isExternal: true
+  name: Collider
+  nameWithType: Collider
+  fullName: Collider
+- uid: DDVRKick.Tracks.NoteBody.effect*
+  commentId: Overload:DDVRKick.Tracks.NoteBody.effect
+  name: effect
+  nameWithType: NoteBody.effect
+  fullName: DDVRKick.Tracks.NoteBody.effect
+- uid: Global.ParticleSystem
+  isExternal: true
+  name: ParticleSystem
+  nameWithType: ParticleSystem
+  fullName: ParticleSystem
+- uid: DDVRKick.Tracks.NoteBody.audioSource*
+  commentId: Overload:DDVRKick.Tracks.NoteBody.audioSource
+  name: audioSource
+  nameWithType: NoteBody.audioSource
+  fullName: DDVRKick.Tracks.NoteBody.audioSource
+- uid: Global.AudioSource
+  isExternal: true
+  name: AudioSource
+  nameWithType: AudioSource
+  fullName: AudioSource
+- uid: DDVRKick.Tracks.NoteBody.meshRenderer*
+  commentId: Overload:DDVRKick.Tracks.NoteBody.meshRenderer
+  name: meshRenderer
+  nameWithType: NoteBody.meshRenderer
+  fullName: DDVRKick.Tracks.NoteBody.meshRenderer
+- uid: Global.MeshRenderer
+  commentId: '!:Global.MeshRenderer'
+  isExternal: true
+  name: MeshRenderer
+  nameWithType: MeshRenderer
+  fullName: MeshRenderer
+- uid: DDVRKick.Tracks.NoteBody.Reset*
+  commentId: Overload:DDVRKick.Tracks.NoteBody.Reset
+  name: Reset
+  nameWithType: NoteBody.Reset
+  fullName: DDVRKick.Tracks.NoteBody.Reset

@@ -1,0 +1,128 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.INoteData
+  commentId: T:RhythmTool.INoteData
+  id: INoteData
+  parent: RhythmTool
+  children:
+  - RhythmTool.INoteData.isPhysicalNote
+  - RhythmTool.INoteData.pathType
+  langs:
+  - csharp
+  - vb
+  name: INoteData
+  nameWithType: INoteData
+  fullName: RhythmTool.INoteData
+  type: Interface
+  source:
+    id: INoteData
+    path: ''
+    startLine: 6091
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nNote data to pass on to <xref href=\"DDVRKick.Tracks.NoteTrack.GenerateNote(RhythmTool.INoteData)\" data-throw-if-not-resolved=\"false\"></xref> for note generation.\n"
+  example: []
+  syntax:
+    content: public interface INoteData
+    content.vb: Public Interface INoteData
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: RhythmTool.INoteData.isPhysicalNote
+  commentId: P:RhythmTool.INoteData.isPhysicalNote
+  id: isPhysicalNote
+  parent: RhythmTool.INoteData
+  langs:
+  - csharp
+  - vb
+  name: isPhysicalNote
+  nameWithType: INoteData.isPhysicalNote
+  fullName: RhythmTool.INoteData.isPhysicalNote
+  type: Property
+  source:
+    id: isPhysicalNote
+    path: ''
+    startLine: 6093
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: bool isPhysicalNote { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property isPhysicalNote As Boolean
+  overload: RhythmTool.INoteData.isPhysicalNote*
+  modifiers.csharp:
+  - get
+  - set
+- uid: RhythmTool.INoteData.pathType
+  commentId: P:RhythmTool.INoteData.pathType
+  id: pathType
+  parent: RhythmTool.INoteData
+  langs:
+  - csharp
+  - vb
+  name: pathType
+  nameWithType: INoteData.pathType
+  fullName: RhythmTool.INoteData.pathType
+  type: Property
+  source:
+    id: pathType
+    path: ''
+    startLine: 6094
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: PathType pathType { get; set; }
+    parameters: []
+    return:
+      type: RhythmTool.PathType
+    content.vb: Property pathType As PathType
+  overload: RhythmTool.INoteData.pathType*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: DDVRKick.Tracks.NoteTrack.GenerateNote(RhythmTool.INoteData)
+  commentId: M:DDVRKick.Tracks.NoteTrack.GenerateNote(RhythmTool.INoteData)
+  isExternal: true
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: RhythmTool.INoteData.isPhysicalNote*
+  commentId: Overload:RhythmTool.INoteData.isPhysicalNote
+  name: isPhysicalNote
+  nameWithType: INoteData.isPhysicalNote
+  fullName: RhythmTool.INoteData.isPhysicalNote
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.INoteData.pathType*
+  commentId: Overload:RhythmTool.INoteData.pathType
+  name: pathType
+  nameWithType: INoteData.pathType
+  fullName: RhythmTool.INoteData.pathType
+- uid: RhythmTool.PathType
+  commentId: T:RhythmTool.PathType
+  parent: RhythmTool
+  name: PathType
+  nameWithType: PathType
+  fullName: RhythmTool.PathType

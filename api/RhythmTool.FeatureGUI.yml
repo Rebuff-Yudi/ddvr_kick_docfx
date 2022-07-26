@@ -1,0 +1,266 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.FeatureGUI
+  commentId: T:RhythmTool.FeatureGUI
+  id: FeatureGUI
+  parent: RhythmTool
+  children:
+  - RhythmTool.FeatureGUI.Manipulate(Vector2,RhythmTool.EditorState)
+  - RhythmTool.FeatureGUI.Move(System.Single)
+  - RhythmTool.FeatureGUI.Move(Vector2,RhythmTool.EditorState)
+  - RhythmTool.FeatureGUI.MoveTo(System.Single)
+  - RhythmTool.FeatureGUI.OnGUI(Rect,RhythmTool.EditorState)
+  langs:
+  - csharp
+  - vb
+  name: FeatureGUI
+  nameWithType: FeatureGUI
+  fullName: RhythmTool.FeatureGUI
+  type: Class
+  source:
+    id: FeatureGUI
+    path: ''
+    startLine: 300
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public abstract class FeatureGUI
+    content.vb: Public MustInherit Class FeatureGUI
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - RhythmTool.FeatureGUI`1
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: RhythmTool.FeatureGUI.OnGUI(Rect,RhythmTool.EditorState)
+  commentId: M:RhythmTool.FeatureGUI.OnGUI(Rect,RhythmTool.EditorState)
+  id: OnGUI(Rect,RhythmTool.EditorState)
+  parent: RhythmTool.FeatureGUI
+  langs:
+  - csharp
+  - vb
+  name: OnGUI(Rect, EditorState)
+  nameWithType: FeatureGUI.OnGUI(Rect, EditorState)
+  fullName: RhythmTool.FeatureGUI.OnGUI(Rect, RhythmTool.EditorState)
+  type: Method
+  source:
+    id: OnGUI
+    path: ''
+    startLine: 302
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public abstract void OnGUI(Rect trackRect, EditorState state)
+    parameters:
+    - id: trackRect
+      type: Global.Rect
+    - id: state
+      type: RhythmTool.EditorState
+    content.vb: Public MustOverride Sub OnGUI(trackRect As Rect, state As EditorState)
+  overload: RhythmTool.FeatureGUI.OnGUI*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: RhythmTool.FeatureGUI.Move(Vector2,RhythmTool.EditorState)
+  commentId: M:RhythmTool.FeatureGUI.Move(Vector2,RhythmTool.EditorState)
+  id: Move(Vector2,RhythmTool.EditorState)
+  parent: RhythmTool.FeatureGUI
+  langs:
+  - csharp
+  - vb
+  name: Move(Vector2, EditorState)
+  nameWithType: FeatureGUI.Move(Vector2, EditorState)
+  fullName: RhythmTool.FeatureGUI.Move(Vector2, RhythmTool.EditorState)
+  type: Method
+  source:
+    id: Move
+    path: ''
+    startLine: 303
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public abstract void Move(Vector2 delta, EditorState state)
+    parameters:
+    - id: delta
+      type: Global.Vector2
+    - id: state
+      type: RhythmTool.EditorState
+    content.vb: Public MustOverride Sub Move(delta As Vector2, state As EditorState)
+  overload: RhythmTool.FeatureGUI.Move*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: RhythmTool.FeatureGUI.Move(System.Single)
+  commentId: M:RhythmTool.FeatureGUI.Move(System.Single)
+  id: Move(System.Single)
+  parent: RhythmTool.FeatureGUI
+  langs:
+  - csharp
+  - vb
+  name: Move(Single)
+  nameWithType: FeatureGUI.Move(Single)
+  fullName: RhythmTool.FeatureGUI.Move(System.Single)
+  type: Method
+  source:
+    id: Move
+    path: ''
+    startLine: 305
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public abstract void Move(float deltaTimestamp)
+    parameters:
+    - id: deltaTimestamp
+      type: System.Single
+    content.vb: Public MustOverride Sub Move(deltaTimestamp As Single)
+  overload: RhythmTool.FeatureGUI.Move*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: RhythmTool.FeatureGUI.MoveTo(System.Single)
+  commentId: M:RhythmTool.FeatureGUI.MoveTo(System.Single)
+  id: MoveTo(System.Single)
+  parent: RhythmTool.FeatureGUI
+  langs:
+  - csharp
+  - vb
+  name: MoveTo(Single)
+  nameWithType: FeatureGUI.MoveTo(Single)
+  fullName: RhythmTool.FeatureGUI.MoveTo(System.Single)
+  type: Method
+  source:
+    id: MoveTo
+    path: ''
+    startLine: 306
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public abstract float MoveTo(float timestamp)
+    parameters:
+    - id: timestamp
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public MustOverride Function MoveTo(timestamp As Single) As Single
+  overload: RhythmTool.FeatureGUI.MoveTo*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: RhythmTool.FeatureGUI.Manipulate(Vector2,RhythmTool.EditorState)
+  commentId: M:RhythmTool.FeatureGUI.Manipulate(Vector2,RhythmTool.EditorState)
+  id: Manipulate(Vector2,RhythmTool.EditorState)
+  parent: RhythmTool.FeatureGUI
+  langs:
+  - csharp
+  - vb
+  name: Manipulate(Vector2, EditorState)
+  nameWithType: FeatureGUI.Manipulate(Vector2, EditorState)
+  fullName: RhythmTool.FeatureGUI.Manipulate(Vector2, RhythmTool.EditorState)
+  type: Method
+  source:
+    id: Manipulate
+    path: ''
+    startLine: 307
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public abstract void Manipulate(Vector2 delta, EditorState state)
+    parameters:
+    - id: delta
+      type: Global.Vector2
+    - id: state
+      type: RhythmTool.EditorState
+    content.vb: Public MustOverride Sub Manipulate(delta As Vector2, state As EditorState)
+  overload: RhythmTool.FeatureGUI.Manipulate*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.FeatureGUI.OnGUI*
+  commentId: Overload:RhythmTool.FeatureGUI.OnGUI
+  name: OnGUI
+  nameWithType: FeatureGUI.OnGUI
+  fullName: RhythmTool.FeatureGUI.OnGUI
+- uid: Global.Rect
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: Rect
+- uid: RhythmTool.EditorState
+  commentId: T:RhythmTool.EditorState
+  parent: RhythmTool
+  name: EditorState
+  nameWithType: EditorState
+  fullName: RhythmTool.EditorState
+- uid: RhythmTool.FeatureGUI.Move*
+  commentId: Overload:RhythmTool.FeatureGUI.Move
+  name: Move
+  nameWithType: FeatureGUI.Move
+  fullName: RhythmTool.FeatureGUI.Move
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: RhythmTool.FeatureGUI.MoveTo*
+  commentId: Overload:RhythmTool.FeatureGUI.MoveTo
+  name: MoveTo
+  nameWithType: FeatureGUI.MoveTo
+  fullName: RhythmTool.FeatureGUI.MoveTo
+- uid: RhythmTool.FeatureGUI.Manipulate*
+  commentId: Overload:RhythmTool.FeatureGUI.Manipulate
+  name: Manipulate
+  nameWithType: FeatureGUI.Manipulate
+  fullName: RhythmTool.FeatureGUI.Manipulate

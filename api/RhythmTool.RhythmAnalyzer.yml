@@ -1,0 +1,423 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.RhythmAnalyzer
+  commentId: T:RhythmTool.RhythmAnalyzer
+  id: RhythmAnalyzer
+  parent: RhythmTool
+  children:
+  - RhythmTool.RhythmAnalyzer.Abort
+  - RhythmTool.RhythmAnalyzer.Analyze(AudioClip,System.Single)
+  - RhythmTool.RhythmAnalyzer.initialized
+  - RhythmTool.RhythmAnalyzer.Initialized
+  - RhythmTool.RhythmAnalyzer.isDone
+  - RhythmTool.RhythmAnalyzer.progress
+  - RhythmTool.RhythmAnalyzer.rhythmData
+  langs:
+  - csharp
+  - vb
+  name: RhythmAnalyzer
+  nameWithType: RhythmAnalyzer
+  fullName: RhythmTool.RhythmAnalyzer
+  type: Class
+  source:
+    id: RhythmAnalyzer
+    path: ''
+    startLine: 4316
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe RhythmAnalyzer is the main component that analyzes a song. \nThe RhythmAnalyzer component uses Analysis components to populate a RhythmData object with Tracks.\n"
+  example: []
+  syntax:
+    content: 'public class RhythmAnalyzer : MonoBehaviour'
+    content.vb: >-
+      Public Class RhythmAnalyzer
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.RhythmAnalyzer.Initialized
+  commentId: E:RhythmTool.RhythmAnalyzer.Initialized
+  id: Initialized
+  parent: RhythmTool.RhythmAnalyzer
+  langs:
+  - csharp
+  - vb
+  name: Initialized
+  nameWithType: RhythmAnalyzer.Initialized
+  fullName: RhythmTool.RhythmAnalyzer.Initialized
+  type: Event
+  source:
+    id: Initialized
+    path: ''
+    startLine: 4322
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nOccurs when an initial part of the song has been analyzed.\n"
+  example: []
+  syntax:
+    content: public event Action<RhythmData> Initialized
+    return:
+      type: Global.Action{RhythmTool.RhythmData}
+    content.vb: Public Event Initialized As Action(Of RhythmData)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.RhythmAnalyzer.rhythmData
+  commentId: P:RhythmTool.RhythmAnalyzer.rhythmData
+  id: rhythmData
+  parent: RhythmTool.RhythmAnalyzer
+  langs:
+  - csharp
+  - vb
+  name: rhythmData
+  nameWithType: RhythmAnalyzer.rhythmData
+  fullName: RhythmTool.RhythmAnalyzer.rhythmData
+  type: Property
+  source:
+    id: rhythmData
+    path: ''
+    startLine: 4327
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe RhythmData object for the song that is being analyzed.\n"
+  example: []
+  syntax:
+    content: public RhythmData rhythmData { get; }
+    parameters: []
+    return:
+      type: RhythmTool.RhythmData
+    content.vb: Public ReadOnly Property rhythmData As RhythmData
+  overload: RhythmTool.RhythmAnalyzer.rhythmData*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: RhythmTool.RhythmAnalyzer.progress
+  commentId: P:RhythmTool.RhythmAnalyzer.progress
+  id: progress
+  parent: RhythmTool.RhythmAnalyzer
+  langs:
+  - csharp
+  - vb
+  name: progress
+  nameWithType: RhythmAnalyzer.progress
+  fullName: RhythmTool.RhythmAnalyzer.progress
+  type: Property
+  source:
+    id: progress
+    path: ''
+    startLine: 4332
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe current progress (0-1) of the analysis.\n"
+  example: []
+  syntax:
+    content: public float progress { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property progress As Single
+  overload: RhythmTool.RhythmAnalyzer.progress*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: RhythmTool.RhythmAnalyzer.isDone
+  commentId: P:RhythmTool.RhythmAnalyzer.isDone
+  id: isDone
+  parent: RhythmTool.RhythmAnalyzer
+  langs:
+  - csharp
+  - vb
+  name: isDone
+  nameWithType: RhythmAnalyzer.isDone
+  fullName: RhythmTool.RhythmAnalyzer.isDone
+  type: Property
+  source:
+    id: isDone
+    path: ''
+    startLine: 4337
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nIs the analysis completed?\n"
+  example: []
+  syntax:
+    content: public bool isDone { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property isDone As Boolean
+  overload: RhythmTool.RhythmAnalyzer.isDone*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: RhythmTool.RhythmAnalyzer.initialized
+  commentId: P:RhythmTool.RhythmAnalyzer.initialized
+  id: initialized
+  parent: RhythmTool.RhythmAnalyzer
+  langs:
+  - csharp
+  - vb
+  name: initialized
+  nameWithType: RhythmAnalyzer.initialized
+  fullName: RhythmTool.RhythmAnalyzer.initialized
+  type: Property
+  source:
+    id: initialized
+    path: ''
+    startLine: 4342
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nHas an initial length of the song been analyzed?\n"
+  example: []
+  syntax:
+    content: public bool initialized { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property initialized As Boolean
+  overload: RhythmTool.RhythmAnalyzer.initialized*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: RhythmTool.RhythmAnalyzer.Analyze(AudioClip,System.Single)
+  commentId: M:RhythmTool.RhythmAnalyzer.Analyze(AudioClip,System.Single)
+  id: Analyze(AudioClip,System.Single)
+  parent: RhythmTool.RhythmAnalyzer
+  langs:
+  - csharp
+  - vb
+  name: Analyze(AudioClip, Single)
+  nameWithType: RhythmAnalyzer.Analyze(AudioClip, Single)
+  fullName: RhythmTool.RhythmAnalyzer.Analyze(AudioClip, System.Single)
+  type: Method
+  source:
+    id: Analyze
+    path: ''
+    startLine: 4381
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nStart analyzing an AudioClip.\n"
+  example: []
+  syntax:
+    content: public RhythmData Analyze(AudioClip audioClip, float initialLength = 5F)
+    parameters:
+    - id: audioClip
+      type: Global.AudioClip
+      description: The AudioClip to Analyze.
+    - id: initialLength
+      type: System.Single
+      description: An initial length in seconds to analyze before invoking the Initialized event.
+    return:
+      type: RhythmTool.RhythmData
+      description: RhythmData object containing analysis results.
+    content.vb: Public Function Analyze(audioClip As AudioClip, initialLength As Single = 5F) As RhythmData
+  overload: RhythmTool.RhythmAnalyzer.Analyze*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.RhythmAnalyzer.Abort
+  commentId: M:RhythmTool.RhythmAnalyzer.Abort
+  id: Abort
+  parent: RhythmTool.RhythmAnalyzer
+  langs:
+  - csharp
+  - vb
+  name: Abort()
+  nameWithType: RhythmAnalyzer.Abort()
+  fullName: RhythmTool.RhythmAnalyzer.Abort()
+  type: Method
+  source:
+    id: Abort
+    path: ''
+    startLine: 4396
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nAbort the analysis process.\n"
+  example: []
+  syntax:
+    content: public void Abort()
+    content.vb: Public Sub Abort
+  overload: RhythmTool.RhythmAnalyzer.Abort*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Action{RhythmTool.RhythmData}
+  commentId: '!:Global.Action{RhythmTool.RhythmData}'
+  definition: Global.Action`1
+  name: Action<RhythmData>
+  nameWithType: Action<RhythmData>
+  fullName: Action<RhythmTool.RhythmData>
+  nameWithType.vb: Action(Of RhythmData)
+  fullName.vb: Action(Of RhythmTool.RhythmData)
+  name.vb: Action(Of RhythmData)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: RhythmTool.RhythmData
+    name: RhythmData
+    nameWithType: RhythmData
+    fullName: RhythmTool.RhythmData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: RhythmTool.RhythmData
+    name: RhythmData
+    nameWithType: RhythmData
+    fullName: RhythmTool.RhythmData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.RhythmAnalyzer.rhythmData*
+  commentId: Overload:RhythmTool.RhythmAnalyzer.rhythmData
+  name: rhythmData
+  nameWithType: RhythmAnalyzer.rhythmData
+  fullName: RhythmTool.RhythmAnalyzer.rhythmData
+- uid: RhythmTool.RhythmData
+  commentId: T:RhythmTool.RhythmData
+  parent: RhythmTool
+  name: RhythmData
+  nameWithType: RhythmData
+  fullName: RhythmTool.RhythmData
+- uid: RhythmTool.RhythmAnalyzer.progress*
+  commentId: Overload:RhythmTool.RhythmAnalyzer.progress
+  name: progress
+  nameWithType: RhythmAnalyzer.progress
+  fullName: RhythmTool.RhythmAnalyzer.progress
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: RhythmTool.RhythmAnalyzer.isDone*
+  commentId: Overload:RhythmTool.RhythmAnalyzer.isDone
+  name: isDone
+  nameWithType: RhythmAnalyzer.isDone
+  fullName: RhythmTool.RhythmAnalyzer.isDone
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: RhythmTool.RhythmAnalyzer.initialized*
+  commentId: Overload:RhythmTool.RhythmAnalyzer.initialized
+  name: initialized
+  nameWithType: RhythmAnalyzer.initialized
+  fullName: RhythmTool.RhythmAnalyzer.initialized
+- uid: RhythmTool.RhythmAnalyzer.Analyze*
+  commentId: Overload:RhythmTool.RhythmAnalyzer.Analyze
+  name: Analyze
+  nameWithType: RhythmAnalyzer.Analyze
+  fullName: RhythmTool.RhythmAnalyzer.Analyze
+- uid: Global.AudioClip
+  isExternal: true
+  name: AudioClip
+  nameWithType: AudioClip
+  fullName: AudioClip
+- uid: RhythmTool.RhythmAnalyzer.Abort*
+  commentId: Overload:RhythmTool.RhythmAnalyzer.Abort
+  name: Abort
+  nameWithType: RhythmAnalyzer.Abort
+  fullName: RhythmTool.RhythmAnalyzer.Abort

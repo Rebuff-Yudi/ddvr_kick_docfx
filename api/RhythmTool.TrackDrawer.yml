@@ -1,0 +1,294 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.TrackDrawer
+  commentId: T:RhythmTool.TrackDrawer
+  id: TrackDrawer
+  parent: RhythmTool
+  children:
+  - RhythmTool.TrackDrawer.Draw(RhythmTool.Track,Rect,System.Single,System.Single)
+  - RhythmTool.TrackDrawer.DrawRect(Rect)
+  - RhythmTool.TrackDrawer.DrawTrack(RhythmTool.Track,Rect,System.Single,System.Single)
+  - RhythmTool.TrackDrawer.GetFeaturePosition(RhythmTool.Feature,Rect,System.Single,System.Single)
+  - RhythmTool.TrackDrawer.GetTrackDrawer(RhythmTool.Track)
+  langs:
+  - csharp
+  - vb
+  name: TrackDrawer
+  nameWithType: TrackDrawer
+  fullName: RhythmTool.TrackDrawer
+  type: Class
+  source:
+    id: TrackDrawer
+    path: ''
+    startLine: 3847
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe TrackDrawer draws basic information for a specific Track.\n"
+  example: []
+  syntax:
+    content: public abstract class TrackDrawer
+    content.vb: Public MustInherit Class TrackDrawer
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - RhythmTool.TrackDrawer`1
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: RhythmTool.TrackDrawer.Draw(RhythmTool.Track,Rect,System.Single,System.Single)
+  commentId: M:RhythmTool.TrackDrawer.Draw(RhythmTool.Track,Rect,System.Single,System.Single)
+  id: Draw(RhythmTool.Track,Rect,System.Single,System.Single)
+  parent: RhythmTool.TrackDrawer
+  langs:
+  - csharp
+  - vb
+  name: Draw(Track, Rect, Single, Single)
+  nameWithType: TrackDrawer.Draw(Track, Rect, Single, Single)
+  fullName: RhythmTool.TrackDrawer.Draw(RhythmTool.Track, Rect, System.Single, System.Single)
+  type: Method
+  source:
+    id: Draw
+    path: ''
+    startLine: 3851
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static void Draw(Track track, Rect rect, float start, float end)
+    parameters:
+    - id: track
+      type: RhythmTool.Track
+    - id: rect
+      type: Global.Rect
+    - id: start
+      type: System.Single
+    - id: end
+      type: System.Single
+    content.vb: Public Shared Sub Draw(track As Track, rect As Rect, start As Single, end As Single)
+  overload: RhythmTool.TrackDrawer.Draw*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: RhythmTool.TrackDrawer.DrawTrack(RhythmTool.Track,Rect,System.Single,System.Single)
+  commentId: M:RhythmTool.TrackDrawer.DrawTrack(RhythmTool.Track,Rect,System.Single,System.Single)
+  id: DrawTrack(RhythmTool.Track,Rect,System.Single,System.Single)
+  parent: RhythmTool.TrackDrawer
+  langs:
+  - csharp
+  - vb
+  name: DrawTrack(Track, Rect, Single, Single)
+  nameWithType: TrackDrawer.DrawTrack(Track, Rect, Single, Single)
+  fullName: RhythmTool.TrackDrawer.DrawTrack(RhythmTool.Track, Rect, System.Single, System.Single)
+  type: Method
+  source:
+    id: DrawTrack
+    path: ''
+    startLine: 3866
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: protected abstract void DrawTrack(Track track, Rect rect, float start, float end)
+    parameters:
+    - id: track
+      type: RhythmTool.Track
+    - id: rect
+      type: Global.Rect
+    - id: start
+      type: System.Single
+    - id: end
+      type: System.Single
+    content.vb: Protected MustOverride Sub DrawTrack(track As Track, rect As Rect, start As Single, end As Single)
+  overload: RhythmTool.TrackDrawer.DrawTrack*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+- uid: RhythmTool.TrackDrawer.GetTrackDrawer(RhythmTool.Track)
+  commentId: M:RhythmTool.TrackDrawer.GetTrackDrawer(RhythmTool.Track)
+  id: GetTrackDrawer(RhythmTool.Track)
+  parent: RhythmTool.TrackDrawer
+  langs:
+  - csharp
+  - vb
+  name: GetTrackDrawer(Track)
+  nameWithType: TrackDrawer.GetTrackDrawer(Track)
+  fullName: RhythmTool.TrackDrawer.GetTrackDrawer(RhythmTool.Track)
+  type: Method
+  source:
+    id: GetTrackDrawer
+    path: ''
+    startLine: 3868
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static TrackDrawer GetTrackDrawer(Track track)
+    parameters:
+    - id: track
+      type: RhythmTool.Track
+    return:
+      type: RhythmTool.TrackDrawer
+    content.vb: Public Shared Function GetTrackDrawer(track As Track) As TrackDrawer
+  overload: RhythmTool.TrackDrawer.GetTrackDrawer*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: RhythmTool.TrackDrawer.GetFeaturePosition(RhythmTool.Feature,Rect,System.Single,System.Single)
+  commentId: M:RhythmTool.TrackDrawer.GetFeaturePosition(RhythmTool.Feature,Rect,System.Single,System.Single)
+  id: GetFeaturePosition(RhythmTool.Feature,Rect,System.Single,System.Single)
+  parent: RhythmTool.TrackDrawer
+  langs:
+  - csharp
+  - vb
+  name: GetFeaturePosition(Feature, Rect, Single, Single)
+  nameWithType: TrackDrawer.GetFeaturePosition(Feature, Rect, Single, Single)
+  fullName: RhythmTool.TrackDrawer.GetFeaturePosition(RhythmTool.Feature, Rect, System.Single, System.Single)
+  type: Method
+  source:
+    id: GetFeaturePosition
+    path: ''
+    startLine: 3884
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: protected static float GetFeaturePosition(Feature feature, Rect rect, float start, float end)
+    parameters:
+    - id: feature
+      type: RhythmTool.Feature
+    - id: rect
+      type: Global.Rect
+    - id: start
+      type: System.Single
+    - id: end
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Protected Shared Function GetFeaturePosition(feature As Feature, rect As Rect, start As Single, end As Single) As Single
+  overload: RhythmTool.TrackDrawer.GetFeaturePosition*
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: RhythmTool.TrackDrawer.DrawRect(Rect)
+  commentId: M:RhythmTool.TrackDrawer.DrawRect(Rect)
+  id: DrawRect(Rect)
+  parent: RhythmTool.TrackDrawer
+  langs:
+  - csharp
+  - vb
+  name: DrawRect(Rect)
+  nameWithType: TrackDrawer.DrawRect(Rect)
+  fullName: RhythmTool.TrackDrawer.DrawRect(Rect)
+  type: Method
+  source:
+    id: DrawRect
+    path: ''
+    startLine: 3889
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: protected static void DrawRect(Rect position)
+    parameters:
+    - id: position
+      type: Global.Rect
+    content.vb: Protected Shared Sub DrawRect(position As Rect)
+  overload: RhythmTool.TrackDrawer.DrawRect*
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.TrackDrawer.Draw*
+  commentId: Overload:RhythmTool.TrackDrawer.Draw
+  name: Draw
+  nameWithType: TrackDrawer.Draw
+  fullName: RhythmTool.TrackDrawer.Draw
+- uid: RhythmTool.Track
+  commentId: T:RhythmTool.Track
+  parent: RhythmTool
+  name: Track
+  nameWithType: Track
+  fullName: RhythmTool.Track
+- uid: Global.Rect
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: Rect
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: RhythmTool.TrackDrawer.DrawTrack*
+  commentId: Overload:RhythmTool.TrackDrawer.DrawTrack
+  name: DrawTrack
+  nameWithType: TrackDrawer.DrawTrack
+  fullName: RhythmTool.TrackDrawer.DrawTrack
+- uid: RhythmTool.TrackDrawer.GetTrackDrawer*
+  commentId: Overload:RhythmTool.TrackDrawer.GetTrackDrawer
+  name: GetTrackDrawer
+  nameWithType: TrackDrawer.GetTrackDrawer
+  fullName: RhythmTool.TrackDrawer.GetTrackDrawer
+- uid: RhythmTool.TrackDrawer
+  commentId: T:RhythmTool.TrackDrawer
+  parent: RhythmTool
+  name: TrackDrawer
+  nameWithType: TrackDrawer
+  fullName: RhythmTool.TrackDrawer
+- uid: RhythmTool.TrackDrawer.GetFeaturePosition*
+  commentId: Overload:RhythmTool.TrackDrawer.GetFeaturePosition
+  name: GetFeaturePosition
+  nameWithType: TrackDrawer.GetFeaturePosition
+  fullName: RhythmTool.TrackDrawer.GetFeaturePosition
+- uid: RhythmTool.Feature
+  commentId: T:RhythmTool.Feature
+  parent: RhythmTool
+  name: Feature
+  nameWithType: Feature
+  fullName: RhythmTool.Feature
+- uid: RhythmTool.TrackDrawer.DrawRect*
+  commentId: Overload:RhythmTool.TrackDrawer.DrawRect
+  name: DrawRect
+  nameWithType: TrackDrawer.DrawRect
+  fullName: RhythmTool.TrackDrawer.DrawRect

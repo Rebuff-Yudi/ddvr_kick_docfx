@@ -1,0 +1,318 @@
+### YamlMime:ManagedReference
+items:
+- uid: DDVRKick.Tracks.Note
+  commentId: T:DDVRKick.Tracks.Note
+  id: Note
+  parent: DDVRKick.Tracks
+  children:
+  - DDVRKick.Tracks.Note.body
+  - DDVRKick.Tracks.Note.Reset
+  - DDVRKick.Tracks.Note.track
+  langs:
+  - csharp
+  - vb
+  name: Note
+  nameWithType: Note
+  fullName: DDVRKick.Tracks.Note
+  type: Class
+  source:
+    id: Note
+    path: ''
+    startLine: 7617
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: 'public class Note : BaseTrackObject'
+    content.vb: >-
+      Public Class Note
+          Inherits BaseTrackObject
+  inheritance:
+  - System.Object
+  - DDVRKick.Tracks.BaseTrackObject
+  inheritedMembers:
+  - DDVRKick.Tracks.BaseTrackObject.pathTween
+  - DDVRKick.Tracks.BaseTrackObject.OnEnable
+  - DDVRKick.Tracks.BaseTrackObject.AttachToPath(DOTweenPath,DOTweenPath,System.Action)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DDVRKick.Tracks.Note.body
+  commentId: P:DDVRKick.Tracks.Note.body
+  id: body
+  parent: DDVRKick.Tracks.Note
+  langs:
+  - csharp
+  - vb
+  name: body
+  nameWithType: Note.body
+  fullName: DDVRKick.Tracks.Note.body
+  type: Property
+  source:
+    id: body
+    path: ''
+    startLine: 7619
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public NoteBody body { get; }
+    parameters: []
+    return:
+      type: DDVRKick.Tracks.NoteBody
+    content.vb: Public ReadOnly Property body As NoteBody
+  overload: DDVRKick.Tracks.Note.body*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DDVRKick.Tracks.Note.track
+  commentId: P:DDVRKick.Tracks.Note.track
+  id: track
+  parent: DDVRKick.Tracks.Note
+  langs:
+  - csharp
+  - vb
+  name: track
+  nameWithType: Note.track
+  fullName: DDVRKick.Tracks.Note.track
+  type: Property
+  source:
+    id: track
+    path: ''
+    startLine: 7632
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public NoteTrack track { get; set; }
+    parameters: []
+    return:
+      type: DDVRKick.Tracks.NoteTrack
+    content.vb: Public Property track As NoteTrack
+  overload: DDVRKick.Tracks.Note.track*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DDVRKick.Tracks.Note.Reset
+  commentId: M:DDVRKick.Tracks.Note.Reset
+  id: Reset
+  parent: DDVRKick.Tracks.Note
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: Note.Reset()
+  fullName: DDVRKick.Tracks.Note.Reset()
+  type: Method
+  source:
+    id: Reset
+    path: ''
+    startLine: 7634
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public override void Reset()
+    content.vb: Public Overrides Sub Reset
+  overridden: DDVRKick.Tracks.BaseTrackObject.Reset
+  overload: DDVRKick.Tracks.Note.Reset*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: DDVRKick.Tracks
+  commentId: N:DDVRKick.Tracks
+  name: DDVRKick.Tracks
+  nameWithType: DDVRKick.Tracks
+  fullName: DDVRKick.Tracks
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: DDVRKick.Tracks.BaseTrackObject
+  commentId: T:DDVRKick.Tracks.BaseTrackObject
+  parent: DDVRKick.Tracks
+  name: BaseTrackObject
+  nameWithType: BaseTrackObject
+  fullName: DDVRKick.Tracks.BaseTrackObject
+- uid: DDVRKick.Tracks.BaseTrackObject.pathTween
+  commentId: P:DDVRKick.Tracks.BaseTrackObject.pathTween
+  parent: DDVRKick.Tracks.BaseTrackObject
+  name: pathTween
+  nameWithType: BaseTrackObject.pathTween
+  fullName: DDVRKick.Tracks.BaseTrackObject.pathTween
+- uid: DDVRKick.Tracks.BaseTrackObject.OnEnable
+  commentId: M:DDVRKick.Tracks.BaseTrackObject.OnEnable
+  parent: DDVRKick.Tracks.BaseTrackObject
+  name: OnEnable()
+  nameWithType: BaseTrackObject.OnEnable()
+  fullName: DDVRKick.Tracks.BaseTrackObject.OnEnable()
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrackObject.OnEnable
+    name: OnEnable
+    nameWithType: BaseTrackObject.OnEnable
+    fullName: DDVRKick.Tracks.BaseTrackObject.OnEnable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrackObject.OnEnable
+    name: OnEnable
+    nameWithType: BaseTrackObject.OnEnable
+    fullName: DDVRKick.Tracks.BaseTrackObject.OnEnable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DDVRKick.Tracks.BaseTrackObject.AttachToPath(DOTweenPath,DOTweenPath,System.Action)
+  commentId: M:DDVRKick.Tracks.BaseTrackObject.AttachToPath(DOTweenPath,DOTweenPath,System.Action)
+  parent: DDVRKick.Tracks.BaseTrackObject
+  isExternal: true
+  name: AttachToPath(DOTweenPath, DOTweenPath, Action)
+  nameWithType: BaseTrackObject.AttachToPath(DOTweenPath, DOTweenPath, Action)
+  fullName: DDVRKick.Tracks.BaseTrackObject.AttachToPath(DOTweenPath, DOTweenPath, System.Action)
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrackObject.AttachToPath(DOTweenPath,DOTweenPath,System.Action)
+    name: AttachToPath
+    nameWithType: BaseTrackObject.AttachToPath
+    fullName: DDVRKick.Tracks.BaseTrackObject.AttachToPath
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.DOTweenPath
+    name: DOTweenPath
+    nameWithType: DOTweenPath
+    fullName: DOTweenPath
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.DOTweenPath
+    name: DOTweenPath
+    nameWithType: DOTweenPath
+    fullName: DOTweenPath
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrackObject.AttachToPath(DOTweenPath,DOTweenPath,System.Action)
+    name: AttachToPath
+    nameWithType: BaseTrackObject.AttachToPath
+    fullName: DDVRKick.Tracks.BaseTrackObject.AttachToPath
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.DOTweenPath
+    name: DOTweenPath
+    nameWithType: DOTweenPath
+    fullName: DOTweenPath
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.DOTweenPath
+    name: DOTweenPath
+    nameWithType: DOTweenPath
+    fullName: DOTweenPath
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DDVRKick.Tracks.Note.body*
+  commentId: Overload:DDVRKick.Tracks.Note.body
+  name: body
+  nameWithType: Note.body
+  fullName: DDVRKick.Tracks.Note.body
+- uid: DDVRKick.Tracks.NoteBody
+  commentId: T:DDVRKick.Tracks.NoteBody
+  parent: DDVRKick.Tracks
+  name: NoteBody
+  nameWithType: NoteBody
+  fullName: DDVRKick.Tracks.NoteBody
+- uid: DDVRKick.Tracks.Note.track*
+  commentId: Overload:DDVRKick.Tracks.Note.track
+  name: track
+  nameWithType: Note.track
+  fullName: DDVRKick.Tracks.Note.track
+- uid: DDVRKick.Tracks.NoteTrack
+  commentId: T:DDVRKick.Tracks.NoteTrack
+  parent: DDVRKick.Tracks
+  name: NoteTrack
+  nameWithType: NoteTrack
+  fullName: DDVRKick.Tracks.NoteTrack
+- uid: DDVRKick.Tracks.BaseTrackObject.Reset
+  commentId: M:DDVRKick.Tracks.BaseTrackObject.Reset
+  parent: DDVRKick.Tracks.BaseTrackObject
+  name: Reset()
+  nameWithType: BaseTrackObject.Reset()
+  fullName: DDVRKick.Tracks.BaseTrackObject.Reset()
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrackObject.Reset
+    name: Reset
+    nameWithType: BaseTrackObject.Reset
+    fullName: DDVRKick.Tracks.BaseTrackObject.Reset
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrackObject.Reset
+    name: Reset
+    nameWithType: BaseTrackObject.Reset
+    fullName: DDVRKick.Tracks.BaseTrackObject.Reset
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DDVRKick.Tracks.Note.Reset*
+  commentId: Overload:DDVRKick.Tracks.Note.Reset
+  name: Reset
+  nameWithType: Note.Reset
+  fullName: DDVRKick.Tracks.Note.Reset

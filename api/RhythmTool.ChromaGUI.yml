@@ -1,0 +1,1091 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.ChromaGUI
+  commentId: T:RhythmTool.ChromaGUI
+  id: ChromaGUI
+  parent: RhythmTool
+  children:
+  - RhythmTool.ChromaGUI.#ctor(RhythmTool.Track{RhythmTool.Chroma},System.Int32)
+  - RhythmTool.ChromaGUI.GetRect(Rect,RhythmTool.EditorState)
+  - RhythmTool.ChromaGUI.Move(Vector2,RhythmTool.EditorState)
+  langs:
+  - csharp
+  - vb
+  name: ChromaGUI
+  nameWithType: ChromaGUI
+  fullName: RhythmTool.ChromaGUI
+  type: Class
+  source:
+    id: ChromaGUI
+    path: ''
+    startLine: 472
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: 'public class ChromaGUI : FeatureGUI<Chroma>'
+    content.vb: >-
+      Public Class ChromaGUI
+          Inherits FeatureGUI(Of Chroma)
+  inheritance:
+  - System.Object
+  - RhythmTool.FeatureGUI
+  - RhythmTool.FeatureGUI{RhythmTool.Chroma}
+  inheritedMembers:
+  - RhythmTool.FeatureGUI{RhythmTool.Chroma}.track
+  - RhythmTool.FeatureGUI{RhythmTool.Chroma}.feature
+  - RhythmTool.FeatureGUI{RhythmTool.Chroma}.index
+  - RhythmTool.FeatureGUI{RhythmTool.Chroma}.rect
+  - RhythmTool.FeatureGUI{RhythmTool.Chroma}.OnGUI(Rect,RhythmTool.EditorState)
+  - RhythmTool.FeatureGUI{RhythmTool.Chroma}.Move(System.Single)
+  - RhythmTool.FeatureGUI{RhythmTool.Chroma}.MoveTo(System.Single)
+  - RhythmTool.FeatureGUI{RhythmTool.Chroma}.Manipulate(Vector2,RhythmTool.EditorState)
+  - RhythmTool.FeatureGUI{RhythmTool.Chroma}.Draw
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.ChromaGUI.#ctor(RhythmTool.Track{RhythmTool.Chroma},System.Int32)
+  commentId: M:RhythmTool.ChromaGUI.#ctor(RhythmTool.Track{RhythmTool.Chroma},System.Int32)
+  id: '#ctor(RhythmTool.Track{RhythmTool.Chroma},System.Int32)'
+  parent: RhythmTool.ChromaGUI
+  langs:
+  - csharp
+  - vb
+  name: ChromaGUI(Track<Chroma>, Int32)
+  nameWithType: ChromaGUI.ChromaGUI(Track<Chroma>, Int32)
+  fullName: RhythmTool.ChromaGUI.ChromaGUI(RhythmTool.Track<RhythmTool.Chroma>, System.Int32)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 478
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public ChromaGUI(Track<Chroma> track, int index)
+    parameters:
+    - id: track
+      type: RhythmTool.Track{RhythmTool.Chroma}
+    - id: index
+      type: System.Int32
+    content.vb: Public Sub New(track As Track(Of Chroma), index As Integer)
+  overload: RhythmTool.ChromaGUI.#ctor*
+  nameWithType.vb: ChromaGUI.ChromaGUI(Track(Of Chroma), Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: RhythmTool.ChromaGUI.ChromaGUI(RhythmTool.Track(Of RhythmTool.Chroma), System.Int32)
+  name.vb: ChromaGUI(Track(Of Chroma), Int32)
+- uid: RhythmTool.ChromaGUI.GetRect(Rect,RhythmTool.EditorState)
+  commentId: M:RhythmTool.ChromaGUI.GetRect(Rect,RhythmTool.EditorState)
+  id: GetRect(Rect,RhythmTool.EditorState)
+  parent: RhythmTool.ChromaGUI
+  langs:
+  - csharp
+  - vb
+  name: GetRect(Rect, EditorState)
+  nameWithType: ChromaGUI.GetRect(Rect, EditorState)
+  fullName: RhythmTool.ChromaGUI.GetRect(Rect, RhythmTool.EditorState)
+  type: Method
+  source:
+    id: GetRect
+    path: ''
+    startLine: 483
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: protected override Rect GetRect(Rect trackRect, EditorState state)
+    parameters:
+    - id: trackRect
+      type: Global.Rect
+    - id: state
+      type: RhythmTool.EditorState
+    return:
+      type: Global.Rect
+    content.vb: Protected Overrides Function GetRect(trackRect As Rect, state As EditorState) As Rect
+  overridden: RhythmTool.FeatureGUI{RhythmTool.Chroma}.GetRect(Rect,RhythmTool.EditorState)
+  overload: RhythmTool.ChromaGUI.GetRect*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: RhythmTool.ChromaGUI.Move(Vector2,RhythmTool.EditorState)
+  commentId: M:RhythmTool.ChromaGUI.Move(Vector2,RhythmTool.EditorState)
+  id: Move(Vector2,RhythmTool.EditorState)
+  parent: RhythmTool.ChromaGUI
+  langs:
+  - csharp
+  - vb
+  name: Move(Vector2, EditorState)
+  nameWithType: ChromaGUI.Move(Vector2, EditorState)
+  fullName: RhythmTool.ChromaGUI.Move(Vector2, RhythmTool.EditorState)
+  type: Method
+  source:
+    id: Move
+    path: ''
+    startLine: 496
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public override void Move(Vector2 delta, EditorState state)
+    parameters:
+    - id: delta
+      type: Global.Vector2
+    - id: state
+      type: RhythmTool.EditorState
+    content.vb: Public Overrides Sub Move(delta As Vector2, state As EditorState)
+  overridden: RhythmTool.FeatureGUI{RhythmTool.Chroma}.Move(Vector2,RhythmTool.EditorState)
+  overload: RhythmTool.ChromaGUI.Move*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: RhythmTool.FeatureGUI
+  commentId: T:RhythmTool.FeatureGUI
+  parent: RhythmTool
+  name: FeatureGUI
+  nameWithType: FeatureGUI
+  fullName: RhythmTool.FeatureGUI
+- uid: RhythmTool.FeatureGUI{RhythmTool.Chroma}
+  commentId: T:RhythmTool.FeatureGUI{RhythmTool.Chroma}
+  parent: RhythmTool
+  definition: RhythmTool.FeatureGUI`1
+  name: FeatureGUI<Chroma>
+  nameWithType: FeatureGUI<Chroma>
+  fullName: RhythmTool.FeatureGUI<RhythmTool.Chroma>
+  nameWithType.vb: FeatureGUI(Of Chroma)
+  fullName.vb: RhythmTool.FeatureGUI(Of RhythmTool.Chroma)
+  name.vb: FeatureGUI(Of Chroma)
+  spec.csharp:
+  - uid: RhythmTool.FeatureGUI`1
+    name: FeatureGUI
+    nameWithType: FeatureGUI
+    fullName: RhythmTool.FeatureGUI
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: RhythmTool.Chroma
+    name: Chroma
+    nameWithType: Chroma
+    fullName: RhythmTool.Chroma
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: RhythmTool.FeatureGUI`1
+    name: FeatureGUI
+    nameWithType: FeatureGUI
+    fullName: RhythmTool.FeatureGUI
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: RhythmTool.Chroma
+    name: Chroma
+    nameWithType: Chroma
+    fullName: RhythmTool.Chroma
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.FeatureGUI{RhythmTool.Chroma}.track
+  commentId: P:RhythmTool.FeatureGUI{RhythmTool.Chroma}.track
+  parent: RhythmTool.FeatureGUI{RhythmTool.Chroma}
+  definition: RhythmTool.FeatureGUI`1.track
+  name: track
+  nameWithType: FeatureGUI<Chroma>.track
+  fullName: RhythmTool.FeatureGUI<RhythmTool.Chroma>.track
+  nameWithType.vb: FeatureGUI(Of Chroma).track
+  fullName.vb: RhythmTool.FeatureGUI(Of RhythmTool.Chroma).track
+- uid: RhythmTool.FeatureGUI{RhythmTool.Chroma}.feature
+  commentId: P:RhythmTool.FeatureGUI{RhythmTool.Chroma}.feature
+  parent: RhythmTool.FeatureGUI{RhythmTool.Chroma}
+  definition: RhythmTool.FeatureGUI`1.feature
+  name: feature
+  nameWithType: FeatureGUI<Chroma>.feature
+  fullName: RhythmTool.FeatureGUI<RhythmTool.Chroma>.feature
+  nameWithType.vb: FeatureGUI(Of Chroma).feature
+  fullName.vb: RhythmTool.FeatureGUI(Of RhythmTool.Chroma).feature
+- uid: RhythmTool.FeatureGUI{RhythmTool.Chroma}.index
+  commentId: P:RhythmTool.FeatureGUI{RhythmTool.Chroma}.index
+  parent: RhythmTool.FeatureGUI{RhythmTool.Chroma}
+  definition: RhythmTool.FeatureGUI`1.index
+  name: index
+  nameWithType: FeatureGUI<Chroma>.index
+  fullName: RhythmTool.FeatureGUI<RhythmTool.Chroma>.index
+  nameWithType.vb: FeatureGUI(Of Chroma).index
+  fullName.vb: RhythmTool.FeatureGUI(Of RhythmTool.Chroma).index
+- uid: RhythmTool.FeatureGUI{RhythmTool.Chroma}.rect
+  commentId: P:RhythmTool.FeatureGUI{RhythmTool.Chroma}.rect
+  parent: RhythmTool.FeatureGUI{RhythmTool.Chroma}
+  definition: RhythmTool.FeatureGUI`1.rect
+  name: rect
+  nameWithType: FeatureGUI<Chroma>.rect
+  fullName: RhythmTool.FeatureGUI<RhythmTool.Chroma>.rect
+  nameWithType.vb: FeatureGUI(Of Chroma).rect
+  fullName.vb: RhythmTool.FeatureGUI(Of RhythmTool.Chroma).rect
+- uid: RhythmTool.FeatureGUI{RhythmTool.Chroma}.OnGUI(Rect,RhythmTool.EditorState)
+  commentId: M:RhythmTool.FeatureGUI{RhythmTool.Chroma}.OnGUI(Rect,RhythmTool.EditorState)
+  parent: RhythmTool.FeatureGUI{RhythmTool.Chroma}
+  definition: RhythmTool.FeatureGUI`1.OnGUI(Rect,RhythmTool.EditorState)
+  name: OnGUI(Rect, EditorState)
+  nameWithType: FeatureGUI<Chroma>.OnGUI(Rect, EditorState)
+  fullName: RhythmTool.FeatureGUI<RhythmTool.Chroma>.OnGUI(Rect, RhythmTool.EditorState)
+  nameWithType.vb: FeatureGUI(Of Chroma).OnGUI(Rect, EditorState)
+  fullName.vb: RhythmTool.FeatureGUI(Of RhythmTool.Chroma).OnGUI(Rect, RhythmTool.EditorState)
+  spec.csharp:
+  - uid: RhythmTool.FeatureGUI`1.OnGUI(Rect,RhythmTool.EditorState)
+    name: OnGUI
+    nameWithType: FeatureGUI<Chroma>.OnGUI
+    fullName: RhythmTool.FeatureGUI<RhythmTool.Chroma>.OnGUI
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Rect
+    name: Rect
+    nameWithType: Rect
+    fullName: Rect
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: RhythmTool.EditorState
+    name: EditorState
+    nameWithType: EditorState
+    fullName: RhythmTool.EditorState
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.FeatureGUI`1.OnGUI(Rect,RhythmTool.EditorState)
+    name: OnGUI
+    nameWithType: FeatureGUI(Of Chroma).OnGUI
+    fullName: RhythmTool.FeatureGUI(Of RhythmTool.Chroma).OnGUI
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Rect
+    name: Rect
+    nameWithType: Rect
+    fullName: Rect
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: RhythmTool.EditorState
+    name: EditorState
+    nameWithType: EditorState
+    fullName: RhythmTool.EditorState
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.FeatureGUI{RhythmTool.Chroma}.Move(System.Single)
+  commentId: M:RhythmTool.FeatureGUI{RhythmTool.Chroma}.Move(System.Single)
+  parent: RhythmTool.FeatureGUI{RhythmTool.Chroma}
+  definition: RhythmTool.FeatureGUI`1.Move(System.Single)
+  name: Move(Single)
+  nameWithType: FeatureGUI<Chroma>.Move(Single)
+  fullName: RhythmTool.FeatureGUI<RhythmTool.Chroma>.Move(System.Single)
+  nameWithType.vb: FeatureGUI(Of Chroma).Move(Single)
+  fullName.vb: RhythmTool.FeatureGUI(Of RhythmTool.Chroma).Move(System.Single)
+  spec.csharp:
+  - uid: RhythmTool.FeatureGUI`1.Move(System.Single)
+    name: Move
+    nameWithType: FeatureGUI<Chroma>.Move
+    fullName: RhythmTool.FeatureGUI<RhythmTool.Chroma>.Move
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.FeatureGUI`1.Move(System.Single)
+    name: Move
+    nameWithType: FeatureGUI(Of Chroma).Move
+    fullName: RhythmTool.FeatureGUI(Of RhythmTool.Chroma).Move
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.FeatureGUI{RhythmTool.Chroma}.MoveTo(System.Single)
+  commentId: M:RhythmTool.FeatureGUI{RhythmTool.Chroma}.MoveTo(System.Single)
+  parent: RhythmTool.FeatureGUI{RhythmTool.Chroma}
+  definition: RhythmTool.FeatureGUI`1.MoveTo(System.Single)
+  name: MoveTo(Single)
+  nameWithType: FeatureGUI<Chroma>.MoveTo(Single)
+  fullName: RhythmTool.FeatureGUI<RhythmTool.Chroma>.MoveTo(System.Single)
+  nameWithType.vb: FeatureGUI(Of Chroma).MoveTo(Single)
+  fullName.vb: RhythmTool.FeatureGUI(Of RhythmTool.Chroma).MoveTo(System.Single)
+  spec.csharp:
+  - uid: RhythmTool.FeatureGUI`1.MoveTo(System.Single)
+    name: MoveTo
+    nameWithType: FeatureGUI<Chroma>.MoveTo
+    fullName: RhythmTool.FeatureGUI<RhythmTool.Chroma>.MoveTo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.FeatureGUI`1.MoveTo(System.Single)
+    name: MoveTo
+    nameWithType: FeatureGUI(Of Chroma).MoveTo
+    fullName: RhythmTool.FeatureGUI(Of RhythmTool.Chroma).MoveTo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.FeatureGUI{RhythmTool.Chroma}.Manipulate(Vector2,RhythmTool.EditorState)
+  commentId: M:RhythmTool.FeatureGUI{RhythmTool.Chroma}.Manipulate(Vector2,RhythmTool.EditorState)
+  parent: RhythmTool.FeatureGUI{RhythmTool.Chroma}
+  definition: RhythmTool.FeatureGUI`1.Manipulate(Vector2,RhythmTool.EditorState)
+  name: Manipulate(Vector2, EditorState)
+  nameWithType: FeatureGUI<Chroma>.Manipulate(Vector2, EditorState)
+  fullName: RhythmTool.FeatureGUI<RhythmTool.Chroma>.Manipulate(Vector2, RhythmTool.EditorState)
+  nameWithType.vb: FeatureGUI(Of Chroma).Manipulate(Vector2, EditorState)
+  fullName.vb: RhythmTool.FeatureGUI(Of RhythmTool.Chroma).Manipulate(Vector2, RhythmTool.EditorState)
+  spec.csharp:
+  - uid: RhythmTool.FeatureGUI`1.Manipulate(Vector2,RhythmTool.EditorState)
+    name: Manipulate
+    nameWithType: FeatureGUI<Chroma>.Manipulate
+    fullName: RhythmTool.FeatureGUI<RhythmTool.Chroma>.Manipulate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: RhythmTool.EditorState
+    name: EditorState
+    nameWithType: EditorState
+    fullName: RhythmTool.EditorState
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.FeatureGUI`1.Manipulate(Vector2,RhythmTool.EditorState)
+    name: Manipulate
+    nameWithType: FeatureGUI(Of Chroma).Manipulate
+    fullName: RhythmTool.FeatureGUI(Of RhythmTool.Chroma).Manipulate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: RhythmTool.EditorState
+    name: EditorState
+    nameWithType: EditorState
+    fullName: RhythmTool.EditorState
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.FeatureGUI{RhythmTool.Chroma}.Draw
+  commentId: M:RhythmTool.FeatureGUI{RhythmTool.Chroma}.Draw
+  parent: RhythmTool.FeatureGUI{RhythmTool.Chroma}
+  definition: RhythmTool.FeatureGUI`1.Draw
+  name: Draw()
+  nameWithType: FeatureGUI<Chroma>.Draw()
+  fullName: RhythmTool.FeatureGUI<RhythmTool.Chroma>.Draw()
+  nameWithType.vb: FeatureGUI(Of Chroma).Draw()
+  fullName.vb: RhythmTool.FeatureGUI(Of RhythmTool.Chroma).Draw()
+  spec.csharp:
+  - uid: RhythmTool.FeatureGUI`1.Draw
+    name: Draw
+    nameWithType: FeatureGUI<Chroma>.Draw
+    fullName: RhythmTool.FeatureGUI<RhythmTool.Chroma>.Draw
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.FeatureGUI`1.Draw
+    name: Draw
+    nameWithType: FeatureGUI(Of Chroma).Draw
+    fullName: RhythmTool.FeatureGUI(Of RhythmTool.Chroma).Draw
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.FeatureGUI`1
+  commentId: T:RhythmTool.FeatureGUI`1
+  name: FeatureGUI<T>
+  nameWithType: FeatureGUI<T>
+  fullName: RhythmTool.FeatureGUI<T>
+  nameWithType.vb: FeatureGUI(Of T)
+  fullName.vb: RhythmTool.FeatureGUI(Of T)
+  name.vb: FeatureGUI(Of T)
+  spec.csharp:
+  - uid: RhythmTool.FeatureGUI`1
+    name: FeatureGUI
+    nameWithType: FeatureGUI
+    fullName: RhythmTool.FeatureGUI
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: RhythmTool.FeatureGUI`1
+    name: FeatureGUI
+    nameWithType: FeatureGUI
+    fullName: RhythmTool.FeatureGUI
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.FeatureGUI`1.track
+  commentId: P:RhythmTool.FeatureGUI`1.track
+  name: track
+  nameWithType: FeatureGUI<T>.track
+  fullName: RhythmTool.FeatureGUI<T>.track
+  nameWithType.vb: FeatureGUI(Of T).track
+  fullName.vb: RhythmTool.FeatureGUI(Of T).track
+- uid: RhythmTool.FeatureGUI`1.feature
+  commentId: P:RhythmTool.FeatureGUI`1.feature
+  name: feature
+  nameWithType: FeatureGUI<T>.feature
+  fullName: RhythmTool.FeatureGUI<T>.feature
+  nameWithType.vb: FeatureGUI(Of T).feature
+  fullName.vb: RhythmTool.FeatureGUI(Of T).feature
+- uid: RhythmTool.FeatureGUI`1.index
+  commentId: P:RhythmTool.FeatureGUI`1.index
+  name: index
+  nameWithType: FeatureGUI<T>.index
+  fullName: RhythmTool.FeatureGUI<T>.index
+  nameWithType.vb: FeatureGUI(Of T).index
+  fullName.vb: RhythmTool.FeatureGUI(Of T).index
+- uid: RhythmTool.FeatureGUI`1.rect
+  commentId: P:RhythmTool.FeatureGUI`1.rect
+  name: rect
+  nameWithType: FeatureGUI<T>.rect
+  fullName: RhythmTool.FeatureGUI<T>.rect
+  nameWithType.vb: FeatureGUI(Of T).rect
+  fullName.vb: RhythmTool.FeatureGUI(Of T).rect
+- uid: RhythmTool.FeatureGUI`1.OnGUI(Rect,RhythmTool.EditorState)
+  commentId: M:RhythmTool.FeatureGUI`1.OnGUI(Rect,RhythmTool.EditorState)
+  isExternal: true
+  name: OnGUI(Rect, EditorState)
+  nameWithType: FeatureGUI<T>.OnGUI(Rect, EditorState)
+  fullName: RhythmTool.FeatureGUI<T>.OnGUI(Rect, RhythmTool.EditorState)
+  nameWithType.vb: FeatureGUI(Of T).OnGUI(Rect, EditorState)
+  fullName.vb: RhythmTool.FeatureGUI(Of T).OnGUI(Rect, RhythmTool.EditorState)
+  spec.csharp:
+  - uid: RhythmTool.FeatureGUI`1.OnGUI(Rect,RhythmTool.EditorState)
+    name: OnGUI
+    nameWithType: FeatureGUI<T>.OnGUI
+    fullName: RhythmTool.FeatureGUI<T>.OnGUI
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Rect
+    name: Rect
+    nameWithType: Rect
+    fullName: Rect
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: RhythmTool.EditorState
+    name: EditorState
+    nameWithType: EditorState
+    fullName: RhythmTool.EditorState
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.FeatureGUI`1.OnGUI(Rect,RhythmTool.EditorState)
+    name: OnGUI
+    nameWithType: FeatureGUI(Of T).OnGUI
+    fullName: RhythmTool.FeatureGUI(Of T).OnGUI
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Rect
+    name: Rect
+    nameWithType: Rect
+    fullName: Rect
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: RhythmTool.EditorState
+    name: EditorState
+    nameWithType: EditorState
+    fullName: RhythmTool.EditorState
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.FeatureGUI`1.Move(System.Single)
+  commentId: M:RhythmTool.FeatureGUI`1.Move(System.Single)
+  isExternal: true
+  name: Move(Single)
+  nameWithType: FeatureGUI<T>.Move(Single)
+  fullName: RhythmTool.FeatureGUI<T>.Move(System.Single)
+  nameWithType.vb: FeatureGUI(Of T).Move(Single)
+  fullName.vb: RhythmTool.FeatureGUI(Of T).Move(System.Single)
+  spec.csharp:
+  - uid: RhythmTool.FeatureGUI`1.Move(System.Single)
+    name: Move
+    nameWithType: FeatureGUI<T>.Move
+    fullName: RhythmTool.FeatureGUI<T>.Move
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.FeatureGUI`1.Move(System.Single)
+    name: Move
+    nameWithType: FeatureGUI(Of T).Move
+    fullName: RhythmTool.FeatureGUI(Of T).Move
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.FeatureGUI`1.MoveTo(System.Single)
+  commentId: M:RhythmTool.FeatureGUI`1.MoveTo(System.Single)
+  isExternal: true
+  name: MoveTo(Single)
+  nameWithType: FeatureGUI<T>.MoveTo(Single)
+  fullName: RhythmTool.FeatureGUI<T>.MoveTo(System.Single)
+  nameWithType.vb: FeatureGUI(Of T).MoveTo(Single)
+  fullName.vb: RhythmTool.FeatureGUI(Of T).MoveTo(System.Single)
+  spec.csharp:
+  - uid: RhythmTool.FeatureGUI`1.MoveTo(System.Single)
+    name: MoveTo
+    nameWithType: FeatureGUI<T>.MoveTo
+    fullName: RhythmTool.FeatureGUI<T>.MoveTo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.FeatureGUI`1.MoveTo(System.Single)
+    name: MoveTo
+    nameWithType: FeatureGUI(Of T).MoveTo
+    fullName: RhythmTool.FeatureGUI(Of T).MoveTo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.FeatureGUI`1.Manipulate(Vector2,RhythmTool.EditorState)
+  commentId: M:RhythmTool.FeatureGUI`1.Manipulate(Vector2,RhythmTool.EditorState)
+  isExternal: true
+  name: Manipulate(Vector2, EditorState)
+  nameWithType: FeatureGUI<T>.Manipulate(Vector2, EditorState)
+  fullName: RhythmTool.FeatureGUI<T>.Manipulate(Vector2, RhythmTool.EditorState)
+  nameWithType.vb: FeatureGUI(Of T).Manipulate(Vector2, EditorState)
+  fullName.vb: RhythmTool.FeatureGUI(Of T).Manipulate(Vector2, RhythmTool.EditorState)
+  spec.csharp:
+  - uid: RhythmTool.FeatureGUI`1.Manipulate(Vector2,RhythmTool.EditorState)
+    name: Manipulate
+    nameWithType: FeatureGUI<T>.Manipulate
+    fullName: RhythmTool.FeatureGUI<T>.Manipulate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: RhythmTool.EditorState
+    name: EditorState
+    nameWithType: EditorState
+    fullName: RhythmTool.EditorState
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.FeatureGUI`1.Manipulate(Vector2,RhythmTool.EditorState)
+    name: Manipulate
+    nameWithType: FeatureGUI(Of T).Manipulate
+    fullName: RhythmTool.FeatureGUI(Of T).Manipulate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: RhythmTool.EditorState
+    name: EditorState
+    nameWithType: EditorState
+    fullName: RhythmTool.EditorState
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.FeatureGUI`1.Draw
+  commentId: M:RhythmTool.FeatureGUI`1.Draw
+  name: Draw()
+  nameWithType: FeatureGUI<T>.Draw()
+  fullName: RhythmTool.FeatureGUI<T>.Draw()
+  nameWithType.vb: FeatureGUI(Of T).Draw()
+  fullName.vb: RhythmTool.FeatureGUI(Of T).Draw()
+  spec.csharp:
+  - uid: RhythmTool.FeatureGUI`1.Draw
+    name: Draw
+    nameWithType: FeatureGUI<T>.Draw
+    fullName: RhythmTool.FeatureGUI<T>.Draw
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.FeatureGUI`1.Draw
+    name: Draw
+    nameWithType: FeatureGUI(Of T).Draw
+    fullName: RhythmTool.FeatureGUI(Of T).Draw
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.ChromaGUI.#ctor*
+  commentId: Overload:RhythmTool.ChromaGUI.#ctor
+  name: ChromaGUI
+  nameWithType: ChromaGUI.ChromaGUI
+  fullName: RhythmTool.ChromaGUI.ChromaGUI
+- uid: RhythmTool.Track{RhythmTool.Chroma}
+  commentId: T:RhythmTool.Track{RhythmTool.Chroma}
+  parent: RhythmTool
+  definition: RhythmTool.Track`1
+  name: Track<Chroma>
+  nameWithType: Track<Chroma>
+  fullName: RhythmTool.Track<RhythmTool.Chroma>
+  nameWithType.vb: Track(Of Chroma)
+  fullName.vb: RhythmTool.Track(Of RhythmTool.Chroma)
+  name.vb: Track(Of Chroma)
+  spec.csharp:
+  - uid: RhythmTool.Track`1
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: RhythmTool.Chroma
+    name: Chroma
+    nameWithType: Chroma
+    fullName: RhythmTool.Chroma
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: RhythmTool.Track`1
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: RhythmTool.Chroma
+    name: Chroma
+    nameWithType: Chroma
+    fullName: RhythmTool.Chroma
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: RhythmTool.Track`1
+  commentId: T:RhythmTool.Track`1
+  parent: RhythmTool
+  name: Track<T>
+  nameWithType: Track<T>
+  fullName: RhythmTool.Track<T>
+  nameWithType.vb: Track(Of T)
+  fullName.vb: RhythmTool.Track(Of T)
+  name.vb: Track(Of T)
+  spec.csharp:
+  - uid: RhythmTool.Track`1
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: RhythmTool.Track`1
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.FeatureGUI{RhythmTool.Chroma}.GetRect(Rect,RhythmTool.EditorState)
+  commentId: M:RhythmTool.FeatureGUI{RhythmTool.Chroma}.GetRect(Rect,RhythmTool.EditorState)
+  parent: RhythmTool.FeatureGUI{RhythmTool.Chroma}
+  definition: RhythmTool.FeatureGUI`1.GetRect(Rect,RhythmTool.EditorState)
+  name: GetRect(Rect, EditorState)
+  nameWithType: FeatureGUI<Chroma>.GetRect(Rect, EditorState)
+  fullName: RhythmTool.FeatureGUI<RhythmTool.Chroma>.GetRect(Rect, RhythmTool.EditorState)
+  nameWithType.vb: FeatureGUI(Of Chroma).GetRect(Rect, EditorState)
+  fullName.vb: RhythmTool.FeatureGUI(Of RhythmTool.Chroma).GetRect(Rect, RhythmTool.EditorState)
+  spec.csharp:
+  - uid: RhythmTool.FeatureGUI`1.GetRect(Rect,RhythmTool.EditorState)
+    name: GetRect
+    nameWithType: FeatureGUI<Chroma>.GetRect
+    fullName: RhythmTool.FeatureGUI<RhythmTool.Chroma>.GetRect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Rect
+    name: Rect
+    nameWithType: Rect
+    fullName: Rect
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: RhythmTool.EditorState
+    name: EditorState
+    nameWithType: EditorState
+    fullName: RhythmTool.EditorState
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.FeatureGUI`1.GetRect(Rect,RhythmTool.EditorState)
+    name: GetRect
+    nameWithType: FeatureGUI(Of Chroma).GetRect
+    fullName: RhythmTool.FeatureGUI(Of RhythmTool.Chroma).GetRect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Rect
+    name: Rect
+    nameWithType: Rect
+    fullName: Rect
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: RhythmTool.EditorState
+    name: EditorState
+    nameWithType: EditorState
+    fullName: RhythmTool.EditorState
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.ChromaGUI.GetRect*
+  commentId: Overload:RhythmTool.ChromaGUI.GetRect
+  name: GetRect
+  nameWithType: ChromaGUI.GetRect
+  fullName: RhythmTool.ChromaGUI.GetRect
+- uid: Global.Rect
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: Rect
+- uid: RhythmTool.EditorState
+  commentId: T:RhythmTool.EditorState
+  parent: RhythmTool
+  name: EditorState
+  nameWithType: EditorState
+  fullName: RhythmTool.EditorState
+- uid: RhythmTool.FeatureGUI`1.GetRect(Rect,RhythmTool.EditorState)
+  commentId: M:RhythmTool.FeatureGUI`1.GetRect(Rect,RhythmTool.EditorState)
+  isExternal: true
+  name: GetRect(Rect, EditorState)
+  nameWithType: FeatureGUI<T>.GetRect(Rect, EditorState)
+  fullName: RhythmTool.FeatureGUI<T>.GetRect(Rect, RhythmTool.EditorState)
+  nameWithType.vb: FeatureGUI(Of T).GetRect(Rect, EditorState)
+  fullName.vb: RhythmTool.FeatureGUI(Of T).GetRect(Rect, RhythmTool.EditorState)
+  spec.csharp:
+  - uid: RhythmTool.FeatureGUI`1.GetRect(Rect,RhythmTool.EditorState)
+    name: GetRect
+    nameWithType: FeatureGUI<T>.GetRect
+    fullName: RhythmTool.FeatureGUI<T>.GetRect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Rect
+    name: Rect
+    nameWithType: Rect
+    fullName: Rect
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: RhythmTool.EditorState
+    name: EditorState
+    nameWithType: EditorState
+    fullName: RhythmTool.EditorState
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.FeatureGUI`1.GetRect(Rect,RhythmTool.EditorState)
+    name: GetRect
+    nameWithType: FeatureGUI(Of T).GetRect
+    fullName: RhythmTool.FeatureGUI(Of T).GetRect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Rect
+    name: Rect
+    nameWithType: Rect
+    fullName: Rect
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: RhythmTool.EditorState
+    name: EditorState
+    nameWithType: EditorState
+    fullName: RhythmTool.EditorState
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.FeatureGUI{RhythmTool.Chroma}.Move(Vector2,RhythmTool.EditorState)
+  commentId: M:RhythmTool.FeatureGUI{RhythmTool.Chroma}.Move(Vector2,RhythmTool.EditorState)
+  parent: RhythmTool.FeatureGUI{RhythmTool.Chroma}
+  definition: RhythmTool.FeatureGUI`1.Move(Vector2,RhythmTool.EditorState)
+  name: Move(Vector2, EditorState)
+  nameWithType: FeatureGUI<Chroma>.Move(Vector2, EditorState)
+  fullName: RhythmTool.FeatureGUI<RhythmTool.Chroma>.Move(Vector2, RhythmTool.EditorState)
+  nameWithType.vb: FeatureGUI(Of Chroma).Move(Vector2, EditorState)
+  fullName.vb: RhythmTool.FeatureGUI(Of RhythmTool.Chroma).Move(Vector2, RhythmTool.EditorState)
+  spec.csharp:
+  - uid: RhythmTool.FeatureGUI`1.Move(Vector2,RhythmTool.EditorState)
+    name: Move
+    nameWithType: FeatureGUI<Chroma>.Move
+    fullName: RhythmTool.FeatureGUI<RhythmTool.Chroma>.Move
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: RhythmTool.EditorState
+    name: EditorState
+    nameWithType: EditorState
+    fullName: RhythmTool.EditorState
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.FeatureGUI`1.Move(Vector2,RhythmTool.EditorState)
+    name: Move
+    nameWithType: FeatureGUI(Of Chroma).Move
+    fullName: RhythmTool.FeatureGUI(Of RhythmTool.Chroma).Move
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: RhythmTool.EditorState
+    name: EditorState
+    nameWithType: EditorState
+    fullName: RhythmTool.EditorState
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.ChromaGUI.Move*
+  commentId: Overload:RhythmTool.ChromaGUI.Move
+  name: Move
+  nameWithType: ChromaGUI.Move
+  fullName: RhythmTool.ChromaGUI.Move
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: RhythmTool.FeatureGUI`1.Move(Vector2,RhythmTool.EditorState)
+  commentId: M:RhythmTool.FeatureGUI`1.Move(Vector2,RhythmTool.EditorState)
+  isExternal: true
+  name: Move(Vector2, EditorState)
+  nameWithType: FeatureGUI<T>.Move(Vector2, EditorState)
+  fullName: RhythmTool.FeatureGUI<T>.Move(Vector2, RhythmTool.EditorState)
+  nameWithType.vb: FeatureGUI(Of T).Move(Vector2, EditorState)
+  fullName.vb: RhythmTool.FeatureGUI(Of T).Move(Vector2, RhythmTool.EditorState)
+  spec.csharp:
+  - uid: RhythmTool.FeatureGUI`1.Move(Vector2,RhythmTool.EditorState)
+    name: Move
+    nameWithType: FeatureGUI<T>.Move
+    fullName: RhythmTool.FeatureGUI<T>.Move
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: RhythmTool.EditorState
+    name: EditorState
+    nameWithType: EditorState
+    fullName: RhythmTool.EditorState
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: RhythmTool.FeatureGUI`1.Move(Vector2,RhythmTool.EditorState)
+    name: Move
+    nameWithType: FeatureGUI(Of T).Move
+    fullName: RhythmTool.FeatureGUI(Of T).Move
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: RhythmTool.EditorState
+    name: EditorState
+    nameWithType: EditorState
+    fullName: RhythmTool.EditorState
+  - name: )
+    nameWithType: )
+    fullName: )

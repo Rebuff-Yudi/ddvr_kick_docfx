@@ -1,0 +1,164 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.TrackEditor
+  commentId: T:RhythmTool.TrackEditor
+  id: TrackEditor
+  parent: RhythmTool
+  children:
+  - RhythmTool.TrackEditor.OnHeaderGUI
+  - RhythmTool.TrackEditor.OnInspectorGUI
+  - RhythmTool.TrackEditor.RequiresConstantRepaint
+  langs:
+  - csharp
+  - vb
+  name: TrackEditor
+  nameWithType: TrackEditor
+  fullName: RhythmTool.TrackEditor
+  type: Class
+  source:
+    id: TrackEditor
+    path: ''
+    startLine: 1704
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: 'public class TrackEditor : Editor'
+    content.vb: >-
+      Public Class TrackEditor
+          Inherits Editor
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.TrackEditor.RequiresConstantRepaint
+  commentId: M:RhythmTool.TrackEditor.RequiresConstantRepaint
+  id: RequiresConstantRepaint
+  parent: RhythmTool.TrackEditor
+  langs:
+  - csharp
+  - vb
+  name: RequiresConstantRepaint()
+  nameWithType: TrackEditor.RequiresConstantRepaint()
+  fullName: RhythmTool.TrackEditor.RequiresConstantRepaint()
+  type: Method
+  source:
+    id: RequiresConstantRepaint
+    path: ''
+    startLine: 1718
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public override bool RequiresConstantRepaint()
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function RequiresConstantRepaint As Boolean
+  overload: RhythmTool.TrackEditor.RequiresConstantRepaint*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: RhythmTool.TrackEditor.OnInspectorGUI
+  commentId: M:RhythmTool.TrackEditor.OnInspectorGUI
+  id: OnInspectorGUI
+  parent: RhythmTool.TrackEditor
+  langs:
+  - csharp
+  - vb
+  name: OnInspectorGUI()
+  nameWithType: TrackEditor.OnInspectorGUI()
+  fullName: RhythmTool.TrackEditor.OnInspectorGUI()
+  type: Method
+  source:
+    id: OnInspectorGUI
+    path: ''
+    startLine: 1741
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public override void OnInspectorGUI()
+    content.vb: Public Overrides Sub OnInspectorGUI
+  overload: RhythmTool.TrackEditor.OnInspectorGUI*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: RhythmTool.TrackEditor.OnHeaderGUI
+  commentId: M:RhythmTool.TrackEditor.OnHeaderGUI
+  id: OnHeaderGUI
+  parent: RhythmTool.TrackEditor
+  langs:
+  - csharp
+  - vb
+  name: OnHeaderGUI()
+  nameWithType: TrackEditor.OnHeaderGUI()
+  fullName: RhythmTool.TrackEditor.OnHeaderGUI()
+  type: Method
+  source:
+    id: OnHeaderGUI
+    path: ''
+    startLine: 1900
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: protected override void OnHeaderGUI()
+    content.vb: Protected Overrides Sub OnHeaderGUI
+  overload: RhythmTool.TrackEditor.OnHeaderGUI*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.TrackEditor.RequiresConstantRepaint*
+  commentId: Overload:RhythmTool.TrackEditor.RequiresConstantRepaint
+  name: RequiresConstantRepaint
+  nameWithType: TrackEditor.RequiresConstantRepaint
+  fullName: RhythmTool.TrackEditor.RequiresConstantRepaint
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: RhythmTool.TrackEditor.OnInspectorGUI*
+  commentId: Overload:RhythmTool.TrackEditor.OnInspectorGUI
+  name: OnInspectorGUI
+  nameWithType: TrackEditor.OnInspectorGUI
+  fullName: RhythmTool.TrackEditor.OnInspectorGUI
+- uid: RhythmTool.TrackEditor.OnHeaderGUI*
+  commentId: Overload:RhythmTool.TrackEditor.OnHeaderGUI
+  name: OnHeaderGUI
+  nameWithType: TrackEditor.OnHeaderGUI
+  fullName: RhythmTool.TrackEditor.OnHeaderGUI

@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: DDVRKick.Control
+  commentId: N:DDVRKick.Control
+  id: DDVRKick.Control
+  children:
+  - DDVRKick.Control.SongPlayerControl
+  langs:
+  - csharp
+  - vb
+  name: DDVRKick.Control
+  nameWithType: DDVRKick.Control
+  fullName: DDVRKick.Control
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: DDVRKick.Control.SongPlayerControl
+  commentId: T:DDVRKick.Control.SongPlayerControl
+  parent: DDVRKick.Control
+  name: SongPlayerControl
+  nameWithType: SongPlayerControl
+  fullName: DDVRKick.Control.SongPlayerControl
+- uid: DDVRKick.Control
+  commentId: N:DDVRKick.Control
+  name: DDVRKick.Control
+  nameWithType: DDVRKick.Control
+  fullName: DDVRKick.Control

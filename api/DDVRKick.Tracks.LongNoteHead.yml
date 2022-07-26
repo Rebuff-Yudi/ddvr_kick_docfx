@@ -1,0 +1,213 @@
+### YamlMime:ManagedReference
+items:
+- uid: DDVRKick.Tracks.LongNoteHead
+  commentId: T:DDVRKick.Tracks.LongNoteHead
+  id: LongNoteHead
+  parent: DDVRKick.Tracks
+  children:
+  - DDVRKick.Tracks.LongNoteHead.boxCollider
+  - DDVRKick.Tracks.LongNoteHead.lineRenderer
+  - DDVRKick.Tracks.LongNoteHead.tail
+  - DDVRKick.Tracks.LongNoteHead.Update
+  langs:
+  - csharp
+  - vb
+  name: LongNoteHead
+  nameWithType: LongNoteHead
+  fullName: DDVRKick.Tracks.LongNoteHead
+  type: Class
+  source:
+    id: LongNoteHead
+    path: ''
+    startLine: 7561
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: 'public class LongNoteHead : MonoBehaviour'
+    content.vb: >-
+      Public Class LongNoteHead
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DDVRKick.Tracks.LongNoteHead.lineRenderer
+  commentId: P:DDVRKick.Tracks.LongNoteHead.lineRenderer
+  id: lineRenderer
+  parent: DDVRKick.Tracks.LongNoteHead
+  langs:
+  - csharp
+  - vb
+  name: lineRenderer
+  nameWithType: LongNoteHead.lineRenderer
+  fullName: DDVRKick.Tracks.LongNoteHead.lineRenderer
+  type: Property
+  source:
+    id: lineRenderer
+    path: ''
+    startLine: 7564
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public LineRenderer lineRenderer { get; }
+    parameters: []
+    return:
+      type: Global.LineRenderer
+    content.vb: Public ReadOnly Property lineRenderer As LineRenderer
+  overload: DDVRKick.Tracks.LongNoteHead.lineRenderer*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DDVRKick.Tracks.LongNoteHead.boxCollider
+  commentId: P:DDVRKick.Tracks.LongNoteHead.boxCollider
+  id: boxCollider
+  parent: DDVRKick.Tracks.LongNoteHead
+  langs:
+  - csharp
+  - vb
+  name: boxCollider
+  nameWithType: LongNoteHead.boxCollider
+  fullName: DDVRKick.Tracks.LongNoteHead.boxCollider
+  type: Property
+  source:
+    id: boxCollider
+    path: ''
+    startLine: 7575
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public BoxCollider boxCollider { get; }
+    parameters: []
+    return:
+      type: Global.BoxCollider
+    content.vb: Public ReadOnly Property boxCollider As BoxCollider
+  overload: DDVRKick.Tracks.LongNoteHead.boxCollider*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DDVRKick.Tracks.LongNoteHead.tail
+  commentId: P:DDVRKick.Tracks.LongNoteHead.tail
+  id: tail
+  parent: DDVRKick.Tracks.LongNoteHead
+  langs:
+  - csharp
+  - vb
+  name: tail
+  nameWithType: LongNoteHead.tail
+  fullName: DDVRKick.Tracks.LongNoteHead.tail
+  type: Property
+  source:
+    id: tail
+    path: ''
+    startLine: 7586
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public LongNoteTail tail { get; }
+    parameters: []
+    return:
+      type: DDVRKick.Tracks.LongNoteTail
+    content.vb: Public ReadOnly Property tail As LongNoteTail
+  overload: DDVRKick.Tracks.LongNoteHead.tail*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DDVRKick.Tracks.LongNoteHead.Update
+  commentId: M:DDVRKick.Tracks.LongNoteHead.Update
+  id: Update
+  parent: DDVRKick.Tracks.LongNoteHead
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: LongNoteHead.Update()
+  fullName: DDVRKick.Tracks.LongNoteHead.Update()
+  type: Method
+  source:
+    id: Update
+    path: ''
+    startLine: 7597
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public void Update()
+    content.vb: Public Sub Update
+  overload: DDVRKick.Tracks.LongNoteHead.Update*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DDVRKick.Tracks
+  commentId: N:DDVRKick.Tracks
+  name: DDVRKick.Tracks
+  nameWithType: DDVRKick.Tracks
+  fullName: DDVRKick.Tracks
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DDVRKick.Tracks.LongNoteHead.lineRenderer*
+  commentId: Overload:DDVRKick.Tracks.LongNoteHead.lineRenderer
+  name: lineRenderer
+  nameWithType: LongNoteHead.lineRenderer
+  fullName: DDVRKick.Tracks.LongNoteHead.lineRenderer
+- uid: Global.LineRenderer
+  isExternal: true
+  name: LineRenderer
+  nameWithType: LineRenderer
+  fullName: LineRenderer
+- uid: DDVRKick.Tracks.LongNoteHead.boxCollider*
+  commentId: Overload:DDVRKick.Tracks.LongNoteHead.boxCollider
+  name: boxCollider
+  nameWithType: LongNoteHead.boxCollider
+  fullName: DDVRKick.Tracks.LongNoteHead.boxCollider
+- uid: Global.BoxCollider
+  commentId: '!:Global.BoxCollider'
+  isExternal: true
+  name: BoxCollider
+  nameWithType: BoxCollider
+  fullName: BoxCollider
+- uid: DDVRKick.Tracks.LongNoteHead.tail*
+  commentId: Overload:DDVRKick.Tracks.LongNoteHead.tail
+  name: tail
+  nameWithType: LongNoteHead.tail
+  fullName: DDVRKick.Tracks.LongNoteHead.tail
+- uid: DDVRKick.Tracks.LongNoteTail
+  commentId: T:DDVRKick.Tracks.LongNoteTail
+  parent: DDVRKick.Tracks
+  name: LongNoteTail
+  nameWithType: LongNoteTail
+  fullName: DDVRKick.Tracks.LongNoteTail
+- uid: DDVRKick.Tracks.LongNoteHead.Update*
+  commentId: Overload:DDVRKick.Tracks.LongNoteHead.Update
+  name: Update
+  nameWithType: LongNoteHead.Update
+  fullName: DDVRKick.Tracks.LongNoteHead.Update

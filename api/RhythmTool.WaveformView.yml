@@ -1,0 +1,269 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.WaveformView
+  commentId: T:RhythmTool.WaveformView
+  id: WaveformView
+  parent: RhythmTool
+  children:
+  - RhythmTool.WaveformView.#ctor
+  - RhythmTool.WaveformView.backgroundColor
+  - RhythmTool.WaveformView.Dispose
+  - RhythmTool.WaveformView.Draw(Rect,System.Single,System.Single)
+  - RhythmTool.WaveformView.SetAudioClip(AudioClip)
+  - RhythmTool.WaveformView.waveFormColor
+  langs:
+  - csharp
+  - vb
+  name: WaveformView
+  nameWithType: WaveformView
+  fullName: RhythmTool.WaveformView
+  type: Class
+  source:
+    id: WaveformView
+    path: ''
+    startLine: 2491
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: 'public class WaveformView : IDisposable'
+    content.vb: >-
+      Public Class WaveformView
+          Inherits IDisposable
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.WaveformView.backgroundColor
+  commentId: F:RhythmTool.WaveformView.backgroundColor
+  id: backgroundColor
+  parent: RhythmTool.WaveformView
+  langs:
+  - csharp
+  - vb
+  name: backgroundColor
+  nameWithType: WaveformView.backgroundColor
+  fullName: RhythmTool.WaveformView.backgroundColor
+  type: Field
+  source:
+    id: backgroundColor
+    path: ''
+    startLine: 2493
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public Color backgroundColor
+    return:
+      type: Global.Color
+    content.vb: Public backgroundColor As Color
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.WaveformView.waveFormColor
+  commentId: F:RhythmTool.WaveformView.waveFormColor
+  id: waveFormColor
+  parent: RhythmTool.WaveformView
+  langs:
+  - csharp
+  - vb
+  name: waveFormColor
+  nameWithType: WaveformView.waveFormColor
+  fullName: RhythmTool.WaveformView.waveFormColor
+  type: Field
+  source:
+    id: waveFormColor
+    path: ''
+    startLine: 2494
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public Color waveFormColor
+    return:
+      type: Global.Color
+    content.vb: Public waveFormColor As Color
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.WaveformView.#ctor
+  commentId: M:RhythmTool.WaveformView.#ctor
+  id: '#ctor'
+  parent: RhythmTool.WaveformView
+  langs:
+  - csharp
+  - vb
+  name: WaveformView()
+  nameWithType: WaveformView.WaveformView()
+  fullName: RhythmTool.WaveformView.WaveformView()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 2518
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public WaveformView()
+    content.vb: Public Sub New
+  overload: RhythmTool.WaveformView.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.WaveformView.SetAudioClip(AudioClip)
+  commentId: M:RhythmTool.WaveformView.SetAudioClip(AudioClip)
+  id: SetAudioClip(AudioClip)
+  parent: RhythmTool.WaveformView
+  langs:
+  - csharp
+  - vb
+  name: SetAudioClip(AudioClip)
+  nameWithType: WaveformView.SetAudioClip(AudioClip)
+  fullName: RhythmTool.WaveformView.SetAudioClip(AudioClip)
+  type: Method
+  source:
+    id: SetAudioClip
+    path: ''
+    startLine: 2524
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public void SetAudioClip(AudioClip audioClip)
+    parameters:
+    - id: audioClip
+      type: Global.AudioClip
+    content.vb: Public Sub SetAudioClip(audioClip As AudioClip)
+  overload: RhythmTool.WaveformView.SetAudioClip*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.WaveformView.Draw(Rect,System.Single,System.Single)
+  commentId: M:RhythmTool.WaveformView.Draw(Rect,System.Single,System.Single)
+  id: Draw(Rect,System.Single,System.Single)
+  parent: RhythmTool.WaveformView
+  langs:
+  - csharp
+  - vb
+  name: Draw(Rect, Single, Single)
+  nameWithType: WaveformView.Draw(Rect, Single, Single)
+  fullName: RhythmTool.WaveformView.Draw(Rect, System.Single, System.Single)
+  type: Method
+  source:
+    id: Draw
+    path: ''
+    startLine: 2537
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public void Draw(Rect rect, float start, float length)
+    parameters:
+    - id: rect
+      type: Global.Rect
+    - id: start
+      type: System.Single
+    - id: length
+      type: System.Single
+    content.vb: Public Sub Draw(rect As Rect, start As Single, length As Single)
+  overload: RhythmTool.WaveformView.Draw*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.WaveformView.Dispose
+  commentId: M:RhythmTool.WaveformView.Dispose
+  id: Dispose
+  parent: RhythmTool.WaveformView
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: WaveformView.Dispose()
+  fullName: RhythmTool.WaveformView.Dispose()
+  type: Method
+  source:
+    id: Dispose
+    path: ''
+    startLine: 2660
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: RhythmTool.WaveformView.Dispose*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color
+- uid: RhythmTool.WaveformView.#ctor*
+  commentId: Overload:RhythmTool.WaveformView.#ctor
+  name: WaveformView
+  nameWithType: WaveformView.WaveformView
+  fullName: RhythmTool.WaveformView.WaveformView
+- uid: RhythmTool.WaveformView.SetAudioClip*
+  commentId: Overload:RhythmTool.WaveformView.SetAudioClip
+  name: SetAudioClip
+  nameWithType: WaveformView.SetAudioClip
+  fullName: RhythmTool.WaveformView.SetAudioClip
+- uid: Global.AudioClip
+  isExternal: true
+  name: AudioClip
+  nameWithType: AudioClip
+  fullName: AudioClip
+- uid: RhythmTool.WaveformView.Draw*
+  commentId: Overload:RhythmTool.WaveformView.Draw
+  name: Draw
+  nameWithType: WaveformView.Draw
+  fullName: RhythmTool.WaveformView.Draw
+- uid: Global.Rect
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: Rect
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: RhythmTool.WaveformView.Dispose*
+  commentId: Overload:RhythmTool.WaveformView.Dispose
+  name: Dispose
+  nameWithType: WaveformView.Dispose
+  fullName: RhythmTool.WaveformView.Dispose

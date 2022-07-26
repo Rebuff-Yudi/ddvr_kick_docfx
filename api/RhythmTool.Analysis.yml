@@ -1,0 +1,518 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.Analysis
+  commentId: T:RhythmTool.Analysis
+  id: Analysis
+  parent: RhythmTool
+  children:
+  - RhythmTool.Analysis.frameIndex
+  - RhythmTool.Analysis.FrameIndexToSeconds(System.Single)
+  - RhythmTool.Analysis.frameSize
+  - RhythmTool.Analysis.GetTrack
+  - RhythmTool.Analysis.hopSize
+  - RhythmTool.Analysis.Initialize(System.Int32,System.Int32,System.Int32)
+  - RhythmTool.Analysis.name
+  - RhythmTool.Analysis.Process(System.Single[],System.Single[],System.Int32)
+  - RhythmTool.Analysis.sampleRate
+  - RhythmTool.Analysis.track
+  langs:
+  - csharp
+  - vb
+  name: Analysis
+  nameWithType: Analysis
+  fullName: RhythmTool.Analysis
+  type: Class
+  source:
+    id: Analysis
+    path: ''
+    startLine: 3040
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe analysis component processes data and populates a Track with Features.\n"
+  example: []
+  syntax:
+    content: 'public abstract class Analysis : MonoBehaviour'
+    content.vb: >-
+      Public MustInherit Class Analysis
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - RhythmTool.Analysis`1
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: RhythmTool.Analysis.track
+  commentId: P:RhythmTool.Analysis.track
+  id: track
+  parent: RhythmTool.Analysis
+  langs:
+  - csharp
+  - vb
+  name: track
+  nameWithType: Analysis.track
+  fullName: RhythmTool.Analysis.track
+  type: Property
+  source:
+    id: track
+    path: ''
+    startLine: 3045
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe Track that contains the Features for this Analysis.\n"
+  example: []
+  syntax:
+    content: public Track track { get; }
+    parameters: []
+    return:
+      type: RhythmTool.Track
+    content.vb: Public ReadOnly Property track As Track
+  overload: RhythmTool.Analysis.track*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: RhythmTool.Analysis.sampleRate
+  commentId: P:RhythmTool.Analysis.sampleRate
+  id: sampleRate
+  parent: RhythmTool.Analysis
+  langs:
+  - csharp
+  - vb
+  name: sampleRate
+  nameWithType: Analysis.sampleRate
+  fullName: RhythmTool.Analysis.sampleRate
+  type: Property
+  source:
+    id: sampleRate
+    path: ''
+    startLine: 3056
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe sample rate of the audio data.\n"
+  example: []
+  syntax:
+    content: public int sampleRate { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property sampleRate As Integer
+  overload: RhythmTool.Analysis.sampleRate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: RhythmTool.Analysis.frameSize
+  commentId: P:RhythmTool.Analysis.frameSize
+  id: frameSize
+  parent: RhythmTool.Analysis
+  langs:
+  - csharp
+  - vb
+  name: frameSize
+  nameWithType: Analysis.frameSize
+  fullName: RhythmTool.Analysis.frameSize
+  type: Property
+  source:
+    id: frameSize
+    path: ''
+    startLine: 3061
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe number of samples in each frame.\n"
+  example: []
+  syntax:
+    content: public int frameSize { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property frameSize As Integer
+  overload: RhythmTool.Analysis.frameSize*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: RhythmTool.Analysis.hopSize
+  commentId: P:RhythmTool.Analysis.hopSize
+  id: hopSize
+  parent: RhythmTool.Analysis
+  langs:
+  - csharp
+  - vb
+  name: hopSize
+  nameWithType: Analysis.hopSize
+  fullName: RhythmTool.Analysis.hopSize
+  type: Property
+  source:
+    id: hopSize
+    path: ''
+    startLine: 3066
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe number of samples to move in between frames.\n"
+  example: []
+  syntax:
+    content: public int hopSize { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property hopSize As Integer
+  overload: RhythmTool.Analysis.hopSize*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: RhythmTool.Analysis.name
+  commentId: P:RhythmTool.Analysis.name
+  id: name
+  parent: RhythmTool.Analysis
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: Analysis.name
+  fullName: RhythmTool.Analysis.name
+  type: Property
+  source:
+    id: name
+    path: ''
+    startLine: 3071
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe name of the Analysis and the resulting Track.\n"
+  example: []
+  syntax:
+    content: public abstract string name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public MustOverride ReadOnly Property name As String
+  overload: RhythmTool.Analysis.name*
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+- uid: RhythmTool.Analysis.frameIndex
+  commentId: P:RhythmTool.Analysis.frameIndex
+  id: frameIndex
+  parent: RhythmTool.Analysis
+  langs:
+  - csharp
+  - vb
+  name: frameIndex
+  nameWithType: Analysis.frameIndex
+  fullName: RhythmTool.Analysis.frameIndex
+  type: Property
+  source:
+    id: frameIndex
+    path: ''
+    startLine: 3076
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe index of the current frame in the analysis process.\n"
+  example: []
+  syntax:
+    content: protected int frameIndex { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Protected ReadOnly Property frameIndex As Integer
+  overload: RhythmTool.Analysis.frameIndex*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: RhythmTool.Analysis.Initialize(System.Int32,System.Int32,System.Int32)
+  commentId: M:RhythmTool.Analysis.Initialize(System.Int32,System.Int32,System.Int32)
+  id: Initialize(System.Int32,System.Int32,System.Int32)
+  parent: RhythmTool.Analysis
+  langs:
+  - csharp
+  - vb
+  name: Initialize(Int32, Int32, Int32)
+  nameWithType: Analysis.Initialize(Int32, Int32, Int32)
+  fullName: RhythmTool.Analysis.Initialize(System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    id: Initialize
+    path: ''
+    startLine: 3083
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nInitialize this Analysis for new audio data.\n"
+  example: []
+  syntax:
+    content: public virtual void Initialize(int sampleRate, int frameSize, int hopSize)
+    parameters:
+    - id: sampleRate
+      type: System.Int32
+      description: The sample rate of the audio data.
+    - id: frameSize
+      type: System.Int32
+    - id: hopSize
+      type: System.Int32
+      description: The number of samples to move in between frames.
+    content.vb: Public Overridable Sub Initialize(sampleRate As Integer, frameSize As Integer, hopSize As Integer)
+  overload: RhythmTool.Analysis.Initialize*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: RhythmTool.Analysis.Process(System.Single[],System.Single[],System.Int32)
+  commentId: M:RhythmTool.Analysis.Process(System.Single[],System.Single[],System.Int32)
+  id: Process(System.Single[],System.Single[],System.Int32)
+  parent: RhythmTool.Analysis
+  langs:
+  - csharp
+  - vb
+  name: Process(Single[], Single[], Int32)
+  nameWithType: Analysis.Process(Single[], Single[], Int32)
+  fullName: RhythmTool.Analysis.Process(System.Single[], System.Single[], System.Int32)
+  type: Method
+  source:
+    id: Process
+    path: ''
+    startLine: 3095
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nProcess a frame of data.\n"
+  example: []
+  syntax:
+    content: public virtual void Process(float[] samples, float[] magnitude, int frameIndex)
+    parameters:
+    - id: samples
+      type: System.Single[]
+    - id: magnitude
+      type: System.Single[]
+      description: A magnitude spectrum of a frame of audio data.
+    - id: frameIndex
+      type: System.Int32
+      description: The index of a frame of audio data.
+    content.vb: Public Overridable Sub Process(samples As Single(), magnitude As Single(), frameIndex As Integer)
+  overload: RhythmTool.Analysis.Process*
+  nameWithType.vb: Analysis.Process(Single(), Single(), Int32)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: RhythmTool.Analysis.Process(System.Single(), System.Single(), System.Int32)
+  name.vb: Process(Single(), Single(), Int32)
+- uid: RhythmTool.Analysis.FrameIndexToSeconds(System.Single)
+  commentId: M:RhythmTool.Analysis.FrameIndexToSeconds(System.Single)
+  id: FrameIndexToSeconds(System.Single)
+  parent: RhythmTool.Analysis
+  langs:
+  - csharp
+  - vb
+  name: FrameIndexToSeconds(Single)
+  nameWithType: Analysis.FrameIndexToSeconds(Single)
+  fullName: RhythmTool.Analysis.FrameIndexToSeconds(System.Single)
+  type: Method
+  source:
+    id: FrameIndexToSeconds
+    path: ''
+    startLine: 3105
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nConvert a frame index to a timestamp in seconds.\n"
+  example: []
+  syntax:
+    content: protected float FrameIndexToSeconds(float frameIndex)
+    parameters:
+    - id: frameIndex
+      type: System.Single
+      description: A frame index.
+    return:
+      type: System.Single
+      description: The time in seconds corresponding to the frame index.
+    content.vb: Protected Function FrameIndexToSeconds(frameIndex As Single) As Single
+  overload: RhythmTool.Analysis.FrameIndexToSeconds*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: RhythmTool.Analysis.GetTrack
+  commentId: M:RhythmTool.Analysis.GetTrack
+  id: GetTrack
+  parent: RhythmTool.Analysis
+  langs:
+  - csharp
+  - vb
+  name: GetTrack()
+  nameWithType: Analysis.GetTrack()
+  fullName: RhythmTool.Analysis.GetTrack()
+  type: Method
+  source:
+    id: GetTrack
+    path: ''
+    startLine: 3110
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: protected abstract Track GetTrack()
+    return:
+      type: RhythmTool.Track
+    content.vb: Protected MustOverride Function GetTrack As Track
+  overload: RhythmTool.Analysis.GetTrack*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.Analysis.track*
+  commentId: Overload:RhythmTool.Analysis.track
+  name: track
+  nameWithType: Analysis.track
+  fullName: RhythmTool.Analysis.track
+- uid: RhythmTool.Track
+  commentId: T:RhythmTool.Track
+  parent: RhythmTool
+  name: Track
+  nameWithType: Track
+  fullName: RhythmTool.Track
+- uid: RhythmTool.Analysis.sampleRate*
+  commentId: Overload:RhythmTool.Analysis.sampleRate
+  name: sampleRate
+  nameWithType: Analysis.sampleRate
+  fullName: RhythmTool.Analysis.sampleRate
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: RhythmTool.Analysis.frameSize*
+  commentId: Overload:RhythmTool.Analysis.frameSize
+  name: frameSize
+  nameWithType: Analysis.frameSize
+  fullName: RhythmTool.Analysis.frameSize
+- uid: RhythmTool.Analysis.hopSize*
+  commentId: Overload:RhythmTool.Analysis.hopSize
+  name: hopSize
+  nameWithType: Analysis.hopSize
+  fullName: RhythmTool.Analysis.hopSize
+- uid: RhythmTool.Analysis.name*
+  commentId: Overload:RhythmTool.Analysis.name
+  name: name
+  nameWithType: Analysis.name
+  fullName: RhythmTool.Analysis.name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: RhythmTool.Analysis.frameIndex*
+  commentId: Overload:RhythmTool.Analysis.frameIndex
+  name: frameIndex
+  nameWithType: Analysis.frameIndex
+  fullName: RhythmTool.Analysis.frameIndex
+- uid: RhythmTool.Analysis.Initialize*
+  commentId: Overload:RhythmTool.Analysis.Initialize
+  name: Initialize
+  nameWithType: Analysis.Initialize
+  fullName: RhythmTool.Analysis.Initialize
+- uid: RhythmTool.Analysis.Process*
+  commentId: Overload:RhythmTool.Analysis.Process
+  name: Process
+  nameWithType: Analysis.Process
+  fullName: RhythmTool.Analysis.Process
+- uid: System.Single[]
+  isExternal: true
+  name: Single[]
+  nameWithType: Single[]
+  fullName: System.Single[]
+  nameWithType.vb: Single()
+  fullName.vb: System.Single()
+  name.vb: Single()
+  spec.csharp:
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: RhythmTool.Analysis.FrameIndexToSeconds*
+  commentId: Overload:RhythmTool.Analysis.FrameIndexToSeconds
+  name: FrameIndexToSeconds
+  nameWithType: Analysis.FrameIndexToSeconds
+  fullName: RhythmTool.Analysis.FrameIndexToSeconds
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: RhythmTool.Analysis.GetTrack*
+  commentId: Overload:RhythmTool.Analysis.GetTrack
+  name: GetTrack
+  nameWithType: Analysis.GetTrack
+  fullName: RhythmTool.Analysis.GetTrack

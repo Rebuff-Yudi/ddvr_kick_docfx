@@ -1,0 +1,1026 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.RhythmData
+  commentId: T:RhythmTool.RhythmData
+  id: RhythmData
+  parent: RhythmTool
+  children:
+  - RhythmTool.RhythmData.audioClip
+  - RhythmTool.RhythmData.Create(AudioClip,IEnumerable{RhythmTool.Track})
+  - RhythmTool.RhythmData.GetEnumerator
+  - RhythmTool.RhythmData.GetFeatures``1(List{``0},System.Single,System.Single)
+  - RhythmTool.RhythmData.GetFeatures``1(List{``0},System.Single,System.Single,System.String)
+  - RhythmTool.RhythmData.GetIntersectingFeatures``1(List{``0},System.Single,System.Single)
+  - RhythmTool.RhythmData.GetIntersectingFeatures``1(List{``0},System.Single,System.Single,System.String)
+  - RhythmTool.RhythmData.GetTrack``1
+  - RhythmTool.RhythmData.GetTrack``1(System.String)
+  - RhythmTool.RhythmData.GetTracks``1(List{RhythmTool.Track{``0}})
+  - RhythmTool.RhythmData.GetTracks``1(List{RhythmTool.Track{``0}},System.String)
+  - RhythmTool.RhythmData.tracks
+  langs:
+  - csharp
+  - vb
+  name: RhythmData
+  nameWithType: RhythmData
+  fullName: RhythmTool.RhythmData
+  type: Class
+  source:
+    id: RhythmData
+    path: ''
+    startLine: 4550
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nRhythmData stores information about the song in the form of Tracks.\n"
+  example: []
+  syntax:
+    content: 'public class RhythmData : ScriptableObject'
+    content.vb: >-
+      Public Class RhythmData
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.RhythmData.tracks
+  commentId: P:RhythmTool.RhythmData.tracks
+  id: tracks
+  parent: RhythmTool.RhythmData
+  langs:
+  - csharp
+  - vb
+  name: tracks
+  nameWithType: RhythmData.tracks
+  fullName: RhythmTool.RhythmData.tracks
+  type: Property
+  source:
+    id: tracks
+    path: ''
+    startLine: 4556
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe tracks contained in this RhythmData.\n"
+  example: []
+  syntax:
+    content: public List<Track> tracks { get; }
+    parameters: []
+    return:
+      type: Global.List{RhythmTool.Track}
+    content.vb: Public ReadOnly Property tracks As List(Of Track)
+  overload: RhythmTool.RhythmData.tracks*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: RhythmTool.RhythmData.audioClip
+  commentId: F:RhythmTool.RhythmData.audioClip
+  id: audioClip
+  parent: RhythmTool.RhythmData
+  langs:
+  - csharp
+  - vb
+  name: audioClip
+  nameWithType: RhythmData.audioClip
+  fullName: RhythmTool.RhythmData.audioClip
+  type: Field
+  source:
+    id: audioClip
+    path: ''
+    startLine: 4567
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nThe AudioClip associated with this RhythmData.\n"
+  example: []
+  syntax:
+    content: public AudioClip audioClip
+    return:
+      type: Global.AudioClip
+    content.vb: Public audioClip As AudioClip
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.RhythmData.GetTrack``1
+  commentId: M:RhythmTool.RhythmData.GetTrack``1
+  id: GetTrack``1
+  parent: RhythmTool.RhythmData
+  langs:
+  - csharp
+  - vb
+  name: GetTrack<T>()
+  nameWithType: RhythmData.GetTrack<T>()
+  fullName: RhythmTool.RhythmData.GetTrack<T>()
+  type: Method
+  source:
+    id: GetTrack
+    path: ''
+    startLine: 4577
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nReturns the first Track that stores Features of type T.\n"
+  example: []
+  syntax:
+    content: >-
+      public Track<T> GetTrack<T>()
+          where T : Feature
+    typeParameters:
+    - id: T
+      description: The Feature type of the Track.
+    return:
+      type: RhythmTool.Track{{T}}
+      description: The first Track that stores Features of type T. Returns null if no Track could be found.
+    content.vb: Public Function GetTrack(Of T As Feature) As Track(Of T)
+  overload: RhythmTool.RhythmData.GetTrack*
+  nameWithType.vb: RhythmData.GetTrack(Of T)()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: RhythmTool.RhythmData.GetTrack(Of T)()
+  name.vb: GetTrack(Of T)()
+- uid: RhythmTool.RhythmData.GetTrack``1(System.String)
+  commentId: M:RhythmTool.RhythmData.GetTrack``1(System.String)
+  id: GetTrack``1(System.String)
+  parent: RhythmTool.RhythmData
+  langs:
+  - csharp
+  - vb
+  name: GetTrack<T>(String)
+  nameWithType: RhythmData.GetTrack<T>(String)
+  fullName: RhythmTool.RhythmData.GetTrack<T>(System.String)
+  type: Method
+  source:
+    id: GetTrack
+    path: ''
+    startLine: 4594
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nReturns the first Track that stores Features of type T and matches the name trackName.\n"
+  example: []
+  syntax:
+    content: >-
+      public Track<T> GetTrack<T>(string trackName)
+          where T : Feature
+    parameters:
+    - id: trackName
+      type: System.String
+      description: The name of the track to look for.
+    typeParameters:
+    - id: T
+      description: The Feature type of the Track.
+    return:
+      type: RhythmTool.Track{{T}}
+      description: the first Track that stores Features of type T and matches the name trackName. Returns null if no Track could be found.
+    content.vb: Public Function GetTrack(Of T As Feature)(trackName As String) As Track(Of T)
+  overload: RhythmTool.RhythmData.GetTrack*
+  nameWithType.vb: RhythmData.GetTrack(Of T)(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: RhythmTool.RhythmData.GetTrack(Of T)(System.String)
+  name.vb: GetTrack(Of T)(String)
+- uid: RhythmTool.RhythmData.GetTracks``1(List{RhythmTool.Track{``0}})
+  commentId: M:RhythmTool.RhythmData.GetTracks``1(List{RhythmTool.Track{``0}})
+  id: GetTracks``1(List{RhythmTool.Track{``0}})
+  parent: RhythmTool.RhythmData
+  langs:
+  - csharp
+  - vb
+  name: GetTracks<T>(List<Track<T>>)
+  nameWithType: RhythmData.GetTracks<T>(List<Track<T>>)
+  fullName: RhythmTool.RhythmData.GetTracks<T>(List<RhythmTool.Track<T>>)
+  type: Method
+  source:
+    id: GetTracks
+    path: ''
+    startLine: 4610
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nFinds all tracks that have Feature type T.\n"
+  example: []
+  syntax:
+    content: >-
+      public void GetTracks<T>(List<Track<T>> tracks)
+          where T : Feature
+    parameters:
+    - id: tracks
+      type: Global.List{RhythmTool.Track{{T}}}
+      description: The list to populate with the Tracks.
+    typeParameters:
+    - id: T
+      description: The Feature type of the Tracks.
+    content.vb: Public Sub GetTracks(Of T As Feature)(tracks As List(Of Track(Of T)))
+  overload: RhythmTool.RhythmData.GetTracks*
+  nameWithType.vb: RhythmData.GetTracks(Of T)(List(Of Track(Of T)))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: RhythmTool.RhythmData.GetTracks(Of T)(List(Of RhythmTool.Track(Of T)))
+  name.vb: GetTracks(Of T)(List(Of Track(Of T)))
+- uid: RhythmTool.RhythmData.GetTracks``1(List{RhythmTool.Track{``0}},System.String)
+  commentId: M:RhythmTool.RhythmData.GetTracks``1(List{RhythmTool.Track{``0}},System.String)
+  id: GetTracks``1(List{RhythmTool.Track{``0}},System.String)
+  parent: RhythmTool.RhythmData
+  langs:
+  - csharp
+  - vb
+  name: GetTracks<T>(List<Track<T>>, String)
+  nameWithType: RhythmData.GetTracks<T>(List<Track<T>>, String)
+  fullName: RhythmTool.RhythmData.GetTracks<T>(List<RhythmTool.Track<T>>, System.String)
+  type: Method
+  source:
+    id: GetTracks
+    path: ''
+    startLine: 4625
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nFinds all tracks that have Feature type T and name trackName.\n"
+  example: []
+  syntax:
+    content: >-
+      public void GetTracks<T>(List<Track<T>> tracks, string trackName)
+          where T : Feature
+    parameters:
+    - id: tracks
+      type: Global.List{RhythmTool.Track{{T}}}
+      description: The list to populate with the Tracks.
+    - id: trackName
+      type: System.String
+      description: The name of the track to look for.
+    typeParameters:
+    - id: T
+      description: The Feature type of the Tracks.
+    content.vb: Public Sub GetTracks(Of T As Feature)(tracks As List(Of Track(Of T)), trackName As String)
+  overload: RhythmTool.RhythmData.GetTracks*
+  nameWithType.vb: RhythmData.GetTracks(Of T)(List(Of Track(Of T)), String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: RhythmTool.RhythmData.GetTracks(Of T)(List(Of RhythmTool.Track(Of T)), System.String)
+  name.vb: GetTracks(Of T)(List(Of Track(Of T)), String)
+- uid: RhythmTool.RhythmData.GetFeatures``1(List{``0},System.Single,System.Single)
+  commentId: M:RhythmTool.RhythmData.GetFeatures``1(List{``0},System.Single,System.Single)
+  id: GetFeatures``1(List{``0},System.Single,System.Single)
+  parent: RhythmTool.RhythmData
+  langs:
+  - csharp
+  - vb
+  name: GetFeatures<T>(List<T>, Single, Single)
+  nameWithType: RhythmData.GetFeatures<T>(List<T>, Single, Single)
+  fullName: RhythmTool.RhythmData.GetFeatures<T>(List<T>, System.Single, System.Single)
+  type: Method
+  source:
+    id: GetFeatures
+    path: ''
+    startLine: 4641
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nFinds all features of type T within a certain time frame.\n"
+  example: []
+  syntax:
+    content: >-
+      public void GetFeatures<T>(List<T> features, float start, float end)
+          where T : Feature
+    parameters:
+    - id: features
+      type: Global.List{{T}}
+      description: The list of Features to populate
+    - id: start
+      type: System.Single
+      description: The starting point in seconds.
+    - id: end
+      type: System.Single
+      description: The end point in seconds.
+    typeParameters:
+    - id: T
+      description: The type of Features to look for.
+    content.vb: Public Sub GetFeatures(Of T As Feature)(features As List(Of T), start As Single, end As Single)
+  overload: RhythmTool.RhythmData.GetFeatures*
+  nameWithType.vb: RhythmData.GetFeatures(Of T)(List(Of T), Single, Single)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: RhythmTool.RhythmData.GetFeatures(Of T)(List(Of T), System.Single, System.Single)
+  name.vb: GetFeatures(Of T)(List(Of T), Single, Single)
+- uid: RhythmTool.RhythmData.GetFeatures``1(List{``0},System.Single,System.Single,System.String)
+  commentId: M:RhythmTool.RhythmData.GetFeatures``1(List{``0},System.Single,System.Single,System.String)
+  id: GetFeatures``1(List{``0},System.Single,System.Single,System.String)
+  parent: RhythmTool.RhythmData
+  langs:
+  - csharp
+  - vb
+  name: GetFeatures<T>(List<T>, Single, Single, String)
+  nameWithType: RhythmData.GetFeatures<T>(List<T>, Single, Single, String)
+  fullName: RhythmTool.RhythmData.GetFeatures<T>(List<T>, System.Single, System.Single, System.String)
+  type: Method
+  source:
+    id: GetFeatures
+    path: ''
+    startLine: 4658
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nFinds all features of type T within tracks that match trackName within a certain time frame.\n"
+  example: []
+  syntax:
+    content: >-
+      public void GetFeatures<T>(List<T> features, float start, float end, string trackName)
+          where T : Feature
+    parameters:
+    - id: features
+      type: Global.List{{T}}
+      description: The list of Features to populate
+    - id: start
+      type: System.Single
+      description: The starting point in seconds.
+    - id: end
+      type: System.Single
+      description: The end point in seconds.
+    - id: trackName
+      type: System.String
+      description: ''
+    typeParameters:
+    - id: T
+      description: The type of Features to look for.
+    content.vb: Public Sub GetFeatures(Of T As Feature)(features As List(Of T), start As Single, end As Single, trackName As String)
+  overload: RhythmTool.RhythmData.GetFeatures*
+  nameWithType.vb: RhythmData.GetFeatures(Of T)(List(Of T), Single, Single, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: RhythmTool.RhythmData.GetFeatures(Of T)(List(Of T), System.Single, System.Single, System.String)
+  name.vb: GetFeatures(Of T)(List(Of T), Single, Single, String)
+- uid: RhythmTool.RhythmData.GetIntersectingFeatures``1(List{``0},System.Single,System.Single)
+  commentId: M:RhythmTool.RhythmData.GetIntersectingFeatures``1(List{``0},System.Single,System.Single)
+  id: GetIntersectingFeatures``1(List{``0},System.Single,System.Single)
+  parent: RhythmTool.RhythmData
+  langs:
+  - csharp
+  - vb
+  name: GetIntersectingFeatures<T>(List<T>, Single, Single)
+  nameWithType: RhythmData.GetIntersectingFeatures<T>(List<T>, Single, Single)
+  fullName: RhythmTool.RhythmData.GetIntersectingFeatures<T>(List<T>, System.Single, System.Single)
+  type: Method
+  source:
+    id: GetIntersectingFeatures
+    path: ''
+    startLine: 4674
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nFinds all features of type T within a certain time frame, including features with a length that intersects the time frame.\n"
+  example: []
+  syntax:
+    content: >-
+      public void GetIntersectingFeatures<T>(List<T> features, float start, float end)
+          where T : Feature
+    parameters:
+    - id: features
+      type: Global.List{{T}}
+      description: The list of Features to populate
+    - id: start
+      type: System.Single
+      description: The starting point in seconds.
+    - id: end
+      type: System.Single
+      description: The end point in seconds.
+    typeParameters:
+    - id: T
+      description: The type of Features to look for.
+    content.vb: Public Sub GetIntersectingFeatures(Of T As Feature)(features As List(Of T), start As Single, end As Single)
+  overload: RhythmTool.RhythmData.GetIntersectingFeatures*
+  nameWithType.vb: RhythmData.GetIntersectingFeatures(Of T)(List(Of T), Single, Single)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: RhythmTool.RhythmData.GetIntersectingFeatures(Of T)(List(Of T), System.Single, System.Single)
+  name.vb: GetIntersectingFeatures(Of T)(List(Of T), Single, Single)
+- uid: RhythmTool.RhythmData.GetIntersectingFeatures``1(List{``0},System.Single,System.Single,System.String)
+  commentId: M:RhythmTool.RhythmData.GetIntersectingFeatures``1(List{``0},System.Single,System.Single,System.String)
+  id: GetIntersectingFeatures``1(List{``0},System.Single,System.Single,System.String)
+  parent: RhythmTool.RhythmData
+  langs:
+  - csharp
+  - vb
+  name: GetIntersectingFeatures<T>(List<T>, Single, Single, String)
+  nameWithType: RhythmData.GetIntersectingFeatures<T>(List<T>, Single, Single, String)
+  fullName: RhythmTool.RhythmData.GetIntersectingFeatures<T>(List<T>, System.Single, System.Single, System.String)
+  type: Method
+  source:
+    id: GetIntersectingFeatures
+    path: ''
+    startLine: 4691
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nFinds all features of type T within tracks that match trackName within a certain time frame, including features with a length that intersects the time frame.\n"
+  example: []
+  syntax:
+    content: >-
+      public void GetIntersectingFeatures<T>(List<T> features, float start, float end, string trackName)
+          where T : Feature
+    parameters:
+    - id: features
+      type: Global.List{{T}}
+      description: The list of Features to populate
+    - id: start
+      type: System.Single
+      description: The starting point in seconds.
+    - id: end
+      type: System.Single
+      description: The end point in seconds.
+    - id: trackName
+      type: System.String
+      description: ''
+    typeParameters:
+    - id: T
+      description: The type of Features to look for.
+    content.vb: Public Sub GetIntersectingFeatures(Of T As Feature)(features As List(Of T), start As Single, end As Single, trackName As String)
+  overload: RhythmTool.RhythmData.GetIntersectingFeatures*
+  nameWithType.vb: RhythmData.GetIntersectingFeatures(Of T)(List(Of T), Single, Single, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: RhythmTool.RhythmData.GetIntersectingFeatures(Of T)(List(Of T), System.Single, System.Single, System.String)
+  name.vb: GetIntersectingFeatures(Of T)(List(Of T), Single, Single, String)
+- uid: RhythmTool.RhythmData.GetEnumerator
+  commentId: M:RhythmTool.RhythmData.GetEnumerator
+  id: GetEnumerator
+  parent: RhythmTool.RhythmData
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: RhythmData.GetEnumerator()
+  fullName: RhythmTool.RhythmData.GetEnumerator()
+  type: Method
+  source:
+    id: GetEnumerator
+    path: ''
+    startLine: 4700
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public IEnumerator<Track> GetEnumerator()
+    return:
+      type: Global.IEnumerator{RhythmTool.Track}
+    content.vb: Public Function GetEnumerator As IEnumerator(Of Track)
+  overload: RhythmTool.RhythmData.GetEnumerator*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: RhythmTool.RhythmData.Create(AudioClip,IEnumerable{RhythmTool.Track})
+  commentId: M:RhythmTool.RhythmData.Create(AudioClip,IEnumerable{RhythmTool.Track})
+  id: Create(AudioClip,IEnumerable{RhythmTool.Track})
+  parent: RhythmTool.RhythmData
+  langs:
+  - csharp
+  - vb
+  name: Create(AudioClip, IEnumerable<Track>)
+  nameWithType: RhythmData.Create(AudioClip, IEnumerable<Track>)
+  fullName: RhythmTool.RhythmData.Create(AudioClip, IEnumerable<RhythmTool.Track>)
+  type: Method
+  source:
+    id: Create
+    path: ''
+    startLine: 4733
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  summary: "\nCreate a RhythmData object with a name and tracks.\n"
+  example: []
+  syntax:
+    content: public static RhythmData Create(AudioClip audioClip, IEnumerable<Track> tracks)
+    parameters:
+    - id: audioClip
+      type: Global.AudioClip
+    - id: tracks
+      type: Global.IEnumerable{RhythmTool.Track}
+      description: A collection of Tracks to add to the RhythmData object.
+    return:
+      type: RhythmTool.RhythmData
+      description: A new RhythmData object.
+    content.vb: Public Shared Function Create(audioClip As AudioClip, tracks As IEnumerable(Of Track)) As RhythmData
+  overload: RhythmTool.RhythmData.Create*
+  nameWithType.vb: RhythmData.Create(AudioClip, IEnumerable(Of Track))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: RhythmTool.RhythmData.Create(AudioClip, IEnumerable(Of RhythmTool.Track))
+  name.vb: Create(AudioClip, IEnumerable(Of Track))
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.RhythmData.tracks*
+  commentId: Overload:RhythmTool.RhythmData.tracks
+  name: tracks
+  nameWithType: RhythmData.tracks
+  fullName: RhythmTool.RhythmData.tracks
+- uid: Global.List{RhythmTool.Track}
+  commentId: '!:Global.List{RhythmTool.Track}'
+  definition: Global.List`1
+  name: List<Track>
+  nameWithType: List<Track>
+  fullName: List<RhythmTool.Track>
+  nameWithType.vb: List(Of Track)
+  fullName.vb: List(Of RhythmTool.Track)
+  name.vb: List(Of Track)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: RhythmTool.Track
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: RhythmTool.Track
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.AudioClip
+  isExternal: true
+  name: AudioClip
+  nameWithType: AudioClip
+  fullName: AudioClip
+- uid: RhythmTool.RhythmData.GetTrack*
+  commentId: Overload:RhythmTool.RhythmData.GetTrack
+  name: GetTrack
+  nameWithType: RhythmData.GetTrack
+  fullName: RhythmTool.RhythmData.GetTrack
+- uid: RhythmTool.Track{{T}}
+  commentId: T:RhythmTool.Track{`0}
+  parent: RhythmTool
+  definition: RhythmTool.Track`1
+  name: Track<T>
+  nameWithType: Track<T>
+  fullName: RhythmTool.Track<T>
+  nameWithType.vb: Track(Of T)
+  fullName.vb: RhythmTool.Track(Of T)
+  name.vb: Track(Of T)
+  spec.csharp:
+  - uid: RhythmTool.Track`1
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: RhythmTool.Track`1
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.Track`1
+  commentId: T:RhythmTool.Track`1
+  parent: RhythmTool
+  name: Track<T>
+  nameWithType: Track<T>
+  fullName: RhythmTool.Track<T>
+  nameWithType.vb: Track(Of T)
+  fullName.vb: RhythmTool.Track(Of T)
+  name.vb: Track(Of T)
+  spec.csharp:
+  - uid: RhythmTool.Track`1
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: RhythmTool.Track`1
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: RhythmTool.RhythmData.GetTracks*
+  commentId: Overload:RhythmTool.RhythmData.GetTracks
+  name: GetTracks
+  nameWithType: RhythmData.GetTracks
+  fullName: RhythmTool.RhythmData.GetTracks
+- uid: Global.List{RhythmTool.Track{{T}}}
+  commentId: '!:Global.List{RhythmTool.Track{``0}}'
+  definition: Global.List`1
+  name: List<Track<T>>
+  nameWithType: List<Track<T>>
+  fullName: List<RhythmTool.Track<T>>
+  nameWithType.vb: List(Of Track(Of T))
+  fullName.vb: List(Of RhythmTool.Track(Of T))
+  name.vb: List(Of Track(Of T))
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: RhythmTool.Track`1
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: RhythmTool.Track`1
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.RhythmData.GetFeatures*
+  commentId: Overload:RhythmTool.RhythmData.GetFeatures
+  name: GetFeatures
+  nameWithType: RhythmData.GetFeatures
+  fullName: RhythmTool.RhythmData.GetFeatures
+- uid: Global.List{{T}}
+  commentId: '!:Global.List{``0}'
+  definition: Global.List`1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: RhythmTool.RhythmData.GetIntersectingFeatures*
+  commentId: Overload:RhythmTool.RhythmData.GetIntersectingFeatures
+  name: GetIntersectingFeatures
+  nameWithType: RhythmData.GetIntersectingFeatures
+  fullName: RhythmTool.RhythmData.GetIntersectingFeatures
+- uid: RhythmTool.RhythmData.GetEnumerator*
+  commentId: Overload:RhythmTool.RhythmData.GetEnumerator
+  name: GetEnumerator
+  nameWithType: RhythmData.GetEnumerator
+  fullName: RhythmTool.RhythmData.GetEnumerator
+- uid: Global.IEnumerator{RhythmTool.Track}
+  commentId: '!:Global.IEnumerator{RhythmTool.Track}'
+  definition: Global.IEnumerator`1
+  name: IEnumerator<Track>
+  nameWithType: IEnumerator<Track>
+  fullName: IEnumerator<RhythmTool.Track>
+  nameWithType.vb: IEnumerator(Of Track)
+  fullName.vb: IEnumerator(Of RhythmTool.Track)
+  name.vb: IEnumerator(Of Track)
+  spec.csharp:
+  - uid: Global.IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: IEnumerator
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: RhythmTool.Track
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: IEnumerator
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: RhythmTool.Track
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.IEnumerator`1
+  commentId: '!:Global.IEnumerator`1'
+  isExternal: true
+  name: IEnumerator<>
+  nameWithType: IEnumerator<>
+  fullName: IEnumerator<>
+  nameWithType.vb: IEnumerator(Of )
+  fullName.vb: IEnumerator(Of )
+  name.vb: IEnumerator(Of )
+  spec.csharp:
+  - uid: Global.IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: IEnumerator
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: IEnumerator
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.RhythmData.Create*
+  commentId: Overload:RhythmTool.RhythmData.Create
+  name: Create
+  nameWithType: RhythmData.Create
+  fullName: RhythmTool.RhythmData.Create
+- uid: Global.IEnumerable{RhythmTool.Track}
+  commentId: '!:Global.IEnumerable{RhythmTool.Track}'
+  definition: Global.IEnumerable`1
+  name: IEnumerable<Track>
+  nameWithType: IEnumerable<Track>
+  fullName: IEnumerable<RhythmTool.Track>
+  nameWithType.vb: IEnumerable(Of Track)
+  fullName.vb: IEnumerable(Of RhythmTool.Track)
+  name.vb: IEnumerable(Of Track)
+  spec.csharp:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: RhythmTool.Track
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: RhythmTool.Track
+    name: Track
+    nameWithType: Track
+    fullName: RhythmTool.Track
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.RhythmData
+  commentId: T:RhythmTool.RhythmData
+  parent: RhythmTool
+  name: RhythmData
+  nameWithType: RhythmData
+  fullName: RhythmTool.RhythmData
+- uid: Global.IEnumerable`1
+  commentId: '!:Global.IEnumerable`1'
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

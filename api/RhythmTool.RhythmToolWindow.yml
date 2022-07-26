@@ -1,0 +1,262 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.RhythmToolWindow
+  commentId: T:RhythmTool.RhythmToolWindow
+  id: RhythmToolWindow
+  parent: RhythmTool
+  children:
+  - RhythmTool.RhythmToolWindow.instance
+  - RhythmTool.RhythmToolWindow.OpenRhythmData(RhythmTool.RhythmData)
+  - RhythmTool.RhythmToolWindow.ShowWindow
+  - RhythmTool.RhythmToolWindow.state
+  - RhythmTool.RhythmToolWindow.timestamp
+  langs:
+  - csharp
+  - vb
+  name: RhythmToolWindow
+  nameWithType: RhythmToolWindow
+  fullName: RhythmTool.RhythmToolWindow
+  type: Class
+  source:
+    id: RhythmToolWindow
+    path: ''
+    startLine: 667
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: 'public class RhythmToolWindow : EditorWindow'
+    content.vb: >-
+      Public Class RhythmToolWindow
+          Inherits EditorWindow
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: RhythmTool.RhythmToolWindow.instance
+  commentId: P:RhythmTool.RhythmToolWindow.instance
+  id: instance
+  parent: RhythmTool.RhythmToolWindow
+  langs:
+  - csharp
+  - vb
+  name: instance
+  nameWithType: RhythmToolWindow.instance
+  fullName: RhythmTool.RhythmToolWindow.instance
+  type: Property
+  source:
+    id: instance
+    path: ''
+    startLine: 669
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static RhythmToolWindow instance { get; }
+    parameters: []
+    return:
+      type: RhythmTool.RhythmToolWindow
+    content.vb: Public Shared ReadOnly Property instance As RhythmToolWindow
+  overload: RhythmTool.RhythmToolWindow.instance*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: RhythmTool.RhythmToolWindow.state
+  commentId: P:RhythmTool.RhythmToolWindow.state
+  id: state
+  parent: RhythmTool.RhythmToolWindow
+  langs:
+  - csharp
+  - vb
+  name: state
+  nameWithType: RhythmToolWindow.state
+  fullName: RhythmTool.RhythmToolWindow.state
+  type: Property
+  source:
+    id: state
+    path: ''
+    startLine: 680
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public EditorState state { get; }
+    parameters: []
+    return:
+      type: RhythmTool.EditorState
+    content.vb: Public ReadOnly Property state As EditorState
+  overload: RhythmTool.RhythmToolWindow.state*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: RhythmTool.RhythmToolWindow.timestamp
+  commentId: P:RhythmTool.RhythmToolWindow.timestamp
+  id: timestamp
+  parent: RhythmTool.RhythmToolWindow
+  langs:
+  - csharp
+  - vb
+  name: timestamp
+  nameWithType: RhythmToolWindow.timestamp
+  fullName: RhythmTool.RhythmToolWindow.timestamp
+  type: Property
+  source:
+    id: timestamp
+    path: ''
+    startLine: 712
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public float timestamp { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property timestamp As Single
+  overload: RhythmTool.RhythmToolWindow.timestamp*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: RhythmTool.RhythmToolWindow.ShowWindow
+  commentId: M:RhythmTool.RhythmToolWindow.ShowWindow
+  id: ShowWindow
+  parent: RhythmTool.RhythmToolWindow
+  langs:
+  - csharp
+  - vb
+  name: ShowWindow()
+  nameWithType: RhythmToolWindow.ShowWindow()
+  fullName: RhythmTool.RhythmToolWindow.ShowWindow()
+  type: Method
+  source:
+    id: ShowWindow
+    path: ''
+    startLine: 1471
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static void ShowWindow()
+    content.vb: Public Shared Sub ShowWindow
+  overload: RhythmTool.RhythmToolWindow.ShowWindow*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: RhythmTool.RhythmToolWindow.OpenRhythmData(RhythmTool.RhythmData)
+  commentId: M:RhythmTool.RhythmToolWindow.OpenRhythmData(RhythmTool.RhythmData)
+  id: OpenRhythmData(RhythmTool.RhythmData)
+  parent: RhythmTool.RhythmToolWindow
+  langs:
+  - csharp
+  - vb
+  name: OpenRhythmData(RhythmData)
+  nameWithType: RhythmToolWindow.OpenRhythmData(RhythmData)
+  fullName: RhythmTool.RhythmToolWindow.OpenRhythmData(RhythmTool.RhythmData)
+  type: Method
+  source:
+    id: OpenRhythmData
+    path: ''
+    startLine: 1477
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public static void OpenRhythmData(RhythmData rhythmData)
+    parameters:
+    - id: rhythmData
+      type: RhythmTool.RhythmData
+    content.vb: Public Shared Sub OpenRhythmData(rhythmData As RhythmData)
+  overload: RhythmTool.RhythmToolWindow.OpenRhythmData*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: RhythmTool.RhythmToolWindow.instance*
+  commentId: Overload:RhythmTool.RhythmToolWindow.instance
+  name: instance
+  nameWithType: RhythmToolWindow.instance
+  fullName: RhythmTool.RhythmToolWindow.instance
+- uid: RhythmTool.RhythmToolWindow
+  commentId: T:RhythmTool.RhythmToolWindow
+  parent: RhythmTool
+  name: RhythmToolWindow
+  nameWithType: RhythmToolWindow
+  fullName: RhythmTool.RhythmToolWindow
+- uid: RhythmTool.RhythmToolWindow.state*
+  commentId: Overload:RhythmTool.RhythmToolWindow.state
+  name: state
+  nameWithType: RhythmToolWindow.state
+  fullName: RhythmTool.RhythmToolWindow.state
+- uid: RhythmTool.EditorState
+  commentId: T:RhythmTool.EditorState
+  parent: RhythmTool
+  name: EditorState
+  nameWithType: EditorState
+  fullName: RhythmTool.EditorState
+- uid: RhythmTool.RhythmToolWindow.timestamp*
+  commentId: Overload:RhythmTool.RhythmToolWindow.timestamp
+  name: timestamp
+  nameWithType: RhythmToolWindow.timestamp
+  fullName: RhythmTool.RhythmToolWindow.timestamp
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: RhythmTool.RhythmToolWindow.ShowWindow*
+  commentId: Overload:RhythmTool.RhythmToolWindow.ShowWindow
+  name: ShowWindow
+  nameWithType: RhythmToolWindow.ShowWindow
+  fullName: RhythmTool.RhythmToolWindow.ShowWindow
+- uid: RhythmTool.RhythmToolWindow.OpenRhythmData*
+  commentId: Overload:RhythmTool.RhythmToolWindow.OpenRhythmData
+  name: OpenRhythmData
+  nameWithType: RhythmToolWindow.OpenRhythmData
+  fullName: RhythmTool.RhythmToolWindow.OpenRhythmData
+- uid: RhythmTool.RhythmData
+  commentId: T:RhythmTool.RhythmData
+  parent: RhythmTool
+  name: RhythmData
+  nameWithType: RhythmData
+  fullName: RhythmTool.RhythmData

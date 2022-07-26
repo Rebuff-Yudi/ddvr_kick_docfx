@@ -1,0 +1,241 @@
+### YamlMime:ManagedReference
+items:
+- uid: DDVRKick.Tracks.Obstacles
+  commentId: T:DDVRKick.Tracks.Obstacles
+  id: Obstacles
+  parent: DDVRKick.Tracks
+  children:
+  - DDVRKick.Tracks.Obstacles.track
+  langs:
+  - csharp
+  - vb
+  name: Obstacles
+  nameWithType: Obstacles
+  fullName: DDVRKick.Tracks.Obstacles
+  type: Class
+  source:
+    id: Obstacles
+    path: ''
+    startLine: 7845
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: 'public class Obstacles : BaseTrackObject'
+    content.vb: >-
+      Public Class Obstacles
+          Inherits BaseTrackObject
+  inheritance:
+  - System.Object
+  - DDVRKick.Tracks.BaseTrackObject
+  inheritedMembers:
+  - DDVRKick.Tracks.BaseTrackObject.pathTween
+  - DDVRKick.Tracks.BaseTrackObject.OnEnable
+  - DDVRKick.Tracks.BaseTrackObject.Reset
+  - DDVRKick.Tracks.BaseTrackObject.AttachToPath(DOTweenPath,DOTweenPath,System.Action)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DDVRKick.Tracks.Obstacles.track
+  commentId: P:DDVRKick.Tracks.Obstacles.track
+  id: track
+  parent: DDVRKick.Tracks.Obstacles
+  langs:
+  - csharp
+  - vb
+  name: track
+  nameWithType: Obstacles.track
+  fullName: DDVRKick.Tracks.Obstacles.track
+  type: Property
+  source:
+    id: track
+    path: ''
+    startLine: 7847
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: public ObstaclesTrack track { get; set; }
+    parameters: []
+    return:
+      type: DDVRKick.Tracks.ObstaclesTrack
+    content.vb: Public Property track As ObstaclesTrack
+  overload: DDVRKick.Tracks.Obstacles.track*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: DDVRKick.Tracks
+  commentId: N:DDVRKick.Tracks
+  name: DDVRKick.Tracks
+  nameWithType: DDVRKick.Tracks
+  fullName: DDVRKick.Tracks
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: DDVRKick.Tracks.BaseTrackObject
+  commentId: T:DDVRKick.Tracks.BaseTrackObject
+  parent: DDVRKick.Tracks
+  name: BaseTrackObject
+  nameWithType: BaseTrackObject
+  fullName: DDVRKick.Tracks.BaseTrackObject
+- uid: DDVRKick.Tracks.BaseTrackObject.pathTween
+  commentId: P:DDVRKick.Tracks.BaseTrackObject.pathTween
+  parent: DDVRKick.Tracks.BaseTrackObject
+  name: pathTween
+  nameWithType: BaseTrackObject.pathTween
+  fullName: DDVRKick.Tracks.BaseTrackObject.pathTween
+- uid: DDVRKick.Tracks.BaseTrackObject.OnEnable
+  commentId: M:DDVRKick.Tracks.BaseTrackObject.OnEnable
+  parent: DDVRKick.Tracks.BaseTrackObject
+  name: OnEnable()
+  nameWithType: BaseTrackObject.OnEnable()
+  fullName: DDVRKick.Tracks.BaseTrackObject.OnEnable()
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrackObject.OnEnable
+    name: OnEnable
+    nameWithType: BaseTrackObject.OnEnable
+    fullName: DDVRKick.Tracks.BaseTrackObject.OnEnable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrackObject.OnEnable
+    name: OnEnable
+    nameWithType: BaseTrackObject.OnEnable
+    fullName: DDVRKick.Tracks.BaseTrackObject.OnEnable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DDVRKick.Tracks.BaseTrackObject.Reset
+  commentId: M:DDVRKick.Tracks.BaseTrackObject.Reset
+  parent: DDVRKick.Tracks.BaseTrackObject
+  name: Reset()
+  nameWithType: BaseTrackObject.Reset()
+  fullName: DDVRKick.Tracks.BaseTrackObject.Reset()
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrackObject.Reset
+    name: Reset
+    nameWithType: BaseTrackObject.Reset
+    fullName: DDVRKick.Tracks.BaseTrackObject.Reset
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrackObject.Reset
+    name: Reset
+    nameWithType: BaseTrackObject.Reset
+    fullName: DDVRKick.Tracks.BaseTrackObject.Reset
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DDVRKick.Tracks.BaseTrackObject.AttachToPath(DOTweenPath,DOTweenPath,System.Action)
+  commentId: M:DDVRKick.Tracks.BaseTrackObject.AttachToPath(DOTweenPath,DOTweenPath,System.Action)
+  parent: DDVRKick.Tracks.BaseTrackObject
+  isExternal: true
+  name: AttachToPath(DOTweenPath, DOTweenPath, Action)
+  nameWithType: BaseTrackObject.AttachToPath(DOTweenPath, DOTweenPath, Action)
+  fullName: DDVRKick.Tracks.BaseTrackObject.AttachToPath(DOTweenPath, DOTweenPath, System.Action)
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrackObject.AttachToPath(DOTweenPath,DOTweenPath,System.Action)
+    name: AttachToPath
+    nameWithType: BaseTrackObject.AttachToPath
+    fullName: DDVRKick.Tracks.BaseTrackObject.AttachToPath
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.DOTweenPath
+    name: DOTweenPath
+    nameWithType: DOTweenPath
+    fullName: DOTweenPath
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.DOTweenPath
+    name: DOTweenPath
+    nameWithType: DOTweenPath
+    fullName: DOTweenPath
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrackObject.AttachToPath(DOTweenPath,DOTweenPath,System.Action)
+    name: AttachToPath
+    nameWithType: BaseTrackObject.AttachToPath
+    fullName: DDVRKick.Tracks.BaseTrackObject.AttachToPath
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.DOTweenPath
+    name: DOTweenPath
+    nameWithType: DOTweenPath
+    fullName: DOTweenPath
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.DOTweenPath
+    name: DOTweenPath
+    nameWithType: DOTweenPath
+    fullName: DOTweenPath
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DDVRKick.Tracks.Obstacles.track*
+  commentId: Overload:DDVRKick.Tracks.Obstacles.track
+  name: track
+  nameWithType: Obstacles.track
+  fullName: DDVRKick.Tracks.Obstacles.track
+- uid: DDVRKick.Tracks.ObstaclesTrack
+  commentId: T:DDVRKick.Tracks.ObstaclesTrack
+  parent: DDVRKick.Tracks
+  name: ObstaclesTrack
+  nameWithType: ObstaclesTrack
+  fullName: DDVRKick.Tracks.ObstaclesTrack

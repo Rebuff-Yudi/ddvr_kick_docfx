@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: RhythmTool.LongNote.Track
+  commentId: T:RhythmTool.LongNote.Track
+  id: LongNote.Track
+  parent: RhythmTool
+  children:
+  - RhythmTool.LongNote.Track.A
+  - RhythmTool.LongNote.Track.B
+  - RhythmTool.LongNote.Track.C
+  - RhythmTool.LongNote.Track.D
+  langs:
+  - csharp
+  - vb
+  name: LongNote.Track
+  nameWithType: LongNote.Track
+  fullName: RhythmTool.LongNote.Track
+  type: Enum
+  source:
+    id: Track
+    path: ''
+    startLine: 6044
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: public enum Track
+    content.vb: Public Enum Track
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: RhythmTool.LongNote.Track.A
+  commentId: F:RhythmTool.LongNote.Track.A
+  id: A
+  parent: RhythmTool.LongNote.Track
+  langs:
+  - csharp
+  - vb
+  name: A
+  nameWithType: LongNote.Track.A
+  fullName: RhythmTool.LongNote.Track.A
+  type: Field
+  source:
+    id: A
+    path: ''
+    startLine: 6046
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: A = 0
+    return:
+      type: RhythmTool.LongNote.Track
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: RhythmTool.LongNote.Track.B
+  commentId: F:RhythmTool.LongNote.Track.B
+  id: B
+  parent: RhythmTool.LongNote.Track
+  langs:
+  - csharp
+  - vb
+  name: B
+  nameWithType: LongNote.Track.B
+  fullName: RhythmTool.LongNote.Track.B
+  type: Field
+  source:
+    id: B
+    path: ''
+    startLine: 6047
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: B = 1
+    return:
+      type: RhythmTool.LongNote.Track
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: RhythmTool.LongNote.Track.C
+  commentId: F:RhythmTool.LongNote.Track.C
+  id: C
+  parent: RhythmTool.LongNote.Track
+  langs:
+  - csharp
+  - vb
+  name: C
+  nameWithType: LongNote.Track.C
+  fullName: RhythmTool.LongNote.Track.C
+  type: Field
+  source:
+    id: C
+    path: ''
+    startLine: 6048
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: C = 2
+    return:
+      type: RhythmTool.LongNote.Track
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: RhythmTool.LongNote.Track.D
+  commentId: F:RhythmTool.LongNote.Track.D
+  id: D
+  parent: RhythmTool.LongNote.Track
+  langs:
+  - csharp
+  - vb
+  name: D
+  nameWithType: LongNote.Track.D
+  fullName: RhythmTool.LongNote.Track.D
+  type: Field
+  source:
+    id: D
+    path: ''
+    startLine: 6049
+  assemblies:
+  - cs.temp.dll
+  namespace: RhythmTool
+  syntax:
+    content: D = 3
+    return:
+      type: RhythmTool.LongNote.Track
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
+- uid: RhythmTool.LongNote.Track
+  commentId: T:RhythmTool.LongNote.Track
+  parent: RhythmTool
+  name: LongNote.Track
+  nameWithType: LongNote.Track
+  fullName: RhythmTool.LongNote.Track

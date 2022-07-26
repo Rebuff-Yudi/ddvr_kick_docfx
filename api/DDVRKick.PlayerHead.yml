@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: DDVRKick.PlayerHead
+  commentId: T:DDVRKick.PlayerHead
+  id: PlayerHead
+  parent: DDVRKick
+  children:
+  - DDVRKick.PlayerHead.instance
+  langs:
+  - csharp
+  - vb
+  name: PlayerHead
+  nameWithType: PlayerHead
+  fullName: DDVRKick.PlayerHead
+  type: Class
+  source:
+    id: PlayerHead
+    path: ''
+    startLine: 6419
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: 'public class PlayerHead : MonoBehaviour'
+    content.vb: >-
+      Public Class PlayerHead
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DDVRKick.PlayerHead.instance
+  commentId: F:DDVRKick.PlayerHead.instance
+  id: instance
+  parent: DDVRKick.PlayerHead
+  langs:
+  - csharp
+  - vb
+  name: instance
+  nameWithType: PlayerHead.instance
+  fullName: DDVRKick.PlayerHead.instance
+  type: Field
+  source:
+    id: instance
+    path: ''
+    startLine: 6421
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick
+  syntax:
+    content: public static PlayerHead instance
+    return:
+      type: DDVRKick.PlayerHead
+    content.vb: Public Shared instance As PlayerHead
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: DDVRKick
+  commentId: N:DDVRKick
+  name: DDVRKick
+  nameWithType: DDVRKick
+  fullName: DDVRKick
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DDVRKick.PlayerHead
+  commentId: T:DDVRKick.PlayerHead
+  parent: DDVRKick
+  name: PlayerHead
+  nameWithType: PlayerHead
+  fullName: DDVRKick.PlayerHead

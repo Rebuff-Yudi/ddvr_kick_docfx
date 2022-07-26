@@ -1,0 +1,733 @@
+### YamlMime:ManagedReference
+items:
+- uid: DDVRKick.Tracks.NoteTrack
+  commentId: T:DDVRKick.Tracks.NoteTrack
+  id: NoteTrack
+  parent: DDVRKick.Tracks
+  children:
+  - DDVRKick.Tracks.NoteTrack.GenerateNote(RhythmTool.INoteData)
+  - DDVRKick.Tracks.NoteTrack.OnPoolCreate
+  - DDVRKick.Tracks.NoteTrack.OnPoolRelease(DDVRKick.Tracks.Note)
+  langs:
+  - csharp
+  - vb
+  name: NoteTrack
+  nameWithType: NoteTrack
+  fullName: DDVRKick.Tracks.NoteTrack
+  type: Class
+  source:
+    id: NoteTrack
+    path: ''
+    startLine: 7220
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  syntax:
+    content: 'public class NoteTrack : BaseTrack<Note>'
+    content.vb: >-
+      Public Class NoteTrack
+          Inherits BaseTrack(Of Note)
+  inheritance:
+  - System.Object
+  - DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}
+  inheritedMembers:
+  - DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.pool
+  - DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.enterPath
+  - DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.exitPath
+  - DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.prefab
+  - DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.collectionCheck
+  - DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.defaultCapacity
+  - DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.maxSize
+  - DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.Start
+  - DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.OnPoolGet(DDVRKick.Tracks.Note)
+  - DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.OnPoolDestroy(DDVRKick.Tracks.Note)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DDVRKick.Tracks.NoteTrack.OnPoolCreate
+  commentId: M:DDVRKick.Tracks.NoteTrack.OnPoolCreate
+  id: OnPoolCreate
+  parent: DDVRKick.Tracks.NoteTrack
+  langs:
+  - csharp
+  - vb
+  name: OnPoolCreate()
+  nameWithType: NoteTrack.OnPoolCreate()
+  fullName: DDVRKick.Tracks.NoteTrack.OnPoolCreate()
+  type: Method
+  source:
+    id: OnPoolCreate
+    path: ''
+    startLine: 7223
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  summary: "\nCreate game object from <xref href=\"DDVRKick.Tracks.BaseTrack%601.prefab\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: protected override Note OnPoolCreate()
+    return:
+      type: DDVRKick.Tracks.Note
+      description: ''
+    content.vb: Protected Overrides Function OnPoolCreate As Note
+  overridden: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.OnPoolCreate
+  overload: DDVRKick.Tracks.NoteTrack.OnPoolCreate*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: DDVRKick.Tracks.NoteTrack.OnPoolRelease(DDVRKick.Tracks.Note)
+  commentId: M:DDVRKick.Tracks.NoteTrack.OnPoolRelease(DDVRKick.Tracks.Note)
+  id: OnPoolRelease(DDVRKick.Tracks.Note)
+  parent: DDVRKick.Tracks.NoteTrack
+  langs:
+  - csharp
+  - vb
+  name: OnPoolRelease(Note)
+  nameWithType: NoteTrack.OnPoolRelease(Note)
+  fullName: DDVRKick.Tracks.NoteTrack.OnPoolRelease(DDVRKick.Tracks.Note)
+  type: Method
+  source:
+    id: OnPoolRelease
+    path: ''
+    startLine: 7235
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  summary: "\nRelease an active object from scene and make it ready in the object pool.\n"
+  example: []
+  syntax:
+    content: protected override void OnPoolRelease(Note note)
+    parameters:
+    - id: note
+      type: DDVRKick.Tracks.Note
+    content.vb: Protected Overrides Sub OnPoolRelease(note As Note)
+  overridden: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.OnPoolRelease(DDVRKick.Tracks.Note)
+  overload: DDVRKick.Tracks.NoteTrack.OnPoolRelease*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: DDVRKick.Tracks.NoteTrack.GenerateNote(RhythmTool.INoteData)
+  commentId: M:DDVRKick.Tracks.NoteTrack.GenerateNote(RhythmTool.INoteData)
+  id: GenerateNote(RhythmTool.INoteData)
+  parent: DDVRKick.Tracks.NoteTrack
+  langs:
+  - csharp
+  - vb
+  name: GenerateNote(INoteData)
+  nameWithType: NoteTrack.GenerateNote(INoteData)
+  fullName: DDVRKick.Tracks.NoteTrack.GenerateNote(RhythmTool.INoteData)
+  type: Method
+  source:
+    id: GenerateNote
+    path: ''
+    startLine: 7245
+  assemblies:
+  - cs.temp.dll
+  namespace: DDVRKick.Tracks
+  summary: "\nGenerate a <xref href=\"DDVRKick.Tracks.Note\" data-throw-if-not-resolved=\"false\"></xref> using <xref href=\"RhythmTool.INoteData\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public Note GenerateNote(INoteData noteData = null)
+    parameters:
+    - id: noteData
+      type: RhythmTool.INoteData
+      description: ''
+    return:
+      type: DDVRKick.Tracks.Note
+      description: ''
+    content.vb: Public Function GenerateNote(noteData As INoteData = Nothing) As Note
+  overload: DDVRKick.Tracks.NoteTrack.GenerateNote*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DDVRKick.Tracks
+  commentId: N:DDVRKick.Tracks
+  name: DDVRKick.Tracks
+  nameWithType: DDVRKick.Tracks
+  fullName: DDVRKick.Tracks
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}
+  commentId: T:DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}
+  parent: DDVRKick.Tracks
+  definition: DDVRKick.Tracks.BaseTrack`1
+  name: BaseTrack<Note>
+  nameWithType: BaseTrack<Note>
+  fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Note>
+  nameWithType.vb: BaseTrack(Of Note)
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Note)
+  name.vb: BaseTrack(Of Note)
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrack`1
+    name: BaseTrack
+    nameWithType: BaseTrack
+    fullName: DDVRKick.Tracks.BaseTrack
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DDVRKick.Tracks.Note
+    name: Note
+    nameWithType: Note
+    fullName: DDVRKick.Tracks.Note
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrack`1
+    name: BaseTrack
+    nameWithType: BaseTrack
+    fullName: DDVRKick.Tracks.BaseTrack
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DDVRKick.Tracks.Note
+    name: Note
+    nameWithType: Note
+    fullName: DDVRKick.Tracks.Note
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.pool
+  commentId: P:DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.pool
+  parent: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}
+  definition: DDVRKick.Tracks.BaseTrack`1.pool
+  name: pool
+  nameWithType: BaseTrack<Note>.pool
+  fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Note>.pool
+  nameWithType.vb: BaseTrack(Of Note).pool
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Note).pool
+- uid: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.enterPath
+  commentId: F:DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.enterPath
+  parent: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}
+  definition: DDVRKick.Tracks.BaseTrack`1.enterPath
+  name: enterPath
+  nameWithType: BaseTrack<Note>.enterPath
+  fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Note>.enterPath
+  nameWithType.vb: BaseTrack(Of Note).enterPath
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Note).enterPath
+- uid: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.exitPath
+  commentId: F:DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.exitPath
+  parent: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}
+  definition: DDVRKick.Tracks.BaseTrack`1.exitPath
+  name: exitPath
+  nameWithType: BaseTrack<Note>.exitPath
+  fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Note>.exitPath
+  nameWithType.vb: BaseTrack(Of Note).exitPath
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Note).exitPath
+- uid: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.prefab
+  commentId: F:DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.prefab
+  parent: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}
+  definition: DDVRKick.Tracks.BaseTrack`1.prefab
+  name: prefab
+  nameWithType: BaseTrack<Note>.prefab
+  fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Note>.prefab
+  nameWithType.vb: BaseTrack(Of Note).prefab
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Note).prefab
+- uid: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.collectionCheck
+  commentId: F:DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.collectionCheck
+  parent: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}
+  definition: DDVRKick.Tracks.BaseTrack`1.collectionCheck
+  name: collectionCheck
+  nameWithType: BaseTrack<Note>.collectionCheck
+  fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Note>.collectionCheck
+  nameWithType.vb: BaseTrack(Of Note).collectionCheck
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Note).collectionCheck
+- uid: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.defaultCapacity
+  commentId: F:DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.defaultCapacity
+  parent: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}
+  definition: DDVRKick.Tracks.BaseTrack`1.defaultCapacity
+  name: defaultCapacity
+  nameWithType: BaseTrack<Note>.defaultCapacity
+  fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Note>.defaultCapacity
+  nameWithType.vb: BaseTrack(Of Note).defaultCapacity
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Note).defaultCapacity
+- uid: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.maxSize
+  commentId: F:DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.maxSize
+  parent: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}
+  definition: DDVRKick.Tracks.BaseTrack`1.maxSize
+  name: maxSize
+  nameWithType: BaseTrack<Note>.maxSize
+  fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Note>.maxSize
+  nameWithType.vb: BaseTrack(Of Note).maxSize
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Note).maxSize
+- uid: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.Start
+  commentId: M:DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.Start
+  parent: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}
+  definition: DDVRKick.Tracks.BaseTrack`1.Start
+  name: Start()
+  nameWithType: BaseTrack<Note>.Start()
+  fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Note>.Start()
+  nameWithType.vb: BaseTrack(Of Note).Start()
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Note).Start()
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrack`1.Start
+    name: Start
+    nameWithType: BaseTrack<Note>.Start
+    fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Note>.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrack`1.Start
+    name: Start
+    nameWithType: BaseTrack(Of Note).Start
+    fullName: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Note).Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.OnPoolGet(DDVRKick.Tracks.Note)
+  commentId: M:DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.OnPoolGet(DDVRKick.Tracks.Note)
+  parent: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}
+  definition: DDVRKick.Tracks.BaseTrack`1.OnPoolGet(`0)
+  name: OnPoolGet(Note)
+  nameWithType: BaseTrack<Note>.OnPoolGet(Note)
+  fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Note>.OnPoolGet(DDVRKick.Tracks.Note)
+  nameWithType.vb: BaseTrack(Of Note).OnPoolGet(Note)
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Note).OnPoolGet(DDVRKick.Tracks.Note)
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolGet(`0)
+    name: OnPoolGet
+    nameWithType: BaseTrack<Note>.OnPoolGet
+    fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Note>.OnPoolGet
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: DDVRKick.Tracks.Note
+    name: Note
+    nameWithType: Note
+    fullName: DDVRKick.Tracks.Note
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolGet(`0)
+    name: OnPoolGet
+    nameWithType: BaseTrack(Of Note).OnPoolGet
+    fullName: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Note).OnPoolGet
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: DDVRKick.Tracks.Note
+    name: Note
+    nameWithType: Note
+    fullName: DDVRKick.Tracks.Note
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.OnPoolDestroy(DDVRKick.Tracks.Note)
+  commentId: M:DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.OnPoolDestroy(DDVRKick.Tracks.Note)
+  parent: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}
+  definition: DDVRKick.Tracks.BaseTrack`1.OnPoolDestroy(`0)
+  name: OnPoolDestroy(Note)
+  nameWithType: BaseTrack<Note>.OnPoolDestroy(Note)
+  fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Note>.OnPoolDestroy(DDVRKick.Tracks.Note)
+  nameWithType.vb: BaseTrack(Of Note).OnPoolDestroy(Note)
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Note).OnPoolDestroy(DDVRKick.Tracks.Note)
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolDestroy(`0)
+    name: OnPoolDestroy
+    nameWithType: BaseTrack<Note>.OnPoolDestroy
+    fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Note>.OnPoolDestroy
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: DDVRKick.Tracks.Note
+    name: Note
+    nameWithType: Note
+    fullName: DDVRKick.Tracks.Note
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolDestroy(`0)
+    name: OnPoolDestroy
+    nameWithType: BaseTrack(Of Note).OnPoolDestroy
+    fullName: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Note).OnPoolDestroy
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: DDVRKick.Tracks.Note
+    name: Note
+    nameWithType: Note
+    fullName: DDVRKick.Tracks.Note
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DDVRKick.Tracks.BaseTrack`1
+  commentId: T:DDVRKick.Tracks.BaseTrack`1
+  name: BaseTrack<T>
+  nameWithType: BaseTrack<T>
+  fullName: DDVRKick.Tracks.BaseTrack<T>
+  nameWithType.vb: BaseTrack(Of T)
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T)
+  name.vb: BaseTrack(Of T)
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrack`1
+    name: BaseTrack
+    nameWithType: BaseTrack
+    fullName: DDVRKick.Tracks.BaseTrack
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrack`1
+    name: BaseTrack
+    nameWithType: BaseTrack
+    fullName: DDVRKick.Tracks.BaseTrack
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DDVRKick.Tracks.BaseTrack`1.pool
+  commentId: P:DDVRKick.Tracks.BaseTrack`1.pool
+  name: pool
+  nameWithType: BaseTrack<T>.pool
+  fullName: DDVRKick.Tracks.BaseTrack<T>.pool
+  nameWithType.vb: BaseTrack(Of T).pool
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).pool
+- uid: DDVRKick.Tracks.BaseTrack`1.enterPath
+  commentId: F:DDVRKick.Tracks.BaseTrack`1.enterPath
+  name: enterPath
+  nameWithType: BaseTrack<T>.enterPath
+  fullName: DDVRKick.Tracks.BaseTrack<T>.enterPath
+  nameWithType.vb: BaseTrack(Of T).enterPath
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).enterPath
+- uid: DDVRKick.Tracks.BaseTrack`1.exitPath
+  commentId: F:DDVRKick.Tracks.BaseTrack`1.exitPath
+  name: exitPath
+  nameWithType: BaseTrack<T>.exitPath
+  fullName: DDVRKick.Tracks.BaseTrack<T>.exitPath
+  nameWithType.vb: BaseTrack(Of T).exitPath
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).exitPath
+- uid: DDVRKick.Tracks.BaseTrack`1.prefab
+  commentId: F:DDVRKick.Tracks.BaseTrack`1.prefab
+  name: prefab
+  nameWithType: BaseTrack<T>.prefab
+  fullName: DDVRKick.Tracks.BaseTrack<T>.prefab
+  nameWithType.vb: BaseTrack(Of T).prefab
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).prefab
+- uid: DDVRKick.Tracks.BaseTrack`1.collectionCheck
+  commentId: F:DDVRKick.Tracks.BaseTrack`1.collectionCheck
+  name: collectionCheck
+  nameWithType: BaseTrack<T>.collectionCheck
+  fullName: DDVRKick.Tracks.BaseTrack<T>.collectionCheck
+  nameWithType.vb: BaseTrack(Of T).collectionCheck
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).collectionCheck
+- uid: DDVRKick.Tracks.BaseTrack`1.defaultCapacity
+  commentId: F:DDVRKick.Tracks.BaseTrack`1.defaultCapacity
+  name: defaultCapacity
+  nameWithType: BaseTrack<T>.defaultCapacity
+  fullName: DDVRKick.Tracks.BaseTrack<T>.defaultCapacity
+  nameWithType.vb: BaseTrack(Of T).defaultCapacity
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).defaultCapacity
+- uid: DDVRKick.Tracks.BaseTrack`1.maxSize
+  commentId: F:DDVRKick.Tracks.BaseTrack`1.maxSize
+  name: maxSize
+  nameWithType: BaseTrack<T>.maxSize
+  fullName: DDVRKick.Tracks.BaseTrack<T>.maxSize
+  nameWithType.vb: BaseTrack(Of T).maxSize
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).maxSize
+- uid: DDVRKick.Tracks.BaseTrack`1.Start
+  commentId: M:DDVRKick.Tracks.BaseTrack`1.Start
+  name: Start()
+  nameWithType: BaseTrack<T>.Start()
+  fullName: DDVRKick.Tracks.BaseTrack<T>.Start()
+  nameWithType.vb: BaseTrack(Of T).Start()
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).Start()
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrack`1.Start
+    name: Start
+    nameWithType: BaseTrack<T>.Start
+    fullName: DDVRKick.Tracks.BaseTrack<T>.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrack`1.Start
+    name: Start
+    nameWithType: BaseTrack(Of T).Start
+    fullName: DDVRKick.Tracks.BaseTrack(Of T).Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DDVRKick.Tracks.BaseTrack`1.OnPoolGet(`0)
+  commentId: M:DDVRKick.Tracks.BaseTrack`1.OnPoolGet(`0)
+  name: OnPoolGet(T)
+  nameWithType: BaseTrack<T>.OnPoolGet(T)
+  fullName: DDVRKick.Tracks.BaseTrack<T>.OnPoolGet(T)
+  nameWithType.vb: BaseTrack(Of T).OnPoolGet(T)
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).OnPoolGet(T)
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolGet(`0)
+    name: OnPoolGet
+    nameWithType: BaseTrack<T>.OnPoolGet
+    fullName: DDVRKick.Tracks.BaseTrack<T>.OnPoolGet
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolGet(`0)
+    name: OnPoolGet
+    nameWithType: BaseTrack(Of T).OnPoolGet
+    fullName: DDVRKick.Tracks.BaseTrack(Of T).OnPoolGet
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DDVRKick.Tracks.BaseTrack`1.OnPoolDestroy(`0)
+  commentId: M:DDVRKick.Tracks.BaseTrack`1.OnPoolDestroy(`0)
+  name: OnPoolDestroy(T)
+  nameWithType: BaseTrack<T>.OnPoolDestroy(T)
+  fullName: DDVRKick.Tracks.BaseTrack<T>.OnPoolDestroy(T)
+  nameWithType.vb: BaseTrack(Of T).OnPoolDestroy(T)
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).OnPoolDestroy(T)
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolDestroy(`0)
+    name: OnPoolDestroy
+    nameWithType: BaseTrack<T>.OnPoolDestroy
+    fullName: DDVRKick.Tracks.BaseTrack<T>.OnPoolDestroy
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolDestroy(`0)
+    name: OnPoolDestroy
+    nameWithType: BaseTrack(Of T).OnPoolDestroy
+    fullName: DDVRKick.Tracks.BaseTrack(Of T).OnPoolDestroy
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.OnPoolCreate
+  commentId: M:DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.OnPoolCreate
+  parent: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}
+  definition: DDVRKick.Tracks.BaseTrack`1.OnPoolCreate
+  name: OnPoolCreate()
+  nameWithType: BaseTrack<Note>.OnPoolCreate()
+  fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Note>.OnPoolCreate()
+  nameWithType.vb: BaseTrack(Of Note).OnPoolCreate()
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Note).OnPoolCreate()
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolCreate
+    name: OnPoolCreate
+    nameWithType: BaseTrack<Note>.OnPoolCreate
+    fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Note>.OnPoolCreate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolCreate
+    name: OnPoolCreate
+    nameWithType: BaseTrack(Of Note).OnPoolCreate
+    fullName: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Note).OnPoolCreate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DDVRKick.Tracks.NoteTrack.OnPoolCreate*
+  commentId: Overload:DDVRKick.Tracks.NoteTrack.OnPoolCreate
+  name: OnPoolCreate
+  nameWithType: NoteTrack.OnPoolCreate
+  fullName: DDVRKick.Tracks.NoteTrack.OnPoolCreate
+- uid: DDVRKick.Tracks.Note
+  commentId: T:DDVRKick.Tracks.Note
+  parent: DDVRKick.Tracks
+  name: Note
+  nameWithType: Note
+  fullName: DDVRKick.Tracks.Note
+- uid: DDVRKick.Tracks.BaseTrack`1.OnPoolCreate
+  commentId: M:DDVRKick.Tracks.BaseTrack`1.OnPoolCreate
+  name: OnPoolCreate()
+  nameWithType: BaseTrack<T>.OnPoolCreate()
+  fullName: DDVRKick.Tracks.BaseTrack<T>.OnPoolCreate()
+  nameWithType.vb: BaseTrack(Of T).OnPoolCreate()
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).OnPoolCreate()
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolCreate
+    name: OnPoolCreate
+    nameWithType: BaseTrack<T>.OnPoolCreate
+    fullName: DDVRKick.Tracks.BaseTrack<T>.OnPoolCreate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolCreate
+    name: OnPoolCreate
+    nameWithType: BaseTrack(Of T).OnPoolCreate
+    fullName: DDVRKick.Tracks.BaseTrack(Of T).OnPoolCreate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.OnPoolRelease(DDVRKick.Tracks.Note)
+  commentId: M:DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}.OnPoolRelease(DDVRKick.Tracks.Note)
+  parent: DDVRKick.Tracks.BaseTrack{DDVRKick.Tracks.Note}
+  definition: DDVRKick.Tracks.BaseTrack`1.OnPoolRelease(`0)
+  name: OnPoolRelease(Note)
+  nameWithType: BaseTrack<Note>.OnPoolRelease(Note)
+  fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Note>.OnPoolRelease(DDVRKick.Tracks.Note)
+  nameWithType.vb: BaseTrack(Of Note).OnPoolRelease(Note)
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Note).OnPoolRelease(DDVRKick.Tracks.Note)
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolRelease(`0)
+    name: OnPoolRelease
+    nameWithType: BaseTrack<Note>.OnPoolRelease
+    fullName: DDVRKick.Tracks.BaseTrack<DDVRKick.Tracks.Note>.OnPoolRelease
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: DDVRKick.Tracks.Note
+    name: Note
+    nameWithType: Note
+    fullName: DDVRKick.Tracks.Note
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolRelease(`0)
+    name: OnPoolRelease
+    nameWithType: BaseTrack(Of Note).OnPoolRelease
+    fullName: DDVRKick.Tracks.BaseTrack(Of DDVRKick.Tracks.Note).OnPoolRelease
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: DDVRKick.Tracks.Note
+    name: Note
+    nameWithType: Note
+    fullName: DDVRKick.Tracks.Note
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DDVRKick.Tracks.NoteTrack.OnPoolRelease*
+  commentId: Overload:DDVRKick.Tracks.NoteTrack.OnPoolRelease
+  name: OnPoolRelease
+  nameWithType: NoteTrack.OnPoolRelease
+  fullName: DDVRKick.Tracks.NoteTrack.OnPoolRelease
+- uid: DDVRKick.Tracks.BaseTrack`1.OnPoolRelease(`0)
+  commentId: M:DDVRKick.Tracks.BaseTrack`1.OnPoolRelease(`0)
+  name: OnPoolRelease(T)
+  nameWithType: BaseTrack<T>.OnPoolRelease(T)
+  fullName: DDVRKick.Tracks.BaseTrack<T>.OnPoolRelease(T)
+  nameWithType.vb: BaseTrack(Of T).OnPoolRelease(T)
+  fullName.vb: DDVRKick.Tracks.BaseTrack(Of T).OnPoolRelease(T)
+  spec.csharp:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolRelease(`0)
+    name: OnPoolRelease
+    nameWithType: BaseTrack<T>.OnPoolRelease
+    fullName: DDVRKick.Tracks.BaseTrack<T>.OnPoolRelease
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: DDVRKick.Tracks.BaseTrack`1.OnPoolRelease(`0)
+    name: OnPoolRelease
+    nameWithType: BaseTrack(Of T).OnPoolRelease
+    fullName: DDVRKick.Tracks.BaseTrack(Of T).OnPoolRelease
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: RhythmTool.INoteData
+  commentId: T:RhythmTool.INoteData
+  parent: RhythmTool
+  name: INoteData
+  nameWithType: INoteData
+  fullName: RhythmTool.INoteData
+- uid: DDVRKick.Tracks.NoteTrack.GenerateNote*
+  commentId: Overload:DDVRKick.Tracks.NoteTrack.GenerateNote
+  name: GenerateNote
+  nameWithType: NoteTrack.GenerateNote
+  fullName: DDVRKick.Tracks.NoteTrack.GenerateNote
+- uid: RhythmTool
+  commentId: N:RhythmTool
+  name: RhythmTool
+  nameWithType: RhythmTool
+  fullName: RhythmTool
